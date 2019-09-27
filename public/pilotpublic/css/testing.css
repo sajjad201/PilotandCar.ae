@@ -1,0 +1,5869 @@
+@font-face {
+    font-family: 'PSLKandaModernNewW2Pro';
+    src: url('fonts/PSLKandaModernNewW2Pro.eot?#iefix') format('embedded-opentype'), url('fonts/PSLKandaModernNewW2Pro.woff') format('woff'), url('fonts/PSLKandaModernNewW2Pro.ttf') format('truetype'), url('fonts/PSLKandaModernNewW2Pro.svg#PSLKandaModernNewW2Pro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PSLKandaModernNewW3Pro';
+  src: url('fonts/PSLKandaModernNewW3Pro.eot?#iefix') format('embedded-opentype'), url('fonts/PSLKandaModernNewW3Pro.woff') format('woff'), url('fonts/PSLKandaModernNewW3Pro.ttf') format('truetype'), url('fonts/PSLKandaModernNewW3Pro.svg#PSLKandaModernNewW3Pro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'PSLKandaModernNewW4Pro';
+  src: url('fonts/PSLKandaModernNewW4Pro.eot?#iefix') format('embedded-opentype'), url('fonts/PSLKandaModernNewW4Pro.woff') format('woff'), url('fonts/PSLKandaModernNewW4Pro.ttf') format('truetype'), url('fonts/PSLKandaModernNewW4Pro.svg#PSLKandaModernNewW4Pro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pd_0 {
+    margin: 50px 0 0 !important;
+}
+
+.breadcrumb {
+    margin: 150px 0 0;
+    font-family: 'PSLKandaModernNewW2Pro';
+}
+
+.breadcrumb ul li {
+    font-size: 14px;
+}
+
+.breadcrumb ul li span {
+    font-size: 14px !important;
+}
+
+.breadcrumb ul li a {
+    font-size: 14px !important;
+}
+
+#booking_btt {
+    padding: 30px 0;
+    margin: 0 0 -5px;
+}
+
+#booking_btt .tab1 .tab_s {
+    display: none;
+    width: 100%;
+}
+
+#booking_btt .tab1 .tab_s .sh_flights {
+    margin: 0;
+    padding: 0;
+}
+
+#booking_btt .tab1 .tab_s .sh_flights a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    color: #000;
+}
+
+#booking_btt .tab1 .tab_s .sh_flights a span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+#booking_btt .tab1 .tab_s .bt {
+    display: block;
+    width: 92%;
+    margin: 30px 15px 15px;
+}
+
+#booking_btt .tab1 .tab_s2 {
+    padding-top: 5px;
+}
+
+#booking_btt .tab1 .tab_s2 p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20%;
+    line-height: 1;
+}
+
+#booking_btt .tab1 .tab_s2 ul {
+    width: 100%:;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#booking_btt .tab1 .tab_s2 ul li {
+    display: inline-block;
+    width: 160px;
+    margin: 20px;
+}
+
+#booking_btt .tab1 .tab_s3 {
+    padding-top: 5px;
+}
+
+#booking_btt .tab1 .tab_s3 p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20%;
+    line-height: 1;
+}
+
+#booking_btt .tab1 .tab_s3 ul {
+    width: 100%:;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#booking_btt .tab1 .tab_s3 ul li {
+    display: inline-block;
+    width: 160px;
+    margin: 20px;
+}
+
+#booking_btt .tab1 .multi_city {
+    top: 67px;
+    height: auto;
+    overflow: inherit !important;
+    padding: 0 20px;
+}
+
+#booking_btt .tab1 .multi_city .sb_menu {
+    margin: 32px 0 0 -19px;
+}
+
+#booking_btt .sb_menu_mn {
+    padding: 0;
+    font-family: 'PSLKandaModernNewW2Pro';
+    margin: 10px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+#booking_btt .sb_menu_mn .active_x {
+    color: #3d1a6f !important;
+}
+
+#booking_btt .sb_menu_mn .active_x a {
+    color: #3d1a6f !important;
+    font-size: 14px;
+}
+
+#booking_btt .sb_menu_mn .active_x:after {
+    width: 100% !important;
+}
+
+#booking_btt .sb_menu_mn a:hover {
+    font-size: 14px;
+}
+
+#booking_btt .sb_menu_mn li {
+    display: inline-block;
+    width: 33%;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 20px;
+    color: #333;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#booking_btt .sb_menu_mn li span {
+    display: inline-block;
+}
+
+#booking_btt .sb_menu_mn li .fa {
+    margin: 0 5px;
+}
+
+#booking_btt .sb_menu_mn li a {
+    color: #666;
+}
+
+#booking_btt .sb_menu_mn li:before {
+    display: block;
+    content: '';
+    background-color: #eee;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+#booking_btt .sb_menu_mn li:after {
+    display: block;
+    content: '';
+    background-color: #3d1a6f;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+#booking_btt > .container {
+    background-color: #fff;
+    border: 1px solid #cccccc4d;
+    padding: 0;
+}
+
+#booking_btt .tab {
+    padding: 20px;
+}
+
+#booking_btt .bt:hover {
+    background: linear-gradient(to bottom, rgba(254, 218, 12, 0) 0%, #3d1a6f 0) !important;
+}
+
+#booking_btt h1 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#booking_btt .tab_booking {
+    padding-bottom: 20px !important;
+    overflow: inherit;
+    margin-bottom: 0px !important;
+}
+
+#booking_btt .tab_booking a {
+    display: inline-block;
+    background-color: #3d1a6f;
+    font-size: 16px;
+    padding: 12px 20px;
+    float: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: inherit;
+}
+
+#booking_btt .tab_booking a .fa {
+    font-size: 25px;
+    margin-right: 15px;
+    position: relative;
+    top: 2px;
+}
+
+#booking_btt .tab_booking a:hover {
+    text-decoration: inherit !important;
+}
+
+#booking_btt .tab6 {
+    padding-top: 10px !important;
+}
+
+#booking_btt .tab6 h2 {
+    font-size: 30px;
+}
+
+#booking_btt .tab6 h3 {
+    padding-left: 42px;
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    padding: 12px 0 0 50px;
+}
+
+#booking_btt .tab6 h3 span {
+    display: block;
+    position: relative;
+    top: 0;
+    line-height: 1.1;
+}
+
+#booking_btt .tab6 .main_t6 {
+    margin: 0;
+}
+
+#booking_btt .tab6 ul {
+    margin: 0;
+    padding: 0 0 0 50px;
+    list-style-type: disc;
+}
+
+#booking_btt .tab6 a {
+    display: block;
+    color: #333;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+#booking_btt .tab6 .col-md-3 {
+    min-height: 132px;
+    max-height: 162px;
+    margin-bottom: 0;
+    margin: 0 0 4px;
+}
+
+#booking_btt .tab6 .ag .col-md-3 {
+    padding-left: 0 !important;
+    position: relative;
+}
+
+#booking_btt .tab6 .ag .rang {
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    font-size: 15px;
+}
+
+select#booking_btt .ag + span {
+    font-size: 12px;
+}
+
+div.box-iCheckin > div {
+    clear: inherit;
+}
+
+.my_booking .step_wk {
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.my_booking .step_wk a {
+    display: inline-block;
+    font-family: 'PSLKandaModernNewW4Pro';
+    font-size: 18px;
+    color: #3d1a6f;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+    float: left;
+    padding-bottom: 20px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.my_booking .step_wk a img {
+    display: inline-block;
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
+    max-height: 29px;
+}
+
+.my_booking .step_wk a .fa {
+    display: inline-block;
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
+    max-height: 29px;
+    font-size: 27px;
+}
+
+.my_booking .step_wk a:hover {
+    text-decoration: inherit;
+}
+
+.my_booking .step_wk .active_h {
+    border-bottom: 3px solid #ffcb08 !important;
+    text-decoration: inherit;
+}
+
+.my_booking .tab {
+    display: none;
+    clear: both;
+    padding-bottom: 60px;
+}
+
+.my_booking .tab label {
+    font-family: PSLKandaModernNewW2Pro;
+    font-size: 14px;
+}
+
+.my_booking .tab p {
+    font-size: 14px;
+    text-align: center;
+    font-family: PSLKandaModernNewW2Pro;
+}
+
+.my_booking .tab a {
+    font-family: PSLKandaModernNewW2Pro;
+}
+
+.my_booking input {
+    font-family: PSLKandaModernNewW2Pro;
+}
+
+.my_booking select {
+    font-family: PSLKandaModernNewW2Pro;
+    text-align: left;
+    padding: 10px 5px;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    font-size: 14px;
+    text-indent: 10px;
+    line-height: 1;
+}
+
+.my_booking .tab1 p {
+    padding: 0 15%;
+    margin-bottom: 10px;
+}
+
+.my_booking .tab1 .inp {
+    text-align: center;
+}
+
+.my_booking .tab1 input {
+    margin: 20px;
+}
+
+.my_booking .tab2 p {
+    padding: 0 15%;
+    margin-bottom: 10px;
+}
+
+.my_booking .tab2 .inp {
+    margin-top: 30px;
+}
+
+.my_booking .tab2 input[type='text'] {
+    width: 100% !important;
+    margin: 10px 0;
+}
+
+.my_booking .tab2 select {
+    width: 100% !important;
+    margin: 10px 0;
+}
+
+.my_booking .tab2 #ETKT input {
+    display: inline-block;
+    width: 150px !important;
+    margin-right: 15px;
+}
+
+.my_booking .tab2 .bt {
+    margin-top: 30px;
+}
+
+.my_booking .tab2 a {
+    display: inline-block;
+    color: #c6168d;
+    text-decoration: underline;
+}
+
+.my_booking .tab2 .tooltip_a {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.my_booking .tab2 #ISurname + a {
+    position: absolute;
+    top: 42px;
+    right: 18px;
+}
+
+.my_booking .tab2 #IIdentificationBookingRef + a {
+    position: absolute;
+    top: 42px;
+    right: 18px;
+}
+
+.my_booking .tab2 .col-md-12 {
+    padding: 0;
+}
+
+.my_booking .tab2 .col-md-8 {
+    padding: 0;
+    position: relative;
+}
+
+.my_booking .tab2 .note p {
+    padding: 0;
+}
+
+.my_booking .tab2 .note strong {
+    font-size: 16px !important;
+    color: #3d1a6f;
+}
+
+.my_booking .tab2 .col-md-4 {
+    border-left: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.my_booking .tab2 .col-md-4 p {
+    text-align: left;
+}
+
+.my_booking .tab2 .col-md-4 .link_ot {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.my_booking .tab2 .col-md-4 .link_ot li {
+    display: inline-block;
+}
+
+.my_booking .tab2 .col-md-4 .link_ot a {
+    display: inline-block;
+    font-size: 14px;
+    color: #c6168d;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+.my_booking .tab3 p {
+    padding: 0 15%;
+    margin-bottom: 10px;
+}
+
+.my_booking .tab3 .inp {
+    text-align: center;
+}
+
+.my_booking .tab3 input[type='text'] {
+    margin: 20px 20px 0;
+}
+
+.my_booking .tab3 .bt {
+    margin-top: 40px;
+}
+
+.my_booking .tab3 .trm {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.my_booking .tab3 .trm a {
+    display: inline-block;
+    font-size: 14px;
+    color: #c6168d;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+.my_booking .tab4 {
+    padding-bottom: 100px;
+}
+
+.my_booking .tab4 hr {
+    width: 82%;
+    border-top: 1px solid rgba(204, 204, 204, 0.4);
+    padding-bottom: 20px;
+    margin: 20px 0 0;
+}
+
+.my_booking .tab4 .bl_left .mandatory {
+    font-size: 16px;
+    color: #c6168d;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: -50px;
+    top: 22px;
+}
+
+.my_booking .tab4 .bl_left .mandatory + a {
+    position: relative;
+    top: 15px;
+    left: -30px;
+}
+
+.my_booking .tab4 .bl_left .or {
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+    left: -38px;
+}
+
+.my_booking .tab4 .bl_left input[type='text'] {
+    margin: 8px 0;
+}
+
+.my_booking .tab4 .bl_right {
+    border-left: 1px solid rgba(204, 204, 204, 0.4);
+    padding-left: 90px;
+}
+
+.my_booking .tab4 .bl_right h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.my_booking .tab4 .bl_right .note {
+    margin: 20px 0;
+    padding: 30px 0;
+    border-top: 1px solid rgba(204, 204, 204, 0.4);
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.my_booking .tab4 .bl_right #box_sponsor {
+    margin-top: 20px;
+}
+
+.my_booking .tab4 .bl_right #box_sponsor .col-md-10 {
+    padding: 0;
+}
+
+.my_booking .tab4 .bl_right #box_sponsor .row {
+    margin: 0;
+}
+
+.my_booking .tab4 .bl_right #box_sponsor input {
+    margin-bottom: 5px;
+}
+
+.my_booking .tab4 .bl_right #box_sponsor a[data-toggle="tooltip"] {
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+.my_booking .tab4 a {
+    display: inline-block;
+    font-size: 14px;
+    color: #c6168d;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+.my_booking .tab4 p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.my_booking .tab4 input[type='text'] {
+    width: 100%;
+}
+
+.my_booking .tab4 button {
+    width: 100%;
+}
+
+.my_booking .active {
+    display: block !important;
+}
+
+.my_booking input[type='text'] {
+    text-align: left;
+    padding: 10px 5px;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    font-size: 14px;
+    text-indent: 10px;
+    line-height: 1;
+}
+
+.my_booking button {
+    display: block !important;
+    width: 350px !important;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border: 0;
+    line-height: 1;
+    background: linear-gradient(to bottom, #feda0c 0%, #feda0c 100%) !important;
+}
+
+.bt:hover {
+    background-color: #3d1a6f !important;
+    border: 1px solid rgba(102, 102, 102, 0.1) !important;
+    text-decoration: inherit;
+    color: #fff !important;
+    background: linear-gradient(to bottom, #3d1a6f 0%, #3d1a6f 100%) !important;
+    cursor: pointer;
+}
+
+.cover {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.cover:before {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.cover .main {
+    display: table;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cover .main .content {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.cover .main .content .bl {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cover .main .content h1 {
+    font-family: 'PSLKandaModernNewW4Pro';
+    font-size: 45px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #3d1a6f;
+    margin: 30px 0;
+}
+
+.cover .main .content p {
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 20px 0;
+    font-weight: 400;
+    padding: 0 10%;
+    color: #3d1a6f;
+}
+
+.cover + .breadcrumb {
+    margin-top: 20px;
+}
+
+.offers_promotion_p {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    font-family: 'PSLKandaModernNewW2Pro';
+}
+
+.offers_promotion_p .h2 {
+    font-size: 36px;
+    margin: 50px 0 30px;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'PSLKandaModernNewW4Pro';
+}
+
+.offers_promotion_p .fst {
+    background-color: #fff !important;
+    padding-top: 0 !important;
+}
+
+.offers_promotion_p .gray_bg {
+    background-color: #f5f5f5 !important;
+}
+
+.offers_promotion_p .bl_op_a {
+    padding: 30px 0;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide {
+    height: 450px;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide {
+    width: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide div {
+    height: 100%;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide div .sh_pic {
+    max-width: inherit;
+    height: auto;
+    max-height: 100%;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix {
+    width: 540px;
+    box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+    top: 50px;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro {
+    background-color: #fff;
+    width: 100%;
+    height: 350px;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro h2 {
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #3d1a6f;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro h2:before {
+    display: none;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro p {
+    color: #3d1a6f;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro a {
+    color: #3d1a6f;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro a img {
+    display: inline-block;
+}
+
+.offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro a .arrow {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.offers_promotion_p .special_block .main_slide .slide_fix .bl_pro a img[alt="READ MORE"] {
+    display: none !important;
+}
+
+.offers_promotion_p .special_block .main_slide .slide_fix .bl_pro .list_lnk a {
+    display: block !important;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.offers_promotion_p .special_block .main_slide .slide_fix .bl_pro .list_lnk a img {
+    top: 5px !important;
+    left: 0 !important;
+    margin-right: 5px;
+}
+
+.offers_promotion_p .blue_bg {
+    background-color: #3d1a6f !important;
+}
+
+.offers_promotion_p .bl_op_b {
+    padding: 30px 0;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide {
+    height: 450px;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide {
+    width: auto;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: inherit;
+    padding: 0;
+    overflow: hidden;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide div {
+    height: 100%;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide div .sh_pic {
+    max-width: inherit;
+    height: auto;
+    max-height: 100%;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix {
+    width: 540px;
+    box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+    top: 50px;
+    right: inherit;
+    left: 0;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro {
+    background-color: #fff;
+    width: 100%;
+    height: 350px;
+    border: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro h2 {
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #3d1a6f;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro h2:before {
+    display: none;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro p {
+    color: #3d1a6f;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro a {
+    color: #3d1a6f;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro a img {
+    display: inline-block;
+}
+
+.offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro a .arrow {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.offers_promotion_p .reverse .bl_pro {
+    background-color: #3d1a6f !important;
+}
+
+.offers_promotion_p .reverse .bl_pro h2 {
+    color: #fff !important;
+}
+
+.offers_promotion_p .reverse .bl_pro p {
+    color: #fff !important;
+}
+
+.offers_promotion_p .reverse .bl_pro a {
+    color: #fff !important;
+}
+
+.offers_promotion_p .container {
+    position: relative;
+}
+
+.offers_promotion_p h1 {
+    display: inline-block;
+    margin: 0;
+    font-family: 'PSLKandaModernNewW4Pro';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.offers_promotion_p a {
+    text-decoration: inherit !important;
+}
+
+.offers_promotion_p a:hover {
+    text-decoration: inherit !important;
+}
+
+.offers_promotion_p a:active {
+    text-decoration: inherit !important;
+}
+
+.offers_promotion_p a:focus {
+    text-decoration: inherit !important;
+}
+
+.offers_promotion_p .pl_menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -38px;
+    right: 0;
+}
+
+.offers_promotion_p .pl_menu li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.offers_promotion_p .pl_menu li a {
+    color: #666;
+}
+
+.offers_promotion_p .share {
+    padding: 30px 0 40px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.38);
+}
+
+.offers_promotion_p .share a {
+    display: inline-block;
+    background-color: #3d1a6f;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    margin: 0 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.offers_promotion_p .slide_offer_detail {
+    width: 100%;
+    position: relative;
+    padding: 20px 0 40px;
+    margin: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.38);
+}
+
+.offers_promotion_p .slide_offer_detail .slide {
+    width: 100%;
+    position: relative;
+}
+
+.offers_promotion_p .slide_offer_detail .slide img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.offers_promotion_p .slide_offer_detail .slide .rsNav {
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    text-align: center;
+}
+
+.offers_promotion_p .slide_offer_detail .slide .rsNav a {
+    display: inline-block;
+}
+
+.offers_promotion_p .slide_offer_detail .slide .rsBullets .rsNavSelected a {
+    background-color: #ffcb08 !important;
+}
+
+.offers_promotion_p .slide_offer_detail .slide .rsBullets .rsBullet a {
+    border: 0 !important;
+}
+
+.offers_promotion_p .slide_offer_detail .bt {
+    margin: 30px 0 0;
+    float: right;
+}
+
+.offers_promotion_p .offer_top_image {
+    width: 100%;
+    position: relative;
+    padding: 20px 0 40px;
+    padding-bottom: 40px;
+    margin: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.38);
+}
+
+.offers_promotion_p .offer_top_image p {
+    position: relative;
+}
+
+.offers_promotion_p .offer_top_image p img {
+    width: 100%;
+}
+
+.offers_promotion_p .offer_top_image img {
+    width: 100%;
+}
+
+.offers_promotion_p .promotion_expired {
+    background-color: #f4f4f4;
+    padding: 60px 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #3d1a6f;
+}
+
+.gray_travelextra .bl_pro {
+    background-color: #d8d6d6 !important;
+}
+
+#plan {
+    padding-bottom: 60px;
+}
+
+#plan .tab_s {
+    display: none;
+}
+
+#plan .tab_s p {
+    height: 500px;
+    -moz-column-fill: auto;
+    column-fill: auto;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+#plan .tab_s .active {
+    display: block !important;
+}
+
+#plan .menu_tab {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 50px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#plan .menu_tab li {
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid hsla(265, 62%, 27%, 0.1);
+    text-transform: uppercase;
+}
+
+#plan .menu_tab .active {
+    font-weight: 700;
+    border-bottom: 2px solid #3d1a6f;
+}
+
+#plan .tab {
+    display: none;
+}
+
+#plan div.tab2 > p,
+#plan div.tab1 > p {
+    font-size: 24px;
+    padding: 0.5em 0;
+}
+
+#plan .active {
+    display: block !important;
+}
+
+#plan h2 {
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+h2#plan + p {
+    margin: 30px 0 40px;
+}
+
+#plan p {
+    font-size: 16px;
+}
+
+#plan .tb_sb {
+    overflow: hidden;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+#plan .tb_sb li {
+    display: block;
+    float: left;
+    width: 33%;
+    font-size: 18px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 1px solid hsla(265, 62%, 27%, 0.1);
+}
+
+#plan .tb_sb li a {
+    display: inline-block;
+    color: #3d1a6f;
+    font-size: 18px;
+}
+
+#plan .tb_sb li a:hover {
+    text-decoration: inherit;
+}
+
+#plan .block_cn1 .tb_sb .active {
+    font-weight: 700;
+    border-bottom: 2px solid #3d1a6f;
+}
+
+#plan .block_cn2 .tb_sb .active {
+    font-weight: 700;
+    border-bottom: 2px solid #3d1a6f;
+}
+
+.destination_information .shortcut_b {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destination_information .shortcut_b .bt_b {
+    margin: 0 10px;
+}
+
+.destination_information .content_ct {
+    text-align: center;
+}
+
+#travel_infor h1 {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+#travel_infor h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#travel_infor h3 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+#travel_infor .sh_cut {
+    background-color: #f4f4f4;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+#travel_infor .sh_cut h2 {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#travel_infor .sh_cut a {
+    display: block;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#travel_infor .sh_cut a img {
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    margin-right: 6px;
+}
+
+#travel_infor .active {
+    display: block !important;
+}
+
+#travel_infor .tab_s {
+    display: none;
+    padding-bottom: 30px;
+}
+
+#travel_infor .tab_s .content h3 {
+    font-size: 22px !important;
+    margin: 20px 0 !important;
+    line-height: 1.2 !important;
+}
+
+#travel_infor .tab_s h2 {
+    text-transform: inherit !important;
+    line-height: 1.2 !important;
+}
+
+#travel_infor .tab_s h3 {
+    text-transform: inherit !important;
+    line-height: 1.2 !important;
+}
+
+#travel_infor .tab_s h4 {
+    text-transform: inherit !important;
+    line-height: 1.2 !important;
+}
+
+#travel_infor a {
+    color: #3d1a6f;
+}
+
+#travel_infor .sh_pic {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#travel_infor .desc {
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+#travel_infor table {
+    width: 100% !important;
+    font-size: 16px;
+    border: 0;
+    margin: 30px 0 0;
+}
+
+#travel_infor table td {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+
+#travel_infor table th {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+
+#travel_infor table thead {
+    font-family: 'PSLKandaModernNewW3Pro';
+    vertical-align: middle;
+}
+
+#travel_infor table thead tr {
+    font-family: 'PSLKandaModernNewW3Pro';
+    vertical-align: middle;
+}
+
+#travel_infor table thead th {
+    font-family: 'PSLKandaModernNewW3Pro';
+    vertical-align: middle;
+}
+
+#travel_infor table thead.active_tb {
+    background-color: #d4ceda !important;
+    font-family: 'PSLKandaModernNewW3Pro';
+    vertical-align: middle;
+}
+
+#travel_infor table thead.active_tb tr {
+    background-color: #d4ceda !important;
+    font-family: 'PSLKandaModernNewW3Pro';
+    vertical-align: middle;
+}
+
+#travel_infor table thead.active_tb th {
+    background-color: #d4ceda !important;
+    font-family: 'PSLKandaModernNewW3Pro';
+    vertical-align: middle;
+}
+
+#travel_infor table h3 {
+    font-size: 30px !important;
+}
+
+#travel_infor table tr {
+    background-color: #f7f8f7 !important;
+    background-image: none !important;
+    color: #4b0871 !important;
+}
+
+#travel_infor ul {
+    list-style-type: none;
+    padding-left: 20px !important;
+    margin: 20px 0;
+}
+
+#travel_infor ul li {
+    font-size: 16px !important;
+    margin-bottom: 5px;
+}
+
+#travel_infor ul a {
+    font-size: 16px !important;
+}
+
+#travel_infor ul ol {
+    font-size: 16px !important;
+    padding-left: 20px !important;
+    padding: 0 0 0 15px;
+}
+
+#travel_infor p {
+    float: none !important;
+    margin: 5px 0;
+    font-size: 16px !important;
+}
+
+#travel_infor .disc {
+    list-style-type: disc;
+    padding-left: 20px !important;
+    margin: 20px 0;
+}
+
+#travel_infor ol {
+    padding-left: 30px;
+}
+
+#travel_infor ol ol {
+    padding-left: 20px !important;
+}
+
+#travel_infor .num {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+#travel_infor .num ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+#travel_infor .num ul {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+.gray_bg_tra {
+    background-color: #f9f9f9 !important;
+    margin-top: 10px;
+}
+
+.gray_bg_tra_a {
+    background-color: #e4e4e4 !important;
+}
+
+.gl_top {
+    margin-top: 240px !important;
+    padding-top: 20px;
+}
+
+.gl_top2 {
+    margin-top: 140px !important;
+    padding-top: 20px;
+}
+
+#bookflight_promotion #booking_btt {
+    padding: 30px 0 50px;
+    background-color: #fff !important;
+}
+
+#bookflight_promotion #booking_btt .tab1 .multi_city {
+    top: 20px;
+}
+
+.slide_offer_detail .ctrt_pp {
+    position: absolute;
+    bottom: 56px;
+    right: 20px;
+}
+
+.slide_offer_detail .ctrt_pp .fa-play {
+    position: absolute;
+    right: 40px;
+}
+
+.slide_offer_detail .ctrt_pp .fa-pause {
+    position: absolute;
+    right: 0;
+}
+
+.special_block {
+    padding: 30px 0;
+}
+
+.special_block .bt {
+    display: block;
+}
+
+.special_block .bt_a {
+    display: block;
+}
+
+.special_block .container {
+    position: relative;
+}
+
+.special_block .rsBullets {
+    bottom: -20px;
+    right: 110px;
+    display: inline-block;
+    text-align: right;
+}
+
+.special_block .ctrt_pp {
+    position: absolute;
+    bottom: 10px;
+    right: 550px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.special_block .ctrt_pp a {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.special_block .ctrt_pp .fa-pause {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.special_block .ctrt_pp .fa-play {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+
+.special_block .main_slide {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    margin-top: 0;
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    filter: brightness(105%);
+}
+
+.special_block .main_slide .slide {
+    width: 690px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding-bottom: 60px;
+}
+
+.special_block .main_slide .slide .sh_pic {
+    height: 400px;
+    float: left;
+}
+
+.special_block .main_slide .slide_fix {
+    width: 450px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.special_block .main_slide .slide_fix .bl_pro {
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: bottom 20px right 20px;
+    background-color: #3d1a6f;
+    width: 450px;
+    height: 500px;
+    padding: 50px 50px 30px;
+    position: relative;
+    color: #fff;
+    float: right;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.special_block .main_slide .slide_fix .bl_pro h2 {
+    margin: 0 0 40px;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 36px;
+    line-height: 1.2;
+    position: relative;
+}
+
+.special_block .main_slide .slide_fix .bl_pro h2:before {
+    display: block;
+    content: '';
+    background-color: #ffcb08;
+    width: 30%;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.special_block .main_slide .slide_fix .bl_pro p {
+    padding: 0;
+    margin: 10px 0 30px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.special_block .main_slide .slide_fix .bl_pro .dy {
+    font-size: 22px;
+    color: #ffcb08;
+    margin: 10px 0 30px;
+}
+
+.special_block .main_slide .slide_fix .bl_pro .book {
+    background-color: #ffcb08;
+    border: 0;
+}
+
+.special_block .main_slide .slide_fix .bl_pro .book span {
+    font-family: 'PSLKandaModernNewW2Pro';
+    color: #3d1a6f;
+}
+
+.special_block .main_slide .slide_fix .bl_pro .book:hover {
+    border: 1px solid #fff !important;
+}
+
+.special_block .main_slide .nt {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    position: absolute;
+    left: 6%;
+    bottom: 8px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.special_block .main_slide .nt img {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.special_block .main_slide .pv {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.special_block .main_slide .pv img {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.data_sh {
+    position: relative;
+}
+
+.data_sh .bl {
+    min-height: 470px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.data_sh .bl .pic {
+    position: relative;
+    height: 175px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.data_sh .bl .pic img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.data_sh .bl .desc {
+    background-color: #fff;
+    max-height: 240px;
+    min-height: 260px;
+    overflow: hidden;
+    padding: 22px;
+    box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+    z-index: 1;
+    position: relative;
+}
+
+.data_sh .bl .desc h2 {
+    font-family: 'PSLKandaModernNewW4Pro';
+    font-size: 20px;
+    color: #3d1a6f;
+    margin: 0 0 20px;
+    min-height: 44px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.data_sh .bl .desc p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.2;
+    padding: 0 0 11px;
+}
+
+.data_sh .bl .desc .dy {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.2;
+    padding: 0 0 11px;
+}
+
+.data_sh .bl .desc .price {
+    font-size: 40px;
+    color: #ffcb08;
+}
+
+.data_sh .bl .desc .price span {
+    font-size: 16px;
+}
+
+.data_sh .bl .desc .lg {
+    margin-bottom: 30px;
+}
+
+.data_sh .bl .dc_buttom {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.data_sh .bl .dc_buttom .fa-share-alt {
+    float: left;
+    color: #a08fb8;
+    position: relative;
+    top: 6px;
+}
+
+.data_sh .bl .dc_buttom a {
+    float: right;
+    text-transform: capitalize;
+}
+
+.data_sh .bl .dc_buttom a span {
+    display: inline-block;
+    font-size: 14px;
+    color: #3d1a6f;
+    margin-right: 10px;
+}
+
+.data_sh .bl .dc_buttom a img {
+    display: inline-block;
+    width: 28px;
+    position: relative;
+    top: 10px;
+}
+
+.data_sh .find_flights_active .desc {
+    background-color: #3d1a6f;
+}
+
+.data_sh .find_flights_active .desc h2 {
+    color: #ffcb08 !important;
+}
+
+.data_sh .find_flights_active .desc .dy {
+    color: #ffcb08 !important;
+}
+
+.data_sh .find_flights_active .desc p {
+    color: #fff !important;
+}
+
+.data_sh .find_flights_active .desc a span {
+    color: #ffcb08 !important;
+}
+
+.data_sh .plus {
+    display: block;
+    background-color: #3d1a6f;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    color: #ffcb08;
+    text-align: center;
+    line-height: 0.9;
+    border-radius: 30px;
+    margin: 20px auto;
+    clear: both;
+    position: relative;
+    top: 20px;
+}
+
+.special_offers {
+    padding-bottom: 0;
+}
+
+.special_offers .container {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.37);
+    padding-bottom: 60px;
+}
+
+.privilege {
+    background-color: #f6f6f6;
+    padding: 40px 0;
+}
+
+.nobg {
+    background: #fff !important;
+    padding-top: 0 !important;
+}
+
+.royal_orchid_plus {
+    background: #b049b5;
+    background: -moz-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #b049b5), color-stop(100%, #642586));
+    background: -webkit-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: -o-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: -ms-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: linear-gradient(to bottom, #b049b5 0%, #642586 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b049b5', endColorstr='#642586', GradientType=0);
+    padding: 60px 0;
+}
+
+.royal_orchid_plus .special_block .main_slide {
+    margin-top: 25px;
+}
+
+.royal_orchid_plus h1 {
+    color: #fff;
+}
+
+.royal_orchid_plus .ct_sb_header {
+    position: relative;
+}
+
+.royal_orchid_plus .ct_sb_header .rop {
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.royal_orchid_plus .rsBullets .rsNavSelected a {
+    background-color: #ffcb08 !important;
+}
+
+.royal_orchid_plus .rsBullets .rsBullet a {
+    border: 0 !important;
+}
+
+.royal_orchid_plus .slide_fix {
+    width: 450px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.royal_orchid_plus .slide_fix .bl_pro {
+    background-color: #fff !important;
+}
+
+.royal_orchid_plus .slide_fix .bl_pro h2 {
+    color: #3d1a6f !important;
+    font-size: 36px;
+}
+
+.royal_orchid_plus .slide_fix .bl_pro p {
+    color: #3d1a6f !important;
+}
+
+.royal_orchid_plus .slide_fix .bl_pro .book:hover {
+    border: 1px solid #fff !important;
+}
+
+.royal_orchid_plus .slide_fix .bt_a {
+    background-color: transparent;
+}
+
+.royal_orchid_plus .bt_b {
+    margin-top: 0;
+}
+
+.in_rop h1 {
+    color: #3d1a6f;
+}
+
+.in_rop .main_slide .slide_fix .bl_pro {
+    background: #b049b5;
+    background: -moz-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #b049b5), color-stop(100%, #642586));
+    background: -webkit-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: -o-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: -ms-linear-gradient(top, #b049b5 0%, #642586 100%);
+    background: linear-gradient(to bottom, #b049b5 0%, #642586 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b049b5', endColorstr='#642586', GradientType=0);
+}
+
+.in_rop .main_slide .slide_fix .bl_pro h2 {
+    color: #fff !important;
+}
+
+.in_rop .main_slide .slide_fix .bl_pro P {
+    color: #fff !important;
+}
+
+.in_rop .main_slide .slide_fix .bt_b {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.in_rop .main_slide .slide_fix .bt_b span {
+    color: #fff;
+}
+
+.royal_orchid_holiday {
+    padding: 40px 0;
+}
+
+.royal_orchid_holiday .special_block .main_slide {
+    margin-top: 25px;
+}
+
+.royal_orchid_holiday .ct_sb_header {
+    position: relative;
+}
+
+.royal_orchid_holiday .ct_sb_header .roh {
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.royal_orchid_holiday .slide_fix {
+    width: 450px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.royal_orchid_holiday .slide_fix .bl_pro {
+    background: #b049b5 !important;
+    background: -moz-linear-gradient(top, #b049b5 0%, #642586 100%) !important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #b049b5), color-stop(100%, #642586)) !important;
+    background: -webkit-linear-gradient(top, #b049b5 0%, #642586 100%) !important;
+    background: -o-linear-gradient(top, #b049b5 0%, #642586 100%) !important;
+    background: -ms-linear-gradient(top, #b049b5 0%, #642586 100%) !important;
+    background: linear-gradient(to bottom, #b049b5 0%, #642586 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b049b5', endColorstr='#642586', GradientType=0) !important;
+}
+
+.royal_orchid_holiday .slide_fix .bt_a {
+    background-color: transparent;
+}
+
+.offers_hr_detail {
+    padding: 20px 0;
+}
+
+.offers_hr_detail h1 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.offers_hr_detail h2 {
+    font-size: 36px;
+}
+
+.offers_hr_detail p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.offers_hr_detail .dy {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.offers_detail {
+    padding: 20px 0 60px;
+}
+
+.offers_detail h2 {
+    font-size: 24px;
+    margin: 0 0 35px;
+}
+
+.offers_detail h3 {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.offers_detail .pro_tra {
+    margin: 25px 0;
+}
+
+.offers_detail .pro_tra h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.offers_detail ul {
+    margin: 20px 0;
+    padding: 0 0 0 20px;
+}
+
+.offers_detail ul li {
+    margin: 10px 0;
+    list-style-type: decimal;
+    line-height: 1.2;
+}
+
+.other_offer {
+    margin: 20px 0 40px;
+}
+
+.other_offer .container {
+    padding: 0 0 40px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.38);
+}
+
+.other_offer a {
+    text-decoration: inherit !important;
+}
+
+.other_offer a:hover {
+    text-decoration: inherit !important;
+}
+
+.other_offer a:active {
+    text-decoration: inherit !important;
+}
+
+.other_offer a:focus {
+    text-decoration: inherit !important;
+}
+
+.other_offer h3 {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.other_offer h4 {
+    text-transform: uppercase;
+    color: #3d1a6f;
+    font-size: 20px;
+    margin: 0;
+}
+
+.other_offer p {
+    margin-top: 0;
+}
+
+.other_offer .bl {
+    width: 100%;
+    height: 160px;
+    box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+    overflow: hidden;
+}
+
+.other_offer .bl .col-md-6 {
+    padding: 0;
+}
+
+.other_offer .bl .pic {
+    height: 100%;
+    max-width: none;
+    overflow: hidden;
+}
+
+.other_offer .bl .pic img {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+}
+
+.other_offer .bl .bx_desc {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+}
+
+.other_offer .bl .bx_desc .ff {
+    text-transform: capitalize;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.other_offer .bl .bx_desc .ff span {
+    display: inline-block;
+    color: #3d1a6f;
+    margin: 0 5px 0 0;
+}
+
+.other_offer .bl .bx_desc .ff img {
+    display: inline-block;
+    width: 25px;
+    position: relative;
+    top: 8px;
+}
+
+.other_offer .bl .bx_desc .viewall {
+    text-transform: capitalize;
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.other_offer .bl .bx_desc .viewall span {
+    display: inline-block;
+    color: #3d1a6f;
+    margin: 0 5px 0 0;
+}
+
+.other_offer .bl .bx_desc > p {
+    font-family: 'PSLKandaModernNewW4Pro';
+}
+ >p.other_offer .bl .bx_desc + p {
+    font-family: 'PSLKandaModernNewW2Pro';
+}
+
+.other_offer .bl .blue_bg {
+    background-color: #3d1a6f;
+}
+
+.other_offer .bl .blue_bg p {
+    color: #ffcb08;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.other_offer .bl .blue_bg .ff span {
+    color: #ffcb08;
+}
+
+.other_offer .bl .blue_bg .viewall span {
+    color: #ffcb08;
+}
+
+.other_offer .bx_desc p {
+    font-family: 'PSLKandaModernNewW2Pro';
+    color: #3d1a6f;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.other_offer_link {
+    margin: 20px 0;
+}
+
+.other_offer_link .container {
+    padding: 0 0 40px;
+}
+
+.other_offer_link .container img {
+    box-shadow: -1px 0px 10px rgba(204, 204, 204, 0.4);
+}
+
+.other_offer_link .container .related-banner {
+    margin-bottom: 20px;
+}
+
+.addz {
+    z-index: 9999 !important;
+}
+
+.over_n {
+    overflow: inherit !important;
+}
+
+.close {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    height: 53px;
+    top: -27px;
+    right: 0;
+    z-index: 3333;
+    width: 30px;
+    height: 30px;
+    opacity: 1 !important;
+}
+
+.promote_ofdt {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.promote_ofdt h1 {
+    color: #fff;
+    line-height: 1;
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.promote_ofdt p {
+    color: #fff;
+    line-height: 1;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.ofdt {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.upbl {
+    position: relative;
+    top: -130px;
+}
+
+.upbl .container {
+    background-color: #fff;
+    padding: 0 50px;
+}
+
+.bl_sha .container {
+    position: relative;
+}
+
+.bl_sha .container:before {
+    display: block;
+    content: '';
+    background-color: rgba(204, 204, 204, 0.3);
+    width: 1px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    box-shadow: 0px 0 4px rgba(204, 204, 204, 0.47);
+}
+
+.bl_sha .container:after {
+    display: block;
+    content: '';
+    background-color: rgba(204, 204, 204, 0.3);
+    width: 1px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    box-shadow: 0px 0 4px rgba(204, 204, 204, 0.47);
+}
+
+.bl_sha .container .breadcrumb {
+    padding-top: 20px !important;
+    margin: 0 !important;
+}
+
+#booking_my_flights {
+    background-color: #f4f4f4;
+    margin: 0 0 40px;
+    padding: 30px 25px;
+}
+
+#booking_my_flights #search-fight {
+    color: #555555;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#booking_my_flights h2 {
+    font-family: 'PSLKandaModernNewW4Pro';
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+#booking_my_flights .multi_city {
+    background-color: #f4f4f4;
+}
+
+#booking_my_flights .form_inline {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+#booking_my_flights .form_inline a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #3d1a6f;
+    border-bottom: 2px solid #3d1a6f;
+}
+
+#booking_my_flights .mg {
+    margin-top: 10px;
+}
+
+#booking_my_flights .sb_menu {
+    text-align: left;
+    margin: 0px 0 15px;
+}
+
+.booking {
+    background-color: #fff;
+    margin-left: 0 !important;
+}
+
+.booking h1 {
+    text-transform: uppercase;
+}
+
+.booking #datePickerId img {
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    top: 38px;
+    right: 30px;
+}
+
+.booking .tab1 {
+    position: relative;
+}
+
+.booking .tab1 .ui-datepicker-trigger {
+    right: 27px;
+    top: 40px;
+    width: 88%;
+    height: 27px;
+}
+
+.booking .tab1 .ui-datepicker-trigger img {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.booking .tab1 .custom-combobox {
+    position: relative;
+}
+
+.booking .tab1 .custom-combobox img {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.booking .tab2 a {
+    font-family: 'PSLKandaModernNewW2Pro';
+    color: #3d1a6f;
+    text-decoration: underline;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.booking .tab2 .node_bk {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.booking .tab2 .bt {
+    margin-top: 35px;
+}
+
+.booking .tab2 .lt {
+    text-align: center;
+}
+
+.booking .tab2 .lt a {
+    display: inline-block;
+}
+
+.booking .tab2 .ETKT {
+    display: none;
+    text-align: left;
+}
+
+.booking .tab2 .ETKT .col-md-6 {
+    padding: 0 5px 0 0;
+    margin: 0 0px 0 0;
+}
+
+.booking .tab2 .ETKT label {
+    display: block;
+}
+
+.booking .tab2 .ETKT input {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.booking .tab2 .FFTG {
+    display: none;
+}
+
+.booking .tab3 {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.booking .tab3 .bt {
+    margin: 30px 0 20px;
+}
+
+.booking .tab3 div {
+    margin-bottom: 0;
+}
+
+.booking .tab3 .sb_menu {
+    margin-bottom: 27px;
+}
+
+.booking .tab3 .ui-datepicker-trigger {
+    right: 27px;
+    top: 38px;
+    width: 88%;
+    height: 27px;
+}
+
+.booking .tab3 .ui-datepicker-trigger img {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.booking .tab4 {
+    padding-top: 15px;
+}
+
+.booking .tab4 .col-md-4 {
+    margin-bottom: 0;
+}
+
+.booking .tab4 .bt {
+    display: block;
+    width: 100%;
+    margin: 15px auto 0;
+}
+
+.booking .tab4 div {
+    margin-bottom: 21px;
+}
+
+.booking .tab4 .ui-datepicker-trigger {
+    right: 27px;
+    top: 38px;
+    width: 88%;
+    height: 27px;
+}
+
+.booking .tab4 .ui-datepicker-trigger img {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.booking .tab5 p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.booking .tab5 .col-md-12 {
+    margin-bottom: 0;
+}
+
+.booking .tab5 .bt {
+    margin: 30px 0 20px;
+}
+
+.booking .tab6 {
+    padding-top: 20px !important;
+}
+
+.booking .tab6 h3 {
+    padding-left: 42px;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 10px;
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 12px 0 0 44px;
+}
+
+.booking .tab6 .main_t6 {
+    height: 300px;
+    overflow-y: auto;
+    margin: 0;
+}
+
+.booking .tab6 ul {
+    margin: 0;
+    padding: 0 0 0 44px;
+    list-style-type: disc;
+}
+
+.booking .tab6 a {
+    display: block;
+    color: #333;
+    text-decoration: underline;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 18px;
+}
+
+.booking .tab6 .col-md-3 {
+    min-height: 132px;
+    max-height: 162px;
+    margin-bottom: 0;
+    margin: 0 0 4px;
+}
+
+.booking .tab6 .ag .col-md-3 {
+    padding-left: 0 !important;
+    position: relative;
+}
+
+.booking .tab6 .ag .rang {
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    font-size: 15px;
+}
+
+.booking .plus {
+    display: block;
+    background-color: #3d1a6f;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8;
+    border-radius: 30px;
+    margin: 8px auto 0;
+    clear: both;
+    font-family: 'PSLKandaModernNewW2Pro';
+}
+
+.booking .tab_booking {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.booking .tab_booking a {
+    display: inline-block;
+    background-color: #3d1a6f;
+    font-size: 16px;
+    padding: 12px 20px;
+    float: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: inherit;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.booking .tab_booking a:hover {
+    background-color: #fff !important;
+    color: #3d1a6f !important;
+}
+
+.booking .tab_booking a i {
+    margin-right: 10px;
+}
+
+.booking .tab_booking a span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+span.booking .tab_booking a + span {
+    font-family: 'PSLKandaModernNewW4Pro';
+}
+
+.booking .tab_booking .active {
+    background-color: #fff !important;
+    color: #3d1a6f !important;
+}
+
+.booking .tab img {
+    display: inline-block;
+}
+
+.booking .tab span {
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.booking .tab label {
+    display: block;
+}
+
+.booking .tab .custom-combobox-input {
+    width: 100%;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.booking .tab .custom-combobox-toggle {
+    display: inline-block;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.booking .sb_menu {
+    padding: 0;
+    font-family: 'PSLKandaModernNewW2Pro';
+    margin: 42px 0 10px;
+    text-align: center;
+}
+
+.booking .sb_menu .active_x {
+    color: #3d1a6f !important;
+}
+
+.booking .sb_menu .active_x a {
+    color: #3d1a6f !important;
+}
+
+.booking .sb_menu .active_x:after {
+    width: 100% !important;
+}
+
+.booking .sb_menu li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 8px;
+    padding: 0 10px 5px;
+    color: #333;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.booking .sb_menu li span {
+    display: inline-block;
+}
+
+.booking .sb_menu li a {
+    color: #666;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+}
+
+.booking .sb_menu li:before {
+    display: block;
+    content: '';
+    background-color: #eee;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.booking .sb_menu li:after {
+    display: block;
+    content: '';
+    background-color: #3d1a6f;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.booking .multi_city {
+    display: none;
+    background-color: #fff;
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 39px;
+    left: 0;
+    padding: 0;
+    z-index: 2;
+    overflow-y: auto;
+    height: 295px;
+}
+
+.booking .multi_city .data_multi {
+    margin-top: 20px;
+}
+
+.booking .multi_city .sb_menu {
+    margin: 47px 0 0 -14px;
+}
+
+.booking .multi_city .col-md-4 {
+    margin: 0 0 5px;
+}
+
+.booking .multi_city .fr .ui-datepicker-trigger {
+    top: 39px !important;
+    right: 25px !important;
+}
+
+.booking .multi_city .row {
+    margin: 10px 0 0;
+}
+
+.booking .multi_city .bt {
+    display: block;
+    width: 100%;
+    margin: 20px auto !important;
+}
+
+.booking .multi_city .ui-datepicker-trigger {
+    right: 25px !important;
+    top: 10px !important;
+}
+
+.booking input {
+    background-color: #f9f9f9;
+    border-radius: 0;
+    border: 0;
+    padding: 0 10px;
+    margin: 0;
+    height: 42px;
+    line-height: 42px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 100% !important;
+    color: #3d1a6f !important;
+}
+
+.booking select {
+    background-color: #f9f9f9;
+    width: 100%;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    border: 0;
+    padding: 0 10px;
+    margin: 0;
+    height: 42px;
+    line-height: 42px;
+}
+
+.booking #class {
+    background-image: url(../../images/p_class.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #classType {
+    background-image: url(../../images/p_class.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #code {
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #Promo_Code {
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #adults,
+.booking #adult {
+    background-image: url(../../images/p_adults.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #youth {
+    background-image: url(../../images/p_adults.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #adults_tab1 {
+    background-image: url(../../images/p_adults.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #adultsMulti {
+    background-image: url(../../images/p_adults.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #IstDepTime {
+    background-image: url(../../images/p_time.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #children,
+.booking #child {
+    background-image: url(../../images/p_child.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #infant {
+    background-image: url(../../images/p_child.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #infantMulti {
+    background-image: url(../../images/p_child.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking #childrenMulti {
+    background-image: url(../../images/p_child.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking .qu {
+    background-image: url(../../images/p_i.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
+.booking .col-md-4 .col-md-4 {
+    padding: 0 5px 5px;
+    margin: 0;
+}
+
+.booking .bt {
+    width: 100% !important;
+    display: inline-block;
+    background-color: #ffcb08;
+    margin: 30px 0 20px;
+    font-size: 18px;
+    border: 1px solid #ffcb08;
+    font-family: 'PSLKandaModernNewW2Pro';
+    background-image: none;
+    padding: 0px !important;
+    margin: 30px 0 20px !important;
+    font-size: 18px !important;
+    background: linear-gradient(to bottom, rgba(254, 218, 12, 0) 0%, #ffcb08 0) !important;
+}
+
+.booking label {
+    margin: 6px 0;
+}
+
+.booking_header #book-flight-title {
+    font-size: 40px;
+    margin: 30px 0;
+    font-family: 'PSLKandaModernNewW4Pro';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.offer_booking .tab .ui-datepicker-trigger img {
+    top: 6px;
+}
+
+.opa {
+    opacity: 0;
+}
+
+.tab_menu {
+    position: relative;
+    top: -69px;
+    width: 100%;
+    text-align: center;
+}
+
+.tab_menu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.tab_menu ul li {
+    display: inline-block;
+    background-color: #3d1a6f;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 30px;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.tab_menu ul li:hover {
+    background-color: #fff;
+    color: #3d1a6f;
+}
+
+.tab_menu ul li img {
+    display: inline-block;
+}
+
+.tab_menu ul li span {
+    display: inline-block;
+    margin: 0 0 0 8px;
+    text-transform: uppercase;
+}
+
+.block_data {
+    position: relative;
+    top: -69px;
+}
+
+.w100 {
+    width: 100% !important;
+}
+
+.active_mn {
+    background-color: #fff !important;
+    color: #3d1a6f !important;
+}
+
+.bor {
+    border: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.none {
+    display: none;
+}
+
+table {
+    background-color: transparent;
+}
+
+table col[class*="col-"] {
+    position: static;
+    float: none;
+    display: table-column;
+}
+
+table td[class*="col-"] {
+    position: static;
+    float: none;
+    display: table-cell;
+}
+
+table th[class*="col-"] {
+    position: static;
+    float: none;
+    display: table-cell;
+}
+
+caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777777;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+.h_color th {
+    background-color: #e1dce9;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: bottom;
+    border: 0;
+}
+
+.table > thead > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 0;
+}
+
+.table > thead > tr > td.active {
+    background-color: #f5f5f5;
+}
+
+.table > thead > tr > th.active {
+    background-color: #f5f5f5;
+}
+
+.table > thead > tr > td.success {
+    background-color: #dff0d8;
+}
+
+.table > thead > tr > th.success {
+    background-color: #dff0d8;
+}
+
+.table > thead > tr > td.info {
+    background-color: #d9edf7;
+}
+
+.table > thead > tr > th.info {
+    background-color: #d9edf7;
+}
+
+.table > thead > tr > td.warning {
+    background-color: #fcf8e3;
+}
+
+.table > thead > tr > th.warning {
+    background-color: #fcf8e3;
+}
+
+.table > thead > tr > td.danger {
+    background-color: #f2dede;
+}
+
+.table > thead > tr > th.danger {
+    background-color: #f2dede;
+}
+
+.table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+}
+
+.table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+.table > thead > tr.active > td {
+    background-color: #f5f5f5;
+}
+
+.table > thead > tr.active > th {
+    background-color: #f5f5f5;
+}
+
+.table > thead > tr.success > td {
+    background-color: #dff0d8;
+}
+
+.table > thead > tr.success > th {
+    background-color: #dff0d8;
+}
+
+.table > thead > tr.info > td {
+    background-color: #d9edf7;
+}
+
+.table > thead > tr.info > th {
+    background-color: #d9edf7;
+}
+
+.table > thead > tr.warning > td {
+    background-color: #fcf8e3;
+}
+
+.table > thead > tr.warning > th {
+    background-color: #fcf8e3;
+}
+
+.table > thead > tr.danger > td {
+    background-color: #f2dede;
+}
+
+.table > thead > tr.danger > th {
+    background-color: #f2dede;
+}
+
+.table > tbody > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 0;
+}
+
+.table > tbody > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 0;
+}
+
+.table > tbody > tr > td.active {
+    background-color: #f5f5f5;
+}
+
+.table > tbody > tr > th.active {
+    background-color: #f5f5f5;
+}
+
+.table > tbody > tr > td.success {
+    background-color: #dff0d8;
+}
+
+.table > tbody > tr > th.success {
+    background-color: #dff0d8;
+}
+
+.table > tbody > tr > td.info {
+    background-color: #d9edf7;
+}
+
+.table > tbody > tr > th.info {
+    background-color: #d9edf7;
+}
+
+.table > tbody > tr > td.warning {
+    background-color: #fcf8e3;
+}
+
+.table > tbody > tr > th.warning {
+    background-color: #fcf8e3;
+}
+
+.table > tbody > tr > td.danger {
+    background-color: #f2dede;
+}
+
+.table > tbody > tr > th.danger {
+    background-color: #f2dede;
+}
+
+.table > tbody + tbody {
+    border: 0;
+}
+
+.table > tbody > tr.active > td {
+    background-color: #f5f5f5;
+}
+
+.table > tbody > tr.active > th {
+    background-color: #f5f5f5;
+}
+
+.table > tbody > tr.success > td {
+    background-color: #dff0d8;
+}
+
+.table > tbody > tr.success > th {
+    background-color: #dff0d8;
+}
+
+.table > tbody > tr.info > td {
+    background-color: #d9edf7;
+}
+
+.table > tbody > tr.info > th {
+    background-color: #d9edf7;
+}
+
+.table > tbody > tr.warning > td {
+    background-color: #fcf8e3;
+}
+
+.table > tbody > tr.warning > th {
+    background-color: #fcf8e3;
+}
+
+.table > tbody > tr.danger > td {
+    background-color: #f2dede;
+}
+
+.table > tbody > tr.danger > th {
+    background-color: #f2dede;
+}
+
+.table > tfoot > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 0;
+}
+
+.table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 0;
+}
+
+.table > tfoot > tr > td.active {
+    background-color: #f5f5f5;
+}
+
+.table > tfoot > tr > th.active {
+    background-color: #f5f5f5;
+}
+
+.table > tfoot > tr > td.success {
+    background-color: #dff0d8;
+}
+
+.table > tfoot > tr > th.success {
+    background-color: #dff0d8;
+}
+
+.table > tfoot > tr > td.info {
+    background-color: #d9edf7;
+}
+
+.table > tfoot > tr > th.info {
+    background-color: #d9edf7;
+}
+
+.table > tfoot > tr > td.warning {
+    background-color: #fcf8e3;
+}
+
+.table > tfoot > tr > th.warning {
+    background-color: #fcf8e3;
+}
+
+.table > tfoot > tr > td.danger {
+    background-color: #f2dede;
+}
+
+.table > tfoot > tr > th.danger {
+    background-color: #f2dede;
+}
+
+.table > tfoot > tr.active > td {
+    background-color: #f5f5f5;
+}
+
+.table > tfoot > tr.active > th {
+    background-color: #f5f5f5;
+}
+
+.table > tfoot > tr.success > td {
+    background-color: #dff0d8;
+}
+
+.table > tfoot > tr.success > th {
+    background-color: #dff0d8;
+}
+
+.table > tfoot > tr.info > td {
+    background-color: #d9edf7;
+}
+
+.table > tfoot > tr.info > th {
+    background-color: #d9edf7;
+}
+
+.table > tfoot > tr.warning > td {
+    background-color: #fcf8e3;
+}
+
+.table > tfoot > tr.warning > th {
+    background-color: #fcf8e3;
+}
+
+.table > tfoot > tr.danger > td {
+    background-color: #f2dede;
+}
+
+.table > tfoot > tr.danger > th {
+    background-color: #f2dede;
+}
+
+.table > caption + thead > tr:first-child > th {
+    border-top: 0;
+}
+
+.table > caption + thead > tr:first-child > td {
+    border-top: 0;
+}
+
+.table > colgroup + thead > tr:first-child > th {
+    border-top: 0;
+}
+
+.table > colgroup + thead > tr:first-child > td {
+    border-top: 0;
+}
+
+.table .table {
+    background-color: #fff;
+}
+
+.table-condensed > thead > tr > th {
+    padding: 5px;
+}
+
+.table-condensed > thead > tr > td {
+    padding: 5px;
+}
+
+.table-condensed > tbody > tr > th {
+    padding: 5px;
+}
+
+.table-condensed > tbody > tr > td {
+    padding: 5px;
+}
+
+.table-condensed > tfoot > tr > th {
+    padding: 5px;
+}
+
+.table-condensed > tfoot > tr > td {
+    padding: 5px;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+    border-bottom-width: 2px;
+}
+
+.table-bordered > thead > tr > td {
+    border: 1px solid #ddd;
+    border-bottom-width: 2px;
+}
+
+.table-bordered > tbody > tr > th {
+    border: 1px solid #ddd;
+}
+
+.table-bordered > tbody > tr > td {
+    border: 1px solid #ddd;
+}
+
+.table-bordered > tfoot > tr > th {
+    border: 1px solid #ddd;
+}
+
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table-hover > tbody > tr:hover > .active {
+    background-color: #e8e8e8;
+}
+
+.table-hover > tbody > tr:hover > .success {
+    background-color: #d0e9c6;
+}
+
+.table-hover > tbody > tr:hover > .info {
+    background-color: #c4e3f3;
+}
+
+.table-hover > tbody > tr:hover > .warning {
+    background-color: #faf2cc;
+}
+
+.table-hover > tbody > tr:hover > .danger {
+    background-color: #ebcccc;
+}
+
+.table-hover > tbody > tr > td.active:hover {
+    background-color: #e8e8e8;
+}
+
+.table-hover > tbody > tr > th.active:hover {
+    background-color: #e8e8e8;
+}
+
+.table-hover > tbody > tr > td.success:hover {
+    background-color: #d0e9c6;
+}
+
+.table-hover > tbody > tr > th.success:hover {
+    background-color: #d0e9c6;
+}
+
+.table-hover > tbody > tr > td.info:hover {
+    background-color: #c4e3f3;
+}
+
+.table-hover > tbody > tr > th.info:hover {
+    background-color: #c4e3f3;
+}
+
+.table-hover > tbody > tr > td.warning:hover {
+    background-color: #faf2cc;
+}
+
+.table-hover > tbody > tr > th.warning:hover {
+    background-color: #faf2cc;
+}
+
+.table-hover > tbody > tr > td.danger:hover {
+    background-color: #ebcccc;
+}
+
+.table-hover > tbody > tr > th.danger:hover {
+    background-color: #ebcccc;
+}
+
+.table-hover > tbody > tr.active:hover > td {
+    background-color: #e8e8e8;
+}
+
+.table-hover > tbody > tr.active:hover > th {
+    background-color: #e8e8e8;
+}
+
+.table-hover > tbody > tr.success:hover > td {
+    background-color: #d0e9c6;
+}
+
+.table-hover > tbody > tr.success:hover > th {
+    background-color: #d0e9c6;
+}
+
+.table-hover > tbody > tr.info:hover > td {
+    background-color: #c4e3f3;
+}
+
+.table-hover > tbody > tr.info:hover > th {
+    background-color: #c4e3f3;
+}
+
+.table-hover > tbody > tr.warning:hover > td {
+    background-color: #faf2cc;
+}
+
+.table-hover > tbody > tr.warning:hover > th {
+    background-color: #faf2cc;
+}
+
+.table-hover > tbody > tr.danger:hover > td {
+    background-color: #ebcccc;
+}
+
+.table-hover > tbody > tr.danger:hover > th {
+    background-color: #ebcccc;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    min-height: 0.01%;
+}
+
+.bl_pro h2 {
+    color: #fff;
+}
+
+.promotion_expired_bl {
+    background-color: rgba(0, 0, 0, 0.58);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.promotion_expired_bl span {
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffcb08;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.mainpage {
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+.ls-row + .row {
+    margin: 0 !important;
+}
+
+#ls-row-2-col-1-row-2-area-1 {
+    width: 100% !important;
+}
+
+.ls-lqr-w-fx {
+    width: 100% !important;
+}
+
+select.offer_des_from {
+    background: url("/static/common/images/p_plane_down.png") no-repeat right 15px center #fff;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+select.offer_des_to {
+    background: url("/static/common/images/p_plane_up.png") no-repeat right 15px center #fff;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+#search-fight label {
+    text-align: left;
+    width: auto;
+    color: #3d1a6f;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+#search-fight .rang {
+    color: #3d1a6f;
+    font-size: 16px;
+}
+
+.ui-corner-all {
+    width: 252px;
+    font-family: 'PSLKandaModernNewW2Pro' !important;
+    font-size: 16px !important;
+}
+
+.ui-corner-all li {
+    padding: 0 !important;
+}
+
+.ui-corner-all li a {
+    width: 100% !important;
+    padding: 2px !important;
+    margin: 0;
+}
+
+.imgcitybutton {
+    top: 70%;
+    right: 6%;
+    position: absolute;
+    background: none !important;
+}
+
+.ui-helper-hidden-accessible {
+    display: none !important;
+}
+
+.from-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.from0-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to0-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.from1-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to1-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.from2-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to2-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.from3-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to3-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.from4-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to4-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.from5-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to5-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.fromTimeTable-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.toTimeTable-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.from-flightInfo-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.to-flightInfo-dropdown {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    font-family: 'PSLKandaModernNewW2Pro';
+    font-size: 16px;
+    width: 92%;
+}
+
+.ui-menu-item {
+    padding: 10px 0 5px 15px !important;
+}
+
+.ui-menu-item:hover {
+    background: rgba(213, 213, 213, 0.7);
+    cursor: pointer;
+}
+
+.multi1 .imgcitybutton {
+    top: 52%;
+}
+
+.multi2 .imgcitybutton {
+    top: 52%;
+}
+
+.multi3 .imgcitybutton {
+    top: 52%;
+}
+
+.multi4 .imgcitybutton {
+    top: 52%;
+}
+
+.multi5 .imgcitybutton {
+    top: 52%;
+}
+
+.tab3 .inp #btn_meals {
+    display: block !important;
+    width: 350px !important;
+}
+
+.tab3 form p {
+    color: #3d1a6f;
+    font-family: 'PSLKandaModernNewW2Pro';
+}
+
+.tab4 #refreshPNR {
+    font-family: 'PSLKandaModernNewW2Pro' !important;
+    border-radius: 30px !important;
+    background-color: #ffcb08 !important;
+    font-size: 18px;
+    display: block !important;
+    width: 93% !important;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border: 0;
+    line-height: 1;
+    background: linear-gradient(to bottom, #feda0c 0%, #feda0c 100%) !important;
+    color: #361a65;
+    text-decoration: inherit;
+}
+
+.tab4 #refreshPNR:hover {
+    background-color: #361a65 !important;
+    color: #fff !important;
+    background: linear-gradient(to bottom, #361a65 0%, #361a65 100%) !important;
+}
+
+.tab4 #btn_update {
+    font-family: 'PSLKandaModernNewW2Pro' !important;
+    border-radius: 30px !important;
+    background-color: #ffcb08 !important;
+    font-size: 18px;
+    display: block !important;
+    width: 93% !important;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border: 0;
+    line-height: 1;
+    background: linear-gradient(to bottom, #feda0c 0%, #feda0c 100%) !important;
+    color: #361a65;
+    text-decoration: inherit;
+    position: relative;
+    text-align: center;
+}
+
+.tab4 #btn_update:hover {
+    background-color: #361a65 !important;
+    color: #fff !important;
+    background: linear-gradient(to bottom, #361a65 0%, #361a65 100%) !important;
+}
+
+.tab4 #btn_view {
+    font-family: 'PSLKandaModernNewW2Pro' !important;
+    border-radius: 30px !important;
+    background-color: #ffcb08 !important;
+    font-size: 18px;
+    display: block !important;
+    width: 93% !important;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border: 0;
+    line-height: 1;
+    background: linear-gradient(to bottom, #feda0c 0%, #feda0c 100%) !important;
+    color: #361a65;
+    text-decoration: inherit;
+    position: relative;
+    text-align: center;
+}
+
+.tab4 #btn_view:hover {
+    background-color: #361a65 !important;
+    color: #fff !important;
+    background: linear-gradient(to bottom, #361a65 0%, #361a65 100%) !important;
+}
+
+#ls-row-2-col-1-row-2-area-1.ls-area.span10.maincontent {
+    margin-left: 0px;
+}
+
+#getpnr {
+    text-align: center;
+    display: block !important;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border: 0;
+    background: linear-gradient(to bottom, #feda0c 0%, #feda0c 100%);
+    color: #000;
+    font-size: 16px;
+}
+
+#getpnr:hover {
+    background: linear-gradient(to bottom, rgba(254, 218, 12, 0) 0%, #3d1a6f 0) !important;
+    font-size: 16px !important;
+    background-color: purple !important;
+}
+
+@media screen and (max-width: 1112px) {
+    #booking_btt .sb_menu_mn {
+        margin-bottom: 20px;
+    }
+
+    #booking_btt .sb_menu_mn li {
+        width: 20%;
+    }
+
+    #booking_btt .sb_menu {
+        margin: 30px 0 30px;
+        text-align: center;
+    }
+
+    #booking_btt .tab1 .multi_city {
+        top: 65px !important;
+        padding: 0;
+    }
+
+    #booking_btt .tab1 .multi_city .sb_menu {
+        margin: 0;
+        margin: 32px 0 0 3px !important;
+    }
+
+    #booking_btt .tab1 .ui-datepicker-trigger {
+        top: 43px;
+    }
+
+    #booking_btt .tab6 h2 {
+        font-size: 24px;
+    }
+
+    #booking_btt label {
+        font-size: 14px !important;
+    }
+
+    select#booking_btt .ag + span {
+        font-size: 11px !important;
+    }
+
+    body .w100 {
+        width: 50% !important;
+    }
+
+    body .m_booking_bg {
+        background-color: #f5f5f5 !important;
+    }
+
+    body .gl_top {
+        margin-top: 0 !important;
+    }
+
+    .maincontent {
+        padding: 0 !important;
+        margin: 0;
+    }
+
+    #my_booking {
+        background-color: #f5f5f5 !important;
+    }
+
+    #my_booking .container {
+        padding: 0;
+    }
+
+    #my_booking .tab2 .note {
+        margin-top: 30px;
+        border: 0;
+    }
+
+    #my_booking .note p {
+        margin: 0;
+        padding: 0;
+    }
+
+    #my_booking .bl_left .row {
+        position: relative;
+    }
+
+    #my_booking .tab4 .pos1 {
+        position: absolute;
+        top: 15px;
+        right: 11px;
+    }
+
+    #my_booking .tab4 .pos2 {
+        position: absolute;
+        top: 22px;
+        right: 39px;
+    }
+
+    .my_booking .step_wk {
+        margin: 10px 0 30px;
+    }
+
+    .my_booking .step_wk a {
+        font-size: 14px;
+        padding-bottom: 15px;
+        line-height: 50px;
+    }
+
+    .my_booking input[type='text'] {
+        width: 100%;
+        margin: 10px 0 !important;
+    }
+
+    .my_booking select {
+        width: 100%;
+        margin: 10px 0 !important;
+    }
+
+    .my_booking .tab1 p {
+        margin: 10px 0 40px;
+    }
+
+    .my_booking .tab2 p {
+        margin: 10px 0 40px;
+    }
+
+    .my_booking .tab2 #ISurname + a {
+        top: 41px;
+        right: 10px;
+    }
+
+    .my_booking .tab2 #IIdentificationBookingRef + a {
+        top: 41px;
+        right: 10px;
+    }
+
+    .my_booking .tab2 .bt {
+        margin-top: 30px;
+        line-height: 0.8 !important;
+    }
+
+    .my_booking .tab2 .box-iCheckin input[name="IIdentificationETkt1"] {
+        width: 40% !important;
+        margin-right: 10px !important;
+    }
+
+    .my_booking .tab2 .box-iCheckin input[name="IIdentificationETkt2"] {
+        width: 40% !important;
+        margin-right: 10px !important;
+    }
+
+    .my_booking .tab3 p {
+        margin: 10px 0 40px;
+    }
+
+    .my_booking .tab label {
+        font-size: 14px !important;
+    }
+
+    .my_booking .tab4 .bl_left {
+        padding: 0;
+    }
+
+    .my_booking .tab4 .bl_left .mandatory {
+        top: 0;
+        left: 0;
+    }
+
+    .my_booking .tab4 .bl_left .mandatory + a {
+        top: 6px;
+        left: -26px;
+    }
+
+    .my_booking .tab4 .bl_left .pos1 .mandatory {
+        top: 8px;
+        left: -30px;
+    }
+
+    .my_booking .tab4 .bl_left .col-md-10 {
+        padding: 0;
+    }
+
+    .my_booking .tab4 .bl_left .or {
+        left: 0;
+        width: 85%;
+    }
+
+    .my_booking .tab4 button {
+        width: 350px;
+        margin: 30px auto;
+    }
+
+    .my_booking .tab4 .bl_right {
+        border-left: 0;
+        padding: 0 15px;
+    }
+
+    .my_booking .tab4 .bl_right .note {
+        margin: 30px 0 20px;
+    }
+
+    .my_booking .tab4 hr {
+        width: 100%;
+    }
+
+    .my_booking button {
+        width: 100% !important;
+    }
+
+    #bookflight_promotion #booking_btt .tab1 .multi_city {
+        top: 8px !important;
+    }
+
+    .cover .main .content {
+        padding: 5%;
+    }
+
+    .gl_top {
+        margin-top: 0 !important;
+    }
+
+    .booking .sb_menu li {
+        margin: 0 8px;
+        padding: 0 5px 5px;
+    }
+
+    .booking .tab span {
+        font-size: 14px !important;
+    }
+
+    .data_sh .bl .pic {
+        height: 200px !important;
+    }
+
+    .data_sh .bl .desc h2 {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .data_sh .bl .desc p {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .data_sh .bl .desc .dy {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .data_sh .bl .dc_buttom a span {
+        font-size: 14px;
+    }
+
+    .special_offers .container {
+        padding: 0 20px 60px 5px;
+    }
+
+    .header_mobile {
+        top: 0;
+    }
+
+    .breadcrumb .container {
+        padding: 0 10px;
+    }
+
+    #booking_my_flights .col-md-4 .col-md-4 {
+        padding: 0 5px !important;
+    }
+
+    #booking_my_flights .form_inline a {
+        margin: 0 5px 0 0;
+    }
+
+    #booking_my_flights .sb_menu {
+        margin: 20px 0 30px;
+    }
+
+    #booking_my_flights .plus {
+        margin: 30px auto 10px;
+    }
+
+    #booking_my_flights .lsbt .col-xs-6 {
+        width: 100%;
+    }
+
+    #booking_my_flights .mg .col-md-4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .offer_booking .tab .ui-datepicker-trigger {
+        top: 45px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc {
+        top: -60px;
+    }
+
+    .upbl {
+        position: static;
+    }
+
+    .upbl .container {
+        padding: 25px;
+    }
+
+    .other_offer .bl .bx_desc > p {
+        font-size: 14px;
+        line-height: 1.1;
+    }
+
+    .special_block .main_slide .slide {
+        width: 580px;
+    }
+
+    .special_block .main_slide .slide .sh_pic {
+        height: 320px;
+    }
+
+    .special_block .main_slide .pv {
+        display: none;
+    }
+
+    .special_block .main_slide .nt {
+        display: none;
+    }
+
+    .special_block .main_slide .slide_fix .bl_pro {
+        height: 420px;
+        width: 380px;
+        padding: 30px;
+    }
+
+    .special_block .ctrt_pp {
+        display: none;
+    }
+
+    .special_block .rsBullets {
+        bottom: -15px;
+        right: 60px;
+    }
+
+    .bl_sha .container:before {
+        display: none;
+    }
+
+    .bl_sha .container:after {
+        display: none;
+    }
+
+    .bl_sha .container .breadcrumb {
+        padding-top: 0 !important;
+        margin: 0 !important;
+    }
+
+    .royal_orchid_plus .special_block .main_slide {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    body .gl_top {
+        margin-top: 210px !important;
+    }
+
+    .breadcrumb {
+        margin: 150px 0 0;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    body .w100 {
+        width: 100% !important;
+    }
+
+    body .gl_top2 {
+        margin-top: 0px !important;
+    }
+
+    body .offers_detail.ofdt {
+        padding: 0 !important;
+    }
+
+    .pd_0 {
+        margin: 20px 0 0 !important;
+    }
+
+    .inpage #booking-form [name*="from"] {
+        width: 100% !important;
+    }
+
+    .inpage #booking-form [name*="to"] {
+        width: 100% !important;
+    }
+
+    #booking_btt {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+
+    #booking_btt > .container {
+        border: 0;
+    }
+
+    #booking_btt .tab_booking {
+        margin: 0 15px !important;
+    }
+
+    #booking_btt .tab_booking a {
+        width: 32% !important;
+        border: 1px solid #3d1a6f;
+    }
+
+    #booking_btt .sb_menu_mn li {
+        width: 30%;
+    }
+
+    #booking_btt .multi_city .ui-datepicker-trigger {
+        width: 100%;
+        right: 20px !important;
+        top: 37px !important;
+    }
+
+    #booking_btt .multi_city .data_multi .imgcitybutton {
+        top: 47px;
+        right: 20px;
+    }
+
+    #booking_btt .multi_city .data_multi .ui-datepicker-trigger img {
+        top: 0;
+        right: 0;
+    }
+
+    #booking_btt .multi_city .data_multi .multi0 .ui-datepicker-trigger img {
+        top: 0;
+    }
+
+    #booking_btt .tab6 h3 {
+        padding: 50px 0 15px !important;
+    }
+
+    #booking_btt .tab6 h3 span {
+        top: 25px !important;
+    }
+
+    #booking_btt .tab6 ul {
+        padding: 25px 0 0 15px !important;
+    }
+
+    #booking_btt .tab6 .col-md-3 {
+        min-height: 190px !important;
+    }
+
+    #booking_btt .tab6 .pr0 {
+        display: none;
+    }
+
+    #booking_btt .tab3 {
+        padding-top: 0;
+    }
+
+    #booking_btt .tab3 .ui-datepicker-trigger {
+        top: 42px;
+    }
+
+    #booking_btt .tab3 .sb_menu li {
+        margin: 0 0 5px;
+    }
+
+    #booking_btt .tab3 .clear_bt {
+        clear: both;
+        overflow: hidden;
+    }
+
+    #booking_btt .tab1 .multi_city {
+        padding: 0;
+        top: 60px !important;
+        background-color: #fff !important;
+    }
+
+    #booking_btt .tab1 .multi_city .sb_menu {
+        margin: 4px 0 20px;
+    }
+
+    #booking_btt .tab1 .ui-datepicker-trigger {
+        top: 43px;
+    }
+
+    #booking_btt .sb_menu {
+        margin: 25px 0 20px;
+        text-align: center;
+    }
+
+    .my_booking .tab2 #ETKT input {
+        display: inline-block;
+        width: 100% !important;
+        margin-right: 5px !important;
+    }
+
+    .my_booking .tab2 .tooltip_a {
+        right: 10px;
+    }
+
+    .my_booking .tab2 .col-md-12 {
+        width: 100%;
+    }
+
+    .my_booking .tab2 .col-md-8 .col-md-6 {
+        padding: 0;
+    }
+
+    .my_booking button {
+        width: 165px !important;
+    }
+
+    .my_booking .tab4 .bl_left .or {
+        left: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .my_booking .tab4 .bl_right {
+        width: 100%;
+    }
+
+    .my_booking .tab4 .bl_right #box_sponsor .row {
+        position: relative;
+    }
+
+    .my_booking .tab4 .bl_right #box_sponsor a[data-toggle="tooltip"] {
+        position: absolute;
+        top: -39px;
+        right: 5px;
+    }
+
+    .my_booking .step_wk a img {
+        width: 34px;
+        top: 5px;
+    }
+
+    .my_booking .step_wk a .fa {
+        font-size: 18px;
+    }
+
+    #my_booking .tab4 .pos1 {
+        position: absolute;
+        top: 15px;
+        right: -35px;
+    }
+
+    #my_booking .tab4 .pos2 {
+        position: absolute;
+        top: 22px;
+        right: 0;
+    }
+
+    div.tab4 #refreshPNR {
+        width: 165px !important;
+        position: relative;
+    }
+
+    div.tab3 .inp #btn_meals {
+        width: 165px !important;
+        line-height: 1 !important;
+    }
+
+    .booking .tab6 .main_t6 {
+        height: auto !important;
+        overflow-y: inherit !important;
+    }
+
+    .booking .multi_city .data_multi {
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    .offers_promotion_p {
+        min-height: inherit;
+    }
+
+    .offers_promotion_p .bl_op_a {
+        padding: 25px 0;
+    }
+
+    .offers_promotion_p .bl_op_a .special_block {
+        padding: 0 0px 25px;
+        padding: 0;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+    }
+
+    .offers_promotion_p .bl_op_a .special_block .main_slide {
+        width: 100%;
+        height: inherit;
+        max-height: inherit;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+        margin: 0;
+    }
+
+    .offers_promotion_p .bl_op_a .special_block .main_slide .slide div {
+        width: 100%;
+        height: inherit;
+        max-height: inherit;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+        margin: 0;
+    }
+
+    .offers_promotion_p .bl_op_a .special_block .main_slide .slide div .sh_pic {
+        width: 100%;
+        height: inherit;
+        max-height: inherit;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+        margin: 0;
+    }
+
+    .offers_promotion_p .bl_op_b {
+        padding: 25px 0;
+    }
+
+    .offers_promotion_p .bl_op_b .special_block {
+        padding: 0 0px 25px;
+        padding: 0;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+    }
+
+    .offers_promotion_p .bl_op_b .special_block .main_slide {
+        width: 100%;
+        height: inherit;
+        max-height: inherit;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+        margin: 0;
+    }
+
+    .offers_promotion_p .bl_op_b .special_block .main_slide .slide div {
+        width: 100%;
+        height: inherit;
+        max-height: inherit;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+        margin: 0;
+    }
+
+    .offers_promotion_p .bl_op_b .special_block .main_slide .slide div .sh_pic {
+        width: 100%;
+        height: inherit;
+        max-height: inherit;
+        box-shadow: 1px 1px 7px rgba(204, 204, 204, 0.3);
+        margin: 0;
+    }
+
+    .offers_promotion_p .slide_offer_detail {
+        margin: 0 0;
+        padding: 0;
+    }
+
+    .offers_promotion_p .slide_offer_detail .slide .rsNav {
+        bottom: 10px !important;
+    }
+
+    .offers_promotion_p .slide_offer_detail .slide .rsOverflow {
+        width: 100% !important;
+    }
+
+    .offers_promotion_p .h2 {
+        font-size: 30px;
+    }
+
+    .offers_promotion_p .pl_menu {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .offers_promotion_p .pl_menu li {
+        margin: 0 20px 10px 0;
+        font-size: 16px;
+        border-bottom: 1px solid #ffcb08;
+    }
+
+    .offers_promotion_p .tab_offer {
+        display: none;
+    }
+
+    .offers_promotion_p .special_block {
+        padding: 0 10px 25px;
+        overflow: hidden;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix {
+        width: 100% !important;
+        position: static;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix .bl_pro {
+        width: 100%;
+        padding: 25px;
+        height: inherit !important;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix .bl_pro .dy {
+        font-size: 20px;
+    }
+
+    .offers_promotion_p .special_block .main_slide .pv {
+        display: none;
+    }
+
+    .offers_promotion_p .special_block .main_slide .nt {
+        display: none;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide {
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide .sh_pic {
+        height: inherit !important;
+        max-width: 100%;
+    }
+
+    .offers_promotion_p .special_block .rsBullets {
+        display: inline-block;
+        bottom: 60px;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+    }
+
+    .offers_promotion_p .special_block .ctrt_pp {
+        display: none;
+    }
+
+    .offers_promotion_p .special_offers {
+        padding: 10px 0 30px;
+    }
+
+    .offers_promotion_p .privilege {
+        padding: 10px 0 30px;
+    }
+
+    .offers_promotion_p .privilege .main_slide .slide {
+        padding-bottom: 0;
+    }
+
+    .offers_promotion_p .royal_orchid_plus {
+        padding: 10px 0 30px;
+    }
+
+    .offers_promotion_p .royal_orchid_plus .main_slide .slide {
+        padding-bottom: 0;
+    }
+
+    .offers_promotion_p .royal_orchid_holiday {
+        padding: 10px 0 30px;
+    }
+
+    .offers_promotion_p .ct_sb_header .rop {
+        display: none;
+    }
+
+    .offers_promotion_p .ct_sb_header .roh {
+        display: none;
+    }
+
+    .offers_promotion_p .data_sh {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .offers_promotion_p .data_sh .bl {
+        min-height: inherit;
+        margin-bottom: 25px;
+        overflow: inherit;
+        padding: 0 10px;
+    }
+
+    .offers_promotion_p .data_sh .bl .pic {
+        height: inherit;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc {
+        margin: 0;
+        position: static;
+        min-height: inherit;
+        max-height: none;
+        padding: 20px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc h2 {
+        font-size: 14px;
+        min-height: 45px;
+        margin-bottom: 0;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc p {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc .price {
+        font-size: 25px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc .dy {
+        font-size: 16px;
+    }
+
+    .offers_promotion_p .data_sh .bl .dc_buttom {
+        position: static;
+        margin-top: 5px;
+        padding: 0 0 5px;
+    }
+
+    .offers_promotion_p .data_sh .bl .dc_buttom a span {
+        font-size: 14px;
+        position: relative;
+        top: 2px;
+    }
+
+    .offers_promotion_p .data_sh .bl .dc_buttom a img {
+        width: 25px;
+    }
+
+    .offers_promotion_p .container {
+        width: 100%;
+        padding: 0 25px;
+        margin: 0;
+    }
+
+    .offers_promotion_p .offers_hr_detail {
+        padding: 0;
+    }
+
+    .offers_promotion_p .offers_hr_detail h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .offers_promotion_p .offers_hr_detail .dy {
+        font-size: 14px;
+    }
+
+    .offers_promotion_p .offers_detail {
+        padding: 0 0 30px !important;
+    }
+
+    .offers_promotion_p .offers_detail h2 {
+        font-size: 18px;
+    }
+
+    .offers_promotion_p .offers_detail .pro_tra h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .offers_promotion_p .offers_detail h4 {
+        font-size: 16px;
+        margin: 0;
+        margin: 10px 0;
+    }
+
+    .offers_promotion_p .offers_detail p {
+        font-size: 14px;
+    }
+
+    .offers_promotion_p .offers_detail ul {
+        font-size: 14px;
+    }
+
+    .offers_promotion_p .share {
+        padding: 30px 0;
+        text-transform: capitalize;
+    }
+
+    #booking_my_flights {
+        padding: 20px;
+    }
+
+    #booking_my_flights .sb_menu {
+        margin: 20px 0 !important;
+    }
+
+    #booking_my_flights .sb_menu li {
+        font-size: 14px !important;
+    }
+
+    #booking_my_flights .mg {
+        margin: 0;
+    }
+
+    #booking_my_flights label {
+        font-size: 14px !important;
+        margin-bottom: 10px;
+    }
+
+    #booking_my_flights .tab span {
+        font-size: 14px !important;
+    }
+
+    #booking_my_flights .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    #booking_my_flights .col-md-4 {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    #booking_my_flights .ag .col-md-3 {
+        padding-left: 0px !important;
+    }
+
+    #booking_my_flights .ui-datepicker-trigger {
+        width: 100%;
+        left: 0;
+    }
+
+    #booking_my_flights .ui-datepicker-trigger img {
+        top: 5px;
+        right: 15px;
+    }
+
+    #booking_my_flights h2 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    #booking_my_flights .container {
+        padding: 0 25px 30px;
+    }
+
+    #booking_my_flights .multi_city {
+        top: 78px;
+        padding: 0;
+        height: 560px;
+        overflow-y: auto;
+    }
+
+    #booking_my_flights .multi_city .col-md-4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #booking_my_flights .bt {
+        display: block;
+        margin: 30px auto !important;
+        float: none;
+    }
+
+    #booking_my_flights .form_inline {
+        position: static;
+        padding: 10px 0;
+    }
+
+    #plan {
+        margin: 0 25px;
+    }
+
+    #plan .container {
+        padding: 0;
+    }
+
+    #plan .tab_s p {
+        height: 600px;
+    }
+
+    #plan .menu_tab {
+        margin: 50px 0 20px;
+    }
+
+    #plan .menu_tab li {
+        font-size: 18px;
+    }
+
+    #plan h2 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    #plan .col-xs-5 {
+        width: 100%;
+        padding: 0;
+    }
+
+    #plan .col-xs-6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    #plan .col-xs-7 {
+        width: 100%;
+        padding: 0;
+    }
+
+    #plan .tb_sb {
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    #travel_infor .sh_cut a {
+        width: 33%;
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .gray_bg_tra {
+        background-color: #fff !important;
+    }
+
+    .breadcrumb .container a {
+        font-size: 12px !important;
+        font-size: 16px;
+    }
+
+    .breadcrumb ul {
+        padding: 0;
+    }
+
+    .breadcrumb ul li span {
+        font-size: 12px !important;
+        font-size: 16px;
+    }
+
+    #bookflight_promotion #booking_btt .tab1 .multi_city {
+        top: -10px !important;
+    }
+
+    .box-table-responsive {
+        overflow-x: auto;
+    }
+
+    .gray_bg_tra_a {
+        background-color: transparent !important;
+    }
+
+    .data_sh .bl .pic {
+        height: 165px !important;
+    }
+
+    .offer_booking .tab .ui-datepicker-trigger {
+        top: 5px;
+    }
+
+    .opa {
+        display: none !important;
+    }
+
+    .promote_ofdt {
+        padding: 0 5%;
+    }
+
+    .promote_ofdt h1 {
+        font-size: 30px;
+    }
+
+    .promote_ofdt p {
+        font-size: 18px;
+    }
+
+    .slide_offer_detail .ctrt_pp {
+        bottom: 43px;
+        right: 17px;
+    }
+
+    .slide_offer_detail .ctrt_pp .fa-play {
+        position: absolute;
+        right: 40px;
+    }
+
+    .slide_offer_detail .ctrt_pp .fa-pause {
+        position: absolute;
+        right: 0;
+    }
+
+    .other_offer {
+        margin: 20px 25px 40px;
+    }
+
+    .other_offer #relate_div {
+        margin-bottom: 35px;
+    }
+
+    .other_offer .container .col-md-6 {
+        padding: 0;
+    }
+
+    .other_offer .container .col-md-6 p {
+        padding: 20px;
+    }
+
+    .other_offer .bl .bx_desc {
+        padding: 20px;
+    }
+
+    .other_offer .bl .bx_desc > p {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .other_offer .bl .pic {
+        height: auto;
+    }
+
+    .other_offer h4 {
+        font-size: 16px;
+    }
+
+    .other_offer_link {
+        margin: 20px 25px 40px;
+    }
+
+    .other_offer_link .container {
+        padding: 0;
+    }
+
+    .other_offer_link .container .col-md-6 {
+        padding: 0;
+    }
+
+    .other_offer_link .container .col-md-6 p {
+        padding: 20px;
+    }
+
+    .other_offer_link .container .col-md-6 + .col-md-6 {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    .other_offer_link .container .col-md-6 + .col-md-6 + .col-md-6 {
+        padding-right: 0;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .other_offer_link .container .col-md-6 + .col-md-6 + .col-md-6 + .col-md-6 {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    .other_offer_link .container > .col-md-6 {
+        padding-right: 10px;
+    }
+
+    .special_offers .container {
+        width: 100%;
+        padding: 0;
+        border: 0;
+    }
+
+    .privilege {
+        background-color: #fff !important;
+    }
+
+    .privilege .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .royal_orchid_plus {
+        padding: 10px 0 20px;
+    }
+
+    .royal_orchid_plus .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .royal_orchid_holiday .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .special_block h1 {
+        display: block;
+        margin: 25px 0;
+    }
+
+    .special_block .main_slide .slide_fix .bl_pro h2 {
+        margin: 0 0 40px;
+    }
+
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .offer_top_image .offers_promotion_p .container {
+        padding: 0;
+    }
+
+    #main_offer_div .offers_hr_detail {
+        padding: 30px 0 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #my_booking .container {
+        padding: 0 25px;
+    }
+
+    #my_booking .tab2 .note {
+        padding: 0;
+    }
+
+    .my_booking .step_wk a {
+        font-size: 10px !important;
+    }
+
+    .my_booking .step_wk a span {
+        position: relative;
+        top: -3px;
+    }
+
+    .my_booking .tab1 p {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .my_booking .tab2 p {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .my_booking .tab3 p {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .my_booking .tab4 .bl_right {
+        padding: 0;
+    }
+
+    div.tab4 #refreshPNR {
+        width: 165px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #booking_my_flights #flight_hotel_bl .col-xs-6 {
+        width: 100%;
+    }
+
+    #booking_my_flights #flight_hotel_bl .ui-datepicker-trigger img {
+        right: 30px;
+        position: absolute;
+    }
+
+    #booking_my_flights #flight_hotel_bl .form-row .col-md-12 label {
+        padding: 0 20px;
+    }
+
+    #booking_my_flights #flight_hotel_bl .c-selectFrom > #imgcitybutton_fhFrom {
+        right: 15px !important;
+    }
+
+    #booking_my_flights #flight_hotel_bl .c-selectTo > #imgcitybutton_fhTo {
+        right: 15px !important;
+    }
+
+    #booking_my_flights #flight_hotel_bl .searchFlight .hotelDates label + p {
+        width: 94%;
+    }
+
+    #booking_btt {
+        padding: 20px 10px;
+    }
+
+    #booking_btt .tab_booking {
+        margin: 0 !important;
+        padding-bottom: 22px !important;
+        padding: 0 0 18px;
+        text-align: left;
+    }
+
+    #booking_btt .tab_booking a {
+        width: 30% !important;
+        font-size: 12px !important;
+        padding: 5px;
+        text-align: center;
+        float: left;
+    }
+
+    #booking_btt .tab_booking a .fa {
+        font-size: 20px !important;
+        margin: 0 0 5px !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #booking_btt .tab_booking .FrTabLeft-book.active {
+        margin-left: 15px;
+    }
+
+    #booking_btt .tab_booking .active:before {
+        bottom: -24px;
+    }
+
+    #booking_btt h1 {
+        margin-bottom: 25px;
+    }
+
+    #booking_btt #booking-form [name*="from"] {
+        width: 100% !important;
+    }
+
+    #booking_btt #booking-form [name*="to"] {
+        width: 100% !important;
+    }
+
+    #booking_btt .col-md-4 {
+        padding: 0;
+    }
+
+    #booking_btt .col-md-4 .ch_one_Way .ui-datepicker-trigger {
+        left: 10px;
+    }
+
+    #booking_btt .col-md-4 .col-md-4 {
+        padding: 0 5px 5px;
+    }
+
+    #booking_btt .tab3 {
+        padding: 0;
+    }
+
+    #booking_btt .tab3 .ch_one_Way .ui-datepicker-trigger {
+        left: 10px;
+    }
+
+    #booking_btt .dpt {
+        padding-right: 15px;
+    }
+
+    #booking_btt .tab1 .multi_city {
+        height: auto;
+        top: 61px !important;
+        padding: 0 20px;
+    }
+
+    #booking_btt .tab1 .multi_city .sb_menu {
+        margin: 32px 0 0 0 !important;
+    }
+
+    #booking_btt .tab1 .ui-datepicker-trigger {
+        top: 40px;
+    }
+
+    #booking_btt .tab1 .tab_s2 p {
+        padding: 0;
+    }
+
+    #booking_btt .tab1 .tab_s3 p {
+        padding: 0;
+    }
+
+    #booking_btt > .container {
+        border: 0;
+    }
+
+    #booking_btt .tab6 {
+        padding: 0 !important;
+    }
+
+    #booking_btt .tab6 h3 {
+        font-size: 11px !important;
+        height: 30px !important;
+        padding: 35px 0 15px !important;
+    }
+
+    #booking_btt label {
+        font-size: 12px !important;
+    }
+
+    #booking_btt .lsbt .col-md-4 {
+        width: 100%;
+    }
+
+    #booking_btt .sb_menu {
+        margin: 25px 0 20px !important;
+    }
+
+    #booking_btt .sb_menu a span {
+        font-size: 12px !important;
+    }
+
+    #booking_btt .multi_city .fr .ui-datepicker-trigger {
+        top: 36px !important;
+        right: 15px !important;
+    }
+
+    #booking_btt .multi_city .ui-datepicker-trigger {
+        right: 15px !important;
+        top: 36px !important;
+    }
+
+    #booking_btt .multi_city .data_multi .ui-datepicker-trigger img {
+        top: 0;
+    }
+
+    #booking_btt .sb_menu_mn li {
+        padding: 0;
+    }
+
+    #booking_btt .sb_menu_mn a span {
+        font-size: 12px !important;
+    }
+
+    .my_booking .step_wk a {
+        font-size: 13px;
+        padding: 15px 0;
+        height: 47px;
+        line-height: 1;
+    }
+
+    .my_booking button {
+        width: 165px !important;
+    }
+
+    .offers_promotion_p {
+        min-height: inherit !important;
+    }
+
+    .offers_promotion_p .slide_offer_detail .slide .rsNav {
+        bottom: 2px !important;
+    }
+
+    .offers_promotion_p .bl_op_a {
+        padding: 25px 0;
+    }
+
+    .offers_promotion_p .bl_op_a h2 {
+        font-weight: 700 !important;
+    }
+
+    .offers_promotion_p .bl_op_b {
+        padding: 25px 0;
+    }
+
+    .offers_promotion_p .bl_op_b h2 {
+        font-weight: 700 !important;
+    }
+
+    .offers_promotion_p .special_block {
+        padding: 0 5px;
+    }
+
+    .offers_promotion_p .special_block .main_slide {
+        margin: 40px 0 25px;
+        overflow: hidden;
+        height: inherit;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix .bl_pro .list_lnk a {
+        width: 100% !important;
+        position: static !important;
+        margin: 5px;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix .bl_pro a {
+        border: 0;
+        float: right;
+        width: 120px;
+        position: relative;
+        top: 20px;
+        right: -10px;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix .bl_pro a span {
+        font-family: 'PSLKandaModernNewW2Pro';
+        font-size: 14px;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix .bl_pro a img[alt="READ MORE"] {
+        display: inline-block !important;
+        width: 20px !important;
+        position: relative;
+        top: 5px;
+        margin-left: 5px;
+    }
+
+    .offers_promotion_p .special_block .main_slide .slide_fix .bl_pro .dy {
+        font-size: 16px;
+    }
+
+    .offers_promotion_p .special_block .rsBullets {
+        bottom: inherit;
+        right: 0;
+        top: 145px;
+    }
+
+    .offers_promotion_p .h2 {
+        font-size: 25px;
+        margin: 0px 0 30px;
+    }
+
+    .offers_promotion_p .offers_hr_detail h1 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .offers_promotion_p .promotion_expired_bl span {
+        font-size: 22px !important;
+    }
+
+    .offers_promotion_p .promotion_expired {
+        font-size: 22px !important;
+    }
+
+    .offers_promotion_p .data_sh {
+        padding: 0;
+        margin: 0;
+    }
+
+    .offers_promotion_p .data_sh .bl {
+        width: 100%;
+        padding: 0 5px;
+        margin: 0 0 25px;
+        min-height: 180px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc {
+        padding: 15px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc h2 {
+        font-size: 18px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc .dy {
+        font-size: 18px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc p {
+        font-size: 14px;
+    }
+
+    .offers_promotion_p .data_sh .bl .dc_buttom {
+        position: absolute;
+        bottom: 15px;
+        right: 20px;
+        left: inherit;
+        padding: 0;
+    }
+
+    .offers_promotion_p .data_sh .bl .dc_buttom a span {
+        font-size: 10px;
+        top: 0;
+    }
+
+    .offers_promotion_p .pl_menu li {
+        font-size: 14px;
+    }
+
+    .cover .main .content .bl {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .cover .main .content h1 {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .cover .main .content p {
+        font-size: 16px;
+        padding: 0 5%;
+        color: #fff;
+    }
+
+    #travel_infor h1 {
+        font-size: 28px;
+    }
+
+    #travel_infor h2 {
+        font-size: 20px;
+    }
+
+    #travel_infor h3 {
+        font-size: 24px;
+    }
+
+    .offer_top_image .offers_promotion_p .container {
+        padding: 0 !important;
+    }
+
+    #bookflight_promotion #booking_btt {
+        padding: 0 10px 20px;
+    }
+
+    #bookflight_promotion #booking_btt .sb_menu {
+        margin: 45px 0 20px !important;
+    }
+
+    .booking_header #book-flight-title {
+        font-size: 25px !important;
+        margin: 10px 0 !important;
+        padding-left: 10px;
+        line-height: 1;
+    }
+
+    .breadcrumb .container {
+        padding: 0 15px;
+    }
+
+    .breadcrumb .container a {
+        font-size: 14px !important;
+    }
+
+    .breadcrumb ul {
+        padding: 0;
+    }
+
+    .breadcrumb ul li span {
+        font-size: 14px !important;
+    }
+
+    .booking .tab_booking a span {
+        margin: 0 !important;
+    }
+
+    .booking #book-flight-title {
+        margin: 0;
+    }
+
+    .booking .sb_menu li a {
+        font-size: 12px;
+    }
+
+    .booking .multi_city .data_multi {
+        padding: 0;
+    }
+
+    .gray_bg_tra {
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    .w100 {
+        padding-right: 0 !important;
+    }
+
+    .data_sh .bl .pic {
+        height: 150px !important;
+    }
+
+    .data_sh .plus {
+        position: relative;
+        top: 5px;
+    }
+
+    #main_offer_div .offers_hr_detail {
+        padding: 25px 0 0 !important;
+    }
+
+    .other_offer_link {
+        margin: 20px 25px 30px;
+    }
+
+    .other_offer_link .container .col-md-6 {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .other_offer_link .container .col-md-6 + .col-md-6 {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .other_offer_link .container > .col-md-6 {
+        padding: 0 !important;
+    }
+
+    .other_offer {
+        margin: 20px 25px 30px;
+    }
+
+    .other_offer .bl {
+        width: 100%;
+        height: auto;
+    }
+
+    .other_offer .bl .bx_desc {
+        width: 100%;
+        height: 165px;
+    }
+
+    .other_offer .bl .pic {
+        width: 100%;
+        height: 170px;
+        overflow: hidden;
+    }
+
+    .other_offer .bl .pic img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .other_offer #relate_div {
+        margin-bottom: 35px;
+    }
+
+    #booking_my_flights .lsbt .col-xs-4 {
+        width: 100%;
+    }
+
+    #booking_my_flights .sb_menu {
+        margin: 0 0 20px;
+    }
+
+    #booking_my_flights .sb_menu li {
+        margin: 0px 0 5px;
+    }
+
+    #booking_my_flights .multi_city {
+        top: 137px;
+        height: 765px;
+    }
+
+    #booking_my_flights .container {
+        padding: 0 15px 30px;
+    }
+
+    .special_block h1 {
+        margin: 10px 0 0;
+        line-height: 1;
+        font-size: 24px;
+    }
+
+    .special_block .main_slide .slide_fix .bl_pro h2 {
+        margin: 0 0 40px;
+        font-size: 18px;
+    }
+
+    .special_block .main_slide .slide_fix .bl_pro p {
+        font-size: 14px;
+        margin: 10px 0 10px;
+    }
+
+    .bt_a span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .my_booking .step_wk a img {
+        float: left;
+    }
+
+    .my_booking .step_wk a span {
+        display: block;
+        float: left;
+        width: 88px;
+        top: 8px;
+    }
+
+    #booking_btt .tab_booking {
+        padding-bottom: 10px !important;
+        margin-bottom: 0 !important;
+    }
+
+    #booking_btt .tab_booking a {
+        font-size: 9px !important;
+    }
+
+    #booking_btt .tab_booking a .fa {
+        font-size: 12px !important;
+    }
+
+    #booking_btt .tab_booking .active:before {
+        bottom: -12px;
+    }
+
+    #booking_btt .tab6 {
+        padding: 20px 0 0 !important;
+    }
+
+    #booking_btt .tab6 a {
+        font-size: 10px;
+    }
+
+    #booking_btt .tab span {
+        font-size: 12px;
+    }
+
+    #booking_btt .tab3 {
+        padding: 20px 0 0;
+    }
+
+    .other_offer .bl .pic img {
+        height: 100%;
+    }
+
+    .other_offer .bl .bx_desc > p {
+        font-size: 15px !important;
+    }
+   >    p.other_offer .bl .bx_desc + p {
+        font-size: 13px !important;
+        line-height: 1.1;
+    }
+
+    .offers_promotion_p .special_block .rsBullets {
+        top: 90px;
+    }
+
+    .offers_promotion_p .data_sh .bl {
+        min-height: 160px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc h2 {
+        font-size: 12px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc p {
+        font-size: 10px;
+    }
+
+    .offers_promotion_p .data_sh .bl .desc .dy {
+        font-size: 10px;
+    }
+
+    .special_block .main_slide .slide_fix .bl_pro h2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #booking_btt .tab_booking {
+        padding-bottom: 0 !important;
+    }
+
+    #booking_btt .tab_booking a .fa {
+        font-size: 14px !important;
+        margin-right: 3px;
+        top: 1px;
+    }
+
+    #booking_btt .tab_booking .active:before {
+        bottom: -22px;
+    }
+
+    .offers_promotion_p .bl_op_a .special_block .main_slide .slide_fix .bl_pro a > img {
+        width: 80px;
+    }
+
+    .offers_promotion_p .bl_op_b .special_block .main_slide .slide_fix .bl_pro a > img {
+        width: 80px;
+    }
+
+    .offers_promotion_p .special_block .rsBullets {
+        top: 125px;
+    }
+
+    #plan div.tab2 > p,
+  #plan div.tab1 > p {
+        font-size: 18px;
+        padding: 0.5em 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+
+    .table-responsive > .table > thead > tr > th {
+        white-space: nowrap;
+    }
+
+    .table-responsive > .table > thead > tr > td {
+        white-space: nowrap;
+    }
+
+    .table-responsive > .table > tbody > tr > th {
+        white-space: nowrap;
+    }
+
+    .table-responsive > .table > tbody > tr > td {
+        white-space: nowrap;
+    }
+
+    .table-responsive > .table > tfoot > tr > th {
+        white-space: nowrap;
+    }
+
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+
+    .table-responsive > .table-bordered {
+        border: 0;
+    }
+
+    .table-responsive > .table-bordered > thead > tr > th:first-child {
+        border-left: 0;
+    }
+
+    .table-responsive > .table-bordered > thead > tr > th:last-child {
+        border-right: 0;
+    }
+
+    .table-responsive > .table-bordered > thead > tr > td:first-child {
+        border-left: 0;
+    }
+
+    .table-responsive > .table-bordered > thead > tr > td:last-child {
+        border-right: 0;
+    }
+
+    .table-responsive > .table-bordered > tbody > tr > th:first-child {
+        border-left: 0;
+    }
+
+    .table-responsive > .table-bordered > tbody > tr > th:last-child {
+        border-right: 0;
+    }
+
+    .table-responsive > .table-bordered > tbody > tr > td:first-child {
+        border-left: 0;
+    }
+
+    .table-responsive > .table-bordered > tbody > tr > td:last-child {
+        border-right: 0;
+    }
+
+    .table-responsive > .table-bordered > tbody > tr:last-child > th {
+        border-bottom: 0;
+    }
+
+    .table-responsive > .table-bordered > tbody > tr:last-child > td {
+        border-bottom: 0;
+    }
+
+    .table-responsive > .table-bordered > tfoot > tr > th:first-child {
+        border-left: 0;
+    }
+
+    .table-responsive > .table-bordered > tfoot > tr > th:last-child {
+        border-right: 0;
+    }
+
+    .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+        border-left: 0;
+    }
+
+    .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+        border-right: 0;
+    }
+
+    .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+        border-bottom: 0;
+    }
+
+    .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+        border-bottom: 0;
+    }
+}

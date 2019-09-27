@@ -1,0 +1,12 @@
+$bordercolor:blue;
+$color:darkgray;
+
+
+
+.myborder{
+    border: 1px solid $bordercolor;
+}
+
+.mytext{
+    color: $color;
+}
