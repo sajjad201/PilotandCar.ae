@@ -12,18 +12,16 @@
 }
 </style>
 
-<section class="os-head">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-        <h1 class="text-center" style="padding: 20px;font-family: playfair display">Vehicle Modals</h1>
-        </div>
-      </div>
-    </div>
-  </section>
-  
   <section>
   <div class="container">
+    <div class="row">
+        <div class="col-md-12" style="padding:0px">
+        <h1 style="font-size: 45px; padding:100px 0px 0px; color:navy"><b>CHECK VEHICLE MODELS</b></h1>
+        <div style="font-size: 15px; padding:0px 0px 20px; color:gray; font-weight:300">
+          Our latest fleet is here. Select and Book ride now
+        </div>
+        </div>
+      </div>
     <ul class="nav nav-pills" style="background-color:white">
       <li class="active"><a data-toggle="pill" href="#home" class="active show"><p>All</p></a></li>
       <li><a data-toggle="pill" href="#menu1"><p>SUV</p></a></li>
@@ -55,10 +53,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -85,10 +83,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -115,10 +113,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -145,10 +143,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -175,10 +173,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -205,10 +203,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -235,10 +233,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -271,10 +269,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -305,10 +303,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
@@ -339,10 +337,10 @@
             <div class="col-md-4">
               <div class="fleet-data">
                 <ul>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> Driver</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Seats</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 4 Doors</li>
-                  <li><span><img src="pilotpublic/images/driver.png" style="width: 17px; margin-top: 3px;"></span> 2 Suitcase</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> Driver</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Seats</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 4 Doors</li>
+                  <li><span><img src="pilotpublic/images/driver.png" style="width: 31px;"></span> 2 Suitcase</li>
                 </ul>
                 <a href="" class="res-now">Reserve Now</a>
               </div>
