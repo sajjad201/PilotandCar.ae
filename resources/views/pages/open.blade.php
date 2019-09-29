@@ -11,7 +11,7 @@
         <div class="row">
             <div class="container">
                 @extends('name')
-                This is master branch-ONE
+                This is master branch-TWO.
             </div>
         </div>
     </div>
