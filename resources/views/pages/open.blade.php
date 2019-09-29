@@ -11,11 +11,7 @@
         <div class="row">
             <div class="container">
                 @extends('name')
-<<<<<<< HEAD
-                This is master branch-FOUR.
-=======
-                This is master branch-THREE.
->>>>>>> d95efee3b780cc64dd086546731fc0d436f2c0fc
+                This is SECOND branch: ONE
             </div>
         </div>
     </div>
