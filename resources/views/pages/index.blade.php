@@ -49,7 +49,7 @@
                                         </div>
                                         <div style="font-family: 'Gentona Book'; font-size: 50px; font-weight:600; color:#ffffff;">
                                             RELAXED JOURNEY EVER Zulqarnain
-                                            Sajjad Ali
+                                            Sajjad Ali Sotfware Engineer
                                         </div>
 
 
