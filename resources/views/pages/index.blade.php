@@ -32,6 +32,9 @@
     color: #FFFFFF;
 }
 </style>
+
+
+
 <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -45,8 +48,11 @@
                                             THE ROYAL ESSENCE OF JOURNEY
                                         </div>
                                         <div style="font-family: 'Gentona Book'; font-size: 50px; font-weight:600; color:#ffffff;">
-                                            RELAXED JOURNEY EVER
+                                            RELAXED JOURNEY EVER Zulqarnain
                                         </div>
+
+
+
                                         <button class="btn btn-rent-car-now" style="border-radius: 0px;">Rent Car Now</button>
                                     </div>
                                 </div>
