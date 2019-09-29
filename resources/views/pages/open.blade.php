@@ -11,8 +11,10 @@
         <div class="row">
             <div class="container">
                 @extends('name')
-                This is SECOND BRANCH-TWO.
-                This is SECOND BRANCH-THREE.
+                This is master branch-FOUR.
+                This is master branch-THREE.
+                This is SECOND BRANCH-ONE.
+                {This is changed made in second only}
             </div>
         </div>
     </div>
