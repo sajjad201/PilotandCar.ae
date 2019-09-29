@@ -10,7 +10,7 @@
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="https://www.swiss.com/CMScontent/web/SiteCollectionImages/06-Destinations-World/Bangkok/BKK-floating-market-id5.jpg" class="img-fluid">
+              <img src="pilotpublic/images/chauf/P1.jpg" class="img-fluid">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -28,7 +28,7 @@
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="https://www.swiss.com/CMScontent/web/SiteCollectionImages/06-Destinations-World/Los-Angeles/los-angeles-06-id5.jpg" class="img-fluid">
+              <img src="pilotpublic/images/chauf/P2.jpg" class="img-fluid">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -46,7 +46,7 @@
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="https://www.swiss.com/CMSContent/web/SiteCollectionImages/05-Destinations-Europe/Moscow/Moscow-02-id5.jpg" class="img-fluid">
+              <img src="pilotpublic/images/chauf/P5.jpg" class="img-fluid">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -64,7 +64,7 @@
                   <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="https://www.swiss.com/CMScontent/web/SiteCollectionImages/02-Inflight/inflight-couple-id5.jpg" class="img-fluid">
+              <img src="pilotpublic/images/chauf/P6.jpg" class="img-fluid">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -82,7 +82,7 @@
                   <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="https://www.swiss.com/CMSContent/web/SiteCollectionImages/05-Destinations-Europe/Barcelona/barcelona-01-id5.jpg" class="img-fluid">
+              <img src="pilotpublic/images/chauf/P4.jpg" class="img-fluid">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -100,7 +100,7 @@
           <div class="col-md-4 mb-5">
             <div class="product">
               <div class="pr-img">
-              <img src="https://www.swiss.com/CMSContent/web/SiteCollectionImages/05-Destinations-Europe/Moscow/Moscow-02-id5.jpg" class="img-fluid">
+              <img src="pilotpublic/images/chauf/P3.jpg" class="img-fluid">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>

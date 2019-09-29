@@ -2468,6 +2468,13 @@ top: 0;
 
 /* Our Services */
 
+.img-b{display: block;
+max-width: 100%;
+margin: 0 auto;
+width: 100%;}
+
+.w60{width: 60% !important;}
+
 .os-body{background-color: #d8d8d8}
 
 .os-bg{background-image: url(images/os-bg.jpg);

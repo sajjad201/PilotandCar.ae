@@ -2,7 +2,7 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-    SERVICE TWO
+    Bus Rental
 @endsection
 
 @section('content')
@@ -10,8 +10,8 @@
 
 <section>
   <div style="position: relative; color:white">
-    <img src="pilotpublic/images/18.jpg">
-    <div style="position: absolute; top:35%; left:35%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">BUS SERVICES</div>
+    <img src="pilotpublic/images/bus/B1.jpg" class="img-b">
+    <div style="position: absolute; top:75%; left:35%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">BUS SERVICES</div>
   </div>
 </section>
 <section class="page-nav-links">
@@ -51,8 +51,8 @@
       <div class="container">
         <div class="special_block">
           <div class="main_slide">
-            <div class="slide_pro slide"><div>
-              <img alt="" src="https://www.thaiairways.com/static/common/images/travel-extras/HOTELS.jpg" class="sh_pic img-responsive"></div>
+            <div class="slide_pro slide w60"><div>
+              <img alt="" src="pilotpublic/images/bus/G2.jpg" class="sh_pic img-responsive img-b"></div>
             </div>
             <div class="slide_fix"><div>
             <div class="bl_pro">
@@ -73,8 +73,8 @@
     <div class="container">
       <div class="special_block">
         <div class="main_slide">
-          <div class="slide_pro slide"><div>
-            <img alt="" src="https://www.thaiairways.com/static/common/imgscontent/TravelExtras/carrental.jpg" class="sh_pic img-responsive"></div>
+          <div class="slide_pro slide w60"><div>
+            <img alt="" src="pilotpublic/images/bus/G3.jpg" class="sh_pic img-responsive img-b"></div>
           </div>
           <div class="slide_fix"><div>
           <div class="bl_pro">
@@ -96,8 +96,8 @@
     <div class="container">
       <div class="special_block">
         <div class="main_slide">
-          <div class="slide_pro slide"><div>
-            <img alt="" src="https://www.thaiairways.com/static/common/images/travel-extras/AIRPORTTRANSFER.jpg" class="sh_pic img-responsive"></div>
+          <div class="slide_pro slide w60"><div>
+            <img alt="" src="pilotpublic/images/bus/G4.jpg" class="sh_pic img-responsive img-b"></div>
           </div>
         <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">
@@ -139,8 +139,8 @@
     <div class="container">
       <div class="special_block">
         <div class="main_slide">
-          <div class="slide_pro slide"><div>
-            <img alt="" src="https://www.thaiairways.com/static/common/images/travel-extras/PRE-ORDERMEALS.jpg" class="sh_pic img-responsive"></div>
+          <div class="slide_pro slide w60"><div>
+            <img alt="" src="pilotpublic/images/bus/G5.jpg" class="sh_pic img-responsive img-b"></div>
           </div>
           <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">

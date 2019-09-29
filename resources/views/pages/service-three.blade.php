@@ -9,7 +9,7 @@
 
 <section>
   <div style="position:relative">
-    <img src="pilotpublic/images/19.jpg">
+    <img src="pilotpublic/images/chauf/B2.jpg" class="img-b">
     <div style="position:absolute; left:5%; top:25%">
       <h1 style="text-shadow: 1px 1px 7px black; color:white; font-size:50px">
         <strong>THIS IS THE TEXT</strong>
@@ -42,7 +42,7 @@
       <div class="col-md-6">
         <div class="os4-wrap">
           <div class="os4-img-cnt">
-            <img src="pilotpublic/images/9.jpg" style="height:300px">
+            <img src="pilotpublic/images/chauf/G9.jpg" style="height:300px" class="img-b">
           </div>
           <div class="os4-txt-cnt">
             <h6 class="text-center">Italy</h6>
@@ -54,7 +54,7 @@
       <div class="col-md-6">
         <div class="os4-wrap">
           <div class="os4-img-cnt">
-            <img src="pilotpublic/images/8.jpg" style="height:300px">
+            <img src="pilotpublic/images/chauf/G3.jpg" style="height:300px" class="img-b">
           </div>
           <div class="os4-txt-cnt">
             <h6 class="text-center">Italy</h6>
