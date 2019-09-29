@@ -11,7 +11,7 @@
         <div class="row">
             <div class="container">
                 @extends('name')
-                New Text Added ONE TWO THREE FOUR FIVE SIX
+                This is master branch-ONE
             </div>
         </div>
     </div>
