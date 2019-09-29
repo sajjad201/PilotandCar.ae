@@ -2,17 +2,17 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-    SERVICE TEN
+    Airport Transfer
 @endsection
 
 @section('content')
 
 <section>
   <div style="position:relative">
-    <img src="pilotpublic/images/19.jpg">
-    <div style="position:absolute; left:5%; top:25%">
+    <img src="pilotpublic/images/airport/B1.jpg" class="img-b">
+    <div style="position:absolute; left:30%; top:30%">
       <h1 style="text-shadow: 1px 1px 7px black; color:white; font-size:50px" class="three animate">
-        <strong><span>T</span><span>H</span><span>I</span><span>S</span> <span>I</span><span>S</span> <span>T</span><span>H</span><span>E</span> <span>T</span><span>E</span><span>X</span><span>T</span></strong>
+        <strong><span>A</span><span>I</span><span>R</span> <span>P</span><span>O</span><span>R</span><span>T</span> <span>T</span><span>R</span><span>A</span><span>N</span><span>S</span><span>F</span><span>E</span><span>R</span></strong>
       </h1>
     <div>
   </div>
@@ -45,13 +45,13 @@
         </div>
         <div class="row">
           <div class="col-lg-8 st-ten-cards-one" style="padding:0px 5px;">
-            <img src="pilotpublic/images/7.jpg" style="height:100%; width:100%;">
+            <img src="pilotpublic/images/airport/G1.jpg" style="height:100%; width:100%;object-fit: cover;">
             <div class="st-ten-cards-one-text1">
               Singapur Airline Holidays<br> Enjoy Great Flighs
             </div>
           </div>
           <div class="col-md-4 st-ten-cards-two" style="padding:0px 5px;">
-            <img src="pilotpublic/images/8.jpg" style="height:70%; width:100%;">
+            <img src="pilotpublic/images/airport/G2.jpg" style="height:70%; width:100%;object-fit: cover;">
             <div class="st-ten-cards-one-text2">
               Singapur Airline Holidays<br> <span style="font-size:14px;"> Great Flighs</span>
             </div>
@@ -60,13 +60,13 @@
         
         <div class="row" style="margin-top:10px">
           <div class="col-md-4 st-ten-cards-two" style="padding:0px 5px;">
-            <img src="pilotpublic/images/9.jpg" style="height:70%; width:100%;">
+            <img src="pilotpublic/images/airport/G3.jpg" style="height:70%; width:100%;object-fit: cover;">
             <div class="st-ten-cards-one-text2">
               Singapur Airline Holidays<br> <span style="font-size:14px;"> Great Flighs</span>
             </div>
           </div>
           <div class="col-lg-8 st-ten-cards-one" style="padding:0px 5px;">
-            <img src="pilotpublic/images/10.jpg" style="height:100%; width:100%;">
+            <img src="pilotpublic/images/airport/G7.jpg" style="height:100%; width:100%;object-fit: cover;">
             <div class="st-ten-cards-one-text1">
               Singapur Airline Holidays<br> Enjoy Great Flighs
             </div>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/12.jpg" class="img-fluid">
+                <img src="pilotpublic/images/airport/P1.jpg" class="img-fluid obj-cover">
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/os81.jpg" class="img-fluid">
+                <img src="pilotpublic/images/airport/P2.jpg" class="img-fluid obj-cover">
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/9.jpg" class="img-fluid">
+                <img src="pilotpublic/images/airport/P3.jpg" class="img-fluid obj-cover">
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/10.jpg" class="img-fluid">
+                <img src="pilotpublic/images/airport/P4.jpg" class="img-fluid  obj-cover">
               </div>
             </div>
           </div>

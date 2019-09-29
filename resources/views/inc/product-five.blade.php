@@ -55,9 +55,9 @@
             <div class="row">
                 <div class="col-md-12 flex-container">
 
-                    @for ($i = 0; $i < 10; $i++)
+                   
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/19.jpg" style="width:100%; height:125px">
+                       <img src="pilotpublic/images/airport/P1.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -70,7 +70,142 @@
                             <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                         </div>
                     </div>
-                    @endfor
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P2.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P3.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P4.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P5.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P6.png" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P7.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P8.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P9.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+
+                    <div class="pr-5-flex-div">
+                       <img src="pilotpublic/images/airport/P5.jpg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">Shanghai<br>
+                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                        <div class="pr-5-flex-div-links">
+                            BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </div>
+                    </div>
+                   
                     
                 </div>
             </div>
