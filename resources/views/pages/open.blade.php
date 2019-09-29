@@ -11,7 +11,7 @@
         <div class="row">
             <div class="container">
                 @extends('name')
-                This is SECOND branch: ONE
+                This is SECOND BRANCH-TWO.
             </div>
         </div>
     </div>
