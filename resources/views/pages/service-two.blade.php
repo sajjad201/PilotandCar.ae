@@ -11,7 +11,7 @@
 <section>
   <div style="position: relative; color:white">
     <img src="pilotpublic/images/18.jpg">
-    <div style="position: absolute; top:35%; left:35%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">PILOT AND CAR</div>
+    <div style="position: absolute; top:35%; left:35%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">BUS SERVICES</div>
   </div>
 </section>
 <section class="page-nav-links">
@@ -25,7 +25,7 @@
           <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
         <div class="col-md-1 page-nav-links-col-internal-current">
-          <a href="{{url('#')}}">Service Two <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+          <a href="{{url('#')}}">Bus Services <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12" style="padding:0px; font-size:55px; color:navy">
-        <div class="col-md-12" style="padding:0px"><strong>CHECK AWESOME SERVICES</strong></div>
+        <div class="col-md-12" style="padding:0px"><strong>CHECKOUT OUR BUS SERVICE</strong></div>
       </div>
     </div>
   </div>
@@ -56,8 +56,10 @@
             </div>
             <div class="slide_fix"><div>
             <div class="bl_pro">
-              <h2 tabindex="0" class="l">Hotels</h2>
-              <p tabindex="0" class="desc">Find the best accommodation for your pleasant journey. THAI offer you a wide range of quality hotels, resorts, homes, and vacation rentals worldwide with special rates. Book your hotel with THAI and enjoy your stay.</p>
+              <h2 tabindex="0" class="l">Bus Rental Dubai</h2>
+              <p tabindex="0" class="desc">
+                  Bus rental Dubai provides you the best luxurious buses and minibuses. Rent a bus in Dubai with the driver on cheap rates is a reasonable package.
+              </p>
             </div>
           </div>
         </div>
@@ -76,8 +78,11 @@
           </div>
           <div class="slide_fix"><div>
           <div class="bl_pro">
-            <h2 tabindex="0" class="l">Car Rental</h2>
-            <p tabindex="0" class="desc">Search, Compare &amp; Save - Compare 900 companies at over 53,000 locations. Best price guaranteed.</p>
+            <h2 tabindex="0" class="l">Luxurious Comfort </h2>
+            <p tabindex="0" class="desc">
+                Bus rental companies in Dubai provides different buses like 50 seater luxury buses,
+                26 seater and 33 seater luxury buses on reasonable rent. 
+            </p>
           </div>
         </div>
       </div>
@@ -96,8 +101,10 @@
           </div>
         <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">
-            <h2 tabindex="0" class="l">Airport Transfer</h2>
-            <p tabindex="0" class="desc">Offering you airport to city and resort transfers in over 12,000 destinations across 130 countries around the world.</p>
+            <h2 tabindex="0" class="l">Affordability </h2>
+            <p tabindex="0" class="desc">Bus rental Dubai tries to meet your budget and desires. 
+                Bus rental services never ignore the quality of services either it’s about bus or driver. 
+            </p>
           </div>
         </div>
       </div>
@@ -116,8 +123,9 @@
           </div>
           <div class="slide_fix reverse"><div>
           <div class="bl_pro">
-            <h2 tabindex="0" class="l">Extra Baggage Allowance</h2>
-            <p tabindex="0" class="desc">Passengers on THAI flights can pre-purchase extra baggage allowance online no less than 24 hours prior to their departures.</p>
+            <h2 tabindex="0" class="l">Rental services</h2>
+            <p tabindex="0" class="desc">If you are traveling in Dubai and want to have a luxury trip on cheap 
+              rates you can save money on transportation by having bus services in Dubai. .</p>
           </div>
         </div>
       </div>
@@ -136,8 +144,9 @@
           </div>
           <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">
-            <h2 tabindex="0" class="l">Pre-order Meals</h2>
-            <p tabindex="0" class="desc">As an additional privilege, Royal First Class and Royal Silk Class passengers can pre-select their meals from our gourmet  menu of finely created meals, including certified halal or vegetarian dishes or other special dietary needs</p>
+            <h2 tabindex="0" class="l">Conferences</h2>
+            <p tabindex="0" class="desc">Bus rental companies in Dubai provides different buses like 50 seater 
+              luxury buses, 26 seater and 33 seater luxury buses on reasonable rent. </p>
           </div>
         </div>
       </div>
@@ -205,7 +214,7 @@
 <section class="t1">
   <div class="container-fluid">
       <div class="col-md-12 t1-head-1">
-          <strong> PRODUCTS</strong><br>
+          <strong> BUS RENTAL SERVICES</strong><br>
           <span class="t1-head-2">
               what we offer
           </span>
@@ -213,13 +222,15 @@
       <div class="col-md-12 t1-sec1">
           <div class="col-md-6 t1-sec1-1">
               <div class="t1-sec1-1-text1">
-                  Commercial transport
+                  Bus rental Dubai 
               </div>
               <div class="t1-sec1-1-text2">
-                  Leasing of commercial vehicles for a period of 3 up to 
-                  5 years with 10% prepayment and with the possibility 
-                  of making a seasonal schedule for installments
-                  Let’s get started →                        
+                  If you are traveling with the family or in a gathering and you need 
+                  to hire a bus then bus rental Dubai provides you the best luxurious 
+                  buses and minibuses. Rent a bus in Dubai with the driver on cheap rates 
+                  is a reasonable package. In Dubai, there are many transportation organizations 
+                  that provide luxury bus rental Dubai, minibuses, and couches with chauffeur 
+                  services on daily, weekly and monthly bases are also available.                       
               </div>
           </div>
           <div class="col-md-6 t1-sec1-2">
@@ -233,13 +244,18 @@
               </div>
               <div class="col-md-6 t1-sec1-1">
                   <div class="t1-sec1-1-text1">
-                      Commercial transport
+                      Luxurious comfort 
                   </div>
                   <div class="t1-sec1-1-text2">
-                      Leasing of commercial vehicles for a period of 3 up to 
-                      5 years with 10% prepayment and with the possibility 
-                      of making a seasonal schedule for installments
-                      Let’s get started →                        
+                      You can easily accommodate more than 40 people in 50 seater 
+                      bus which is available at cheap rates. Rental services are available 
+                      24 by 7 minibus rental Dubai ensure you a comfortable and affordable trip. 
+                      Well trained and experienced drivers make your visit more comfortable with 
+                      their services. Bus rental companies in Dubai provides different buses like 
+                      50 seater luxury buses, 26 seater and 33 seater luxury buses on reasonable rent.
+                      You can get comfortable transport services from bus rental Dubai with which you can 
+                      have a city tour, airport transfer, hotel transfer, and transport for exhibitions, 
+                      delegations, and events.                        
                   </div>
               </div>
           </div>
@@ -247,12 +263,16 @@
       <div class="col-md-12 t1-sec1">
           <div class="col-md-6 t1-sec1-1">
               <div class="t1-sec1-1-text1">
-                  Road-building equipment
+                  Facilities provides by Bus rental services
               </div>
               <div class="t1-sec1-1-text2">
-                  Leasing of road construction equipment for a period of up to 
-                  10 years with 10% prepayment, with a possible subsequent 
-                  buy-back by the manufacturer and renovation of the operated fleet.                   
+                  If you are planning to hire a minibus you can hire a minibus with the facility of comfortable seats, 
+                  DVD, microphone, fridge, and seatbelts. There are buses called shuttle buses which can be hired for 
+                  transportation of employees and many other purposes. Minibuses are available with different number of 
+                  seats 9 seater minibuses are also available in bus rental Dubai so if you are having the gathering of 
+                  more than 5 people and can’t adjust in a car you can have nine-seater minibus hire on cheap rates. 
+                  50 seater buses are more in demand because there you can accommodate more people and furthermore 50 
+                  seater bus rental Dubai is economical to hire.                    
               </div>
           </div>
           <div class="col-md-6 t1-sec1-2">
@@ -266,13 +286,23 @@
               </div>
               <div class="col-md-6 t1-sec1-1">
                   <div class="t1-sec1-1-text1">
-                      Commercial transport
+                      Affordability 
                   </div>
                   <div class="t1-sec1-1-text2">
-                      Leasing of commercial vehicles for a period of 3 up to 
-                      5 years with 10% prepayment and with the possibility 
-                      of making a seasonal schedule for installments
-                      Let’s get started →                        
+                      Bus rental Dubai tries to meet your budget and desires. 
+                      If you are traveling in Dubai and want to have a luxury 
+                      trip on cheap rates you can save money on transportation by 
+                      having bus services in Dubai. Bus rental services never ignore 
+                      the quality of services either it’s about bus or driver.  <br>
+                      <h4>You can hire a bus for transport to the following places:</h4>
+                      <li>Airport transport</li>
+                      <li>Conferences</li>
+                      <li>Business meetings</li>
+                      <li>Hotel transport </li>
+                      <li>Staff transportation </li>
+                      <li>Exhibitions </li>
+                      <li>Sports events </li>
+                      <li>Shuttle services</li>                    
                   </div>
               </div>
           </div>

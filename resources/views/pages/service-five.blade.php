@@ -100,8 +100,9 @@
           <div class="os10-cnt">
             <div class="col-md-6 pr-0">
               <div class="os-10-txt">
-                <h3 style="margin-top: 0;">3 of world's most popular structures</h3>
-                <p class="os10-p">Fot that perfect holiday, take your partner on a trip to 3 of these great monuments of love around the world.</p>
+                <h3 style="margin-top: 0;">Make your trip safe</h3>
+                <p class="os10-p">Dubai is a center of tourism so people visit Dubai in gatherings of friends and family. 
+                  Now when you want to move around in Dubai you need to rent a car, bus or van. </p>
               </div>
             </div>
             <div class="col-md-6 pl-0 pr-0">
@@ -117,8 +118,8 @@
           <div class="os10-cnt">
             <div class="col-md-6 pr-0">
               <div class="os-10-txt">
-                <h3 style="margin-top: 0;">3 of world's most popular structures</h3>
-                <p class="os10-p">Fot that perfect holiday, take your partner on a trip to 3 of these great monuments of love around the world.</p>
+                <h3 style="margin-top: 0;">14 seater van for rent </h3>
+                <p class="os10-p">If you are in Dubai for a business tour or for a family trip and you have a huge gathering </p>
               </div>
             </div>
             <div class="col-md-6 pl-0 pr-0">
@@ -134,8 +135,10 @@
           <div class="os10-cnt">
             <div class="col-md-6 pr-0">
               <div class="os-10-txt">
-                <h3 style="margin-top: 0;">3 of world's most popular structures</h3>
-                <p class="os10-p">Fot that perfect holiday, take your partner on a trip to 3 of these great monuments of love around the world.</p>
+                <h3 style="margin-top: 0;">Minivan rental Dubai </h3>
+                <p class="os10-p">Now when you want to move around in Dubai you need to rent a car, bus or van.
+                    By using van rental Dubai you can have pick and drop facility from your doorstep. 
+                </p>
               </div>
             </div>
             <div class="col-md-6 pl-0 pr-0">
@@ -151,8 +154,10 @@
           <div class="os10-cnt">
             <div class="col-md-6 pr-0">
               <div class="os-10-txt">
-                <h3 style="margin-top: 0;">3 of world's most popular structures</h3>
-                <p class="os10-p">Fot that perfect holiday, take your partner on a trip to 3 of these great monuments of love around the world.</p>
+                <h3 style="margin-top: 0;">Best luxury for you </h3>
+                <p class="os10-p">
+                    You can hire a minivan so the minivan rental Dubai will be more economical and you can also spare yourself from tollgate charges.
+                </p>
               </div>
             </div>
             <div class="col-md-6 pl-0 pr-0">
@@ -230,23 +235,20 @@
                 <div class="col-md-12 t3-div-1-text">
                     <div class="t3-div-1-text-head">
                         <div style="font-size:10px; letter-spacing:2px; font-weight:800">
-                            EMIRATES DESTINATIONS
+                            PILOT AND CAR
                         </div>
-                        Flights to Oman
+                        Make your trip safe
                         <div style="border:2px solid blue; width:5%; margin-top:10px"></div>
                         <br>
                     </div>
                     <div class="t3-div-1-text-body">
-                        Oman’s stunning deserts, coasts and mountains are finally getting 
-                        the attention they deserve. Visit to witness the opening of luxury 
-                        hotels and restaurants, and a country trekking toward modernity at full speed.<br> <br> 
-
-                        Flights to Oman touch down in Muscat, where you might be distracted from 
-                        the beautiful coastline by the plethora of swanky hotels, restaurants and 
-                        shopping malls. The city is crisscrossed by highways and dotted with office blocks.
-                        Visitors will likely want to ensconce themselves in the Arabian Nights mystique of
-                        the old quarter, where traditional Arab architecture dominates and old Portuguese
-                        forts can be found along the seafront. 
+                        As their trained drivers are well experienced and well known of roads so you can 
+                        enjoy your ride without facing any problem of traffic because you will be in safe hands. 
+                        If you and your friends are night crawlers then vans Dubai are the best luxury for you to
+                         ride in. vans can accommodate more people vans are available with a different number of
+                          seats 14 seater is highly demanded in Dubai. This 14 seater van for rent in Dubai services 
+                          are the best option for the people who are interested in visiting beaches, parties, school 
+                          and college trips because such gatherings need more space. 
                     </div>
                 </div>
             </div>
@@ -289,13 +291,19 @@
                 </div>
                 <div class="col-md-11 t3-div-1-text">
                     <div class="t3-div-1-text-head">
-                        Essential Information for flights to Oman
+                        Different van rental companies
                     </div>
                     <div class="t3-div-1-text-body">
-                        The baggage allowance for your flight will depend on your 
-                        class of travel: 30kgkilograms in Economy Class, 40kgkilograms 
-                        in Business Class and 50kgkilograms in First Class. For tickets 
-                        issued after 15 November 2014, there’s also a maximum size for checked baggage. 
+                        There are many van rental companies running very good sites and show large traffic 
+                        information but when it comes to hiring a van or minivan then all websites instantly
+                         become out of traffic. So before choosing a rental company make sure that they do have 
+                         transport to provide. Van rental Dubai companies also provide you 7 seater, 25 seater and 
+                         12 seater van rental Dubai. When you have a huge family to accommodate your need to hire 25 
+                         seater van for a picnic or family trip in Dubai. 
+                          Maintain in mind whilst renting a van you have to determine simply how large an automobile you may want and how massive
+                          your load could be. Vehicles are available many distinct sizes and even as a bigger sized van can be right for
+                            a business' desires; your satisfaction necessities won't call for this kind of massive car. 
+
                     </div>
                 </div>
             </div>
@@ -305,22 +313,37 @@
                 </div>
                 <div class="col-md-11 t3-div-1-text">
                     <div class="t3-div-1-text-head">
-                        Before you travel to Oman
+                        Why pay extra for a van that is too large for your use, or possibly discover the apartment is just too small in your necessities?<br>
                     </div>
                     <div class="t3-div-1-text-body">
-                        The baggage allowance for your flight will depend on your 
-                        class of travel: 30kgkilograms in Economy Class, 40kgkilograms 
-                        in Business Class and 50kgkilograms in First Class. For tickets 
-                        issued after 15 November 2014, there’s also a maximum size for checked baggage. <br><br>
-                        Complimentary Chauffeur-drive is available in over 70 cities for our First 
-                        Class and Business Class customers. We’ll take you from your home, office 
-                        or hotel to the airport and on to your next destination when you arrive.
+                        You definitely must be careful and look into how they could get away with charging such low 
+                        rates.<br> Many of the belongings you need to keep in mind are how lots you may be hauling and what 
+                        a load of<br> these gadgets is probably.
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<section class="section-extra-text">
+    <div class="container-fluid extra-txt">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-lg-12 extra-txt-two" style="padding:40px 25px">
+              <h1 style="color:#333333"><b>Analysis of your requirement</b></h1>
+              When you want to hire a van, you need to do more than name a van apartment agency and 
+              tell them to get you one. There are a wide variety of vehicles which are available. It is a 
+              great idea to know what you are searching out ahead of time. Matters will proceed tons extra 
+              easily in case you plan the details out beforehand. Your van condominium will come to be costing
+               less this manner as well. In case you permit the business enterprise to determine for you, it's 
+               in all likelihood that you may be given a larger van than you need. It’s an excessive amount of for
+                what you certainly wished. If you are tired of driving you can also have services of van rental Dubai
+                 with driver that will provide you a safe and comfortable trip.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 {{--End-text-three--}}
 
 <br><br><br><br><br>

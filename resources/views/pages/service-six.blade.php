@@ -46,15 +46,53 @@
       <h1 class="os6-h1" style="font-size:36px; font-weight:700">Royal First Class</h1>
       <img src="pilotpublic/images/os-2.jpg" class="img-fluid" style="height:450px; width:100%"><br><br><br>
       <h1 class="os6-h1" style="font-size:36px; font-weight:700">The Experience</h1>
-      <p class="os6-p" style="font-family: calibri;">Impeccability is our way to fulfill all of your needs on your journey, within our elegant surroundings integrated with Thai culture and heritage to offer the finest first class experience to you.</p>
-      <p class="os6-p" style="font-family: calibri;">In our spacious first class cabin, savour fine champagne and silken caviar as it is served to greet you on board, whilst you feel completely at ease on a fully horizontal bed in the tranquility of your semi-private suite.</p>
-      <p class="os6-p" style="font-family: calibri;">Relax and reawaken your senses before the flight with our “Touch of Silk”, indulgent full body oil massage or experience the traditional Thai style massage with our Royal Thai massage at the Royal First Lounge of Bangkok’s Suvarmabhumi Airport.</p>
+      <p class="os6-p" style="font-family: calibri;">
+          Travelling can fuel your wanderlust but at the same time, it demands strong nerves to deal 
+          with unavoidable hassles, especially, when you have to navigate with the complexities of a 
+          foreign transportation system.  <br><br>
+          This situation can get worse at the Dubai International Airport, keeping in mind the fact that, 
+          it is one of the world’s biggest and busiest airports, by the number of international passenger 
+          traffic handled each day. The airport is located at Al Garhoud district, almost 2.5 miles at the 
+          outskirts from the main city which makes it hard for a foreigner to navigate their way from the 
+          airport to their final destination. 
+          
+      </p>
       <br><br><br>
-      <h1 class="os6-h1" style="font-size:36px; font-weight:700">Royal First Class Seats</h1>
-      <p class="os6-p" style="font-family: calibri;">Our cabins are meticulously designed using traditional Thai motifs with a contemporary interior. A diverse range of elegant cabins and seats are available on our various routes and aircraft for your mesmorising journey. The finest of THAI service, while in absolute comfort, and an impeccable service. Innovative, gourmet, culinary delights along with luxurious amenities, in-flight lounge areas and even changing rooms to allow you to freshen up and slip into something more comfortable.</p>
-      <p class="os6-p" style="font-family: calibri;">Fly in First class privacy on our Airbus A380s and the newly remodelled Boeing 747s. Both of which provide specious 8 feet long semi-private suites. Our Boeing 747s are equipped with seats with a width of 23 inches and the Airbus A380s with a seat an expansive width of 27 inches.</p>
-      <p class="os6-p" style="font-family: calibri;">Choose from approximately 130 must-see movies, 300 TV programmes and enjoy around 500 music CDs. Also have a little fun with the variety of games and special features on our In-flight entertainment systems on an interactive 23 inch flat screen monitor.</p>
-      <p class="os6-p" style="font-family: calibri;">Additionally, Boeing 747s and Airbus A340s offer luxury pod designs equipped with 180-degree fully flat beds at almost 7 feet of private space between each Royal First seat. Each seat has a generous minimum of 21 inches in width. All of our flat screens offer the same range of on demand audio and video platforms.</p>
+      <h1 class="os6-h1" style="font-size:36px; font-weight:700">Why Choose Pilot and Cars? </h1>
+      <p class="os6-p" style="font-family: calibri;">
+          Everyone traveling abroad has faced the unnecessary pain 
+          of long waits, searching for good transports and negotiating on fares from the airport till reaching their destinations. 
+          Whether you have become a pro at handling airport hassles or not you would gladly wish to avoid all 
+          these troubles and reach your destination smoothly. <br><br>
+          Pilot and Cars (site name) will arrange your Dubai airport transport and save you time once you land.  
+          You don’t need to stand at taxi stands or in long queues to find your transport.
+           Instead our driver and staff member will be present at the airport to pick you up ahead of your arrival 
+           time and drop you at your hotel door without any fuss. 
+          <div class="os6-p" style="font-family: calibri; font-weight:600; font-size:30px">OUR DUBAI AIRPORT TRANSFER SERVICES INCLUDE</div>
+          <div class="os6-p" style="font-family: calibri; font-weight:600">- ONE HOUR WAIT</div>
+          <p class="os6-p" style="font-family: calibri;">
+            Our Dubai Airport Transfer services include a one-hour wait stance because we understand all the 
+            pros and cons of traveling very well. 
+            Your flight can get delayed without prior notice or sometimes the baggage may arrive late. To adjust 
+            well with these mishaps our driver will be waiting for you up to one hour after your arrival time. 
+            You can contact our help desk if your delay exceeds over this waiting time and we will plan out your 
+            transfer from Dubai airport to hotel alternatively. 
+          </p>
+          <div class="os6-p" style="font-family: calibri; font-weight:600">- PAGING OF PASSENGER</div>
+           
+          <p class="os6-p" style="font-family: calibri;">
+            Looking for your designated Taxi from Dubai airport can become very irritating. 
+            Our responsible staff member will be present at the airport holding a paging board at hand with your name on it to avoid unnecessary confusion. 
+            Our staff members have good knowledge about the localities, as a result, we can assure you a safe and comfortable airport transfer Dubai to hotel. 
+          </p>  
+          <div class="os6-p" style="font-family: calibri; font-weight:600">- CALL OUR DESKTOP HELP 24/7</div> 
+          <p class="os6-p" style="font-family: calibri;">
+            Our driver will be waiting for you at Dubai airport pick-up even before your arrival. 
+            In case you cannot find the driver at Dubai airport transfers terminals, you can call our 
+            help desk anytime. We will get your reference number and contact the driver to reach out to your location at the airport. 
+          </p>  
+
+          </p>
 
       <div class="row gal-cnt">
         <div class="col-md-8" style="padding: 5px;">
@@ -73,9 +111,17 @@
         </div>
       </div>
       <br><br><br>
-      <h1 class="os6-h1" style="font-size:36px; font-weight:700">Amenities</h1>
+      <h1 class="os6-h1" style="font-size:36px; font-weight:700">FIXED & GUARANTED RATES UNTIL YOUR DESTINATION</h1>
       <img src="pilotpublic/images/gal4.jpg" class="img-fluid">
-      <p class="os6-p" style="font-family: calibri;">Royal First Class travelers enjoy luxurious comfort in every aspect, including bespoke amenities to soothe and scent the journey. On intercontinental flights lasting six hours or more, comfort wear and slippers are provide, while on all flights a beautiful tailored travel kit is provided with a range of designer toiletries and accessories.</p>
+      <p class="os6-p" style="font-family: calibri;">
+          <div class="os6-p" style="font-family: calibri; font-weight:600">- CALL OUR DESKTOP HELP 24/7</div> 
+          <p class="os6-p" style="font-family: calibri;">
+              Finding a Taxi in Dubai airport and negotiating with drivers on the fares can become really tiring after a long flight. 
+              Traveling with Pilot and Cars is very convenient for our passengers because we offer you fixed and guaranteed fares with no changes made until your destination. 
+              You can enjoy a cozy and warm Dubai Airport Transfer with us without worrying about hidden fees or uninformed charges. 
+              Our Dubai airport taxi booking procedure is absolutely hassled free, fast and easy as anyone can make their reservations ahead of their travel online.                
+          </p>  
+      </p>
       <div class="row">
         <div class="col-md-8" style="padding: 5px;">
           <img src="pilotpublic/images/gal5.jpg" class="gal-img">
@@ -92,7 +138,29 @@
           <img src="pilotpublic/images/gal1.jpg" class="gal-img">
         </div>
       </div>
-      <p class="os6-p" style="font-family: calibri;">Soft down pillows and fine cloth blankets make sleeping a dream within each semi-private suite while dedicated Royal First Class lavatories are stocked with soft linen towels and a range of toiletries for ladies and gentlemen for refreshment at any time during the flight.</p>
+      <p class="os6-p" style="font-family: calibri;">
+          <div class="os6-p" style="font-family: calibri; font-weight:600">- TRAVEL IN ECONOMICAL OR LUXURY IVP CARS</div> 
+          <p class="os6-p" style="font-family: calibri;">
+              Our Dubai Airport Transfer bring in economical to luxury VIP cars for the passengers and offer different 
+              price ranges for the kind of transport they choose.  
+              You may choose to travel by airport shuttle Dubai and share your ride with other passengers at an affordable price. 
+              If you need to perk up before an important meeting on your way to the destination or want to travel privately, 
+              our VIP cars will be present for the airport pick-up in Dubai.  
+              Whatever car size or class preference you have, Pilot and Cars will get you covered at the most affordable price! 
+               
+          </p>  
+          <div class="os6-p" style="font-family: calibri; font-weight:600">- Exclusice Family CARS WITH A ALOT OF LUGGAGE SPACE</div> 
+          <p class="os6-p" style="font-family: calibri;">
+              Transportation from Dubai airport to the hotel can become a strenuous experience for you if you are visiting 
+              Dubai for the first time. Pilot and Cars’ luxury airport transfers Dubai will help to reduce this unwanted 
+              stress so that you can reach your final destination safely and happily with your family. 
+              We offer exclusive family cars with a lot of luggage space so that you don’t need to worry about tucking your big baggage or 
+              suitcases within a small space. 
+              Our family cars are spacious. Your whole family can sit back comfortably and enjoy the Dubai airport transfers luxury without 
+              worrying much about safety or getting lost. 
+               
+          </p> 
+      </p>
     </div>
   </div>
 </div>
