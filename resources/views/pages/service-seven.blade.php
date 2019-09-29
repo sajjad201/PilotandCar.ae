@@ -2,7 +2,7 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-    SERVICE SEVEN
+    Van Rental
 @endsection
 
 @section('content')
@@ -18,7 +18,7 @@
 
 <section class="os7-body">
   <div class="slider-for-os7">
-    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url(pilotpublic/images/19.jpg);">
+    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url(pilotpublic/images/van/B1.jpg);">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -29,7 +29,7 @@
         </div>
     </div>
   </div>
-    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url(pilotpublic/images/12.jpg);">
+    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url(pilotpublic/images/van/b2.jpg);">
     <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -40,7 +40,7 @@
     </div>
   </div>
   </div>
-    <div class="slick-wrap bg-pic" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/gal3.jpg);">
+    <div class="slick-wrap bg-pic" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/van/b3.jpg);">
     <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -51,7 +51,7 @@
     </div>
   </div>
   </div>
-    <div class="slick-wrap bg-pic" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/gal4.jpg);">
+    <div class="slick-wrap bg-pic" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/van/B1.jpg);">
     <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -70,7 +70,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="slider-nav-os7">
-              <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/gal1.jpg);">
+              <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/van/B1.jpg);">
     <div class="row">
       <div class="col-md-12">
         <h1>1-night London Pass</h1>
@@ -79,7 +79,7 @@
       </div>
     </div>
   </div>
-    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/gal2.jpg);">
+    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/van/b2.jpg);">
     <div class="row">
       <div class="col-md-12">
         <h1>2-night London Pass</h1>
@@ -88,7 +88,7 @@
       </div>
     </div>
   </div>
-    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/gal3.jpg);">
+    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/van/b3.jpg);">
   
     <div class="row">
       <div class="col-md-12">
@@ -99,7 +99,7 @@
     </div>
   </div>
   
-    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/gal4.jpg);">
+    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pilotpublic/images/van/B1.jpg);">
   
     <div class="row">
       <div class="col-md-12">
@@ -125,7 +125,7 @@
           <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
         <div class="col-md-1 page-nav-links-col-internal-current">
-          <a href="{{url('#')}}">Service Seven <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+          <a href="{{url('#')}}">Van Rental <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
       </div>
     </div>
@@ -148,20 +148,33 @@
   <section>
     <div class="container">
       <div class="row">
-        @for ($i = 0; $i < 2; $i++)
+       
         <div class="col-md-6">
-          <div class="os7-box" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/7.jpg);">
+          <div class="os7-box" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/van/G3.jpg);">
             <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
             <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/h9.jpg);">
+          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/van/G2.jpg);">
             <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
             <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
           </div>
         </div>
-        @endfor
+
+        <div class="col-md-6">
+          <div class="os7-box" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/van/G7.jpg);">
+            <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
+            <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(pilotpublic/images/van/G5.jpg);">
+            <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
+            <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
+          </div>
+        </div>
+       
       </div>
     </div>
   </section>
