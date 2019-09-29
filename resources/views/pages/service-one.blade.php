@@ -2,7 +2,7 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-    SERVICE ONE
+    Limousine
 @endsection
 
 @section('content')
