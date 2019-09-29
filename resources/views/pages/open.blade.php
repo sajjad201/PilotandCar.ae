@@ -11,7 +11,7 @@
         <div class="row">
             <div class="container">
                 @extends('name')
-                New Text Added
+                New Text Added ONE
             </div>
         </div>
     </div>
