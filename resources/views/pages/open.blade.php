@@ -13,10 +13,7 @@
                 @extends('name')
                 This is master branch-FOUR.
                 This is master branch-THREE.
-<<<<<<< HEAD
-=======
                 This is SECOND BRANCH-ONE.
->>>>>>> 1f975af6a28148eafc5e98f622960e9470ea0ae6
             </div>
         </div>
     </div>
