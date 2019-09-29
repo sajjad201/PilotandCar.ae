@@ -14,6 +14,10 @@
                 This is master branch-FOUR.
                 This is master branch-THREE.
                 This is SECOND BRANCH-ONE.
+<<<<<<< HEAD
+=======
+                {This is changed made in second only}
+>>>>>>> second
             </div>
         </div>
     </div>
