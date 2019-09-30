@@ -2,7 +2,7 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-Delivery Vans and Trucks
+Limousine Service Dubai
 @endsection
 
 @section('content')
@@ -17,22 +17,22 @@ Delivery Vans and Trucks
   </div>
 </section>
 <section class="page-nav-links">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 page-nav-links-col">
-       <div class="col-md-1 page-nav-links-col-internal">
-          <a href="{{url('/')}}">Home <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
-        </div>
-        <div class="col-md-1 page-nav-links-col-internal">
-          <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
-        </div>
-        <div class="col-md-1 page-nav-links-col-internal-current">
-          <a href="{{url('#')}}">Service Ten <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 page-nav-links-col">
+          <div class="page-nav-links-col-internal">
+            <a href="{{url('/')}}">Home <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+          </div>
+          <div class="page-nav-links-col-internal">
+            <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+          </div>
+          <div class="page-nav-links-col-internal-current">
+            <a href="{{url('#')}}">Limousine Service Dubai <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 <br><br><br>
 <section class="st-em">
@@ -318,67 +318,65 @@ Delivery Vans and Trucks
     </section>
   
   <section style="margin:50px 0px 100px 0px">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            
-            <div class="col-md-12" style="text-align:center; font-size:40px; color:#333333; margin:50px 0px 50px 0px">
-              Check out other services
-            </div>
-              <span class="em-box">
-              <i class="fab fa-angular" style="font-size:40px;"></i><br>
-               Hotels
-                <div class="em-box-border">
-                  <div class="em-box-border-inner"></div>
-                </div>
-              </span><span class="em-box">
-                  <i class="fab fa-angular" style="font-size:40px;"></i><br>
-                   Hotels 
-                    <div class="em-box-border">
-                      <div class="em-box-border-inner"></div>
-                    </div>
-                  </span><span class="em-box">
-                      <i class="fab fa-angular" style="font-size:40px;"></i><br>
-                       Hotels
-                        <div class="em-box-border">
-                          <div class="em-box-border-inner"></div>
-                        </div>
-                      </span><span class="em-box">
-                          <i class="fab fa-angular" style="font-size:40px;"></i><br>
-                           Hotels
-                            <div class="em-box-border">
-                              <div class="em-box-border-inner"></div>
-                            </div>
-                          </span><span class="em-box">
-                              <i class="fab fa-angular" style="font-size:40px;"></i><br>
-                               Hotels
-                                <div class="em-box-border">
-                                  <div class="em-box-border-inner"></div>
-                                </div>
-                              </span><span class="em-box">
-                                  <i class="fab fa-angular" style="font-size:40px;"></i><br>
-                                   Hotels
-                                    <div class="em-box-border">
-                                      <div class="em-box-border-inner"></div>
-                                    </div>
-                                  </span><span class="em-box">
-                                      <i class="fab fa-angular" style="font-size:40px;"></i><br>
-                                       Hotels
-                                        <div class="em-box-border">
-                                          <div class="em-box-border-inner"></div>
-                                        </div>
-                                      </span><span class="em-box">
-                                          <i class="fab fa-angular" style="font-size:40px;"></i><br>
-                                           Hotels
-                                            <div class="em-box-border">
-                                              <div class="em-box-border-inner"></div>
-                                            </div>
-                                          </span>
-            
-          </div>
+    <div class="container">
+        <div class="row em-box-all-row">
+            Find out other services
         </div>
-      </div>
-    </section>
+        <div class="em-box-flex-link">
+
+            <a href="rent-a-car-with-driver" target="_blank">
+                <i class="fab fa-angular" style="font-size:40px;"></i><br>
+                Rent A Car
+                <div class="em-box-flex-link-bor">
+                    <div></div>
+                </div>
+            </a>
+            <a href="chauffeur-service" target="_blank">
+                <i class="fab fa-angular" style="font-size:40px;"></i><br>
+                Chauffeur Service
+                <div class="em-box-flex-link-bor">
+                    <div></div>
+                </div>
+            </a>
+            <a href="luxury-buses-and-coaches" target="_blank">
+                <i class="fab fa-angular" style="font-size:40px;"></i><br>
+                Luxury Buses
+                <div class="em-box-flex-link-bor">
+                    <div></div>
+                </div>
+            </a>
+            <a href="dubai-city-tours-and-sightseeing" target="_blank">
+                <i class="fab fa-angular" style="font-size:40px;"></i><br>
+                Dubai City Tours
+                <div class="em-box-flex-link-bor">
+                    <div></div>
+                </div>
+            </a>
+            <a href="abu-dhabi-city-tour" target="_blank">
+                <i class="fab fa-angular" style="font-size:40px;"></i><br>
+                Abu Dhabi Tour
+                <div class="em-box-flex-link-bor">
+                    <div></div>
+                </div>
+            </a>
+            <a href="airport-transfer" target="_blank">
+                <i class="fab fa-angular" style="font-size:40px;"></i><br>
+                Airport Transfer
+                <div class="em-box-flex-link-bor">
+                    <div></div>
+                </div>
+            </a>
+            <a href="luxury-vans" target="_blank">
+                <i class="fab fa-angular" style="font-size:40px;"></i><br>
+                Luxury Vans
+                <div class="em-box-flex-link-bor">
+                    <div></div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
 @include('inc.bottom-icons-one')      
     
 @endsection

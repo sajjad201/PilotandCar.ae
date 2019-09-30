@@ -9,6 +9,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="shortcut icon" href="pilotpublic/images/logo.jpeg">
+
 <link rel="stylesheet" type="text/css" href="pilotpublic/bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="pilotpublic/css/mdtimepicker.css">
 <link rel="stylesheet" type="text/css" href="pilotpublic/css/styleold.css">
@@ -22,7 +24,6 @@
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
 <script src="pilotpublic/bootstrap/jq/jquery-3.1.1.js"></script>
 <script src="pilotpublic/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 

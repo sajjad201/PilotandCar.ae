@@ -2,7 +2,7 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-Luxury Buses and Coaches
+Dubai City Tours And Sightseeing
 @endsection
 
 @section('content')
@@ -27,19 +27,20 @@ Luxury Buses and Coaches
   <div class="container">
     <div class="row">
       <div class="col-md-12 page-nav-links-col">
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/')}}">Home <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal-current">
-          <a href="{{url('#')}}">Service Four <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+        <div class="page-nav-links-col-internal-current">
+          <a href="{{url('#')}}">Dubai City Tours And Sightseeing <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <br><br><br><br>
 
 
@@ -286,32 +287,37 @@ Luxury Buses and Coaches
 		<div class="row">
 			<div class="col-md-4 mt-5">
 			<div class="os8-rel-cnt bs-8">
-				<div class="os8-rel-img-cnt">
-					<img src="pilotpublic/images/os81.jpg" class="object-image">
-				</div>
-				<div class="os8-rel-txt-cnt">
-					<a href="">Seating</a>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <a href="rent-a-car-with-driver" target="_blank">
+          <div class="os8-rel-img-cnt">
+            <img src="pilotpublic/images/os81.jpg" class="object-image">
+          </div>
+          <div class="os8-rel-txt-cnt">
+          RENT A CAR
+          <p>Dubai, it’s strongly recommended to rent a car with driver in Dubai. </p>
+        </a>
 				</div>
 			</div>
-			</div>
-			<div class="col-md-4 mt-5">
+      </div>
+      <div class="col-md-4 mt-5">
 			<div class="os8-rel-cnt bs-8">
-				<div class="os8-rel-img-cnt">
-					<img src="pilotpublic/images/os84.jpg" class="object-image">
-				</div>
-				<div class="os8-rel-txt-cnt">
-					<a href="">Seating</a>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <a href="chauffeur-service" target="_blank">
+          <div class="os8-rel-img-cnt">
+            <img src="pilotpublic/images/os84.jpg" class="object-image">
+          </div>
+          <div class="os8-rel-txt-cnt">
+              CHAUFFER SERVICE
+          <p>This city contains several entertainment places, tourism and nightlife. </p>
+        </a>
 				</div>
 			</div>
 			</div>
+			
 			<div class="col-md-4 mt-5">
 			<div class="os8-rel-cnt bg-white bs-8-3">
 				<ul class="related-list">
-					<li class="related-list-iner"><a href="#">Dining <i class="fa fa-angle-right"></i></a></li>
-					<li class="related-list-iner"><a href="#">Dining <i class="fa fa-angle-right"></i></a></li>
-					<li class="related-list-iner"><a href="#">Dining <i class="fa fa-angle-right"></i></a></li>
+					<li class="related-list-iner"><a href="limousine-service" target="_blank">Limousine Service <i class="fa fa-angle-right"></i></a></li>
+					<li class="related-list-iner"><a href="abu-dhabi-city-tour" target="_blank">Abu Dhabi City Tour <i class="fa fa-angle-right"></i></a></li>
+					<li class="related-list-iner"><a href="luxury-buses-and-coaches" target="_blank">Luxury Buses and Coaches <i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>
 			</div>

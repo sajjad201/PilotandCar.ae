@@ -2,7 +2,7 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-Chauffeur Service
+BUS SERVICES
 @endsection
 
 @section('content')
@@ -21,19 +21,20 @@ Chauffeur Service
   <div class="container">
     <div class="row">
       <div class="col-md-12 page-nav-links-col">
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/')}}">Home <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal-current">
-          <a href="{{url('#')}}">Bus Services <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+        <div class="page-nav-links-col-internal-current">
+          <a href="{{url('#')}}">Bus Service <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <br><br><br>
 <section>
@@ -172,42 +173,54 @@ Chauffeur Service
       <div>Related Pages</div>
     </div>
     <div class="row">
-      <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
-        <div class="col-md-12 ser-one-rel">
-            <i class="fab fa-500px"></i><br>
-            <div style="margin-top:15px;">Booking on Hold</div>
+      <a href="rent-a-car-with-driver" target="_blank">
+        <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
+          <div class="col-md-12 ser-one-rel">
+              <i class="fab fa-500px"></i><br>
+              <div style="margin-top:15px;">Rent A Car</div>
+            </div>
+        </div>
+      </a>  
+      <a href="chauffeur-service" target="_blank">  
+        <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
+          <div class="col-md-12 ser-one-rel">
+            <i class="fab fa-adn"></i><br>
+            <div style="margin-top:15px;">Chauffeur Service</div>
           </div>
-      </div>
-      <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
-        <div class="col-md-12 ser-one-rel">
-          <i class="fab fa-adn"></i><br>
-          <div style="margin-top:15px;">Flight Rebooking</div>
         </div>
-      </div>
-      <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
-        <div class="col-md-12 ser-one-rel">
-          <i class="fas fa-air-freshener"></i><br>
-          <div style="margin-top:15px;">Seat Selection</div>
+      </a>  
+      <a href="limousine-service" target="_blank">    
+        <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
+          <div class="col-md-12 ser-one-rel">
+            <i class="fas fa-air-freshener"></i><br>
+            <div style="margin-top:15px;">Limousine Service</div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
-        <div class="col-md-12 ser-one-rel">
-          <i class="fab fa-500px"></i><br>
-          <div style="margin-top:15px;">Confirm Flight</div>
+      </a>  
+      <a href="dubai-city-tours-and-sightseeing" target="_blank">    
+        <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
+          <div class="col-md-12 ser-one-rel">
+            <i class="fab fa-500px"></i><br>
+            <div style="margin-top:15px;">Dubai City Tours</div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
-        <div class="col-md-12 ser-one-rel">
-          <i class="fab fa-amazon-pay"></i><br>
-          <div style="margin-top:15px;">Our Fleet</div>
+      </a>  
+      <a href="abu-dhabi-city-tour" target="_blank">    
+        <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
+          <div class="col-md-12 ser-one-rel">
+            <i class="fab fa-amazon-pay"></i><br>
+            <div style="margin-top:15px;">Abu Dhabi Tour</div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-2" style="padding:0px 0px 0px 0px; ">
-        <div class="col-md-12 ser-one-rel">
-          <i class="fab fa-angular"></i><br>
-          <div style="margin-top:15px;">Services</div>
+      </a>  
+      <a href="airport-transfer" target="_blank">    
+        <div class="col-md-2" style="padding:0px 0px 0px 0px; ">
+          <div class="col-md-12 ser-one-rel">
+            <i class="fab fa-angular"></i><br>
+            <div style="margin-top:15px;">Airport Transfer</div>
+          </div>
         </div>
-      </div>
+      </a>  
     </div>
   </div>
 </section>

@@ -2,7 +2,7 @@
 @extends('layouts.app-two')
 
 @section('page_title')
-Abu Dhabi City Tour
+Dubai International Airport
 @endsection
 
 @section('content')
@@ -24,14 +24,14 @@ Abu Dhabi City Tour
   <div class="container">
     <div class="row">
       <div class="col-md-12 page-nav-links-col">
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/')}}">Home <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal-current">
-          <a href="{{url('#')}}">Service Six <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+        <div class="page-nav-links-col-internal-current">
+          <a href="{{url('#')}}">Dubai International Airport <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
       </div>
     </div>
@@ -185,49 +185,64 @@ Abu Dhabi City Tour
 
     <div class="col-md-6" style="padding:0px">
       <p class="os14-inner-p">Find out more about accompanying facilities and services.</p>
-      <div class="os14-inner-cnt">
-        <div class="col-md-4">
-          <div class="os14-sec2-inner">
-            <img src="pilotpublic/images/airport/g2.jpg" class="img-fluid" style="height:120px; width:100%">
+      <a href="rent-a-car-with-driver"  target="_blank">
+        <div class="os14-inner-cnt">
+          <div class="col-md-4">
+            <div class="os14-sec2-inner">
+              <img src="pilotpublic/images/airport/g2.jpg" class="img-fluid" style="height:120px; width:100%">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="os14-sec2-inner2">
+              <h5>Rent A Car With Driver</h5>
+              <h3 style="font-size:12px; line-height:15px; color:gray">
+                  Dubai, it’s strongly recommended to rent a car with driver in Dubai. 
+              </h3>
+            </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="os14-sec2-inner2">
-            <h5>Parking at the Airport</h5>
+      </a>
+      <a href="chauffeur-service"  target="_blank">
+        <div class="os14-inner-cnt">
+          <div class="col-md-4">
+            <div class="os14-sec2-inner">
+              <img src="pilotpublic/images/airport/g1.jpg" class="img-fluid" style="height:120px">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="os14-sec2-inner2">
+              <h5>Chauffeur Service</h5>
+              <h3 style="font-size:12px; line-height:15px; color:gray">
+                  Our all Professional Chauffeur are smartly dressed in black color suits. 
+              </h3>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="os14-inner-cnt">
-        <div class="col-md-4">
-          <div class="os14-sec2-inner">
-            <img src="pilotpublic/images/airport/g1.jpg" class="img-fluid" style="height:120px">
+      </a>
+      <a href="limousine-service"  target="_blank">  
+        <div class="os14-inner-cnt">
+          <div class="col-md-4">
+            <div class="os14-sec2-inner">
+              <img src="pilotpublic/images/airport/g7.jpg" class="img-fluid" style="height:120px">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="os14-sec2-inner2">
+              <h5>Limousine Service</h5>
+              <h3 style="font-size:12px; line-height:15px; color:gray">
+                  Most businesses impartation limousine service have the satisfactory models of vehicles to supply you associate exceptional road joy. 
+              </h3>
+            </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="os14-sec2-inner2">
-            <h5>Parking at the Airport</h5>
-          </div>
-        </div>
-      </div>
-      <div class="os14-inner-cnt">
-        <div class="col-md-4">
-          <div class="os14-sec2-inner">
-            <img src="pilotpublic/images/airport/g7.jpg" class="img-fluid" style="height:120px">
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="os14-sec2-inner2">
-            <h5>Parking at the Airport</h5>
-          </div>
-        </div>
-      </div>
+      </a>
     </div>
     <div class="col-md-6" style="padding:60px 100px 0px 50px">
       <div class="os8-rel-cnt bg-white bs-8-3">
 				<ul class="related-list">
-					<li class="related-list-iner"><a href="#">Dining 1<i class="fa fa-angle-right"></i></a></li>
-					<li class="related-list-iner"><a href="#">Dining 2<i class="fa fa-angle-right"></i></a></li>
-          <li class="related-list-iner"><a href="#">Dining 3<i class="fa fa-angle-right"></i></a></li>
+					<li class="related-list-iner"><a href="luxury-buses-and-coaches" target="_blank">Luxury Duses and Coaches<i class="fa fa-angle-right"></i></a></li>
+					<li class="related-list-iner"><a href="dubai-city-tours-and-sightseeing" target="_blank"> Dubai City Tours and Sightseeing<i class="fa fa-angle-right"></i></a></li>
+          <li class="related-list-iner"><a href="luxury-vans" target="_blank">Luxury Vans<i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>
     </div>

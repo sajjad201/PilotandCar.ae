@@ -38,16 +38,16 @@
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
-  <div class="site-nav__flyout" role="presentation">
+  <div class="site-nav__flyout" role="presentation" style="display: none;">
   <ul class="site-nav__list site-nav__list-secondary site-nav__with-padding" role="menu" aria-hidden="true" style="padding-bottom:22.1rem">
   <li class="site-nav__list__item" role="presentation">
-  <a href="about-us" data-categoryid="14000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="about-us" data-categoryid="14000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">About Us</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
-  <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
+  <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
   <li class="site-nav__list__item " role="presentation">
   <a href="about-us" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">About Us</span>
@@ -100,19 +100,19 @@
   
   
   
-  <div id="menuflyout-14000" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
+  <div id="menuflyout-14000" class="kop-menuflyout hidden-md-down" role="presentation" style="">
   <div class="kop-menuflyout__wrapper" role="presentation">
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/12.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/cars/g8.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
-  <div class="kop-menuflyout__header" role="presentation">Latest Model</div>
+  <div class="kop-menuflyout__header" role="presentation">About Pilot and Car</div>
   
   </div>
   </div>
@@ -125,7 +125,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/limo/p5.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/dubai/g0.jpg">
   </a>
   </div>
   </div>
@@ -137,19 +137,19 @@
   </div>
   </div>
   </div>
-<div id="menuflyout-16000" class="kop-menuflyout hidden-md-down" role="presentation" style="">
+<div id="menuflyout-16000" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
   <div class="kop-menuflyout__wrapper" role="presentation">
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/10.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/cars/g7.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
-  <div class="kop-menuflyout__header" role="presentation">Latest Model</div>
+  <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
   
   </div>
   </div>
@@ -174,7 +174,7 @@
   <ul class="site-nav__list site-nav__list-secondary site-nav__with-padding" role="menu" aria-hidden="true" style="padding-bottom:1rem;">
   
   <li class="site-nav__list__item" role="presentation">
-  <a href="our-services" data-categoryid="21000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="our-services" data-categoryid="21000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered" style="color:#034f84; font-size:20px; text-decoration:underline">All Services</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -255,7 +255,7 @@
   </li>
   <li class="site-nav__list__item" role="presentation">
   <a href="luxury-buses-and-coaches" data-categoryid="25000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Buses & Coaches</span>
+  <span class="site-nav__list__name hovered">Buses &amp; Coaches</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -345,7 +345,7 @@
   </li>
   <li class="site-nav__list__item" role="presentation">
   <a href="hire-a-drivers-or-Chauffeur" data-categoryid="30000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Driver & Chauffeur</span>
+  <span class="site-nav__list__name hovered">Driver &amp; Chauffeur</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -363,7 +363,7 @@
   </li>
   <li class="site-nav__list__item" role="presentation">
   <a href="delivery-vans-and-trucks" data-categoryid="31000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Vans & Trucks</span>
+  <span class="site-nav__list__name hovered">Vans &amp; Trucks</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -463,6 +463,7 @@
   </a>
   </div>
   </div>
+  <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
   </div>
@@ -531,7 +532,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/d-vans/B1.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/van/p2.jpg">
   </a>
   </div>
   </div>
@@ -567,13 +568,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/18.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/d-vans/B1.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -592,72 +592,13 @@
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="#" data-categoryid="30000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="our-fleet" class="site-nav__list__link primary-anchor has-subnav">
   <span class="site-nav__list__name">Our Fleet</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
-  <div class="site-nav__flyout" role="presentation" style="display: none;">
-  <ul class="site-nav__list site-nav__list-secondary site-nav__with-padding" role="menu" aria-hidden="true" style="padding-bottom:22.1rem">
   
-  <li class="site-nav__list__item" role="presentation">
-  <a href="our-fleet" data-categoryid="31000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name">Our Fleet</span>
-  <svg class="icon">
-  <use xlink:href="#chevron-right"></use>
-  </svg>
-  </a>
-  <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
-  
-  <li class="site-nav__list__item hovered" role="presentation">
-  <a href="our-fleet" data-categoryid="21500" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name hovered">Check Our Fleet</span>
-  <svg class="icon">
-  <use xlink:href="#chevron-right"></use>
-  </svg>
-  </a>
-  </li>
-  
-  
-  
-  </ul>
-  </li>
-  
-  
-  
-  
-  
-  </ul>
-  
-  <div id="menuflyout-31000" class="kop-menuflyout hidden-md-down" role="presentation" style="">
-  <div class="kop-menuflyout__wrapper" role="presentation">
-  <div class="kop-menuflyout__container" role="presentation">
-  <div class="flyout-product__tile" data-pid="192339951365">
-  <div class="flyout-product__text-wrapper">
-  <div class="flyout-product__name">
-  Check Out Latest Design
-  </div>
-  <div class="flyout-product__price">
-  </div>
-  
-  </div>
-  <div class="flyout-product__image-wrapper">
-  <a class="flyout-product__link" href="#">
-  <img class="kop-product-carousel__image lazyloaded kop-img-height" src="pilotpublic/images/10.jpg">
-  </a>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  
-  
-  
-  
-  
-  
-  </div>
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>

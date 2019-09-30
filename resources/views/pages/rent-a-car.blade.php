@@ -25,14 +25,14 @@ Rent a car with Driver
   <div class="container">
     <div class="row">
       <div class="col-md-12 page-nav-links-col">
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/')}}">Home <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal">
+        <div class="page-nav-links-col-internal">
           <a href="{{url('/our-services')}}">Our Serives <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
-        <div class="col-md-1 page-nav-links-col-internal-current">
-          <a href="{{url('#')}}">Service One <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
+        <div class="page-nav-links-col-internal-current">
+          <a href="{{url('#')}}">Rent a car with Driver <i class="fas fa-chevron-right page-nav-links-col-internal-icon"></i></a>
         </div>
       </div>
     </div>
@@ -302,59 +302,59 @@ Rent a car with Driver
 
 <section style="background-color: #fbfbfb; padding-bottom:150px; text-align:center;     color: #404040;">
       <br><br>
-      <h1><strong> PLANNING FOR YOUR TRIP</strong></h1>
+      <h1><strong>Find out other services</strong></h1>
 
       <div class="container link-card__card-container link-card__card-container-mb ">
             
-          <a href="https://www.booking.com/index.html?aid=1183184" target="_blank" class="context-item link-card__item hover--move-up">
+          <a href="chauffeur-service" target="_blank" class="context-item link-card__item hover--move-up">
               <div class="icon-container">
                   <i class="img-icon icon-new-hotel"></i>
               </div>
               <div class="text-center link-sm-03 text-xs-19 color-custom-4">
-                  Book Hotels
+                  Chauffeur Service
               </div>
           </a>
       
-          <a href="http://www.changiairport.com/en/airport-guide/facilities-and-services/transit-hotels.html" class="context-item link-card__item hover--move-up">
+          <a href="limousine-service" target="_blank" class="context-item link-card__item hover--move-up">
               <div class="icon-container">
                   <i class="img-icon icon-new-transit_hotel"></i>
               </div>
               <div class="text-center link-sm-03 text-xs-19 color-custom-4">
-                  Transit Hotels
+                  Limousine Service
               </div>
           </a>
       
-          <a href="https://www.rentalcars.com/?affiliateCode=changiairport" target="_blank" class="context-item link-card__item hover--move-up">
+          <a href="luxury-buses-and-coaches" target="_blank" class="context-item link-card__item hover--move-up">
               <div class="icon-container">
                   <i class="img-icon icon-new-driving"></i>
               </div>
               <div class="text-center link-sm-03 text-xs-19 color-custom-4">
-                  Rent a Car
+                  Luxury Buses
               </div>
           </a>
       
-          <a href="https://www.changirecommends.com/owifi.aspx" target="_blank" class="context-item link-card__item hover--move-up">
+          <a href="dubai-city-tours-and-sightseeing" target="_blank" class="context-item link-card__item hover--move-up">
               <div class="icon-container">
                   <i class="img-icon icon-new-get_connected_in_sg"></i>
               </div>
               <div class="text-center link-sm-03 text-xs-19 color-custom-4">
-                  Rent a WiFi Router
+                  Dubai City Tours
               </div>
           </a>
-          <a href="https://www.changirecommends.com/owifi.aspx" target="_blank" class="context-item link-card__item hover--move-up">
+          <a href="abu-dhabi-city-tour" target="_blank" class="context-item link-card__item hover--move-up">
             <div class="icon-container">
                 <i class="img-icon icon-new-get_connected_in_sg"></i>
             </div>
             <div class="text-center link-sm-03 text-xs-19 color-custom-4">
-                Rent a WiFi Router
+                Abu Dhabi City Tour
             </div>
         </a>
-        <a href="https://www.changirecommends.com/owifi.aspx" target="_blank" class="context-item link-card__item hover--move-up">
+        <a href="airport-transfer" target="_blank" class="context-item link-card__item hover--move-up">
           <div class="icon-container">
               <i class="img-icon icon-new-get_connected_in_sg"></i>
           </div>
           <div class="text-center link-sm-03 text-xs-19 color-custom-4">
-              Rent a WiFi Router
+              Airport Transfer
           </div>
       </a>
 

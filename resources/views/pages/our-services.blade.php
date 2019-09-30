@@ -42,32 +42,80 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="car-img-text">
-        <img class="d-block w-100" src="pilotpublic/images/13.jpg" style="height:500px;  ">
-        <div class="centered">BOOK RIDE NOW</div>
+        <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
+        <div class="centered">Rent a car with Driver</div>
       </div>  
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100" src="pilotpublic/images/14.jpg" style="height:500px; ">
-        <div class="centered">BOOK RIDE NOW</div>
+        <img class="d-block w-100 object-image" src="pilotpublic/images/14.jpg" style="height:500px; ">
+        <div class="centered">Chauffeur Service</div>
       </div>  
 
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100" src="pilotpublic/images/7.jpg" style="height:500px;  ">
-        <div class="centered">BOOK RIDE NOW</div>
+        <img class="d-block w-100  object-image" src="pilotpublic/images/7.jpg" style="height:500px;  ">
+        <div class="centered">Limousine Service</div>
+      </div>  
+    </div>
+    <div class="carousel-item">
+        <div class="car-img-text">
+          <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
+          <div class="centered">Luxury Buses and Coaches</div>
+        </div>  
+      </div>
+      <div class="carousel-item">
+        <div class="car-img-text">
+          <img class="d-block w-100 object-image" src="pilotpublic/images/14.jpg" style="height:500px; ">
+          <div class="centered">Dubai City tours and Sightseeing</div>
+        </div>  
+  
+      </div>
+      <div class="carousel-item">
+        <div class="car-img-text">
+          <img class="d-block w-100  object-image" src="pilotpublic/images/7.jpg" style="height:500px;  ">
+          <div class="centered">Abu Dhabi City Tour</div>
+        </div>  
+      </div>
+      <div class="carousel-item">
+      <div class="car-img-text">
+        <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
+        <div class="centered">Airport Transfer</div>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <div class="car-img-text">
+        <img class="d-block w-100 object-image" src="pilotpublic/images/14.jpg" style="height:500px; ">
+        <div class="centered">Luxury Vans</div>
+      </div>  
+
+    </div>
+    <div class="carousel-item">
+      <div class="car-img-text">
+        <img class="d-block w-100  object-image" src="pilotpublic/images/7.jpg" style="height:500px;  ">
+        <div class="centered">Hire a Drivers or Chauffeur</div>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <div class="car-img-text">
+        <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
+        <div class="centered">Delivery Vans and Trucks</div>
       </div>  
     </div>
   </div>
   
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+    <div class="carousel-control-prev-circle">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </div>
   </a>
   <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <div class="carousel-control-prev-circle">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </div>
   </a>
 </div>
 
@@ -99,18 +147,18 @@
       <div class="section-color">
         
         <section class="os-det">
-          <a href="{{url('/service-one')}}">
+          <a href="{{url('/rent-a-car-with-driver')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/limo/p5.jpg">
+                <img src="pilotpublic/images/cars/p1.2.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Limousine Service Dubai </h2>
+                  <h2 class="os-head">Rent A Car</h2>
                   <div class="os-body-text">
                     Limos are designed to accommodate large and tiny events Starting from 9 seater to 18 seater . 
                   </div>
@@ -132,18 +180,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-two')}}">
+          <a href="{{url('/chauffeur-service')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/chauf/g1.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Checkout Service Two</h2>
+                  <h2 class="os-head">Chauffeur Service</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -166,18 +214,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-three')}}">
+          <a href="{{url('/limousine-service')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/limo/g12.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Checkout Service Three</h2>
+                  <h2 class="os-head">Limousine Service</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -200,18 +248,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-four')}}">
+          <a href="{{url('/luxury-buses-and-coaches')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/bus/g7.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Hire Car With Four</h2>
+                  <h2 class="os-head">Luxury Buses</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -234,18 +282,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-five')}}">
+          <a href="{{url('/dubai-city-tours-and-sightseeing')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/dubai/p1.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Hire Car With Five</h2>
+                  <h2 class="os-head">Dubai City Tour</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -268,18 +316,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-six')}}">
+          <a href="{{url('/abu-dhabi-city-tour')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/city/p2.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Hire Car With Six</h2>
+                  <h2 class="os-head">Abu Dhabi City Tour</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -302,18 +350,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-seven')}}">
+          <a href="{{url('/airport-transfer')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/airport/p6.png" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Hire Car With Seven</h2>
+                  <h2 class="os-head">Airport Transfer</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -336,18 +384,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-eight')}}">
+          <a href="{{url('/luxury-vans')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/van/p2.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Checkout Service Eight</h2>
+                  <h2 class="os-head">Luxury Vans</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -370,18 +418,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-nine')}}">
+          <a href="{{url('/hire-a-drivers-or-Chauffeur')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/chaf2/g2.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Hire Car With Nine</h2>
+                  <h2 class="os-head">Hire Driver / Chauffeur</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -404,18 +452,18 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/service-ten')}}">
+          <a href="{{url('/delivery-vans-and-trucks')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/h8.jpg">
+                <img src="pilotpublic/images/chaf2/g6.jpg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
                 <div class="os-text-cont">
                   <p class="os-text-heading-top">PILOT&CAR DESTINATIONS</p>
-                  <h2 class="os-head">Hire Car With Ten</h2>
+                  <h2 class="os-head">Delivery Vans & Trucks</h2>
                   <div class="os-body-text">
                     Remix business with pleasure when you travel by Pilotandcars. Remix business with pleasure when you travel by Pilotandcars.
                     
@@ -441,13 +489,13 @@
       </div>
 
       <br><br><br>  
-      <section class="others">
+      {{-- <section class="others">
           <h1 class="other-h1">Other Links</h1>
           <div class="container">
             <div class="row">
               <div class="col-md-2">
               <div class="other-cnt">
-                <a href="#" class="other-a">
+                <a href="" class="other-a">
                   <div class="other-icon-cnt">
                     <i class="fa fa-car"></i>
                   </div>
@@ -519,7 +567,7 @@
               </div>
             </div>
           </div>
-          </section>
+          </section> --}}
       <br><br>
     
 @endsection
