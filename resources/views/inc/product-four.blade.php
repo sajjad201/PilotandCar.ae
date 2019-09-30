@@ -11,7 +11,7 @@
             <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
                 <div class="col-xs-12 pr-4-img-div">
                     <div>
-                        <img src="pilotpublic/images/bus/P1.jpg" style="height:250px; width:100%">
+                        <img src="pilotpublic/images/bus/p1.jpg" style="height:250px; width:100%">
                     </div>
                     <div class="col-xs-12 pr-4-img-div-txt">
                         BOOK YOUR RIDE:
@@ -34,7 +34,7 @@
             <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
                 <div class="col-xs-12 pr-4-img-div">
                     <div>
-                        <img src="pilotpublic/images/bus/P2.jpg" style="height:250px; width:100%">
+                        <img src="pilotpublic/images/bus/p2.jpg" style="height:250px; width:100%">
                     </div>
                     <div class="col-xs-12 pr-4-img-div-txt">
                         BOOK YOUR RIDE:
@@ -57,7 +57,7 @@
             <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
                 <div class="col-xs-12 pr-4-img-div">
                     <div>
-                        <img src="pilotpublic/images/bus/P3.jpg" style="height:250px; width:100%">
+                        <img src="pilotpublic/images/bus/p3.jpg" style="height:250px; width:100%">
                     </div>
                     <div class="col-xs-12 pr-4-img-div-txt">
                         BOOK YOUR RIDE:

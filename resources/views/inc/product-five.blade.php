@@ -57,7 +57,7 @@
 
                    
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P1.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p1.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -72,7 +72,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P2.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p2.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -87,7 +87,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P3.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p3.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -102,7 +102,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P4.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p4.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P5.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p5.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P6.png" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p6.png" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -147,7 +147,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P7.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p7.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -162,7 +162,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P8.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p8.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -177,7 +177,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P9.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p9.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
@@ -192,7 +192,7 @@
                     </div>
 
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/P5.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p5.jpg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>

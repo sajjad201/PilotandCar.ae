@@ -56,7 +56,7 @@ BUS SERVICES
         <div class="special_block">
           <div class="main_slide">
             <div class="slide_pro slide w60"><div>
-              <img alt="" src="pilotpublic/images/bus/G2.jpg" class="sh_pic img-responsive img-b"></div>
+              <img alt="" src="pilotpublic/images/bus/g2.jpg" class="sh_pic img-responsive img-b"></div>
             </div>
             <div class="slide_fix"><div>
             <div class="bl_pro">
@@ -78,7 +78,7 @@ BUS SERVICES
       <div class="special_block">
         <div class="main_slide">
           <div class="slide_pro slide w60"><div>
-            <img alt="" src="pilotpublic/images/bus/G8.jpg" class="sh_pic img-responsive img-b"></div>
+            <img alt="" src="pilotpublic/images/bus/g8.jpg" class="sh_pic img-responsive img-b"></div>
           </div>
           <div class="slide_fix"><div>
           <div class="bl_pro">
@@ -101,7 +101,7 @@ BUS SERVICES
       <div class="special_block">
         <div class="main_slide">
           <div class="slide_pro slide w60"><div>
-            <img alt="" src="pilotpublic/images/bus/G9.jpg" class="sh_pic img-responsive img-b"></div>
+            <img alt="" src="pilotpublic/images/bus/g9.jpg" class="sh_pic img-responsive img-b"></div>
           </div>
         <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">
@@ -144,7 +144,7 @@ BUS SERVICES
       <div class="special_block">
         <div class="main_slide">
           <div class="slide_pro slide w60"><div>
-            <img alt="" src="pilotpublic/images/bus/G5.jpg" class="sh_pic img-responsive img-b"></div>
+            <img alt="" src="pilotpublic/images/bus/g5.jpg" class="sh_pic img-responsive img-b"></div>
           </div>
           <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">

@@ -180,7 +180,7 @@ Abu Dhabi City Tour with Ferrari World
           </div>
         </div>
         <div class="col-md-6">
-          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/van/G5.jpg);">
+          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/van/g5.jpg);">
             <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
             <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
           </div>

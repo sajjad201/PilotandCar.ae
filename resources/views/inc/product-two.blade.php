@@ -10,7 +10,7 @@
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/chauf/P1.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/chauf/p1.jpg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -28,7 +28,7 @@
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/chauf/P2.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/chauf/p2.jpg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -46,7 +46,7 @@
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/chauf/P5.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/chauf/p5.jpg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -64,7 +64,7 @@
                   <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/chauf/P6.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/chauf/p6.jpg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -82,7 +82,7 @@
                   <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/chauf/P4.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/chauf/p4.jpg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
@@ -100,7 +100,7 @@
           <div class="col-md-4 mb-5">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/chauf/P3.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/chauf/p3.jpg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
