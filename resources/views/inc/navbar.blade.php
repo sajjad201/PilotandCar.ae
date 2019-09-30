@@ -125,13 +125,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/18.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/limo/p5.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
-  <div class="kop-menuflyout__header" role="presentation">Latest Model</div>
   
   </div>
   </div>
@@ -200,16 +199,17 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-one" data-categoryid="22000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service One</span>
+  <a href="rent-a-car-with-driver" data-categoryid="22000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">car with Driver
+    </span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-one" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service One</span>
+  <a href="rent-a-car-with-driver" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Rent a car with Driver    </span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -218,16 +218,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-two" data-categoryid="23000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Two</span>
+  <a href="chauffeur-service" data-categoryid="23000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Chauffeur Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-two" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Two</span>
+  <a href="chauffeur-service" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Chauffeur Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -236,16 +236,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-three" data-categoryid="24000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Three</span>
+  <a href="limousine-service" data-categoryid="24000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Limousine Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-three" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Three</span>
+  <a href="limousine-service" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Limousine Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -254,16 +254,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-four" data-categoryid="25000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Four</span>
+  <a href="luxury-buses-and-coaches" data-categoryid="25000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Buses & Coaches</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-four" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Four</span>
+  <a href="luxury-buses-and-coaches" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Luxury Buses and Coaches    </span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -272,16 +272,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-five" data-categoryid="26000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Five</span>
+  <a href="dubai-city-tours-and-sightseeing" data-categoryid="26000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Dubai City tours</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-five" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Five</span>
+  <a href="dubai-city-tours-and-sightseeing" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Dubai City tours and Sightseeing</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -290,16 +290,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-six" data-categoryid="27000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Six</span>
+  <a href="abu-dhabi-city-tour" data-categoryid="27000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Abu Dhabi City</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-six" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Six</span>
+  <a href="abu-dhabi-city-tour" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Abu Dhabi City Tour</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -308,16 +308,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-seven" data-categoryid="28000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Seven</span>
+  <a href="airport-transfer" data-categoryid="28000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Airport Transfer</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-seven" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Seven</span>
+  <a href="airport-transfer" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Airport Transfer</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -326,16 +326,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-eight" data-categoryid="29000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Eight</span>
+  <a href="luxury-vans" data-categoryid="29000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Luxury Vans</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-eight" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Eight</span>
+  <a href="luxury-vans" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Luxury Vans</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -344,16 +344,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-nine" data-categoryid="30000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Nine</span>
+  <a href="hire-a-drivers-or-Chauffeur" data-categoryid="30000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Driver & Chauffeur</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-nine" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Nine</span>
+  <a href="hire-a-drivers-or-Chauffeur" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Hire a Drivers or Chauffeur</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -362,16 +362,16 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="service-ten" data-categoryid="31000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered">Service Ten</span>
+  <a href="delivery-vans-and-trucks" data-categoryid="31000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <span class="site-nav__list__name hovered">Vans & Trucks</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="service-ten" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Visit Service Ten</span>
+  <a href="delivery-vans-and-trucks" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <span class="site-nav__list__name">Delivery Vans and Trucks</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -393,7 +393,6 @@
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">RALPH<br>SAMPSON</div>
   
   </div>
   </div>
@@ -406,13 +405,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/9.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/cars/g0.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -425,13 +423,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/10.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/bus/p1.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -444,13 +441,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/11.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/chauf/g1.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -463,13 +459,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/12.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/dubai/p0.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -482,13 +477,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/13.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/van/p2.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -501,13 +495,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/14.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/airport/g6.webp">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -520,13 +513,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/15.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/city/g2.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -539,13 +531,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/16.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/d-vans/B1.jpg">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>
@@ -558,13 +549,12 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/17.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/chaf2/p6.png">
   </a>
   </div>
   </div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
-  <div class="kop-menuflyout__header" role="presentation">POLO<br>SHIRTS</div>
   </div>
   </div>
   </div>

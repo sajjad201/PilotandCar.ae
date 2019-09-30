@@ -7305,7 +7305,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-    padding-top: 3rem!important
+    padding-top: 1.5rem!important
 }
 
 .pr-5,
@@ -14113,7 +14113,8 @@ body.modal-open #locale-modal {
         display: block
     }
     .kop-img-height{
-        height:34.1em !important;
+        height:34.8em !important;
+        object-fit: cover;
     }
     #menuflyout-14000 .kop-img-height,  #menuflyout-15000 .kop-img-height,  #menuflyout-16000 .kop-img-height{
         height:28.6em !important;

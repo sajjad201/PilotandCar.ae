@@ -12,35 +12,37 @@ class MyController extends Controller
     function ourservices(){
         return view('pages.our-services');
     }
-    function serviceone(){
-        return view('pages.service-one');
+
+
+    function rentacar(){
+        return view('pages.rent-a-car');
     }
-    function servicetwo(){
-        return view('pages.service-two');
+    function chauffeurservice(){
+        return view('pages.chauffeur');
     }
-    function servicethree(){
-        return view('pages.service-three');
+    function limousineservice(){
+        return view('pages.limousine');
     }
-    function servicefour(){
-        return view('pages.service-four');
+    function luxurybusesandcoaches(){
+        return view('pages.bus');
     }
-    function servicefive(){
-        return view('pages.service-five');
+    function dubaicitytoursandsightseeing(){
+        return view('pages.dubai-city');
     }
-    function servicesix(){
-        return view('pages.service-six');
+    function abudhabicitytour(){
+        return view('pages.abu-dhabi-tour');
     }
-    function serviceseven(){
-        return view('pages.service-seven');
+    function airporttransfer(){
+        return view('pages.airport');
     }
-    function serviceeight(){
-        return view('pages.service-eight');
+    function luxuryvans(){
+        return view('pages.vans');
     }
-    function servicenine(){
-        return view('pages.service-nine');
+    function hireadriversorchauffeur(){
+        return view('pages.driver-chauffeur');
     }
-    function serviceten(){
-        return view('pages.service-ten');
+    function deliveryvansandtrucks(){
+        return view('pages.vans-and-trucks');
     }
     function serviceeleven(){
         return view('pages.service-eleven');
