@@ -16,6 +16,9 @@
                                 </a>        
                                 <a href="limousine-service">
                                     <div class="footer-menue-other">Limousine Service<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a> 
+                                <a href="our-services">
+                                    <div class="footer-menue-other ft-li-last"> ALL SERVICES<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>        
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3">
@@ -28,6 +31,9 @@
                                 </a>        
                                 <a href="abu-dhabi-city-tour">
                                     <div class="footer-menue-other">Abu Dhabi City Tour<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a> 
+                                <a href="our-fleet">
+                                    <div class="footer-menue-other ft-li-last"> OUR FLEET<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>        
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3">
@@ -40,6 +46,9 @@
                                 </a>        
                                 <a href="hire-a-drivers-or-Chauffeur">
                                     <div class="footer-menue-other">Hire a Driver or Chauffeur<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a>  
+                                <a href="about-us">
+                                    <div class="footer-menue-other ft-li-last">ABOUT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>        
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3">
@@ -52,6 +61,9 @@
                                 </a>        
                                 <a href="blog">
                                     <div class="footer-menue-other">Blog<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a>  
+                                <a href="contact-us">
+                                    <div class="footer-menue-other ft-li-last">CONTACT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>    
                             </div>
                             
@@ -74,6 +86,9 @@
                                 <a href="limousine-service">
                                     <div class="second-footer-menue-other hideshow-about">Limousine Service<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>
+                                <a href="all-services">
+                                    <div class="second-footer-menue-other hideshow-about">ALL SERVICES<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a>
                             </div>
                             <div class="col-lg-3">
                                 <div style="padding-top:15px; font-weight:600; color:#034f84; padding-right:7px;" class="services">
@@ -89,6 +104,9 @@
                                 </a>    
                                 <a href="abu-dhabi-city-tour">
                                     <div class="second-footer-menue-other hideshow-services">Abu Dhabi City Tour<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a>
+                                <a href="our-fleet">
+                                    <div class="second-footer-menue-other hideshow-services">OUR FLEET<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>
                             </div>
                             <div class="col-lg-3">
@@ -106,6 +124,9 @@
                                 <a href="hire-a-drivers-or-Chauffeur">
                                     <div class="second-footer-menue-other hideshow-customer-support">Hire a Driver or Chauffeur<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>
+                                <a href="about-us">
+                                    <div class="second-footer-menue-other hideshow-customer-support">ABOUT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a>
                             </div>
                             <div class="col-lg-3">
                                 <div style="padding-top:15px; font-weight:600; color:#034f84; padding-right:7px;" class="digital">
@@ -121,6 +142,9 @@
                                 </a>
                                 <a href="blog">
                                     <div class="second-footer-menue-other hideshow-digital">Blog<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                </a>
+                                <a href="contact-us">
+                                    <div class="second-footer-menue-other hideshow-digital">CONTACT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
                                 </a>
                             </div>
                         </div>

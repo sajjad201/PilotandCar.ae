@@ -9,10 +9,15 @@ Chauffer Service
 
 <section>
   <div style="position:relative">
-    <img src="pilotpublic/images/chauf/g1.jpg" class="img-b" style="height:600px">
-    <div style="position:absolute; left:5%; top:25%">
-      <h1 style="text-shadow: 1px 2px 7px black; color:white; font-size:60px; text-transform: uppercase">
+    <img src="pilotpublic/images/chauf/g1.jpg" class="img-b" style="height:500px">
+    <div style="position:absolute; left:2%; bottom:3%">
+      <h1 class="animated slideInDown" style="text-shadow: 1px 1px 3px black; color:white; font-size:45px; text-transform: uppercase">
         <strong>Chauffer Service in Dubai</strong>
+        <p class="animated fadeIn ch-t-img-txt" style="animation-delay: 1s;">
+            We have special airport transfer packages for our corporate<br>  
+            and regular clients, our online booking system is <br>
+            very convenient and user friendly .
+        </p>
       </h1>
     <div>
   </div>
@@ -42,7 +47,7 @@ Chauffer Service
       <div class="col-md-6">
         <div class="os4-wrap">
           <div class="os4-img-cnt">
-            <img src="pilotpublic/images/chauf/G9.jpg" style="height:300px" class="img-b">
+            <img src="pilotpublic/images/chauf/g9.jpg" style="height:300px" class="img-b">
           </div>
           <div class="os4-txt-cnt">
             <h6 class="text-center">PILOT AND CAR</h6>
@@ -53,7 +58,7 @@ Chauffer Service
       <div class="col-md-6">
         <div class="os4-wrap">
           <div class="os4-img-cnt">
-            <img src="pilotpublic/images/chauf/G11.jpg" style="height:300px" class="img-b">
+            <img src="pilotpublic/images/chauf/g11.jpg" style="height:300px" class="img-b">
           </div>
           <div class="os4-txt-cnt">
             <h6 class="text-center">PILOT AND CAR</h6>

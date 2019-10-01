@@ -36,7 +36,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/24.png" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/1.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -66,7 +66,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/cadillac.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/3.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -96,7 +96,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/bmw.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/5.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -126,7 +126,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/coaster.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/7.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -156,7 +156,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/viano.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/9.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -186,7 +186,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/camry.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/11.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -216,7 +216,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/landcruiser.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/13.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -252,7 +252,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/cadillac.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/15.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -286,7 +286,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/mer-s.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/19.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -320,7 +320,7 @@
             <div class="col-md-8" style="padding: 0">
               <div class="col-sm-6" style="padding: 0">
                 <div class="flt-img-cont">
-                  <img src="pilotpublic/images/mer-s.jpg" class="img-fluid">
+                  <img src="pilotpublic/images/fleet/n1.png" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-6">

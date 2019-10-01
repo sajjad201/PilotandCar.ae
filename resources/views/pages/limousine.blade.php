@@ -292,7 +292,7 @@ Limousine Service Dubai
           <div class="col-md-6">
             <div class="os4-wrap">
               <div class="os4-img-cnt">
-                <img src="pilotpublic/images/9.jpg" style="height:300px">
+                <img src="pilotpublic/images/limo/p2.jpg" style="height:300px" class="object-image">
               </div>
               <div class="os4-txt-cnt">
                 <h6 class="text-center">PILOT AND CAR</h6>
@@ -304,7 +304,7 @@ Limousine Service Dubai
           <div class="col-md-6">
             <div class="os4-wrap">
               <div class="os4-img-cnt">
-                <img src="pilotpublic/images/8.jpg" style="height:300px">
+                <img src="pilotpublic/images/limo/g6.jpg" style="height:300px" class="object-image">
               </div>
               <div class="os4-txt-cnt">
                 <h6 class="text-center">PILOT AND CAR</h6>

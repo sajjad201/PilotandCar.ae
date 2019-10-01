@@ -17,7 +17,7 @@
 <section>
 	<div class="container mb-60">
 		<h1 class="about-h1">Our Heritage</h1>
-		<p class="about-p">To us, travel is more than just being in motion. It's being in with innovation.</p>
+		<p class="about-p">About Pilot & Car Transport Service Dubai			</p>
 		<p class="">Discover our milestones by clicking the decade that you.</p>
 	</div>
 </section>
@@ -29,12 +29,20 @@
 				<div class="about-main">
 					<div class="about-inner" id="section1">
 						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 1 2019</h3>
+							<h3 class="about-inner-h3">Pilot & Car 2019</h3>
 							<div class="about-pic">
 								<img src="pilotpublic/images/h6.jpg" class="img-fluid">
 							</div>
 							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet. Retrofit work will also take place on 14 existing A380 aircraft. The new Singapore Airlines A380 will be configured with 471 seats in four classes, featuring six Singapore Airlines Suites and 78 Business Class seats on the upper deck, as well as 44 Premium Economy Class seats and 343 Economy Class seats on the main deck.</p>
+							<p>We have been operating a top quality transport service across Dubai, United Arab Emirates for more than 
+								13 years now and have become experts at handling large and complex bookings for our corporate customers.
+								 Pilot & Car Transport Service Dubai chose to specialize within the hospitality industry by offering only
+								  experiences of exceptional quality. Our objective is to be recognized as the company that operates the 
+								  finest limo, car & bus rental service in Dubai. Our company is well known to be a five-star rated limo 
+								  service and one of the leading car, limo and luxury Bus service providers in UAE. Many travelers have 
+								  chosen to reward our car services with 5-star reviews on Google. These clients’ support and referral, 
+								  continues to boost our growth and to them, we stay committed to offering the best quality service at all times.
+								</p>
 							</div>
 						</div>
 						<div class="about-border">
@@ -48,12 +56,21 @@
 							<i class="fa fa-caret-left" aria-hidden="true"></i>
 						</div>
 						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 2 2018</h3>
+							<h3 class="about-inner-h3">Pilot & Car 2018</h3>
 							<div class="about-pic">
-								<img src="pilotpublic/images/h6.jpg" class="img-fluid">
+								<img src="pilotpublic/images/chaf2/p3.jpg" class="img-fluid">
 							</div>
 							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet. Retrofit work will also take place on 14 existing A380 aircraft. The new Singapore Airlines A380 will be configured with 471 seats in four classes, featuring six Singapore Airlines Suites and 78 Business Class seats on the upper deck, as well as 44 Premium Economy Class seats and 343 Economy Class seats on the main deck.</p>
+							<p>We have been operating a top quality transport service across Dubai, United Arab Emirates for more than 13 years now 
+								and have become experts at handling large and complex bookings for our corporate customers. Our service includes 
+								luxury buses hire at affordable prices and bring comfortable and accessible travel to everyone through our nationwide
+								network. Bringing you a customer service team who have been highly trained to ensure that our clients get the best 
+								customer service available at all times.
+								Our team is able to cater for all your needs from the commencement to completion of 
+								your travel plan and our Operation manager is available 24/7 to help with your every need.
+								When you choose Pilot & Car Transport Service Dubai, you are choosing a premium service 
+								without the premium price tag, giving you the quality service that you deserve!
+								</p>
 							</div>
 						</div>
 					</div>
@@ -63,108 +80,26 @@
 							<i class="fa fa-caret-left" aria-hidden="true"></i>
 						</div>
 						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 3 2017</h3>
+							<h3 class="about-inner-h3">Pilot & Car 2017</h3>
 							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet.</p>
+							<p>Pilot & Car Transport Service Dubai aims to provide the best 
+								possible transportation to all travelers in the best level of quality service that stresses safety, 
+								reliability and comfort. In order to achieve our mission, we have consistently recruited the most 
+								experienced drivers in the industry. We conduct scheduled vehicle inspections and driver training 
+								programs to ensure that each passenger travels safely and securely when using our service. We have 
+								adopted the most advanced computer and communication technology.
+								Our operating staff is available to provide prompt and expeditious service to all of our passengers, 
+								both when placing a reservation and traveling in our vehicles. As we continue to expand our fleet, 
+								client-base and geographical boundaries, we are increasingly able to accommodate our diverse clientele
+								with their transportation needs. Our objective is to provide the best possible service at the best 
+								possible price and that is just one of the reasons our customers keep coming back time after time.
+							</p>
 							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. Tdeck.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. </p>
-							</div>
+							
 						</div>
 					</div>
-					<div class="about-inner" id="section4">
-						<div class="about-border">
-							<span class="fa fa-circle"></span>
-							<i class="fa fa-caret-left" aria-hidden="true"></i>
-						</div>
-						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 4 2016</h3>
-							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. Tdeck.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. </p>
-							</div>
-						</div>
-					</div>
-					<div class="about-inner" id="section5">
-						<div class="about-border">
-							<span class="fa fa-circle"></span>
-							<i class="fa fa-caret-left" aria-hidden="true"></i>
-						</div>
-						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 5 2015</h3>
-							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. Tdeck.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. </p>
-							</div>
-						</div>
-					</div>
-					<div class="about-inner" id="section6">
-						<div class="about-border">
-							<span class="fa fa-circle"></span>
-							<i class="fa fa-caret-left" aria-hidden="true"></i>
-						</div>
-						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 6 2014</h3>
-							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. Tdeck.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. </p>
-							</div>
-						</div>
-					</div>
-					<div class="about-inner" id="section7">
-						<div class="about-border">
-							<span class="fa fa-circle"></span>
-							<i class="fa fa-caret-left" aria-hidden="true"></i>
-						</div>
-						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 7 2013</h3>
-							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. Tdeck.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. </p>
-							</div>
-						</div>
-					</div>
-					<div class="about-inner" id="section8">
-						<div class="about-border">
-							<span class="fa fa-circle"></span>
-							<i class="fa fa-caret-left" aria-hidden="true"></i>
-						</div>
-						<div class="about-pic-cnt">
-							<h3 class="about-inner-h3">SECTION 8 2012</h3>
-							<div class="about-pic-p">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. The new products will enter service in December on the first of five new A380 aircraft entering the fleet.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. Tdeck.</p>
-							</div>
-							<div class="about-pic-p about-txt">
-							<p>On 2 November, Singapore Airlines unveils its latest cabin products which will be fitted to its Airbus A380 fleet starting from December, signifying an investment cost of USD850 million. </p>
-							</div>
-						</div>
-					</div>
+					
+					
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-3" id="myScrollspy" >

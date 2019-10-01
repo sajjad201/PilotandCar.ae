@@ -23,13 +23,15 @@
     
     .centered {
       position: absolute;
-      top: 50%;
+      top: 45%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 70px;
+      font-size: 65px;
       font-weight: 900;
-      text-shadow: 4px 2px #577284;
+      text-shadow: 4px 2px #034f84;
       letter-spacing: 2px;
+      text-transform: uppercase;
+      line-height: 70px;
     }
     .active{
       padding: unset;
@@ -42,65 +44,65 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="car-img-text">
-        <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
-        <div class="centered">Rent a car with Driver</div>
+        <img class="object-image" src="pilotpublic/images/airport/b3.jpg" style="height:500px; ">
+        <div class="centered">Car service</div>
       </div>  
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100 object-image" src="pilotpublic/images/14.jpg" style="height:500px; ">
+        <img class="d-block w-100 object-image" src="pilotpublic/images/cars/g7.jpg" style="height:500px; ">
         <div class="centered">Chauffeur Service</div>
       </div>  
 
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100  object-image" src="pilotpublic/images/7.jpg" style="height:500px;  ">
+        <img class="d-block w-100  object-image" src="pilotpublic/images/cars/g6.jpg" style="height:500px;  ">
         <div class="centered">Limousine Service</div>
       </div>  
     </div>
     <div class="carousel-item">
         <div class="car-img-text">
-          <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
-          <div class="centered">Luxury Buses and Coaches</div>
+          <img class="object-image" src="pilotpublic/images/bus/b2.jpg" style="height:500px; ">
+          <div class="centered">Luxury Buses</div>
         </div>  
       </div>
       <div class="carousel-item">
         <div class="car-img-text">
-          <img class="d-block w-100 object-image" src="pilotpublic/images/14.jpg" style="height:500px; ">
-          <div class="centered">Dubai City tours and Sightseeing</div>
+          <img class="d-block w-100 object-image" src="pilotpublic/images/city/g2.jpg" style="height:500px; ">
+          <div class="centered">Dubai tours</div>
         </div>  
   
       </div>
       <div class="carousel-item">
         <div class="car-img-text">
-          <img class="d-block w-100  object-image" src="pilotpublic/images/7.jpg" style="height:500px;  ">
-          <div class="centered">Abu Dhabi City Tour</div>
+          <img class="d-block w-100  object-image" src="pilotpublic/images/airport/g10.jpg" style="height:500px;  ">
+          <div class="centered">Abu Dhabi Tour</div>
         </div>  
       </div>
       <div class="carousel-item">
       <div class="car-img-text">
-        <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
+        <img class="object-image" src="pilotpublic/images/airport/b1.jpg" style="height:500px; ">
         <div class="centered">Airport Transfer</div>
       </div>  
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100 object-image" src="pilotpublic/images/14.jpg" style="height:500px; ">
+        <img class="d-block w-100 object-image" src="pilotpublic/images/van/p1.jpg" style="height:500px; ">
         <div class="centered">Luxury Vans</div>
       </div>  
 
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100  object-image" src="pilotpublic/images/7.jpg" style="height:500px;  ">
-        <div class="centered">Hire a Drivers or Chauffeur</div>
+        <img class="d-block w-100  object-image" src="pilotpublic/images/os82.jpg" style="height:500px;  ">
+        <div class="centered">Hire Driver</div>
       </div>  
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="object-image" src="pilotpublic/images/13.jpg" style="height:500px; ">
-        <div class="centered">Delivery Vans and Trucks</div>
+        <img class="object-image" src="pilotpublic/images/van/b2.jpg" style="height:500px; ">
+        <div class="centered">Delivery Vans</div>
       </div>  
     </div>
   </div>
@@ -166,8 +168,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -200,8 +202,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -234,8 +236,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -268,8 +270,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -302,8 +304,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -336,8 +338,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -370,8 +372,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -404,8 +406,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -438,8 +440,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>
@@ -472,8 +474,8 @@
               </div>
               <div class="col-md-2 os-right-button">
                 <div style="text-align:center">
-                  <h5><strong>AED 250</strong></h5>
-                  <button type="button" class="btn btn-block btn-info" style="padding:15px; padding-top:20px; padding-bottom:20px; margin: 0 auto; border-radius: 1px;">
+                  <h5><strong>FROM 999$</strong></h5>
+                  <button type="button" class="btn btn-block os-book-nw-btn">
                     BOOK NOW
                   </button>
                 </div>

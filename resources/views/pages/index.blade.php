@@ -31,6 +31,11 @@
     background-color: #023b64;
     color: #FFFFFF;
 }
+.relaxed-journey{
+    top:unset;
+    bottom: 34px;
+    left: 64px;
+}
 </style>
 
 
@@ -40,8 +45,8 @@
             <div class="col-lg-12">
                 <div class="col-lg-12" style="background-color:#408080; ">
                     <div class="col-lg-12 ">
-                        <div class="col-lg-12 header-image" style=" width:100%; height:700px; position: relative; ">
-                            <img src="pilotpublic/images/banner1.jpg" style="height:100%; width:100%;" />
+                        <div class="col-lg-12 header-image" style=" width:100%; height:600px; position: relative; ">
+                            <img src="pilotpublic/images/cover.jpg" style="height:100%; width:100%;" class="object-image" />
                             <div class="col-lg-8 relaxed-journey">
                                     <div class="col-lg-12" style="padding:20px; text-align:left; padding-right: 250px; padding-top:15px">
                                         <div style="font-family: 'Gentona Book'; font-size: 13px; font-weight:400; color:#ffffff !important;">
@@ -50,10 +55,6 @@
                                         <div style="font-family: 'Gentona Book'; font-size: 50px; font-weight:600; color:#ffffff;">
                                             RELAXED JOURNEY EVER
                                         </div>
-
-
-
-                                        <button class="btn btn-rent-car-now" style="border-radius: 0px;">Rent Car Now</button>
                                     </div>
                                 </div>
                             
@@ -75,7 +76,7 @@
                                                                 From
                                                             </label>
                                                             <label class="licon" for="addr"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input id="addr" type="text" name="" placeholder="Adress, airport, hotel,...">
+                                                            <input id="addr" type="text" name="" placeholder="Adress..." autofocus>
                                                         </div>
                                                     </div>
                                                     <div class="ipar">

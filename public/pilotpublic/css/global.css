@@ -13741,7 +13741,7 @@ body.modal-open #locale-modal {
     min-width: 590px;
     min-height: 300px;
     background-color: #ffffff;
-    padding: 15px 10px 18px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 .kop-menuflyout .kop-menuflyout__wrapper .kop-menuflyout__container .flyout-product__tile {
@@ -14032,7 +14032,7 @@ body.modal-open #locale-modal {
         margin-top: .5em
     }
     .site-nav__list__link.primary-anchor {
-        padding: 1.8em 1.1em;
+        padding: 1.8em .95em;
         font-size: 16px;
     }
     .site-nav__list__link.primary-anchor span {

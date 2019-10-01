@@ -101,7 +101,7 @@
 }
 .search{
 	background: linear-gradient(to right, #0066ff 0%, #cc33ff 100%) !important;
-	padding: 15px !important;
+	padding: 20px !important;
 	border:none;
 	transition: all 0.4s ease;
 }
@@ -157,8 +157,8 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  color: #666;
-  background-color: #0D0D0D;
+  color: #023b64;
+  background-color: #d9d9d9;
   font-weight: bold;
 
 }
@@ -183,12 +183,12 @@
   transform: translateY(70%);
 }
 .tabs > li.active {
-  color: #FFF;
-  background-color: transparent;
+  color: #034f84;
+  background-color: unset;
 }
 .tabs > li.active:before {
   transition-duration: .5s;
-  background-color: #444;
+  background-color: #f5f5f5;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
@@ -198,7 +198,7 @@
   position: relative;
   width: 100%;
   border-radius: 5px 5px 0px 0px;
-  background-color: #444;
+  background-color: #f5f5f5;
 -webkit-box-shadow: 0px 12px 34px -8px rgba(0,0,0,0.28);
 -moz-box-shadow: 0px 12px 34px -8px rgba(0,0,0,0.28);
 box-shadow: 0px 12px 34px -8px rgba(0,0,0,0.28);
@@ -208,10 +208,10 @@ box-shadow: 0px 12px 34px -8px rgba(0,0,0,0.28);
   width: 100%;
   position: absolute;
   border-radius: 5px;
-  color: #FFF;
+  color: #000000;
   top: 0;
   left: 0;
-  background-color: #444;
+  background-color: #f5f5f5;
   display: none;
   list-style: none;
 }
@@ -219,7 +219,7 @@ box-shadow: 0px 12px 34px -8px rgba(0,0,0,0.28);
   text-align: center;
   border-radius: 5px;
   padding-top: 12px;
-  background-color: #444;
+  background-color: #f5f5f5;
 }
 
 .flex-bg{
@@ -242,19 +242,24 @@ letter-spacing: 0.5px;}
 	text-align: center;
 }
 
-.form{padding: 16px;}
+.form{
+	padding: 16px;
+}
+
+
 form input {
 	border: none;
-	padding: 6px;
-	background: #fff;
+	padding: 8px;
+	background: #e6e6e6;
 	font-size: 16px;
-	margin: 12px;
+	margin: 20px 25px 7px 7px;
 	width: -webkit-fill-available;
 	outline: none;
-	color:#666666;
+	color:#333333;
+	border-radius: 2px;
 }
 form input:first-child {margin-top: 8px;}
-form input:last-child { margin-bottom: 0px;}
+form input:last-child { margin-bottom: 7px;}
 form input:focus {background-color: #FFF;}
 form input:hover {background-color: #FFF;}
 form input:placeholder {color: blue;}
@@ -278,7 +283,9 @@ form [type="submit"] {
 	border-radius: 4px;
 	padding:0px;
 }
-.cinner{position: relative;}
+.cinner{position: relative;
+	background-color: #e6e6e6;
+}
 .label{    position: absolute;
     color: #a9a8a8;
     text-transform: uppercase;
@@ -297,7 +304,7 @@ font-size: 18px;
     left: auto;
     bottom: 5px;
     right: 5px;
-    color: #757575;
+    color: #b3b3b3;
     font-size: 18px;
 }
 /* end-form-css*/

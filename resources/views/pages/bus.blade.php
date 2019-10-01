@@ -11,10 +11,14 @@ BUS SERVICES
 <section>
   <div style="position: relative; color:white">
     <img src="pilotpublic/images/bus/p1.jpg" class="img-b" style="height:600px">
-    <div style="position: absolute; top:10%; left:35%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">
+    <div style="position: absolute; top:10%; left:42%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">
       BUS SERVICES
     </div>
-    <h1 style="position: absolute; left:42%; top:40%">Lets Trave with Luxury Bus Service</h1>
+    <h1 style="position: absolute; left:45%; top:37%">
+        <p class="animated fadeIn ch-t-img-txt" style="animation-delay: 1s;">
+            Rent a bus in Dubai with the driver on <br>cheap rates is a reasonable package. 
+        </p>
+    </h1>
   </div>
 </section>
 <section class="page-nav-links">

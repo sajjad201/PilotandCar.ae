@@ -32,7 +32,7 @@
   <ul class="nav navbar-nav site-nav__list-top" role="menu">
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="#" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{url('/')}}" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">Home</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -164,7 +164,7 @@
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="#" data-categoryid="20000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="our-services" data-categoryid="20000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">Our Services</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -175,7 +175,7 @@
   
   <li class="site-nav__list__item" role="presentation">
   <a href="our-services" data-categoryid="21000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
-  <span class="site-nav__list__name hovered" style="color:#034f84; font-size:20px; text-decoration:underline">All Services</span>
+  <span class="site-nav__list__name hovered">visit All Services</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -423,7 +423,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/bus/p1.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/chauf/g1.jpg">
   </a>
   </div>
   </div>
@@ -441,7 +441,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/chauf/g1.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/limo/g12.jpg">
   </a>
   </div>
   </div>
@@ -459,11 +459,11 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/dubai/p0.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/bus/p1.jpg">
   </a>
   </div>
   </div>
-  <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
+  <div class="kop-menuflyout__header" role="presentation"></div>
   <div class="kop-menuflyout__content textalign-left verticalalign-middle" style="color: #fff;" role="presentation">
   <div class="kop-menuflyout__content-padding" role="presentation">
   </div>
@@ -478,7 +478,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/van/p2.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/dubai/p0.jpg">
   </a>
   </div>
   </div>
@@ -496,7 +496,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/airport/g6.webp">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/city/g2.jpg">
   </a>
   </div>
   </div>
@@ -514,7 +514,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/city/g2.jpg">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/airport/g6.webp">
   </a>
   </div>
   </div>
@@ -584,10 +584,332 @@
   
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="site-nav__list__item site-nav__list-top__item" role="presentation">
+      <div class="site-nav__list-cat_border"></div>
+      <a href="our-fleet" data-categoryid="30000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">Our Fleet</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <div class="site-nav__flyout" role="presentation" style="display: none;">
+      <ul class="site-nav__list site-nav__list-secondary site-nav__with-padding" role="menu" aria-hidden="true" style="padding-bottom:2.1rem">
+      <li class="site-nav__list__item" role="presentation">
+      <a href="our-fleet" data-categoryid="5010" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">STANDARD</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
+      <li class="site-nav__list__item hovered" role="presentation">
+      <a href="our-fleet" data-categoryid="5010" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <span class="site-nav__list__name">STANDARD</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </li>
+    <li class="site-nav__list__item" role="presentation">
+      <a href="our-fleet" data-categoryid="5011" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">LUXURY SEDAN</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
+      <li class="site-nav__list__item " role="presentation">
+      <a href="our-fleet" data-categoryid="5011" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <span class="site-nav__list__name">LUXURY SEDAN</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </li>
+    
+
+<li class="site-nav__list__item" role="presentation">
+      <a href="our-fleet" data-categoryid="5012" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">BUSINESS VAN</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
+      <li class="site-nav__list__item " role="presentation">
+      <a href="our-fleet" data-categoryid="5012" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <span class="site-nav__list__name">BUSINESS VAN</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </li>
+
+<li class="site-nav__list__item" role="presentation">
+      <a href="our-fleet" data-categoryid="5013" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">LUXURY SUV</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
+      <li class="site-nav__list__item " role="presentation">
+      <a href="our-fleet" data-categoryid="5013" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <span class="site-nav__list__name">LUXURY SUV</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </li>
+
+<li class="site-nav__list__item" role="presentation">
+      <a href="our-fleet" data-categoryid="5014" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">FIRST CLASS</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
+      <li class="site-nav__list__item " role="presentation">
+      <a href="our-fleet" data-categoryid="5014" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <span class="site-nav__list__name">FIRST CLASS</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </li>
+
+<li class="site-nav__list__item" role="presentation">
+      <a href="our-fleet" data-categoryid="5015" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">BUSES/VAN</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
+      <li class="site-nav__list__item " role="presentation">
+      <a href="our-fleet" data-categoryid="5015" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <span class="site-nav__list__name">BUSES/VAN</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </li><li class="site-nav__list__item" role="presentation">
+      <a href="our-fleet" data-categoryid="5016" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <span class="site-nav__list__name">STRETCH LIMO</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
+      <li class="site-nav__list__item " role="presentation">
+      <a href="our-fleet" data-categoryid="5016" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <span class="site-nav__list__name">STRETCH LIMO</span>
+      <svg class="icon">
+      <use xlink:href="#chevron-right"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </li>
+      
+      </ul>
+      
+      
+      
+      
+      <div id="menuflyout-5010" class="kop-menuflyout hidden-md-down" role="presentation" style="">
+      <div class="kop-menuflyout__wrapper" role="presentation">
+      <div class="kop-menuflyout__container" role="presentation">
+      <div class="kop-menuflyout__media" role="presentation">
+      <div class="kop-menuflyout__image-wrapper" role="presentation">
+      <a href="#">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/1.png" style="width:350px; height:200px !important">
+      </a>
+      </div>
+      </div>
+      <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
+      <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
+      <div class="kop-menuflyout__header" role="presentation">About Pilot and Car</div>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    <div id="menuflyout-5011" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
+      <div class="kop-menuflyout__wrapper" role="presentation">
+      <div class="kop-menuflyout__container" role="presentation">
+      <div class="kop-menuflyout__media" role="presentation">
+      <div class="kop-menuflyout__image-wrapper" role="presentation">
+      <a href="#">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/3.png" style="width:350px; height:200px !important">
+      </a>
+      </div>
+      </div>
+      <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
+      <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    
+<div id="menuflyout-5012" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
+      <div class="kop-menuflyout__wrapper" role="presentation">
+      <div class="kop-menuflyout__container" role="presentation">
+      <div class="kop-menuflyout__media" role="presentation">
+      <div class="kop-menuflyout__image-wrapper" role="presentation">
+      <a href="#">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/5.png" style="width:350px; height:200px !important">
+      </a>
+      </div>
+      </div>
+      <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
+      <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
+      <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+<div id="menuflyout-5013" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
+      <div class="kop-menuflyout__wrapper" role="presentation">
+      <div class="kop-menuflyout__container" role="presentation">
+      <div class="kop-menuflyout__media" role="presentation">
+      <div class="kop-menuflyout__image-wrapper" role="presentation">
+      <a href="#">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/7.png" style="width:350px; height:200px !important">
+      </a>
+      </div>
+      </div>
+      <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
+      <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
+      <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+<div id="menuflyout-5014" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
+      <div class="kop-menuflyout__wrapper" role="presentation">
+      <div class="kop-menuflyout__container" role="presentation">
+      <div class="kop-menuflyout__media" role="presentation">
+      <div class="kop-menuflyout__image-wrapper" role="presentation">
+      <a href="#">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/9.png" style="width:350px; height:200px !important">
+      </a>
+      </div>
+      </div>
+      <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
+      <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
+      <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+<div id="menuflyout-5015" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
+      <div class="kop-menuflyout__wrapper" role="presentation">
+      <div class="kop-menuflyout__container" role="presentation">
+      <div class="kop-menuflyout__media" role="presentation">
+      <div class="kop-menuflyout__image-wrapper" role="presentation">
+      <a href="#">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/5.png" style="width:350px; height:200px !important">
+      </a>
+      </div>
+      </div>
+      <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
+      <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
+      <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+<div id="menuflyout-5016" class="kop-menuflyout hidden-md-down" role="presentation" style="display: none;">
+      <div class="kop-menuflyout__wrapper" role="presentation">
+      <div class="kop-menuflyout__container" role="presentation">
+      <div class="kop-menuflyout__media" role="presentation">
+      <div class="kop-menuflyout__image-wrapper" role="presentation">
+      <a href="#">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/11.png" style="width:350px; height:200px !important">
+      </a>
+      </div>
+      </div>
+      <div class="kop-menuflyout__content textalign-left verticalalign-top" style="color: #fff;" role="presentation">
+      <div class="kop-menuflyout__content-padding" role="presentation" style="padding:30px 12px 20px">
+      <div class="kop-menuflyout__header" role="presentation">Read Our Blog</div>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      
+      
+      
+      </div>
+      </li>
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
-  
+{{--   
   </div>
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
@@ -597,7 +919,7 @@
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
-  </a>
+  </a> --}}
   
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
@@ -624,17 +946,17 @@
   <li class="header-contact-icons">
     <a href="#" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="false" aria-haspopup="true" aria-expanded="false">
     <div class="site-nav__list__name header-contact-icons-text header-contact-icons-text-one">
-        <i class="fab fa-whatsapp" style="margin-right: 10px; color:#25D366; font-size:14px"></i>+92 305 1234567
+        <i class="fab fa-whatsapp" style="margin-right: 10px; color:#25D366; font-size:14px"></i>+971 4 2223201
     </div>
     </a>
     <a href="#" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="false" aria-haspopup="true" aria-expanded="false">
     <div class="site-nav__list__name header-contact-icons-text">
-        <i class="fas fa-phone-square" style="margin-right: 10px; color:#6B5B95; font-size:14px"></i>042 123456
+        <i class="fas fa-phone-square" style="margin-right: 10px; color:#6B5B95; font-size:14px"></i>+971 50 7852656
     </div>
     </a>
     <a href="#" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="false" aria-haspopup="true" aria-expanded="false">
     <div class="site-nav__list__name header-contact-icons-text">
-        <i class="far fa-envelope" style="margin-right: 10px; color:#616247; font-size:14px"></i>info@pilot.com
+        <i class="far fa-envelope" style="margin-right: 10px; color:#616247; font-size:14px"></i>info@pilotandcar.ae
     </div>
     </a>
   </li>

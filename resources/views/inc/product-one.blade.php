@@ -10,7 +10,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p1.jpg" style="height:200px; width:100%">
+            <img src="pilotpublic/images/limo/p1.jpg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -41,7 +41,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p2.jpg" style="height:200px; width:100%">
+            <img src="pilotpublic/images/limo/p2.jpg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -72,7 +72,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p3.jpg" style="height:200px; width:100%">
+            <img src="pilotpublic/images/limo/p3.jpg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -103,7 +103,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p4.jpg" style="height:200px; width:100%">
+            <img src="pilotpublic/images/limo/p4.jpg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -134,7 +134,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p5.jpg" style="height:200px; width:100%">
+            <img src="pilotpublic/images/limo/p5.jpg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
