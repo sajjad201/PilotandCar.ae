@@ -210,7 +210,7 @@ letter-spacing: 0.5px;}
 	text-align: center;
 }
 
-.form{padding: 7px !important;}
+.form{padding: 7px !important; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
 form input {
 	border: none;
 	padding: 6px;
@@ -5554,3 +5554,8 @@ transition: all ease 0.3s linear 1.5s;}
 }
 
 
+
+.one{
+    display: grid;
+
+}

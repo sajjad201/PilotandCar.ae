@@ -62,8 +62,8 @@
                             <div class="col-lg-4 centered-form-div">
                                 <section class="loginWrapper">
                                     <ul class="tabs">
-                                        <li class="active" style="font-size: 16px; ">ONE WAY</li>
-                                        <li style="font-size: 16px; ">BY THE HOUR</li>
+                                        <li class="active" style="font-size: 16px; border-top-left-radius:3px;">ONE WAY</li>
+                                        <li style="font-size: 16px; border-top-right-radius:3px;">BY THE HOUR</li>
                                     </ul>
                                     <ul class="tab__content">
                                         <li class="active">
@@ -71,21 +71,38 @@
                                                 <form method="POST" action="" class="form">
                                                     
                                                     <div class="ipar">
-                                                        <div class="cinner">
+                                                        <div class="cinner cinner-border-rem">
                                                             <label for="addr" class="label">
                                                                 From
                                                             </label>
                                                             <label class="licon" for="addr"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input id="addr" type="text" name="" placeholder="Adress..." autofocus>
+                                                            <input type="text" class="inputfocus" placeholder="Current Location" name="addressone" id="current" onfocus="initializeAutocompleteLocOne()" aria-required="true" required>
+                                                            <input type="hidden" name="cityone" id="cityone" placeholder="City" value="" >
+                                                            <input type="hidden" name="latitudeone" id="latitudeone" placeholder="Latitude" value="" >
+                                                            <input type="hidden" name="longitudeone" id="longitudeone" placeholder="Longitude" value="" >
                                                         </div>
                                                     </div>
+                                                    <script>
+                                                    $(".inputfocus").focus(function(){
+                                                        $(this).parent().removeClass("cinner-border-rem");
+                                                        $(this).parent().addClass("cinner-border-add");
+
+                                                        }).blur(function(){
+                                                            $(this).parent().removeClass("cinner-border-add");
+                                                            $(this).parent().addClass("cinner-border-rem");
+                                                    });
+                                                    </script>
                                                     <div class="ipar">
                                                         <div class="cinner">
                                                             <label for="to" class="label">
                                                                 To
                                                             </label>
                                                             <label class="licon" for="to"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input id="to" type="text" name="" placeholder="Adress, airport, hotel,...">
+                                                            <input type="text" placeholder="Enter Ride" name="address" onfocus="initializeAutocomplete()" id="locality" aria-required="true" value="" required>
+                                                            <input type="hidden" name="city" id="city" placeholder="City" value="" >
+                                                            <input type="hidden" name="latitude" id="latitude" placeholder="Latitude" value="" >
+                                                            <input type="hidden" name="longitude" id="longitude" placeholder="Longitude" value="" >
+
                                                         </div>
                                                     </div>
                                                     <div class="ipar">
@@ -95,6 +112,7 @@
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
                                                             <input id="date" type="date" name="" placeholder="Adress, airport, hotel,...">
+                                                            
                                                         </div>
                                                     </div>
                                                     <div class="ipar">
@@ -103,8 +121,11 @@
                                                                 Time
                                                             </label>
                                                             <label class="licon" for="time"><i class="fa fa-clock-o" aria-hidden="true"></i></label>
-                                                            <input id="time" type="text" name="" placeholder="">
+                                                            <input id="time" type="text" name=""  placeholder="">
                                                         </div>
+                                                    </div>
+                                                    <div id="output">
+                                                        
                                                     </div>
                                                     
                                                     <button type="submit" class="search btn">Search</button>
@@ -1310,6 +1331,406 @@
         });
     });
     </script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/sina-nav.js"></script>
+  <script src="js/main.js"></script> 
+  <script src="slick/slick.js"></script>
+
+
+<script type="text/javascript">
+  
+$(function(){
+$('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+ 
+  responsive: [
+
+    {
+
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode:true,
+      }
+
+    }]
+});
+
+
+ // $("#cardhead, #cardhead2, #cardhead3").mouseover(function () {
+ //       $('#cardhead, #cardhead2, #cardhead3').text("This is the new html");
+ //      $('#cardiconshow, #cardiconshow2, #cardiconshow3').show('slow');
+ //    });
+ //     $("#cardhead, #cardhead2, #cardhead3").mouseleave(function () {
+ //      $('#cardhead, #cardhead2, #cardhead3').text("Lorem Ipsum");
+ //      $('#cardiconshow, #cardiconshow2, #cardiconshow3').hide('slow');
+
+ //    });
+ // $('.cardhead').on({
+ //    mouseover: function(){
+ //      $('.cardhead').text("This is the new html")
+ //    }, 
+ //    mouseleave: function(){
+ //      $(this).css("background-color", "lightblue");
+ //    }, 
+ //    click: function(){
+ //      $(this).css("background-color", "yellow");
+ //    } 
+ //  });
+
+  
+
+// var perv_for = $('.prev-btn');
+//   var next_for = $('.next-btn');
+//   var prev_nav = $('.prev-btn-nav');
+//   var next_nav = $('.next-btn-nav');
+//   var dot_indicator = $('.dot-indicator');
+$('.slider-for').slick({
+        slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    centerMode: true,
+    fade: true,
+    infinite: false,
+    slidesPerRow:2,
+    asNavFor: '.slider-nav',
+    //  prevArrow: '<div class="slick-prev"><img width="20" src="images/play.png"></div>',
+    // nextArrow: '<div class="slick-next"><img width="20" src="images/play.png"></div>',
+   });
+  $('.slider-nav').slick({
+      slidesToShow: 10,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      focusOnSelect: true,
+      infinite: false,
+      arrows: true,
+    
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+              slidesToShow: 8,
+              slidesToScroll: 1,
+          }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+          }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+              slidesToShow: 6,
+              slidesToScroll: 1,
+          }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+              slidesToShow: 5,
+              swipe: false,
+          }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+              slidesToShow: 4,
+              swipe: false,
+          }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+              slidesToShow: 3,
+              swipe: false,
+          }
+      },
+      {
+        breakpoint: 350,
+        settings: {
+              slidesToShow: 2,
+              swipe: false,
+          }
+      },
+
+    ]
+    });
+
+
+ // $('.slider-for').slick({
+ //   slidesToShow: 1,
+ //   slidesToScroll: 1,
+ //   arrows: false,
+ //   fade: true,
+ //   asNavFor: '.slider-nav',
+ //   mobileFirst: true,
+
+
+ // });
+ // $('.slider-nav').slick({
+ //   slidesToShow: 7,
+ //   slidesToScroll: 1,
+ //   asNavFor: '.slider-for',
+ //   // dots: true,
+ //   focusOnSelect: true,
+ //      responsive: [
+ //      {
+ //          breakpoint: 768,
+ //          settings: {
+ //              slidesPerRow: 2,
+ //              rows: 1,
+ //              slidesToScroll: 1,
+ //              slidesToShow: 1,
+ //              dots: false
+ //          }
+ //      }
+ //  ]
+ // });
+
+});
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqqhqN5q545cx57GD5ht6JVidUQuuGd34&sensor=false&v=3&libraries=geometry,places&callback=initAutocomplete" async defer></script>
+<script type="text/javascript">
+function initializeAutocomplete(){
+	var input = document.getElementById('locality');
+	var options = {
+    //types: ['(regions)'],
+    componentRestrictions: {country: "PK"}
+	};
+
+	var autocomplete = new google.maps.places.Autocomplete(input, options);
+
+	google.maps.event.addListener(autocomplete, 'place_changed', function() {
+	var place = autocomplete.getPlace();
+	var lat = place.geometry.location.lat();
+	var lng = place.geometry.location.lng();
+	var placeId = place.place_id;
+	// to set city name, using the locality param
+	var componentForm = {
+		locality: 'short_name',
+	};
+	  
+	  for (var i = 0; i < place.address_components.length; i++) {
+		var addressType = place.address_components[i].types[0];
+		if (componentForm[addressType]) {
+		  var val = place.address_components[i][componentForm[addressType]];
+		  document.getElementById("city").value = val;
+		}
+	  }
+	  
+		document.getElementById("latitude").value = lat;
+		document.getElementById("longitude").value = lng;
+		
+		var latitude2 = document.getElementById("latitudeone").value;
+		console.log(latitude2);
+		var longitude2 = document.getElementById("longitudeone").value;
+		console.log(longitude2);
+		var latitude1 = lat;
+		console.log(latitude1);
+		var longitude1 = lng;
+		console.log(longitude1);
+
+		calculateTimeAndDistance(latitude1,longitude1,latitude2,longitude2);
+		
+	});
+
+}
+  
+function initializeAutocompleteLocOne(){
+    var input = document.getElementById('current');
+    var options = {
+       //types: ['(regions)'],
+       componentRestrictions: {country: "PK"}
+    };
+    //var options = {}
+
+    var autocomplete = new google.maps.places.Autocomplete(input, options);
+
+    google.maps.event.addListener(autocomplete, 'place_changed', function() {
+      var place = autocomplete.getPlace();
+      var lat = place.geometry.location.lat();
+      var lng = place.geometry.location.lng();
+      var placeId = place.place_id;
+      // to set city name, using the locality param
+      var componentForm = {
+        locality: 'short_name',
+      };
+      for (var i = 0; i < place.address_components.length; i++) {
+        var addressType = place.address_components[i].types[0];
+        if (componentForm[addressType]) {
+          var val = place.address_components[i][componentForm[addressType]];
+          document.getElementById("cityone").value = val;
+        }
+      }
+      document.getElementById("latitudeone").value = lat;
+      document.getElementById("longitudeone").value = lng;
+     
+    });
+ }
+  
+
+var x = document.getElementById("demo");
+
+$('#current_loc_btn').click(function(e){
+
+  e.preventDefault();
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+	
+  }
+});
+
+function showPosition(position) {
+  document.getElementById("current").value = position.coords.latitude + ',' +  position.coords.longitude;
+  initMap();
+	  
+}
+  
+//set the address in field
+
+
+function initMap() {
+	var map = new google.maps.Map(document.getElementById('map'), {
+	  zoom: 8,
+	  center: {lat: 40.731, lng: -73.997}
+	});
+	var geocoder = new google.maps.Geocoder;
+	var infowindow = new google.maps.InfoWindow;
+
+	
+	geocodeLatLng(geocoder, map, infowindow);
+	
+  }
+
+function geocodeLatLng(geocoder, map, infowindow) {
+	var input = document.getElementById('current').value;
+	var latlngStr = input.split(',', 2);
+	var latlng = {lat: parseFloat(latlngStr[0]), lng: parseFloat(latlngStr[1])};
+	geocoder.geocode({'location': latlng}, function(results, status) {
+	  if (status === 'OK') {
+		if (results[0]) {
+		  document.getElementById("current").value =  results[0].formatted_address ;
+		  document.getElementById("latitudeone").value = latlngStr[0];
+		  document.getElementById("longitudeone").value = latlngStr[1];
+		} else {
+		  window.alert('No results found');
+		}
+	  } else {
+		window.alert('Geocoder failed due to: ' + status);
+	  }
+	});
+  }
+
+  
+  function calculateTimeAndDistance(latitude1,longitude1,latitude2,longitude2){
+			var bounds = new google.maps.LatLngBounds;
+        var markersArray = [];
+
+        var origin1 = new google.maps.LatLng(latitude1, longitude1);
+        
+        var destinationA = new google.maps.LatLng(latitude2, longitude2);
+
+        var destinationIcon = 'https://chart.googleapis.com/chart?' +
+            'chst=d_map_pin_letter&chld=D|FF0000|000000';
+        var originIcon = 'https://chart.googleapis.com/chart?' +
+            'chst=d_map_pin_letter&chld=O|FFFF00|000000';
+        
+        var geocoder = new google.maps.Geocoder;
+
+        var service = new google.maps.DistanceMatrixService;
+        service.getDistanceMatrix({
+          origins: [origin1],
+          destinations: [destinationA],
+          travelMode: 'DRIVING',
+          unitSystem: google.maps.UnitSystem.METRIC,
+          avoidHighways: false,
+          avoidTolls: false
+        }, function(response, status) {
+          if (status !== 'OK') {
+            alert('Error was: ' + status);
+          } else {
+            var originList = response.originAddresses;
+            var destinationList = response.destinationAddresses;
+            var outputDiv = document.getElementById('output');
+            outputDiv.innerHTML = '';
+            
+
+            var showGeocodedAddressOnMap = function(asDestination) {
+              var icon = asDestination ? destinationIcon : originIcon;
+              return function(results, status) {
+                if (status === 'OK') {
+                  map.fitBounds(bounds.extend(results[0].geometry.location));
+                  markersArray.push(new google.maps.Marker({
+                    map: map,
+                    position: results[0].geometry.location,
+                    icon: icon
+                  }));
+                } else {
+                  alert('Geocode was not successful due to: ' + status);
+                }
+              };
+            };
+
+            for (var i = 0; i < originList.length; i++) {
+              var results = response.rows[i].elements;
+              geocoder.geocode({'address': originList[i]},
+                  showGeocodedAddressOnMap(false));
+              for (var j = 0; j < results.length; j++) {
+                
+                outputDiv.innerHTML += 'Distance : ' + results[j].distance.text + '. Time ' +
+                    results[j].duration.text + '<br>';
+              }
+            }
+          }
+        });
+  }
+
+
+  
+  
+  //now and letter change function
+$("#nowandlatter").change(function(){
+	if($('#nowandlatter').val() == 'later'){
+	$("#later").show('slow');
+	}
+	else{
+		$("#later").hide('slow');
+	}
+});  
+
+
+
+$(function() {
+  $(document).ready(function () {
+	var todaysDate = new Date();
+	var year = todaysDate.getFullYear();
+	var month = ("0" + (todaysDate.getMonth() + 1)).slice(-2);
+	var day = ("0" + todaysDate.getDate()).slice(-2);
+	var maxDate = (year +"-"+ month +"-"+ day);
+	$('#mindate').attr('min',maxDate);
+  });
+});
+
+$(".hidden-md").hover(function(){
+  $("#ruby-active").removeClass("ruby-active-menu-item");
+  });
+		
+</script>
     
 @endsection
 

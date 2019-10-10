@@ -104,6 +104,7 @@
 	padding: 20px !important;
 	border:none;
 	transition: all 0.4s ease;
+	border-radius: 3px;
 }
 .search:hover{
 	background: linear-gradient(to right, #0000ff 40%, #cc00ff 100%) !important;
@@ -220,6 +221,7 @@ box-shadow: 0px 12px 34px -8px rgba(0,0,0,0.28);
   border-radius: 5px;
   padding-top: 12px;
   background-color: #f5f5f5;
+  border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;
 }
 
 .flex-bg{
@@ -250,13 +252,23 @@ letter-spacing: 0.5px;}
 form input {
 	border: none;
 	padding: 8px;
-	background: #e6e6e6;
+	background: white;
 	font-size: 16px;
 	margin: 20px 25px 7px 7px;
 	width: -webkit-fill-available;
 	outline: none;
 	color:#333333;
 	border-radius: 2px;
+	padding-left: 3px;
+	padding-top: 0px;
+}
+.cinner-border-add{
+	border: 2px solid blueviolet !important;
+	border-radius: 3px;
+}
+.cinner-border-rem{
+	border: 2px solid white !important;
+	border-radius: 3px;
 }
 form input:first-child {margin-top: 8px;}
 form input:last-child { margin-bottom: 7px;}
@@ -284,14 +296,17 @@ form [type="submit"] {
 	padding:0px;
 }
 .cinner{position: relative;
-	background-color: #e6e6e6;
+	background-color: white;
+	border: 1px solid #fbfbfb;
 }
 .label{    position: absolute;
     color: #a9a8a8;
     text-transform: uppercase;
     font-size: 11px;
     letter-spacing: 1.2px;
-    margin:3px 0px ;
+	margin:3px 0px ;
+	font-weight: 100;
+	font-family: calibri;
     left: 5px;}
 
     ::placeholder { 
@@ -304,7 +319,7 @@ font-size: 18px;
     left: auto;
     bottom: 5px;
     right: 5px;
-    color: #b3b3b3;
+    color: #e6e6e6;
     font-size: 18px;
 }
 /* end-form-css*/
