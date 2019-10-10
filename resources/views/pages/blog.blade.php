@@ -5,6 +5,11 @@
     BLOG
 @endsection
 
+@section('tags')
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+@endsection
+
 @section('content')
 
 <div class="blog-body">

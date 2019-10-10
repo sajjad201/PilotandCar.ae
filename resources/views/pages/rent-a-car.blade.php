@@ -5,6 +5,12 @@
 Rent a car with Driver
 @endsection
 
+@section('tags')
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+@endsection
+
+
 @section('content')
 
 <section class="bg-img-int bg-pic" style="background-image: url(pilotpublic/images/cars/g0.jpg); height: 500px;">

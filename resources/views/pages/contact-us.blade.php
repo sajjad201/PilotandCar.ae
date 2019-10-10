@@ -5,6 +5,11 @@
     CONTACT US
 @endsection
 
+@section('tags')
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+@endsection
+
 @section('content')
 
 <section class="cu-sec-1">

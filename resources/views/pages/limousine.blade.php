@@ -5,6 +5,11 @@
 Limousine Service Dubai
 @endsection
 
+@section('tags')
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+@endsection
+
 @section('content')
 
 

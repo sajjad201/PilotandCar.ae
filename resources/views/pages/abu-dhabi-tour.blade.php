@@ -5,6 +5,11 @@
 Abu Dhabi City Tour with Ferrari World
 @endsection
 
+@section('tags')
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+@endsection
+
 @section('content')
 
 <style>

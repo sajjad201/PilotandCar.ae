@@ -5,6 +5,11 @@
 Dubai City Tours And Sightseeing
 @endsection
 
+@section('tags')
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+@endsection
+
 @section('content')
 
 
