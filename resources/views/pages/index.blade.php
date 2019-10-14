@@ -87,31 +87,22 @@
                                                             </label>
                                                             <label class="licon" for="addr"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
                                                             <input type="text" class="inputfocus" placeholder="Current Location" name="addressone" id="current" onfocus="initializeAutocompleteLocOne()" aria-required="true" required>
-                                                            <input type="hidden" name="cityone" id="cityone" placeholder="City" value="" >
-                                                            <input type="hidden" name="latitudeone" id="latitudeone" placeholder="Latitude" value="" >
-                                                            <input type="hidden" name="longitudeone" id="longitudeone" placeholder="Longitude" value="" >
+                                                            <input type="hidden" name="cityone" id="cityone" placeholder="City" value="">
+                                                            <input type="hidden" name="latitudeone" id="latitudeone" placeholder="Latitude" value="" class="inputfocus">
+                                                            <input type="hidden" name="longitudeone" id="longitudeone" placeholder="Longitude" value="" class="inputfocus">
                                                         </div>
                                                     </div>
-                                                    <script>
-                                                    $(".inputfocus").focus(function(){
-                                                        $(this).parent().removeClass("cinner-border-rem");
-                                                        $(this).parent().addClass("cinner-border-add");
-
-                                                        }).blur(function(){
-                                                            $(this).parent().removeClass("cinner-border-add");
-                                                            $(this).parent().addClass("cinner-border-rem");
-                                                    });
-                                                    </script>
+                                                    
                                                     <div class="ipar">
                                                         <div class="cinner">
                                                             <label for="to" class="label">
                                                                 To
                                                             </label>
                                                             <label class="licon" for="to"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input type="text" placeholder="Enter Ride" name="address" onfocus="initializeAutocomplete()" id="locality" aria-required="true" value="" required>
-                                                            <input type="hidden" name="city" id="city" placeholder="City" value="" >
-                                                            <input type="hidden" name="latitude" id="latitude" placeholder="Latitude" value="" >
-                                                            <input type="hidden" name="longitude" id="longitude" placeholder="Longitude" value="" >
+                                                            <input type="text" class="inputfocus" placeholder="Enter Ride" name="address" onfocus="initializeAutocomplete()" id="locality" aria-required="true" value="" required>
+                                                            <input type="hidden" name="city" id="city" placeholder="City" value="" class="inputfocus">
+                                                            <input type="hidden" name="latitude" id="latitude" placeholder="Latitude" value="" class="inputfocus">
+                                                            <input type="hidden" name="longitude" id="longitude" placeholder="Longitude" value="" class="inputfocus">
 
                                                         </div>
                                                     </div>
@@ -121,7 +112,7 @@
                                                                 Date
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
-                                                            <input id="date" type="date" name="dateone" placeholder="Adress, airport, hotel,...">
+                                                            <input id="date" type="date" name="dateone" placeholder="Adress, airport, hotel,..." class="inputfocus">
                                                             
                                                         </div>
                                                     </div>
@@ -131,7 +122,7 @@
                                                                 Time
                                                             </label>
                                                             <label class="licon" for="time"><i class="fa fa-clock-o" aria-hidden="true"></i></label>
-                                                            <input id="time" type="text" name="timeone"  placeholder="">
+                                                            <input id="time" type="text" name="timeone"  placeholder="" class="inputfocus">
                                                         </div>
                                                     </div>
                                                     <div id="output" class="output">
@@ -139,7 +130,23 @@
                                                     </div>
                                                     
                                                     <button type="submit" class="search btn">Search One</button>
-                                                    
+                                                    <script>
+                                                    $(".inputfocus").focus(function(){
+                                                        $(this).parent().removeClass("cinner-border-rem");
+                                                        $(this).parent().addClass("cinner-border-add");
+
+                                                        }).blur(function(){
+                                                            $(this).parent().removeClass("cinner-border-add");
+                                                            $(this).parent().addClass("cinner-border-rem");
+                                                    });
+
+                                                        // $(".inputfocus").blur(function(){
+                                                        // $(this).parent().removeClass("cinner-border-add");
+                                                        // $(this).parent().addClass("cinner-border-rem");
+
+                                                        // });
+
+                                                    </script>
                                                 </form>
                                             </div>
                                         </li>
@@ -1516,13 +1523,13 @@ $('.slider-for').slick({
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqqhqN5q545cx57GD5ht6JVidUQuuGd34&sensor=false&v=3&libraries=geometry,places&callback=initAutocomplete" async defer></script>
 <script type="text/javascript">
 
-$(".cinner").click(function(){
-	$(".cinner").addClass("cinner-border-rem");
-	$(this).removeClass("cinner-border-rem");
-	$(this).addClass("cinner-border-add");
+// $(".cinner").click(function(){
+// 	$(".cinner").addClass("cinner-border-rem");
+// 	$(this).removeClass("cinner-border-rem");
+// 	$(this).addClass("cinner-border-add");
 	
 
-});
+// });
 
 function initializeAutocomplete(){
 	var input = document.getElementById('locality');
