@@ -31,5 +31,8 @@ Route::get('/offers', 'MyController@offers');
 Route::get('/faqs', 'MyController@faqs');
 Route::get('/contact-us', 'MyController@contactus');
 Route::get('/blog', 'MyController@blog');
-
 Route::get('/test', 'MyController@test');
+
+
+Route::get('/searchbyhour', 'MyController@searchbyhour');
+Route::get('/searchbyway', 'MyController@searchbyway');

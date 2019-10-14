@@ -71,4 +71,17 @@ class MyController extends Controller
     function blog(){
         return view('pages.blog');
     }
+
+    function searchbyhour(Request $request){
+        $one=$request['address'];
+        $two=$request['addressone'];
+        $three=$request['dateone'];
+        $four=$request['timeone'];
+        echo $one.' <br>'.$two.'<br>'.$three.'<br>'.$four.'<br>';
+        return 123;
+    }
+    function searchbyway(Request $request){
+        print_r($request);
+        return 445;
+    }
 }

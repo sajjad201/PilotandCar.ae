@@ -162,9 +162,9 @@ Rent a car with Driver
                   Dubai is most famous place traveling destination in GCC countries specially 
                   In United Arab Emirates , if you are on Business trip , tourist or  want settle  in 
                   Dubai, it’s strongly recommended to rent a car with driver in Dubai. It will not saves
-                     your precious time only but money too, in the ordinary meter cabs or taxi drivers can
-                      drive you trough a long way to earn extra money . In daily or hourly basis rates are
-                       fixed with your driver so you do not have to worry about that.
+                  your precious time only but money too, in the ordinary meter cabs or taxi drivers can
+                  drive you trough a long way to earn extra money . In daily or hourly basis rates are
+                  fixed with your driver so you do not have to worry about that.
                   In short time Dubai city is expanding its new roads, living societies and bridges, with 
                   proper Hiring  car with driver you do not have to worry about finding the new location in
                    recent years the  paid toll gate has been Fixed which can cost you extra if you have your own car .

@@ -5559,3 +5559,8 @@ transition: all ease 0.3s linear 1.5s;}
     display: grid;
 
 }
+.output{
+    font-size: 16px;
+    color:#00266b;
+    padding: 0px 0px 10px 0px;
+}

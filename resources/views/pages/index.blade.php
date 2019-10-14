@@ -73,7 +73,8 @@
                                     <ul class="tab__content">
                                         <li class="active">
                                             <div class="content__wrapper">
-                                                <form method="POST" action="" class="form">
+                                                <form method="GET" action="searchbyhour" class="form">
+                                                    {{ csrf_field() }}
                                                     
                                                     <div class="ipar">
                                                         <div class="cinner cinner-border-rem">
@@ -116,7 +117,7 @@
                                                                 Date
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
-                                                            <input id="date" type="date" name="" placeholder="Adress, airport, hotel,...">
+                                                            <input id="date" type="date" name="dateone" placeholder="Adress, airport, hotel,...">
                                                             
                                                         </div>
                                                     </div>
@@ -126,21 +127,22 @@
                                                                 Time
                                                             </label>
                                                             <label class="licon" for="time"><i class="fa fa-clock-o" aria-hidden="true"></i></label>
-                                                            <input id="time" type="text" name=""  placeholder="">
+                                                            <input id="time" type="text" name="timeone"  placeholder="">
                                                         </div>
                                                     </div>
-                                                    <div id="output">
-                                                        
+                                                    <div id="output" class="output">
+                                                       
                                                     </div>
                                                     
-                                                    <button type="submit" class="search btn">Search</button>
+                                                    <button type="submit" class="search btn">Search One</button>
                                                     
                                                 </form>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="content__wrapper">
-                                                <form method="POST" action="" class="form">
+                                                <form method="POST" action="/searchbyway"  class="form">
+                                                    {{ csrf_field() }}                                                    
                                                     <div class="ipar">
                                                         <div class="cinner">
                                                             <label for="addr" class="label">
@@ -177,7 +179,7 @@
                                                             <input id="time2" type="text" name="" placeholder="">
                                                         </div>
                                                     </div>
-                                                    <button type="submit" class="search btn">Search</button>
+                                                    <button type="submit" class="search btn">Search Two</button>
                                                 </form>
                                             </div>
                                         </li>
