@@ -73,8 +73,12 @@
                                     <ul class="tab__content">
                                         <li class="active">
                                             <div class="content__wrapper">
+<<<<<<< HEAD
                                                 <form method="GET" action="searchbyhour" class="form">
                                                     {{ csrf_field() }}
+=======
+                                                <form method="POST" action="" class="form ind-form">
+>>>>>>> 8c5910c0497518761b563ccf04fcd928e1aea5ca
                                                     
                                                     <div class="ipar">
                                                         <div class="cinner cinner-border-rem">
@@ -1511,6 +1515,15 @@ $('.slider-for').slick({
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqqhqN5q545cx57GD5ht6JVidUQuuGd34&sensor=false&v=3&libraries=geometry,places&callback=initAutocomplete" async defer></script>
 <script type="text/javascript">
+
+$(".cinner").click(function(){
+	$(".cinner").addClass("cinner-border-rem");
+	$(this).removeClass("cinner-border-rem");
+	$(this).addClass("cinner-border-add");
+	
+
+});
+
 function initializeAutocomplete(){
 	var input = document.getElementById('locality');
 	var options = {

@@ -1530,12 +1530,12 @@ margin-bottom: 0;
        
         width: 30px;}
 
-        .move{ animation: move 10s infinite;}
-        .move1{ animation: move1 10s infinite;
+        .move{ animation: move 30s infinite;}
+        .move1{ animation: move1 30s infinite;
             width: 20px;}
-        .move2{ animation: move2 10s infinite;}
-        .move3{ animation: move3 15s infinite;}
-        .move4{ animation: move4 10s infinite;}
+        .move2{ animation: move2 35s infinite;}
+        .move3{ animation: move3 35s infinite;}
+        .move4{ animation: move4 30s infinite;}
 
         @keyframes move3{
             0%{
@@ -1606,10 +1606,16 @@ top: 78px;
 left: 6.5%;
 }
 
+90%{
+transform: rotate(46deg);
+top: 74px;
+left: 7%;
+}
+
 100%{
 transform: rotate(46deg);
-top: 75px;
-left: 7%;
+top: 60px;
+left: 7.3%;
 }
         }
 
