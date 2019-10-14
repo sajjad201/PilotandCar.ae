@@ -73,13 +73,9 @@
                                     <ul class="tab__content">
                                         <li class="active">
                                             <div class="content__wrapper">
-<<<<<<< HEAD
-                                                <form method="GET" action="searchbyhour" class="form">
+                                                
+                                                <form method="GET" action="searchbyhour" class="form ind-form">
                                                     {{ csrf_field() }}
-=======
-                                                <form method="POST" action="" class="form ind-form">
->>>>>>> 8c5910c0497518761b563ccf04fcd928e1aea5ca
-                                                    
                                                     <div class="ipar">
                                                         <div class="cinner cinner-border-rem">
                                                             <label for="addr" class="label">
@@ -834,11 +830,11 @@
             </div>
         </div>
     </div>
-    <script src="pilotpublic/js/sina-nav.js"></script>
+    <script type="text/javascript" src="pilotpublic/js/sina-nav.js"></script>
     <script type="text/javascript" src="pilotpublic/js/nav1.js"></script>
-    <script src="pilotpublic/js/main.js"></script> 
+    <script type="text/javascript" src="pilotpublic/js/main.js"></script> 
     
-    <script src="pilotpublic/slick/slick.js"></script>
+    <script type="text/javascript" src="pilotpublic/slick/slick.js"></script>
     
     <script type="text/javascript"> 
     $(function(){
@@ -1347,9 +1343,9 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="js/sina-nav.js"></script>
-  <script src="js/main.js"></script> 
-  <script src="slick/slick.js"></script>
+  <script type="text/javascript"  src="pilotpublic/js/sina-nav.js"></script>
+  <script type="text/javascript"  src="pilotpublic/js/main.js"></script> 
+  <script type="text/javascript"  src="pilotpublic/slick/slick.js"></script>
 
 
 <script type="text/javascript">
@@ -1520,8 +1516,6 @@ $(".cinner").click(function(){
 	$(".cinner").addClass("cinner-border-rem");
 	$(this).removeClass("cinner-border-rem");
 	$(this).addClass("cinner-border-add");
-	
-
 });
 
 function initializeAutocomplete(){
