@@ -778,13 +778,46 @@ font-size: 18px;
 .star-all{
 	color:#FFFFFF;
 }
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid rgba(107, 91, 149, .075);
+    border-radius: 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: 1px solid rgba(107, 91, 149, .075);
+    border: 1px solid rgba(107, 91, 149, .075);
+    outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(107, 91, 149, .075);
+}
+.has-success .form-control {
+    border-color: rgba(107, 91, 149, .075) !important;
+}
+.has-success .form-control:focus {
+    border-color: 1px solid rgba(107, 91, 149, .075);
+    box-shadow: 0 0 0 0.2rem rgba(107, 91, 149, .075);
+}
+
 </style>
 </head>
 
 <body style="font-family:'Gentona Book'; color:#999999; " >
+	@include('inc.contact-links')   
     @include('inc.navbar')   
 	@yield('content')
 	@include('inc.abovefooter')
-    @include('inc.footer')
+	@include('inc.footer')
+	@include('inc.whatsapp')   
 </body>
 </html>

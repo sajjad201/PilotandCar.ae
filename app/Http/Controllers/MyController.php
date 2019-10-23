@@ -13,43 +13,37 @@ class MyController extends Controller
         return view('pages.our-services');
     }
 
-
-    function rentacar(){
-        return view('pages.rent-a-car');
-    }
-    function chauffeurservice(){
-        return view('pages.chauffeur');
-    }
-    function limousineservice(){
-        return view('pages.limousine');
-    }
-    function luxurybusesandcoaches(){
-        return view('pages.bus');
-    }
-    function dubaicitytoursandsightseeing(){
-        return view('pages.dubai-city');
-    }
     function abudhabicitytour(){
-        return view('pages.abu-dhabi-tour');
+        return view('pages.abu-dhabi-city-tour');
     }
     function airporttransfer(){
-        return view('pages.airport');
+        return view('pages.airport-transfer');
     }
-    function luxuryvans(){
-        return view('pages.vans');
+    function busrentaldubai(){
+        return view('pages.bus-rental-dubai');
     }
-    function hireadriversorchauffeur(){
+    function chauffeurservice(){
+        return view('pages.chauffer-service');
+    }
+    function deliveryvans(){
+        return view('pages.delivery-vans');
+    }
+    function driverorchauffeur(){
         return view('pages.driver-chauffeur');
     }
-    function deliveryvansandtrucks(){
-        return view('pages.vans-and-trucks');
+    function dubaicitytour(){
+        return view('pages.dubai-city-tour');
     }
-    function serviceeleven(){
-        return view('pages.service-eleven');
+    function limousineservice(){
+        return view('pages.limousine-service');
     }
-    function servicetwelve(){
-        return view('pages.service-twelve');
+    function rentacar(){
+        return view('pages.rent-car');
     }
+    function vans(){
+        return view('pages.vans');
+    }
+
     function ourfleet(){
         return view('pages.our-fleet');
     }
@@ -71,17 +65,80 @@ class MyController extends Controller
     function blog(){
         return view('pages.blog');
     }
+    function select(){
+        return view('pages.select');
+    }
 
     function searchbyhour(Request $request){
-        $one=$request['address'];
-        $two=$request['addressone'];
-        $three=$request['dateone'];
-        $four=$request['timeone'];
-        echo $one.' <br>'.$two.'<br>'.$three.'<br>'.$four.'<br>';
-        return 123;
+
+        //validate
+        $this->validate($request, [
+            'from' => 'required',
+            'to' => 'required',
+            'date' => 'required',
+            'time' => 'required',
+            'ridetype' => 'required'
+        ]);
+        
+        //get data in variables
+        $from=$request->from;
+        $to=$request->to;
+        $date=$request->date;
+        $time=$request->time;
+        $ridetype=$request->ridetype;
+
+        //return data to view "select"
+        return view('pages.select')->with([
+            'from' => $from, 
+            'to' => $to, 
+            'date' => $date, 
+            'time' => $time,
+            'ridetype' => $ridetype
+            
+        ]);
     }
-    function searchbyway(Request $request){
-        print_r($request);
-        return 445;
+    
+    function form(Request $request){
+        //get data in variables
+        $from=$request->from;
+        $to=$request->to;
+        $date=$request->date;
+        $time=$request->time;
+        $ridetype=$request->ridetype;
+        $price=$request->price;
+
+        //return data to view "FORM"
+        return view('pages.form')->with([
+            'from' => $from, 
+            'to' => $to, 
+            'date' => $date, 
+            'time' => $time,
+            'ridetype' => $ridetype,
+            'price' => $price
+            
+        ]);
+    }
+    function productform($type, $price, $link){
+        // //get data in variables
+        // $from=$request->from;
+        // $to=$request->to;
+        // $date=$request->date;
+        // $time=$request->time;
+        // $ridetype=$request->ridetype;
+        // $price=$request->price;
+
+        // //return data to view "FORM"
+        // return view('pages.productform')->with([
+        //     'from' => $from, 
+        //     'to' => $to, 
+        //     'date' => $date, 
+        //     'time' => $time,
+        //     'ridetype' => $ridetype,
+        //     'price' => $price
+            
+        // ]);
+
+        //$name=$request->name;
+        return view('pages.product-form', compact('type', 'price', 'link'));
     }
 }

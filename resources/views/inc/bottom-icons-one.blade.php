@@ -2,46 +2,46 @@
 <div class="container-fluid">
     <div class="row">
     <div class="col-md-12 bottom-icons1-heading">
-        How to reserve your<br>
-        Economy Standard seat
+        How to reserve your
+        Economy <br>Standard seat
     </div>
     <div class="col-md-3 bottom-icons1-div">
         <div class="bottom-icons1-div-icon">
-        <i class="fab fa-atlassian"></i>
+            <img src="pilotpublic/images/icons/air/1.png" class="bt-ic-img" />
         </div>
-        <div class="bottom-icons1-div-text1">When you book</div>
+        <div class="bottom-icons1-div-text1">Airport Transfers</div>
         <div class="bottom-icons1-div-text2">
-            Choose your seat when you book from our interactive map.
+            Get to and from the airport<br>Quickly and easily
         </div>
         
     </div>
     <div class="col-md-3 bottom-icons1-div">
         <div class="bottom-icons1-div-icon">
-        <i class="fas fa-atom"></i>
+            <img src="pilotpublic/images/icons/air/2.png" class="bt-ic-img" />
         </div>
-        <div class="bottom-icons1-div-text1">Manage my booking</div>
+        <div class="bottom-icons1-div-text1">Professional Chauffeurs</div>
         <div class="bottom-icons1-div-text2">
-            Already booked? Reserve your seat quickly and easily online.
+            We will Drive you anywhere<br>Safely and confidently
         </div>
         
     </div>
     <div class="col-md-3 bottom-icons1-div">
         <div class="bottom-icons1-div-icon">
-        <i class="fab fa-audible"></i>
+            <img src="pilotpublic/images/icons/air/3.png" class="bt-ic-img" />
         </div>
-        <div class="bottom-icons1-div-text1">Check-in</div>
+        <div class="bottom-icons1-div-text1">Fixed Fares</div>
         <div class="bottom-icons1-div-text2">
-            Check in online and reserve your seat for free.
+            Minimum rates guaranteed<br>book at great Prices
         </div>
         
     </div>
     <div class="col-md-3 bottom-icons1-div">
         <div class="bottom-icons1-div-icon">
-        <i class="fas fa-atlas"></i>
+            <img src="pilotpublic/images/icons/air/4.png" class="bt-ic-img" />
         </div>
-        <div class="bottom-icons1-div-text1">Contact us</div>
+        <div class="bottom-icons1-div-text1">Standard to Luxury </div>
         <div class="bottom-icons1-div-text2">
-            Get in touch with our Global Contact Centre to book your seat.
+            All fleet of ground transport<br>under one roof
         </div>
         
     </div>

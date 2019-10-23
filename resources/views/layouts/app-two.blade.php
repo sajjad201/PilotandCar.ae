@@ -10,24 +10,24 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="shortcut icon" href="pilotpublic/images/logo.jpeg">
+<link rel="shortcut icon" href="{{asset('pilotpublic/images/logo.jpeg')}}">
 
-<link rel="stylesheet" type="text/css" href="pilotpublic/bootstrap/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="pilotpublic/css/mdtimepicker.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/css/styleold.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/css/style.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/css/sina-nav.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/css/animate.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/slick/slick-theme.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/css/global.css">
-<link rel="stylesheet" type="text/css" href="pilotpublic/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/bootstrap/css/bootstrap.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/css/mdtimepicker.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/css/styleold.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/css/style.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/css/sina-nav.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/css/animate.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/slick/slick.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/slick/slick-theme.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/css/global.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('pilotpublic/css/fonts.css')}}">
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-<script src="pilotpublic/bootstrap/jq/jquery-3.1.1.js"></script>
-<script src="pilotpublic/bootstrap/js/bootstrap.min.js"></script>
+<script src="{{asset('pilotpublic/bootstrap/jq/jquery-3.1.1.js')}}"></script>
+<script src="{{asset('pilotpublic/bootstrap/js/bootstrap.min.js')}}"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
 
 <style>
@@ -36,15 +36,15 @@
 }
 @font-face {
     font-family: 'Gentona Book';
-    src: url('pilotpublic/fonts/Gentona/Gentona Book.otf');
+    src: url("{{asset('pilotpublic/fonts/Gentona/Gentona Book.otf')}}");
 }
 @font-face {
     font-family: 'SigvarRegular';
-    src: url('pilotpublic/fonts/SigvarRegular.ttf');
+    src: url("{{asset('pilotpublic/fonts/SigvarRegular.ttf')}}");
 }
 @font-face {
     font-family: 'AvenirNextLTPro-Regular';
-    src: url('pilotpublic/fonts/AvenirNextLTPro-Regular.otf');
+    src: url("{{asset('pilotpublic/fonts/AvenirNextLTPro-Regular.otf')}}");
 }
 /* form-css*/
 .loginWrapper {
@@ -779,12 +779,69 @@ font-size: 18px;
 .star-all{
 	color:#FFFFFF;
 }
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(107, 91, 149, .075);
+    border-radius: 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: 1px solid rgba(107, 91, 149, .075);
+    border: 1px solid rgba(107, 91, 149, .075);
+    outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(107, 91, 149, .075);
+}
+.has-success .form-control {
+    border-color: rgba(107, 91, 149, .075) !important;
+}
+.has-success .form-control:focus {
+    border-color: 1px solid rgba(107, 91, 149, .075);
+    box-shadow: 0 0 0 0.2rem rgba(107, 91, 149, .075);
+}
+form input{
+	display: block;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(107, 91, 149, .075);
+    border-radius: 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+form input:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: 1px solid rgba(107, 91, 149, .075);
+    border: 1px solid rgba(107, 91, 149, .075);
+    outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(107, 91, 149, .075);
+}
+
+
+
 </style>
 </head>
 
 <body style="font-family:'Gentona Book'; color:#999999; " >
+	@include('inc.contact-links')   
     @include('inc.navbar')   
 	@yield('content')
-    @include('inc.footer')
+	@include('inc.footer')
+	@include('inc.whatsapp')   
 </body>
 </html>

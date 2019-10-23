@@ -18,7 +18,8 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <span class="overlay1-txt-lg">BOOK RIDE</span>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
@@ -29,7 +30,8 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <span class="overlay1-txt-lg">BOOK RIDE</span>
+                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
@@ -49,7 +51,8 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <span class="overlay1-txt-lg">BOOK RIDE</span>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
@@ -60,7 +63,8 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <span class="overlay1-txt-lg">BOOK RIDE</span>
+                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
@@ -80,7 +84,8 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <span class="overlay1-txt-lg">BOOK RIDE</span>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
@@ -91,7 +96,8 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <span class="overlay1-txt-lg">BOOK RIDE</span>
+                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
@@ -111,7 +117,8 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <span class="overlay1-txt-lg">BOOK RIDE</span>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
@@ -122,7 +129,8 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <span class="overlay1-txt-lg">BOOK RIDE</span>
+                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
@@ -142,7 +150,8 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <span class="overlay1-txt-lg">BOOK RIDE</span>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
@@ -153,7 +162,8 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <span class="overlay1-txt-lg">BOOK RIDE</span>
+                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>

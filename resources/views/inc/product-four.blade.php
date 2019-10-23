@@ -18,11 +18,17 @@
                         <div class="row" style="margin-top:10px">
                             <div class="col-md-6 col-xs-6" style="padding:0px">
                                 <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <div class="pr-4-prices">499 AED</div>
+                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">499 AED</div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xs-6" style="padding:0px">
                                 <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
+                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
+                                </a>
                             </div>
                         </div>
                         
@@ -41,11 +47,17 @@
                         <div class="row" style="margin-top:10px">
                             <div class="col-md-6 col-xs-6" style="padding:0px">
                                 <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <div class="pr-4-prices">499 AED</div>
+                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">499 AED</div>
+                                </a>    
                             </div>
                             <div class="col-md-6 col-xs-6" style="padding:0px">
                                 <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
+                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
+                                </a>    
                             </div>
                         </div>
                         
@@ -64,11 +76,17 @@
                         <div class="row" style="margin-top:10px">
                             <div class="col-md-6 col-xs-6" style="padding:0px">
                                 <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <div class="pr-4-prices">499 AED</div>
+                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">499 AED</div>
+                                </a>    
                             </div>
                             <div class="col-md-6 col-xs-6" style="padding:0px">
                                 <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
+                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
+                                </a>    
                             </div>
                         </div>
                         

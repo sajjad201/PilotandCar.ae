@@ -5,8 +5,8 @@
   <nav role="navigation">
   <ul class="site__header__top">
   <li class="site__header__item header-logo">
-  <a href="/" title="Puma Home" class="header__logo__link">
-    <img src="pilotpublic/images/logo-blue.png" style="width: 100%; height:100%">
+  <a href="{{asset('/')}}" title="Puma Home" class="header__logo__link">
+    <img src="{{asset('pilotpublic/images/logo-blue.png')}}" style="width: 100%; height:100%">
   </a>
   </li>
   
@@ -15,13 +15,13 @@
   <nav class="site-nav__nav">
   <ul class="site-nav__header d-lg-none row" role="menu">
   <li class="site-nav__back" role="presentation">
-  <a href="#" class="site-nav__back__link" style="display: none;" alt="back">
+  <a href="{{asset('#')}}" class="site-nav__back__link" style="display: none;" alt="back">
   <i class="fa fa-arrow-right" aria-hidden="true"></i>
   </a>
   </li>
   <li class="site-nav__breadcrumb"></li>
   <li class="site-nav__close" role="presentation">
-  <a href="#" class="site-nav__close__link" alt="close">
+  <a href="{{asset('#')}}" class="site-nav__close__link" alt="close">
   <svg class="icon" style="font-size:20px; margin-right:-10px">
   <use xlink:href="#close-x"></use>
   </svg>
@@ -32,7 +32,7 @@
   <ul class="nav navbar-nav site-nav__list-top" role="menu">
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="{{url('/')}}" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('/')}}" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">Home</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -41,7 +41,7 @@
   <div class="site-nav__flyout" role="presentation" style="display: none;">
   <ul class="site-nav__list site-nav__list-secondary site-nav__with-padding" role="menu" aria-hidden="true" style="padding-bottom:22.1rem">
   <li class="site-nav__list__item" role="presentation">
-  <a href="about-us" data-categoryid="14000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('about-us')}}" data-categoryid="14000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">About Us</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -49,7 +49,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="about-us" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('about-us')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">About Us</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -59,7 +59,7 @@
   </ul>
   </li>
 <li class="site-nav__list__item" role="presentation">
-  <a href="faqs" data-categoryid="15000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('faqs')}}" data-categoryid="15000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">Faqs</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -67,7 +67,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="faqs" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('faqs')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Faqs</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -77,7 +77,7 @@
   </ul>
   </li>
 <li class="site-nav__list__item" role="presentation">
-  <a href="blog" data-categoryid="16000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('blog')}}" data-categoryid="16000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">Blog</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -85,7 +85,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="blog" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('blog')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Blog</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -105,8 +105,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/cars/g8.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g8.jpg')}}">
   </a>
   </div>
   </div>
@@ -124,8 +124,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/dubai/g0.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/dubai/g0.jpg')}}">
   </a>
   </div>
   </div>
@@ -142,8 +142,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/cars/g7.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g7.jpg')}}">
   </a>
   </div>
   </div>
@@ -164,7 +164,7 @@
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="our-services" data-categoryid="20000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('our-services')}}" data-categoryid="20000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name">Our Services</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -174,7 +174,7 @@
   <ul class="site-nav__list site-nav__list-secondary site-nav__with-padding" role="menu" aria-hidden="true" style="padding-bottom:1rem;">
   
   <li class="site-nav__list__item" role="presentation">
-  <a href="our-services" data-categoryid="21000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('our-services')}}" data-categoryid="21000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">visit All Services</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -184,7 +184,7 @@
   
   
   <li class="site-nav__list__item " role="presentation">
-  <a href="our-services" data-categoryid="21500" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('our-services')}}" data-categoryid="21500" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name hovered">CHECK ALL SERVICES</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -199,7 +199,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="rent-a-car-with-driver" data-categoryid="22000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('rent-a-car-with-driver')}}" data-categoryid="22000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">car with Driver
     </span>
   <svg class="icon">
@@ -208,7 +208,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="rent-a-car-with-driver" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('rent-a-car-with-driver')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Rent a car with Driver    </span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -218,7 +218,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="chauffeur-service" data-categoryid="23000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('chauffeur-service')}}" data-categoryid="23000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Chauffeur Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -226,7 +226,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="chauffeur-service" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('chauffeur-service')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Chauffeur Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -236,7 +236,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="limousine-service" data-categoryid="24000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('limousine-service')}}" data-categoryid="24000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Limousine Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -244,7 +244,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="limousine-service" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('limousine-service')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Limousine Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -254,7 +254,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="luxury-buses-and-coaches" data-categoryid="25000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('bus-rental-dubai')}}" data-categoryid="25000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Buses &amp; Coaches</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -262,7 +262,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="luxury-buses-and-coaches" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('bus-rental-dubai')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Luxury Buses and Coaches    </span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -272,7 +272,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="dubai-city-tours-and-sightseeing" data-categoryid="26000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('dubai-city-tour')}}" data-categoryid="26000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Dubai City tours</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -280,7 +280,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="dubai-city-tours-and-sightseeing" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('dubai-city-tour')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Dubai City tours and Sightseeing</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -290,7 +290,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="abu-dhabi-city-tour" data-categoryid="27000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('abu-dhabi-city-tour')}}" data-categoryid="27000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Abu Dhabi City</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -298,7 +298,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="abu-dhabi-city-tour" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('abu-dhabi-city-tour')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Abu Dhabi City Tour</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -308,7 +308,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="airport-transfer" data-categoryid="28000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('airport-transfer')}}" data-categoryid="28000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Airport Transfer</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -316,7 +316,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="airport-transfer" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('airport-transfer')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Airport Transfer</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -326,7 +326,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="luxury-vans" data-categoryid="29000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('vans')}}" data-categoryid="29000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Luxury Vans</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -334,7 +334,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="luxury-vans" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('vans')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Luxury Vans</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -344,7 +344,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="hire-a-drivers-or-Chauffeur" data-categoryid="30000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('driver-or-chauffeur')}}" data-categoryid="30000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Driver &amp; Chauffeur</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -352,7 +352,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="hire-a-drivers-or-Chauffeur" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('driver-or-chauffeur')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Hire a Drivers or Chauffeur</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -362,7 +362,7 @@
   </ul>
   </li>
   <li class="site-nav__list__item" role="presentation">
-  <a href="delivery-vans-and-trucks" data-categoryid="31000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+  <a href="{{asset('delivery-vans')}}" data-categoryid="31000" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
   <span class="site-nav__list__name hovered">Vans &amp; Trucks</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -370,7 +370,7 @@
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
   <li class="site-nav__list__item " role="presentation">
-  <a href="delivery-vans-and-trucks" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+  <a href="{{asset('delivery-vans')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
   <span class="site-nav__list__name">Delivery Vans and Trucks</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -386,8 +386,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/banner1.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/banner1.jpg')}}">
   </a>
   </div>
   </div>
@@ -404,8 +404,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/cars/g0.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g0.jpg')}}">
   </a>
   </div>
   </div>
@@ -422,8 +422,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/chauf/g1.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/chauf/g1.jpg')}}">
   </a>
   </div>
   </div>
@@ -440,8 +440,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/limo/g12.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/limo/g12.jpg')}}">
   </a>
   </div>
   </div>
@@ -458,8 +458,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/bus/p1.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/bus/p1.jpg')}}">
   </a>
   </div>
   </div>
@@ -477,8 +477,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/dubai/p0.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/dubai/p0.jpg')}}">
   </a>
   </div>
   </div>
@@ -495,8 +495,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/city/g2.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/city/g2.jpg')}}">
   </a>
   </div>
   </div>
@@ -513,8 +513,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/airport/g6.webp">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/airport/g6.webp')}}">
   </a>
   </div>
   </div>
@@ -531,8 +531,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/van/p2.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/van/p2.jpg')}}">
   </a>
   </div>
   </div>
@@ -549,8 +549,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/chaf2/p6.png">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/chaf2/p6.png')}}">
   </a>
   </div>
   </div>
@@ -567,8 +567,8 @@
   <div class="kop-menuflyout__container" role="presentation">
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
-  <a href="#">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/d-vans/B1.jpg">
+  <a href="{{asset('#')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/d-vans/B1.jpg')}}">
   </a>
   </div>
   </div>
@@ -607,7 +607,7 @@
 
 <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
       <div class="site-nav__list-cat_border"></div>
-      <a href="our-fleet" data-categoryid="30000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="30000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">Our Fleet</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -616,7 +616,7 @@
       <div class="site-nav__flyout" role="presentation" style="display: none;">
       <ul class="site-nav__list site-nav__list-secondary site-nav__with-padding" role="menu" aria-hidden="true" style="padding-bottom:2.1rem">
       <li class="site-nav__list__item" role="presentation">
-      <a href="our-fleet" data-categoryid="5010" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5010" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav hovered" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">STANDARD</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -624,7 +624,7 @@
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
       <li class="site-nav__list__item hovered" role="presentation">
-      <a href="our-fleet" data-categoryid="5010" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5010" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
       <span class="site-nav__list__name">STANDARD</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -634,7 +634,7 @@
       </ul>
       </li>
     <li class="site-nav__list__item" role="presentation">
-      <a href="our-fleet" data-categoryid="5011" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5011" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">LUXURY SEDAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -642,7 +642,7 @@
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
       <li class="site-nav__list__item " role="presentation">
-      <a href="our-fleet" data-categoryid="5011" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5011" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
       <span class="site-nav__list__name">LUXURY SEDAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -654,7 +654,7 @@
     
 
 <li class="site-nav__list__item" role="presentation">
-      <a href="our-fleet" data-categoryid="5012" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5012" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">BUSINESS VAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -662,7 +662,7 @@
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
       <li class="site-nav__list__item " role="presentation">
-      <a href="our-fleet" data-categoryid="5012" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5012" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
       <span class="site-nav__list__name">BUSINESS VAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -673,7 +673,7 @@
       </li>
 
 <li class="site-nav__list__item" role="presentation">
-      <a href="our-fleet" data-categoryid="5013" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5013" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">LUXURY SUV</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -681,7 +681,7 @@
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
       <li class="site-nav__list__item " role="presentation">
-      <a href="our-fleet" data-categoryid="5013" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5013" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
       <span class="site-nav__list__name">LUXURY SUV</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -692,7 +692,7 @@
       </li>
 
 <li class="site-nav__list__item" role="presentation">
-      <a href="our-fleet" data-categoryid="5014" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5014" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">FIRST CLASS</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -700,7 +700,7 @@
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
       <li class="site-nav__list__item " role="presentation">
-      <a href="our-fleet" data-categoryid="5014" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5014" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
       <span class="site-nav__list__name">FIRST CLASS</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -711,7 +711,7 @@
       </li>
 
 <li class="site-nav__list__item" role="presentation">
-      <a href="our-fleet" data-categoryid="5015" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5015" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">BUSES/VAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -719,7 +719,7 @@
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
       <li class="site-nav__list__item " role="presentation">
-      <a href="our-fleet" data-categoryid="5015" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5015" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
       <span class="site-nav__list__name">BUSES/VAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -728,7 +728,7 @@
       </li>
       </ul>
       </li><li class="site-nav__list__item" role="presentation">
-      <a href="our-fleet" data-categoryid="5016" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5016" role="menuitem" class="site-nav__list__link secondary-anchor has-subnav" data-children="true" aria-haspopup="true" aria-expanded="false">
       <span class="site-nav__list__name">STRETCH LIMO</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -736,7 +736,7 @@
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
       <li class="site-nav__list__item " role="presentation">
-      <a href="our-fleet" data-categoryid="5016" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5016" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
       <span class="site-nav__list__name">STRETCH LIMO</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
@@ -756,8 +756,8 @@
       <div class="kop-menuflyout__container" role="presentation">
       <div class="kop-menuflyout__media" role="presentation">
       <div class="kop-menuflyout__image-wrapper" role="presentation">
-      <a href="#">
-      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/1.png" style="width:350px; height:200px !important">
+      <a href="{{asset('#')}}">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/fleet/1.png')}}" style="width:350px; height:200px !important">
       </a>
       </div>
       </div>
@@ -775,8 +775,8 @@
       <div class="kop-menuflyout__container" role="presentation">
       <div class="kop-menuflyout__media" role="presentation">
       <div class="kop-menuflyout__image-wrapper" role="presentation">
-      <a href="#">
-      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/3.png" style="width:350px; height:200px !important">
+      <a href="{{asset('#')}}">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/fleet/3.png')}}" style="width:350px; height:200px !important">
       </a>
       </div>
       </div>
@@ -794,8 +794,8 @@
       <div class="kop-menuflyout__container" role="presentation">
       <div class="kop-menuflyout__media" role="presentation">
       <div class="kop-menuflyout__image-wrapper" role="presentation">
-      <a href="#">
-      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/5.png" style="width:350px; height:200px !important">
+      <a href="{{asset('#')}}">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/fleet/5.png')}}" style="width:350px; height:200px !important">
       </a>
       </div>
       </div>
@@ -814,8 +814,8 @@
       <div class="kop-menuflyout__container" role="presentation">
       <div class="kop-menuflyout__media" role="presentation">
       <div class="kop-menuflyout__image-wrapper" role="presentation">
-      <a href="#">
-      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/7.png" style="width:350px; height:200px !important">
+      <a href="{{asset('#')}}">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/fleet/7.png')}}" style="width:350px; height:200px !important">
       </a>
       </div>
       </div>
@@ -834,8 +834,8 @@
       <div class="kop-menuflyout__container" role="presentation">
       <div class="kop-menuflyout__media" role="presentation">
       <div class="kop-menuflyout__image-wrapper" role="presentation">
-      <a href="#">
-      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/9.png" style="width:350px; height:200px !important">
+      <a href="{{asset('#')}}">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/fleet/9.png')}}" style="width:350px; height:200px !important">
       </a>
       </div>
       </div>
@@ -854,8 +854,8 @@
       <div class="kop-menuflyout__container" role="presentation">
       <div class="kop-menuflyout__media" role="presentation">
       <div class="kop-menuflyout__image-wrapper" role="presentation">
-      <a href="#">
-      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/5.png" style="width:350px; height:200px !important">
+      <a href="{{asset('#')}}">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/fleet/5.png')}}" style="width:350px; height:200px !important">
       </a>
       </div>
       </div>
@@ -874,8 +874,8 @@
       <div class="kop-menuflyout__container" role="presentation">
       <div class="kop-menuflyout__media" role="presentation">
       <div class="kop-menuflyout__image-wrapper" role="presentation">
-      <a href="#">
-      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="pilotpublic/images/fleet/11.png" style="width:350px; height:200px !important">
+      <a href="{{asset('#')}}">
+      <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/fleet/11.png')}}" style="width:350px; height:200px !important">
       </a>
       </div>
       </div>
@@ -914,7 +914,7 @@
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="our-fleet" class="site-nav__list__link primary-anchor has-subnav">
+  <a href="{{asset('our-fleet')}}" class="site-nav__list__link primary-anchor has-subnav">
   <span class="site-nav__list__name">Our Fleet</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -924,7 +924,7 @@
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="offers" class="site-nav__list__link primary-anchor has-subnav">
+  <a href="{{asset('offers')}}" class="site-nav__list__link primary-anchor has-subnav">
   <span class="site-nav__list__name">Offers</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -934,7 +934,7 @@
   </li>
   <li class="site-nav__list__item site-nav__list-top__item" role="presentation">
   <div class="site-nav__list-cat_border"></div>
-  <a href="contact-us" class="site-nav__list__link primary-anchor has-subnav">
+  <a href="{{asset('contact-us')}}" class="site-nav__list__link primary-anchor has-subnav">
   <span class="site-nav__list__name">Contact Us</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
@@ -944,30 +944,30 @@
   </li>
   
   <li class="header-contact-icons">
-    <a href="#" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="false" aria-haspopup="true" aria-expanded="false">
-    <div class="site-nav__list__name header-contact-icons-text header-contact-icons-text-one">
-        <i class="fab fa-whatsapp" style="margin-right: 10px; color:#25D366; font-size:14px"></i>+971 4 2223201
+    <a href="{{asset('http://wa.me/971507852656')}}" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav links-paddings" data-children="false" aria-haspopup="true" aria-expanded="false">
+    <div class="site-nav__list__name header-contact-icons-text header-contact-icons-text-one links-paddings">
+        <i class="fab fa-whatsapp" style="margin-right: 10px; color:#25D366;"></i>+971 5 07852656
     </div>
     </a>
-    <a href="#" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="false" aria-haspopup="true" aria-expanded="false">
-    <div class="site-nav__list__name header-contact-icons-text">
-        <i class="fas fa-phone-square" style="margin-right: 10px; color:#6B5B95; font-size:14px"></i>+971 50 7852656
+    <a href="{{asset('tel:+97142223201')}}" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav links-paddings" data-children="false" aria-haspopup="true" aria-expanded="false">
+    <div class="site-nav__list__name header-contact-icons-text links-paddings">
+        <i class="fas fa-phone-square" style="margin-right: 10px; color:#6B5B95;"></i> +971 4 2223201
     </div>
     </a>
-    <a href="#" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav" data-children="false" aria-haspopup="true" aria-expanded="false">
-    <div class="site-nav__list__name header-contact-icons-text">
-        <i class="far fa-envelope" style="margin-right: 10px; color:#616247; font-size:14px"></i>info@pilotandcar.ae
+    <a href="{{asset('mailto:info@pilotandcar.ae')}}" data-categoryid="10000" role="menuitem" class="site-nav__list__link primary-anchor has-subnav links-paddings" data-children="false" aria-haspopup="true" aria-expanded="false">
+    <div class="site-nav__list__name header-contact-icons-text links-paddings">
+        <i class="far fa-envelope" style="margin-right: 10px; color:#616247;"></i>info@pilotandcar.ae
     </div>
     </a>
   </li>
   
   
-  <li class="nav-item d-lg-none mobile-login-locale">
+  {{-- <li class="nav-item d-lg-none mobile-login-locale">
   <div class="row">
   <div class="col-4 login-locale-btn" role="button">
   <div class="country-selector">
-  <a href="#" class="country-selector__link" data-script="/on/demandware.static/Sites-NA-Site/-/en_US/v1564383441693/js/locale.js" data-translated-language="null" data-forwarded-host="null">
-  <img src="pilotpublic/images/11.jpg" class="country-selector__icon kop-img-height" alt="us">
+  <a href="{{asset('#')}}" class="country-selector__link" data-script="/on/demandware.static/Sites-NA-Site/-/en_US/v1564383441693/js/locale.js" data-translated-language="null" data-forwarded-host="null">
+  <img src="{{asset('pilotpublic/images/11.jpg')}}" class="country-selector__icon kop-img-height" alt="us">
   <span class="country-selector__text">
   EN
   </span>
@@ -978,11 +978,11 @@
   <div class="content-asset">
   <div class="livechat-links">
   
-  <a href="#" class="livechat-online livechat-button" style="display:none"><svg class="icon  chat-icon">
+  <a href="{{asset('#')}}" class="livechat-online livechat-button" style="display:none"><svg class="icon  chat-icon">
   <use xlink:href="#chat-icon"></use>
   </svg><span class="chat-text">Live Chat</span></a>
   
-  <a href="tel:18005551212" class="livechat-offline" title="Live chat offline">&nbsp;</a>
+  <a href="{{asset('tel:18005551212" class="livechat-offline" title="Live chat offline">&nbsp;</a>
   </div>
   <style type="text/css">
   .site__header__item.live-chat a {font-size:0.875em}
@@ -995,7 +995,7 @@
   </div> 
   </div>
   <div class="col-4 login-locale-btn" role="button">
-  <a href="#" class="nav-link">
+  <a href="{{asset('#')}}" class="nav-link">
   <svg class="icon">
   <use xlink:href="#account"></use>
   </svg>
@@ -1003,7 +1003,7 @@
   </a>
   </div>
   </div>
-  </li>
+  </li> --}}
   </ul>
   </div>
   </nav>
@@ -1024,10 +1024,10 @@
 
 
 
-<script src="pilotpublic/js/sina-nav.js"></script>
-<script src="pilotpublic/js/nav1.js" type="text/javascript"></script>
-<script src="pilotpublic/js/main.js"></script> 
-<script src="pilotpublic/slick/slick.js"></script>
+<script src="{{asset('pilotpublic/js/sina-nav.js')}}"></script>
+<script src="{{asset('pilotpublic/js/nav1.js')}}" type="text/javascript"></script>
+<script src="{{asset('pilotpublic/js/main.js')}}"></script> 
+<script src="{{asset('pilotpublic/slick/slick.js')}}"></script>
 
 <script type="text/javascript"> 
 $(function(){
@@ -1158,7 +1158,7 @@ $('.slider-for').slick({
 
         
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="pilotpublic/js/mdtimepicker.js"></script>
+<script src="{{asset('pilotpublic/js/mdtimepicker.js')}}"></script>
 <script>
   $(document).ready(function(){
     $('#time').mdtimepicker(); //Initializes the time picker

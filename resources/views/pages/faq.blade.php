@@ -175,8 +175,7 @@
 
 <section>
 	<div class="container-fluid" style="padding:50px 20px 50px 20px; background-color:#fbfbfb">
-		<h1><strong>YOUR MAKE-IT-HAPPEN RENTAL CAR.</strong></h1>
-		<p>Find answers to your frequently asked questions</p>
+		<h1><strong>Find answers to your frequently asked questions.</strong></h1>
 	</div>
 </section>
 
@@ -191,7 +190,6 @@
 					</div>
 					<div>
 						<div class="sc-kvZOFW fCyojW">Costs are covered</div>
-						<div class="sc-hqyNC gDSYPy">Insurance and standard maintenance are always included.</div>
 					</div>
 				</div>
 			</div>
@@ -202,7 +200,6 @@
 					</div>
 					<div>
 						<div class="sc-kvZOFW fCyojW">Rent. Drive. Earn.</div>
-						<div class="sc-hqyNC gDSYPy">Drive unlimited miles for Lyft and get extra miles for personal use.</div>
 					</div>
 				</div>
 			</div>
@@ -212,7 +209,6 @@
 				</div>
 				<div>
 					<div class="sc-kvZOFW fCyojW">No long-term contract</div>
-					<div class="sc-hqyNC gDSYPy">Get a car to earn on your terms. Return it anytime after seven days.</div>
 				</div>
 			</div>
 		</div>
@@ -221,10 +217,8 @@
 
 <div class="sc-kgAjT eJSgbb">
 	<div class="sc-dVhcbM sc-TOsTZ hhByfK">
-		<div class="sc-cJSrbW bRkXTe">Earn with a rental car.</div>
-		<div class="sc-ksYbfQ jGqaXi">
-			<button class="sc-cHGsZl pKKMO">Apply Now</button>
-		</div>
+		<div class="sc-cJSrbW bRkXTe" style="font-style: normal;">Earn with a pilot and car.</div>
+
 	</div>
 </div>
 
@@ -238,14 +232,12 @@
 		<div class="sc-iRbamj hlxkug">
 			<div class="sc-jlyJG edQKDL" data-toggle="collapse" data-target="#q1">
 				<div class="sc-gPEVay jCTEqM">
-					<h1 class="sc-jDwBTQ hgnFwS">How do I apply?</h1>
+					<h1 class="sc-jDwBTQ hgnFwS">What is pilot and Car?</h1>
 				</div>
 				<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 			</div>
-			<div id="q1" class="collapse">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<div id="q1" class="collapse fa-col-txt-size">
+				We are in the Market Since 1998 in UAE Market , having our Own Fleet<br> of Cars and Chauffeurs
 			</div>
 		</div>
 		
@@ -253,80 +245,75 @@
 		<div class="sc-iRbamj hlxkug">
 			<div class="sc-jlyJG edQKDL" data-toggle="collapse" data-target="#q2">
 				<div class="sc-gPEVay jCTEqM">
-					<h1 class="sc-jDwBTQ hgnFwS">Where is Express Drive available?</h1>
+					<h1 class="sc-jDwBTQ hgnFwS">Why I should Use  Pilot and Car?</h1>
 				</div>
 				<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 			</div>
-			<div id="q2" class="collapse">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<div id="q2" class="collapse fa-col-txt-size">
+					Even the City is full of Normal Taxis and App hailing companies , <br>
+					no company have fix prices till your destination .We never compromise<br> on your safety and  High cars standards  .
 			</div>
 		</div>
 		
 		<div class="sc-iRbamj hlxkug">
 			<div class="sc-jlyJG edQKDL" data-toggle="collapse" data-target="#q3">
 				<div class="sc-gPEVay jCTEqM">
-					<h1 class="sc-jDwBTQ hgnFwS">How long can I keep my rental?</h1>
+					<h1 class="sc-jDwBTQ hgnFwS">How do I start making a booking?</h1>
 				</div>
 				<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 			</div>
-			<div id="q3" class="collapse">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<div id="q3" class="collapse fa-col-txt-size">
+					You can use of user friendly website . by email or call us     <br> +971-4-2223201 or by whatsapp
+					+971 50 7852656					
 			</div>
 		</div>
 		
 		<div class="sc-iRbamj hlxkug">
 			<div class="sc-jlyJG edQKDL" data-toggle="collapse" data-target="#q4">
 				<div class="sc-gPEVay jCTEqM">
-					<h1 class="sc-jDwBTQ hgnFwS">How do I get paid?</h1>
+					<h1 class="sc-jDwBTQ hgnFwS">Is there any Booking Fee or Hidden charges?</h1>
 				</div>
 				<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 			</div>
-			<div id="q4" class="collapse">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<div id="q4" class="collapse fa-col-txt-size">
+					Not at all , the price mentioned in our website inclusive Fuel , <br>driver , Tax and all .
+					How every Extra hours are <br>paid as per agreed 
 			</div>
 		</div>
 		
 		<div class="sc-iRbamj hlxkug"><div class="sc-jlyJG edQKDL" data-toggle="collapse" data-target="#q5">
 			<div class="sc-gPEVay jCTEqM">
-				<h1 class="sc-jDwBTQ hgnFwS">Is Lyft safe?</h1>
+				<h1 class="sc-jDwBTQ hgnFwS">My booked car with driver not arrived ,  what to Do ?</h1>
 			</div>
 			<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 		</div>
-		<div id="q5" class="collapse">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		<div id="q5" class="collapse fa-col-txt-size">
+				If any Problem occurs Our 24/7 customer service will provide you <br>full information exact location 
+				Of our driver in any case				
 		</div>
 	</div>
 	
 	<div class="sc-iRbamj hlxkug">
 		<div class="sc-jlyJG edQKDL" data-toggle="collapse" data-target="#q6">
 			<div class="sc-gPEVay jCTEqM">
-				<h1 class="sc-jDwBTQ hgnFwS">What do I need to drive with Lyft?</h1>
+				<h1 class="sc-jDwBTQ hgnFwS">If i have lost something in your car How can i get Back?</h1>
 			</div>
 			<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 		</div>
-		<div id="q6" class="collapse">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		<div id="q6" class="collapse fa-col-txt-size">
+				Our lost property Department is open from 9:00 to 17:00 , <br>provide your journey details 
+				Or booking number we  can resolve <br>the issue as early as we can				
 		</div>
 	</div>
 	
-	<div class="sc-iRbamj hlxkug">
+	{{-- <div class="sc-iRbamj hlxkug">
 		<div class="sc-jlyJG edQKDL" data-toggle="collapse" data-target="#q7">
 			<div class="sc-gPEVay jCTEqM">
 				<h1 class="sc-jDwBTQ hgnFwS">Is there an age limit for Express Drive?</h1>
 			</div>
 			<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 		</div>
-		<div id="q7" class="collapse">
+		<div id="q7" class="collapse fa-col-txt-size">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -340,7 +327,7 @@
 			</div>
 			<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 		</div>
-		<div id="q8" class="collapse">
+		<div id="q8" class="collapse fa-col-txt-size">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -354,12 +341,12 @@
 			</div>
 			<div class="sc-jAaTju dsfbzM sc-cMljjf bXpLDp" size="30">+</div>
 		</div>
-		<div id="q9" class="collapse">
+		<div id="q9" class="collapse fa-col-txt-size">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 		</div>
-	</div>
+	</div> --}}
 	
 	</div>
 </section>

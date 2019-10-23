@@ -16,12 +16,14 @@
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <li><a href="">Chicago<span class="">From CHF 619<i class="fa fa-caret-right"></i></span></a></li>
-                <li><a href="">Montreal<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">New York<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">San Fransisco<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">Washington<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">More Offers<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -34,12 +36,14 @@
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <li><a href="">Chicago<span class="">From CHF 619<i class="fa fa-caret-right"></i></span></a></li>
-                <li><a href="">Montreal<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">New York<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">San Fransisco<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">Washington<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">More Offers<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -52,12 +56,14 @@
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <li><a href="">Chicago<span class="">From CHF 619<i class="fa fa-caret-right"></i></span></a></li>
-                <li><a href="">Montreal<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">New York<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">San Fransisco<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">Washington<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">More Offers<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -70,12 +76,14 @@
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <li><a href="">Chicago<span class="">From CHF 619<i class="fa fa-caret-right"></i></span></a></li>
-                <li><a href="">Montreal<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">New York<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">San Fransisco<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">Washington<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">More Offers<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -88,12 +96,14 @@
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <li><a href="">Chicago<span class="">From CHF 619<i class="fa fa-caret-right"></i></span></a></li>
-                <li><a href="">Montreal<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">New York<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">San Fransisco<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">Washington<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">More Offers<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
+                  <div class="pt-price-clr">price $340 </div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price $340 </div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -106,12 +116,14 @@
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <li><a href="">Chicago<span class="">From CHF 619<i class="fa fa-caret-right"></i></span></a></li>
-                <li><a href="">Montreal<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">New York<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">San Fransisco<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">Washington<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
-                <li><a href="">More Offers<span class="">From CHF 619<i class="fa fa-caret-right"></i></a></li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
+                  <div class="pt-price-clr">price $340 </div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
+                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>      
+                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                </li>
               </ul>
             </div>
           </div>

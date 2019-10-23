@@ -255,7 +255,7 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/luxury-buses-and-coaches')}}">
+          <a href="{{url('/bus-rental-dubai')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
@@ -289,7 +289,7 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/dubai-city-tours-and-sightseeing')}}">
+          <a href="{{url('/dubai-city-tour')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
@@ -391,7 +391,7 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/luxury-vans')}}">
+          <a href="{{url('/vans')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
@@ -425,7 +425,7 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/hire-a-drivers-or-Chauffeur')}}">
+          <a href="{{url('/driver-or-chauffeur')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
@@ -459,7 +459,7 @@
           </a>
         </section>
         <section class="os-det">
-          <a href="{{url('/delivery-vans-and-trucks')}}">
+          <a href="{{url('/delivery-vans')}}">
           <div class="container-fluid container">
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">

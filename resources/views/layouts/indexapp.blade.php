@@ -803,12 +803,15 @@ font-size: 18px;
 .star-all{
 	color:#FFFFFF;
 }
+
 </style>
 </head>
 
 <body style="font-family:'Gentona Book'; color:#999999; ">
+	@include('inc.contact-links')   
     @include('inc.navbar')   
 	@yield('content')
-    @include('inc.footer')
+	@include('inc.footer')
+	@include('inc.whatsapp')   
 </body>
 </html>

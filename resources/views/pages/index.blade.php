@@ -25,7 +25,7 @@
     top: 42px;
 }
 .auto-sl{
-    padding: 0px 80px !important;
+    padding: 0px 70px !important;
 }
 .btn-palma-de{
     background-color: #034f84;
@@ -51,7 +51,7 @@
                 <div class="col-lg-12" style="background-color:#408080; ">
                     <div class="col-lg-12 ">
                         <div class="col-lg-12 header-image" style=" width:100%; height:600px; position: relative; ">
-                            <img src="pilotpublic/images/cover.jpg" style="height:100%; width:100%;" class="object-image" />
+                            <img src="pilotpublic/images/cover.jpg" style="height:100%; width:100%;" class="obj-cover" class="object-image" />
                             <div class="col-lg-8 relaxed-journey">
                                     <div class="col-lg-12" style="padding:20px; text-align:left; padding-right: 250px; padding-top:15px">
                                         <div style="font-family: 'Gentona Book'; font-size: 13px; font-weight:400; color:#ffffff !important;">
@@ -75,6 +75,27 @@
                                             <div class="content__wrapper">
                                                 
                                                 <form method="GET" action="searchbyhour" class="form ind-form">
+                                                    <input type="hidden" name="ridetype" value="One Way">
+                                                    @if (Session('ridebooked'))
+                                                    <button type="button" class="btn btn-primary hidebtn" data-toggle="modal" data-target="#myModal" id="mybtn">
+                                                        Open modal
+                                                    </button>
+                                                    <div class="modal fade" id="myModal">
+                                                        <div class="modal-dialog modal-s">
+                                                            <div class="modal-content">
+                                                            <!-- Modal Header -->
+                                                            <div class="modal-header">
+                                                                <h4 class="modal-title p-4">
+                                                                You Booked Ride Successfully!<br>
+                                                                We Will Get You Soon<br>
+                                                                Thanks for Using Our Services.
+                                                                <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times ridebooked"></i></button>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <script>document.getElementById('mybtn').click();</script>
+                                                    @endif
                                                     {{ csrf_field() }}
                                                     <div class="ipar">
                                                         <div class="cinner cinner-border-rem">
@@ -82,10 +103,10 @@
                                                                 From
                                                             </label>
                                                             <label class="licon" for="addr"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input type="text" class="inputfocus" placeholder="Current Location" name="addressone" id="current" onfocus="initializeAutocompleteLocOne()" aria-required="true" required>
+                                                            <input type="text" class="inputfocus" placeholder="Current Location" name="from" id="current" onfocus="initializeAutocompleteLocOne()" aria-required="true" required>
                                                             <input type="hidden" name="cityone" id="cityone" placeholder="City" value="">
-                                                            <input type="hidden" name="latitudeone" id="latitudeone" placeholder="Latitude" value="" class="inputfocus">
-                                                            <input type="hidden" name="longitudeone" id="longitudeone" placeholder="Longitude" value="" class="inputfocus">
+                                                            <input type="hidden" name="latitudeone" id="latitudeone" placeholder="Latitude" value="">
+                                                            <input type="hidden" name="longitudeone" id="longitudeone" placeholder="Longitude" value="">
                                                         </div>
                                                     </div>
                                                     
@@ -95,60 +116,57 @@
                                                                 To
                                                             </label>
                                                             <label class="licon" for="to"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input type="text" class="inputfocus" placeholder="Enter Ride" name="address" onfocus="initializeAutocomplete()" id="locality" aria-required="true" value="" required>
-                                                            <input type="hidden" name="city" id="city" placeholder="City" value="" class="inputfocus">
-                                                            <input type="hidden" name="latitude" id="latitude" placeholder="Latitude" value="" class="inputfocus">
-                                                            <input type="hidden" name="longitude" id="longitude" placeholder="Longitude" value="" class="inputfocus">
+                                                            <input type="text" class="inputfocus" placeholder="Enter Ride" name="to" id="locality" onfocus="initializeAutocomplete()" aria-required="true" value="" required>
+                                                            <input type="hidden" name="city" id="city" placeholder="City" value="">
+                                                            <input type="hidden" name="latitude" id="latitude" placeholder="Latitude" value="" >
+                                                            <input type="hidden" name="longitude" id="longitude" placeholder="Longitude" value="">
 
                                                         </div>
                                                     </div>
+                                                    
                                                     <div class="ipar">
                                                         <div class="cinner">
                                                             <label for="date" class="label">
                                                                 Date
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
-                                                            <input id="date" type="date" name="dateone" placeholder="Adress, airport, hotel,..." class="inputfocus">
+                                                            <input id="date" type="date" name="date" placeholder="Adress, airport, hotel,..." class="inputfocus">
                                                             
                                                         </div>
                                                     </div>
+                                                    @if ($errors->has('dateone'))
+                                                        <div class="alert alert-danger">
+                                                            Error! Date is Required
+                                                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                                        </div>
+                                                    @endif
                                                     <div class="ipar">
                                                         <div class="cinner">
                                                             <label for="time" class="label">
                                                                 Time
                                                             </label>
                                                             <label class="licon" for="time"><i class="fa fa-clock-o" aria-hidden="true"></i></label>
-                                                            <input id="time" type="text" name="timeone"  placeholder="" class="inputfocus">
+                                                            <input id="time" type="text" name="time"  placeholder="" class="inputfocus">
                                                         </div>
                                                     </div>
+                                                    @if ($errors->has('timeone'))
+                                                        <div class="alert alert-danger">
+                                                            Error! Time is Required
+                                                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                                        </div>
+                                                    @endif
                                                     <div id="output" class="output">
                                                        
                                                     </div>
                                                     
                                                     <button type="submit" class="search btn">Search One</button>
-                                                    <script>
-                                                    $(".inputfocus").focus(function(){
-                                                        $(this).parent().removeClass("cinner-border-rem");
-                                                        $(this).parent().addClass("cinner-border-add");
-
-                                                        }).blur(function(){
-                                                            $(this).parent().removeClass("cinner-border-add");
-                                                            $(this).parent().addClass("cinner-border-rem");
-                                                    });
-
-                                                        // $(".inputfocus").blur(function(){
-                                                        // $(this).parent().removeClass("cinner-border-add");
-                                                        // $(this).parent().addClass("cinner-border-rem");
-
-                                                        // });
-
-                                                    </script>
                                                 </form>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="content__wrapper">
-                                                <form method="POST" action="/searchbyway"  class="form">
+                                                <form method="get" action="searchbyhour"  class="form">
+                                                    <input type="hidden" name="ridetype" value="By Hour">
                                                     {{ csrf_field() }}                                                    
                                                     <div class="ipar">
                                                         <div class="cinner">
@@ -156,7 +174,10 @@
                                                                 From
                                                             </label>
                                                             <label class="licon" for="addr"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input id="addr" type="text" name="" placeholder="Adress, airport, hotel,...">
+                                                            <input type="text" class="inputfocus" placeholder="Current Location" name="from"  id="current3" onfocus="initializeAutocompleteThree()" aria-required="true" required>
+                                                            <input type="hidden" value="" name="citythree" id="citythree">
+                                                            <input type="hidden" name="latitudethree" id="latitudethree" placeholder="Latitude" value="">
+                                                            <input type="hidden" name="longitudethree" id="longitudethree" placeholder="Longitude" value="">
                                                         </div>
                                                     </div>
                                                     <div class="ipar">
@@ -165,7 +186,11 @@
                                                                 To
                                                             </label>
                                                             <label class="licon" for="to"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input id="to" type="text" name="" placeholder="Adress, airport, hotel,...">
+                                                            <input type="text" placeholder="Adress, airport, hotel,..." class="inputfocus" name="to" id="locality4" onfocus="initializeAutocompleteFour()" aria-required="true" required>
+                                                            <input type="hidden" value="" name="cityfour" id="cityfour">
+                                                            <input type="hidden" name="latitudefour" id="latitudefour" placeholder="Latitude" value="" >
+                                                            <input type="hidden" name="latitudefour" id="latitudefour" placeholder="Longitude" value="">
+
                                                         </div>
                                                     </div>
                                                     <div class="ipar">
@@ -174,17 +199,20 @@
                                                                 Date
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
-                                                            <input id="date" type="date" name="" placeholder="">
+                                                            <input id="date" type="date" name="date" class="inputfocus">
                                                         </div>
                                                     </div>
                                                     <div class="ipar">
                                                         <div class="cinner">
-                                                            <label for="time2" class="label">
+                                                            <label for="time" class="label">
                                                                 Time
                                                             </label>
                                                             <label class="licon" for="time2"><i class="fa fa-clock-o" aria-hidden="true"></i></label>
-                                                            <input id="time2" type="text" name="" placeholder="">
+                                                            <input id="time2" type="text" name="time"  placeholder="" class="inputfocus">
                                                         </div>
+                                                    </div>
+                                                    <div id="output2" class="output">
+                                                       
                                                     </div>
                                                     <button type="submit" class="search btn">Search Two</button>
                                                 </form>
@@ -206,63 +234,99 @@
     <div class="container container-position ">
             <div class="row autoplay slick-slider-bg auto-sl">
             
-              <div class=" slick_main slick_main_hover ">
-                <div class="content-holder">
-                   <ul class="slickslider1" >
-                      <li ><!-- <i style=" " class="mt-4 mr-2 fa fa-circle fa-3x"></i> -->
-                       <img class="img-fluid  mr-4 " style="float: left" width="40" src="pilotpublic/images/slickimg.png">
-                         <a href="#" style="text-decoration:none"><h4 class="slickslidertxt1" style="color:#034f84; font-family: 'Gentona Book';">lorem Ipsum</h4></a>
-                         
-                         <span>
-                             <div class="slickslidertxt2">lorem Ipsum </div> 
-                         </span>    
-                       </li>
-                    </ul>
-                  </div>
-              </div> 
-              <div class=" slick_main slick_main_hover">
-                <div class="content-holder">
-                   <ul class="slickslider1" >
-                      <li ><!-- <i style=" " class="mt-4 mr-2 fa fa-circle fa-3x"></i> -->
-                       <img class="img-fluid  mr-4 " style="float: left" width="40" src="pilotpublic/images/slickimg.png">
-                         <a href="#" style="text-decoration:none"><h4 class="slickslidertxt1" style=" color:#034f84; font-family: 'Gentona Book';">lorem Ipsum</h4></a>
-                         
-                         <a href="#" style="text-decoration:none">
-                             <div class="slickslidertxt2">lorem Ipsum </div> 
-                          </a>    
-                       </li>
-                    </ul>
-                  </div>
-              </div> 
-              <div class=" slick_main slick_main_hover">
-                <div class="content-holder">
-                   <ul class="slickslider1" >
-                      <li ><!-- <i style=" " class="mt-4 mr-2 fa fa-circle fa-3x"></i> -->
-                       <img class="img-fluid  mr-4 " style="float: left" width="40" src="pilotpublic/images/slickimg.png">
-                         <a href="#" style="text-decoration:none"><h4 class="slickslidertxt1" style=" color:#034f84">lorem Ipsum</h4></a>
-                         
-                         <a href="#" style="text-decoration:none">
-                             <div class="slickslidertxt2">lorem Ipsum </div> 
-                          </a>    
-                       </li>
-                    </ul>
-                  </div>
-              </div> 
-              <div class=" slick_main slick_main_hover">
-                <div class="content-holder">
-                   <ul class="slickslider1" >
-                      <li ><!-- <i style=" " class="mt-4 mr-2 fa fa-circle fa-3x"></i> -->
-                       <img class="img-fluid  mr-4 " style="float: left" width="40" src="pilotpublic/images/slickimg.png">
-                         <a href="#" style="text-decoration:none"><h4 class="slickslidertxt1" style=" color:#034f84">lorem Ipsum</h4></a>
-                         
-                         <a href="#" style="text-decoration:none">
-                             <div class="slickslidertxt2">lorem Ipsum </div> 
-                          </a>    
-                       </li>
-                    </ul>
-                  </div>
-              </div> 
+            <div class=" slick_main slick_main_hover ">
+                <div class="content-holder ind-six-icons">
+                    <div class="ind-six-icons-comm ind-six-icons-img">
+                        <img src="pilotpublic/images/icons/6icons/1.png" alt="" class="ind-six-icons-img-c">
+                    </div>
+                    <div class="ind-six-icons-comm ind-six-icons-txt">
+                        <div class="ind-six-icons-txt-1">
+                            Transparent Fares
+                        </div>
+                        <div class="ind-six-icons-txt2-">
+                            Economy  to Luxury fleet
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" slick_main slick_main_hover ">
+                <div class="content-holder ind-six-icons">
+                    <div class="ind-six-icons-comm ind-six-icons-img">
+                        <img src="pilotpublic/images/icons/6icons/4.png" alt="" class="ind-six-icons-img-c">
+                    </div>
+                    <div class="ind-six-icons-comm ind-six-icons-txt">
+                        <div class="ind-six-icons-txt-1">
+                            Ac Cars
+                        </div>
+                        <div class="ind-six-icons-txt2-">
+                            One way trip 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" slick_main slick_main_hover ">
+                <div class="content-holder ind-six-icons">
+                    <div class="ind-six-icons-comm ind-six-icons-img">
+                        <img src="pilotpublic/images/icons/6icons/6.png" alt="" class="ind-six-icons-img-c">
+                    </div>
+                    <div class="ind-six-icons-comm ind-six-icons-txt">
+                        <div class="ind-six-icons-txt-1">
+                            Insurance coverage
+                        </div>
+                        <div class="ind-six-icons-txt2-">
+                            Easy to Book
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" slick_main slick_main_hover ">
+                <div class="content-holder ind-six-icons">
+                    <div class="ind-six-icons-comm ind-six-icons-img">
+                        <img src="pilotpublic/images/icons/6icons/5.png" alt="" class="ind-six-icons-img-c">
+                    </div>
+                    <div class="ind-six-icons-comm ind-six-icons-txt">
+                        <div class="ind-six-icons-txt-1">
+                            Lower Rates
+                        </div>
+                        <div class="ind-six-icons-txt2-">
+                            Hourly Rides
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" slick_main slick_main_hover ">
+                <div class="content-holder ind-six-icons">
+                    <div class="ind-six-icons-comm ind-six-icons-img">
+                        <img src="pilotpublic/images/icons/6icons/3.png" alt="" class="ind-six-icons-img-c">
+                    </div>
+                    <div class="ind-six-icons-comm ind-six-icons-txt">
+                        <div class="ind-six-icons-txt-1">
+                            One Way Trip
+                        </div>
+                        <div class="ind-six-icons-txt2-">
+                            Shopping Tours
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" slick_main slick_main_hover ">
+                <div class="content-holder ind-six-icons">
+                    <div class="ind-six-icons-comm ind-six-icons-img">
+                        <img src="pilotpublic/images/icons/6icons/2.png" alt="" class="ind-six-icons-img-c">
+                    </div>
+                    <div class="ind-six-icons-comm ind-six-icons-txt">
+                        <div class="ind-six-icons-txt-1">
+                            Free cancelation
+                        </div>
+                        <div class="ind-six-icons-txt2-">
+                            City Tour
+                        </div>
+                    </div>
+                </div>
+            </div>
             
+             
+              
                           
             </div>
          </div>
@@ -273,76 +337,61 @@
    
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12" style="padding-top:70px; padding-bottom:70px;">
+            <div class="col-lg-12" style="padding-top:40px; padding-bottom:0px;">
                 <div class="col-lg-12">
                     
                     <div class="col-lg-12">
-                        <div class="col-lg-12 col-md-12" style="font-size:40px; text-align:center; font-weight:100; color:black">
+                        <div class="col-lg-12 col-md-12 text-uppercase" style="font-size:40px; text-align:center; font-weight:100; color:#f96714">
                             Airport services
                         </div>
-                        <div class="col-lg-12 col-md-12">
-                        <div class="col-lg-3 col-md-3" style="padding:20px">
-                            <div class="col-lg-12 trending">
-                                <div class="col-lg-12">
-                                    <img src="pilotpublic/images/Car 1.png" style="height:150px; width:150px; margin: 0 auto; display: block;" />
+                        
+                        <section class="bottom-icons1">
+                            <div class="container-fluid">
+                            <div class="row">
+                            
+                            <div class="col-md-3 bottom-icons1-div">
+                                <div class="bottom-icons1-div-icon">
+                                    <img src="pilotpublic/images/icons/air/1.png" class="in-ic-img" />
                                 </div>
-                                <div class="col-lg-12" style="text-align:center">
-                                    <div class="ind-center-icon-txt">
-                                        airport travel
-                                    </div>
-                                    <div class="ind-center-icon-txt2">
-                                        Relax with 1 hour wait.
-                                    </div>
+                                <div class="bottom-icons1-div-text1 ind-icons1-div-text1">Airport Transfers</div>
+                                <div class="bottom-icons1-div-text2">
+                                    Get to and from the airport<br>Quickly and easily
                                 </div>
+                                
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3" style="padding:20px">
-                            <div class="col-lg-12 trending">
-                                <div class="col-lg-12">
-                                    <img src="pilotpublic/images/car2-01.png" style="height:150px; width:150px; margin: 0 auto; display: block;" />
+                            <div class="col-md-3 bottom-icons1-div">
+                                <div class="bottom-icons1-div-icon">
+                                    <img src="pilotpublic/images/icons/air/2.png" class="in-ic-img" />
                                 </div>
-                                <div class="col-lg-12" style="text-align:center">
-                                    <div class="ind-center-icon-txt">
-                                        All-inclusive pricing
-                                    </div>
-                                    <div class="ind-center-icon-txt2">
-                                        Count on all-inclusive rates.
-                                    </div>
+                                <div class="bottom-icons1-div-text1 ind-icons1-div-text1">Professional Chauffeurs</div>
+                                <div class="bottom-icons1-div-text2">
+                                    We will Drive you anywhere<br>Safely and confidently
                                 </div>
+                                
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3" style="padding:20px">
-                            <div class="col-lg-12 trending">
-                                <div class="col-lg-12">
-                                    <img src="pilotpublic/images/car3-01.png" style="height:150px; width:150px; margin: 0 auto; display: block;" />
+                            <div class="col-md-3 bottom-icons1-div">
+                                <div class="bottom-icons1-div-icon">
+                                    <img src="pilotpublic/images/icons/air/3.png" class="in-ic-img" />
                                 </div>
-                                <div class="col-lg-12" style="text-align:center">
-                                    <div class="ind-center-icon-txt">
-                                        Ride flexibility
-                                    </div>
-                                    <div class="ind-center-icon-txt2">
-                                        Change or cancel for free.
-                                    </div>
+                                <div class="bottom-icons1-div-text1 ind-icons1-div-text1">Fixed Fares</div>
+                                <div class="bottom-icons1-div-text2">
+                                    Minimum rates guaranteed<br>book at great Prices
                                 </div>
+                                
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3" style="padding:20px">
-                            <div class="col-lg-12 trending">
-                                <div class="col-lg-12">
-                                    <img src="pilotpublic/images/Car 1.png" style="height:150px; width:150px; margin: 0 auto; display: block;" />
+                            <div class="col-md-3 bottom-icons1-div">
+                                <div class="bottom-icons1-div-icon">
+                                    <img src="pilotpublic/images/icons/air/4.png" class="in-ic-img" />
                                 </div>
-                                <div class="col-lg-12" style="text-align:center">
-                                    <div class="ind-center-icon-txt">
-                                        Ride flexibility
-                                    </div>
-                                    <div class="ind-center-icon-txt2">
-                                        Change or cancel for free.
-                                    </div>
+                                <div class="bottom-icons1-div-text1 ind-icons1-div-text1">Standard to Luxury </div>
+                                <div class="bottom-icons1-div-text2">
+                                    All fleet of ground transport<br>under one roof
                                 </div>
+                                
                             </div>
-                        </div>
-
-                    </div>	
+                            </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -368,27 +417,33 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%" />
+                                        <img src="pilotpublic/images/6box/1.jpg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
                                     <div class="card3-style">
                                         <img src="pilotpublic/images/car02-01.png" height="100%"/>
                                     </div>
-                                    <div style="font-size:24px; font-weight:500; color:#333333">One New SWISS Destinations</div>
-                                    <div style="font-size:13px; color:#999999">Fly to basic sea with swiss and discover two new exciting destinations.</div>
+                                    <div style="font-size:24px; font-weight:500; color:#333333">Explore Dubai City with Our Pilots</div>
+                                    <div class="in-six-box-sm-txt">Chose Range of Cars from our Fleet according to your  Budget and numbers
+                                            Of passengers want to travel around the city or other part of emirates 
+                                            .</div>
                                     <div class="index-six-boxes">
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-apple index-six-boxes-icons"></i>
-                                            AC <br>Cabs
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/6.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Quality <br>Driver</div>
+                                            </div>
                                         </div>
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-500px index-six-boxes-icons"></i>
-                                            Pocket <br>Friendly
-                                        </div>
-                                        <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-acquisitions-incorporated index-six-boxes-icons"></i>
-                                            Cashless <br>Rides
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/2.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Transparent<br>Fares</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Discover Now</div>
@@ -399,30 +454,37 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%" />
+                                        <img src="pilotpublic/images/6box/2.jpg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
                                     <div class="card3-style">
                                         <img src="pilotpublic/images/car02-01.png" height="100%"/>
                                     </div>
-                                    <div style="font-size:24px; font-weight:500; color:#333333">One New SWISS Destinations</div>
-                                    <div style="font-size:13px; color:#999999">Fly to basic sea with swiss and discover two new exciting destinations.</div>
+                                    <div style="font-size:24px; font-weight:500; color:#333333">Range of Service under one roof </div>
+                                    <div class="in-six-box-sm-txt">
+                                            We have choices of Service , from everyone  use  standard to High - end luxury cars ,you can book instantly 
+                                            Or in advance we will follow your booking Dates and time                                            
+                                    </div>
                                     <div class="index-six-boxes">
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-apple index-six-boxes-icons"></i>
-                                            AC <br>Cabs
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/1.1.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Insurance <br>Coverage</div>
+                                            </div>
                                         </div>
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-500px index-six-boxes-icons"></i>
-                                            Pocket <br>Friendly
-                                        </div>
-                                        <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-acquisitions-incorporated index-six-boxes-icons"></i>
-                                            Cashless <br>Rides
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/2.2.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">24/7  <br>Customer Support</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Discover Now</div>
+                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Read More</div>
                                 </div>
                             </div>
                         </div>
@@ -430,30 +492,37 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%" />
+                                        <img src="pilotpublic/images/6box/3.jpg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
                                     <div class="card3-style">
                                         <img src="pilotpublic/images/car02-01.png" height="100%"/>
                                     </div>
-                                    <div style="font-size:24px; font-weight:500; color:#333333">One New SWISS Destinations</div>
-                                    <div style="font-size:13px; color:#999999">Fly to basic sea with swiss and discover two new exciting destinations.</div>
+                                    <div style="font-size:24px; font-weight:500; color:#333333">We are Secure and Safe</div>
+                                    <div class="in-six-box-sm-txt">
+                                            All our fleet is technically passed from RTA department,  pilots are verified and trained 
+                                            From the road and Transport authority , we ensure you safe travel Experience of Chauffeur Service in Dubai   
+                                    </div>
                                     <div class="index-six-boxes">
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-apple index-six-boxes-icons"></i>
-                                            AC <br>Cabs
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/6.6.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Advance <br> Booking</div>
+                                            </div>
                                         </div>
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-500px index-six-boxes-icons"></i>
-                                            Pocket <br>Friendly
-                                        </div>
-                                        <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-acquisitions-incorporated index-six-boxes-icons"></i>
-                                            Cashless <br>Rides
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/4.4.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">One way <br> Trip</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Discover Now</div>
+                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Book now</div>
                                 </div>
                             </div>
                         </div>
@@ -461,30 +530,37 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%" />
+                                        <img src="pilotpublic/images/6box/4.jpg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
                                     <div class="card3-style">
                                         <img src="pilotpublic/images/car02-01.png" height="100%"/>
                                     </div>
-                                    <div style="font-size:24px; font-weight:500; color:#333333">One New SWISS Destinations</div>
-                                    <div style="font-size:13px; color:#999999">Fly to basic sea with swiss and discover two new exciting destinations.</div>
+                                    <div style="font-size:24px; font-weight:500; color:#333333">24/7 Customer support</div>
+                                    <div class="in-six-box-sm-txt">
+                                        Our Dedicated team is  ready to Listen you any time , we can suggest you perfect advise related 
+                                        about Ground transport for individuals or Big Events
+                                    </div>
                                     <div class="index-six-boxes">
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-apple index-six-boxes-icons"></i>
-                                            AC <br>Cabs
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/3.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Card & <br> Cash</div>
+                                            </div>
                                         </div>
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-500px index-six-boxes-icons"></i>
-                                            Pocket <br>Friendly
-                                        </div>
-                                        <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-acquisitions-incorporated index-six-boxes-icons"></i>
-                                            Cashless <br>Rides
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/5.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Easy <br> Booking</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Discover Now</div>
+                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Select more</div>
                                 </div>
                             </div>
                         </div>
@@ -492,30 +568,37 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%" />
+                                        <img src="pilotpublic/images/6box/5.jpg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
                                     <div class="card3-style">
                                         <img src="pilotpublic/images/car02-01.png" height="100%"/>
                                     </div>
-                                    <div style="font-size:24px; font-weight:500; color:#333333">One New SWISS Destinations</div>
-                                    <div style="font-size:13px; color:#999999">Fly to basic sea with swiss and discover two new exciting destinations.</div>
+                                    <div style="font-size:24px; font-weight:500; color:#333333">New Model Fleet</div>
+                                    <div class="in-six-box-sm-txt">
+                                            Our majority of car fleet is less than 2 years Old , with company Maintained History , 
+                                            With every day service and  cleaning                                            
+                                    </div>
                                     <div class="index-six-boxes">
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-apple index-six-boxes-icons"></i>
-                                            AC <br>Cabs
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/4.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Economy to <br> Premium</div>
+                                            </div>
                                         </div>
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-500px index-six-boxes-icons"></i>
-                                            Pocket <br>Friendly
-                                        </div>
-                                        <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-acquisitions-incorporated index-six-boxes-icons"></i>
-                                            Cashless <br>Rides
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/1.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Lower  <br>Rates</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Discover Now</div>
+                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Learn more</div>
                                 </div>
                             </div>
                         </div>
@@ -523,30 +606,36 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%" />
+                                        <img src="pilotpublic/images/6box/6.jpg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
                                     <div class="card3-style">
                                         <img src="pilotpublic/images/car02-01.png" height="100%"/>
                                     </div>
-                                    <div style="font-size:24px; font-weight:500; color:#333333">One New SWISS Destinations</div>
-                                    <div style="font-size:13px; color:#999999">Fly to basic sea with swiss and discover two new exciting destinations.</div>
+                                    <div style="font-size:24px; font-weight:500; color:#333333">Experienced  and Safe Drivers</div>
+                                    <div class="in-six-box-sm-txt">
+                                            We have Experienced and safe Drivers ,who can take to your Destination without any navigation Use
+                                    </div>
                                     <div class="index-six-boxes">
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-apple index-six-boxes-icons"></i>
-                                            AC <br>Cabs
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/5.5.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Ac  <br>Cars</div>
+                                            </div>
                                         </div>
                                         <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-500px index-six-boxes-icons"></i>
-                                            Pocket <br>Friendly
-                                        </div>
-                                        <div class="index-six-boxes-inner-one">
-                                            <i class="fab fa-acquisitions-incorporated index-six-boxes-icons"></i>
-                                            Cashless <br>Rides
+                                            <div class="in-box-inn-div">
+                                                <div class="in-box-inn-div-one">
+                                                    <img src="pilotpublic/images/icons/main/3.3.png" class="main-icon-img" />
+                                                </div>
+                                                <div class="in-box-inn-div-two">Booking by <br> Calls</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Discover Now</div>
+                                    <div style="font-weight:600; color:#034f84; font-size:16px; margin-top:10px; padding-top:15px; border-top:1px solid lightgray">Book your ride</div>
                                 </div>
                             </div>
                         </div>
@@ -575,7 +664,7 @@
         padding: 20px;
     }
     </style>
-    <div class="container-fluid" style="padding:0px; padding-top:60px; padding-bottom:0px; margin-bottom:50px; border-bottom:1px solid #f0eeee ">
+    <div class="container-fluid" style="padding:0px; padding-top:60px; padding-bottom:0px; margin-bottom:50px; ">
         <div class="row">
             <div class="col-lg-12">
                 <div class="col-lg-12" style="padding-left:20px">
@@ -606,8 +695,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                    <div class="hover-cont">
                                     <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/1.png" style="">
+                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/11.png" />
                                    </div>
     <p class="car-type">Auto</p>
     </div>
@@ -618,8 +707,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                  <div class="hover-cont">
                                                                   <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/2.png" style="">
+                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/22.png" />
                                    </div>
     <p class="car-type">Bike</p>
     </div>
@@ -630,8 +719,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                   <div class="img-hold">
-                                                                      <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                                                      <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/3.png" style="">
+                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/3.png" />
                                                                   </div>
                                        
                                    
@@ -643,8 +732,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back" src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/4.png" style="">
+                                   <img class="car-back" src="pilotpublic/images/icons/carvechile/4.png" />
                                    </div>
                                    
     <p class="car-type">Micro</p>
@@ -656,8 +745,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/5.png" style="">
+                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/55.png" />
                                    </div>
                                    
     <p class="car-type">Auto</p>
@@ -668,8 +757,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/6.png" style="">
+                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/66.png" />
                                    </div>
     <p class="car-type">Auto</p>
     </div>
@@ -679,8 +768,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/7.png" style="">
+                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/77.png" />
                                     </div>
     <p class="car-type">Prime Play</p>
     </div>
@@ -690,8 +779,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back slick2-custom-navigation" src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/8.png" style="">
+                                   <img class="car-back slick2-custom-navigation" src="pilotpublic/images/icons/carvechile/88.png" />
                                     </div>
     <p class="car-type">Prime SUV</p>
     </div>
@@ -701,8 +790,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/9.png" style="">
+                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/99.png" />
                                     </div>
     <p class="car-type">Auto</p>
     </div>
@@ -969,32 +1058,35 @@
     
     </script>
     
-    <div class="container-fluid" style="padding:0px; background-image:url(pilotpublic/images/night.jpg); ">
+    <div class="container-fluid obj-cover" style="padding:0px; background-image:url(pilotpublic/images/buildings-cars-city-169677.jpg); ">
         <div class="row">
             <div class="col-lg-12">
                 <div class="col-lg-12" style=" padding-bottom:40px">
                     <div class="col-lg-12" style="text-align:center; padding-top:60px; padding-bottom:40px;">
                         <div class="palma">
-                            Palma de Mallorca
+                                TRAVEL IN STYLE ACROSS
                         </div>
                         <div class="palma-sub">
-                            Sun-kissed island metropolis
+                                The United Arab Emirates
                         </div>
                     </div>
                     <div class="col-lg-12 " style="padding:10px">
                         <div class="col-lg-15 col-lg-3 col-sm-4 col-xs-12 palma-one" style="padding:0px; cursor:pointer" id="HoverChangeText1">
                             <div style="padding:10px">
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
-                                    <div class="col-lg-12 box-head"  id="changeText1">ACCOMODATIONS</div>
-                                    <div class="col-lg-12" style="height:190px;">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%;" />
+                                    <div class="col-lg-12 box-head"  id="changeText1">ATTRACTIONS</div>
+                                    <div class="col-lg-12" style="height:145px;">
+                                        <img src="pilotpublic/images/5box/1.jpg" style="height:100%; width:100%;" class="obj-cover"  />
                                     </div>
                                     <div class="col-lg-12 text-cont">
-                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Hotel M House</div>
+                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">
+                                            Reveal Years of history
+                                          </div>
                                         <div style="font-size:14px; ">Hidden Gem</div>
                                         <div style="font-size:14px; padding:15px; color:#999999; font-family: calibri">
-                                            This is handsome moderan hotel with 32 comfortabel rooms. The youngish guest enjoy the view of old town
-                                            and short distance to the heart of palma.
+                                                Our Energetic chauffeurs are ready to drive you ,for  Dubai City tour
+                                                We can cover 12 top attractions , you can enjoy the view of the old town , then 
+                                                Can ahead to Modern architect of the new city                                                
                                         </div>
                                         <div style="padding:5px; height:40px">
                                             <div style="display:none" id="hidelogo1">
@@ -1008,17 +1100,18 @@
                         <div class="col-lg-15 col-lg-3 col-sm-4 col-xs-12 palma-two" style="padding:0px; cursor:pointer" id="HoverChangeText2">
                             <div style="padding:10px">
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
-                                    <div class="col-lg-12 box-head" id="changeText2">SHOPPING</div>
+                                    <div class="col-lg-12 box-head" id="changeText2">LUXURY RIDE</div>
     
-                                    <div class="col-lg-12" style="height:190px;">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%;" />
+                                    <div class="col-lg-12" style="height:145px;">
+                                        <img src="pilotpublic/images/5box/2.jpg" style="height:100%; width:100%;" class="obj-cover" />
                                     </div>
                                     <div class="col-lg-12 text-cont">
-                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Hotel M House</div>
-                                        <div style="font-size:14px; ">Hidden Gem</div>
+                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Rolls Royce</div>
+                                        <div style="font-size:14px; ">Ghost </div>
                                         <div style="font-size:14px; padding:15px; color:#999999; font-family: calibri">
-                                            The youngish guest enjoy the view of old town
-                                            and short distance to the heart of palma.
+                                                Book a luxury transfer  for your event or Meeting , and inspire your 
+                                                Beloved one let they feel  how they are important . we can combine 
+                                                for you luxury and comfort .                                                
                                         </div>
                                         <div style="height:40px; padding:5px">
                                             <div style="display:none" id="hidelogo2">
@@ -1032,16 +1125,16 @@
                         <div class="col-lg-15 col-lg-3 col-sm-4 col-xs-12 palma-three" style="padding:0px; cursor:pointer" id="HoverChangeText3">
                             <div style="padding:10px">
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
-                                    <div class="col-lg-12  box-head" id="changeText3">RESTAURANT</div>
-                                    <div class="col-lg-12" style="height:190px;">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%;" />
+                                    <div class="col-lg-12  box-head" id="changeText3">DISCOVER</div>
+                                    <div class="col-lg-12" style="height:145px;">
+                                        <img src="pilotpublic/images/5box/3.jpg" style="height:100%; width:100%;" class="obj-cover" />
                                     </div>
                                     <div class="col-lg-12 text-cont">
-                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Hotel M House</div>
-                                        <div style="font-size:14px; ">Hidden Gem</div>
+                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Do Not Miss</div>
+                                        <div style="font-size:14px; ">Shopping  Opportunity</div>
                                         <div style="font-size:14px; padding:15px; color:#999999; font-family: calibri">
-                                            This is handsome moderan hotel with 32 comfortabel rooms. The youngish guest enjoy the view of old town
-                                            and short distance to the heart of palma.
+                                                Even if you have a short stay in Dubai , according to your 
+                                                Time availability we can offer you our affordable shopping trips packages                                                
                                         </div>
                                         <div style="height:40px; padding:5px">
                                             <div style="display:none" id="hidelogo3">
@@ -1055,15 +1148,17 @@
                         <div class="col-lg-15 col-lg-3 col-sm-4 col-xs-12 palma-four" style="padding:0px; cursor:pointer" id="HoverChangeText4">
                             <div style="padding:10px">
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
-                                    <div class="col-lg-12  box-head" id="changeText4">ATTRACTIONS</div>
-                                    <div class="col-lg-12" style="height:190px;">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%;" />
+                                    <div class="col-lg-12  box-head" id="changeText4">CONVENIENCE</div>
+                                    <div class="col-lg-12" style="height:145px;">
+                                        <img src="pilotpublic/images/5box/4.jpg" style="height:100%; width:100%;" class="obj-cover" />
                                     </div>
                                     <div class="col-lg-12 text-cont" >
-                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Hotel M House</div>
-                                        <div style="font-size:14px; ">Hidden Gem</div>
+                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Experience of 20 Years</div>
+                                        <div style="font-size:14px; ">Chauffeur Service</div>
                                         <div style="font-size:14px; padding:15px; color:#999999; font-family: calibri">
-                                            This is handsome moderan hotel with 32 comfortabel rooms. 
+                                                Save your time during your stay in Dubai , 
+                                                Get a Ride with our attentive and Friendly Drivers .
+                                                We have offers according to your need                                                 
                                         </div>
                                         <div style="height:40px; padding:5px">
                                             <div style="display:none" id="hidelogo4">
@@ -1077,16 +1172,16 @@
                         <div class="col-lg-15 col-lg-3 col-sm-4 col-xs-12 palma-five" style="padding:0px; cursor:pointer" id="HoverChangeText5">
                             <div style="padding:10px">
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
-                                    <div class="col-lg-12  box-head" id="changeText5">CULTURE</div>
-                                    <div class="col-lg-12" style="height:190px;">
-                                        <img src="pilotpublic/images/sea.jpg" style="height:100%; width:100%;" />
+                                    <div class="col-lg-12  box-head" id="changeText5">EXPLORE</div>
+                                    <div class="col-lg-12" style="height:145px;">
+                                        <img src="pilotpublic/images/5box/5.jpg" style="height:100%; width:100%;" class="obj-cover" />
                                     </div>
                                     <div class="col-lg-12 text-cont" >
-                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Hotel M House</div>
-                                        <div style="font-size:14px; ">Hidden Gem</div>
+                                        <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Economical  to</div>
+                                        <div style="font-size:14px; ">Luxury Fleet</div>
                                         <div style="font-size:14px; padding:15px; color:#999999; font-family: calibri">
-                                            The youngish guest enjoy the view of old town
-                                            and short distance to the heart of palma.
+                                                Take advantage of our hourly and daily and monthly offers , which 
+                                                Is all inclusive of fuel , Driver and Car , No Hidden charges <br><br> <br>                                               
                                         </div>
                                         <div style="height:40px; padding:5px">
                                             <div style="display:none" id="hidelogo5">
@@ -1115,63 +1210,63 @@
     $('#HoverChangeText1').hover(function () {
         $("#hidelogo1").toggle();
         $('#changeText1').fadeOut(200, function () {
-            $('#changeText1').text('My New Sentence 1').fadeIn();		
+            $('#changeText1').text('UNLOCK YOUR STAY').fadeIn();		
         });
     },
     function () {
         $("#hidelogo1").toggle();
         $('#changeText1').fadeOut(200, function () {
-            $('#changeText1').text('ACCOMODATIONS').fadeIn();
+            $('#changeText1').text('ATTRACTIONS').fadeIn();
         });
     });
     
     $('#HoverChangeText2').hover(function () {
         $("#hidelogo2").toggle();
         $('#changeText2').fadeOut(200, function () {
-            $('#changeText2').text('My New Sentence 2').fadeIn();
+            $('#changeText2').text('WORLD CLASS STANDARD').fadeIn();
         });
     },
     function () {
         $("#hidelogo2").toggle();
         $('#changeText2').fadeOut(200, function () {
-            $('#changeText2').text('SHOPPING').fadeIn();
+            $('#changeText2').text('LUXURY RIDE').fadeIn();
         });
     });
     
     $('#HoverChangeText3').hover(function () {
         $("#hidelogo3").toggle();
         $('#changeText3').fadeOut(200, function () {
-            $('#changeText3').text('My New Sentence 3').fadeIn();
+            $('#changeText3').text('SHOPPING TOURS').fadeIn();
         });
     },
     function () {
         $("#hidelogo3").toggle();
         $('#changeText3').fadeOut(200, function () {
-            $('#changeText3').text('RESTAURANT').fadeIn();
+            $('#changeText3').text('DISCOVER').fadeIn();
         });
     });
     $('#HoverChangeText4').hover(function () {
         $("#hidelogo4").toggle();
         $('#changeText4').fadeOut(200, function () {
-            $('#changeText4').text('My New Sentence 4').fadeIn();
+            $('#changeText4').text('COMFORT  JOURNEY').fadeIn();
         });
     },
     function () {
         $("#hidelogo4").toggle();
         $('#changeText4').fadeOut(200, function () {
-            $('#changeText4').text('ATTRACTIONS').fadeIn();
+            $('#changeText4').text('CONVENIENCE').fadeIn();
         });
     });
     $('#HoverChangeText5').hover(function () {
         $("#hidelogo5").toggle();
         $('#changeText5').fadeOut(200, function () {
-            $('#changeText5').text('My New Sentence 5').fadeIn();
+            $('#changeText5').text('HOT OFFERS').fadeIn();
         });
     },
     function () {
         $("#hidelogo5").toggle();
         $('#changeText5').fadeOut(200, function () {
-            $('#changeText5').text('CULTURE').fadeIn();
+            $('#changeText5').text('EXPLORE').fadeIn();
         });
     });
     </script>
@@ -1186,7 +1281,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 map-cont">
-                    <img src="pilotpublic/images/map.jpg" style="height:100%; width:100%">
+                    <img src="pilotpublic/images/map.jpg" style="height:100%; width:100%" class="obj-cover" >
             <img class="car-move move" src="pilotpublic/images/car3-1.png">
             <img class="car-move move1" src="pilotpublic/images/car1.png">
            <!--  <img class="car-move move2" src="pilotpublic/images/car3.png"> -->
@@ -1276,7 +1371,16 @@
     
     
     
-    
+<script>
+    $(".inputfocus").focus(function(){
+        $(this).parent().removeClass("cinner-border-rem");
+        $(this).parent().addClass("cinner-border-add");
+
+        }).blur(function(){
+            $(this).parent().removeClass("cinner-border-add");
+            $(this).parent().addClass("cinner-border-rem");
+    });
+</script>
     
     
     
@@ -1517,29 +1621,14 @@ $('.slider-for').slick({
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqqhqN5q545cx57GD5ht6JVidUQuuGd34&sensor=false&v=3&libraries=geometry,places&callback=initAutocomplete" async defer></script>
-<script type="text/javascript">
 
-<<<<<<< HEAD
-$(".cinner").click(function(){
-	$(".cinner").addClass("cinner-border-rem");
-	$(this).removeClass("cinner-border-rem");
-	$(this).addClass("cinner-border-add");
-});
-=======
-// $(".cinner").click(function(){
-// 	$(".cinner").addClass("cinner-border-rem");
-// 	$(this).removeClass("cinner-border-rem");
-// 	$(this).addClass("cinner-border-add");
-	
 
-// });
->>>>>>> 93a41253720c6e06ec6026eb272d5a6c328cbc40
-
+<script>
 function initializeAutocomplete(){
 	var input = document.getElementById('locality');
 	var options = {
     //types: ['(regions)'],
-    componentRestrictions: {country: "PK"}
+    componentRestrictions: {country: "AE"}
 	};
 
 	var autocomplete = new google.maps.places.Autocomplete(input, options);
@@ -1584,7 +1673,7 @@ function initializeAutocompleteLocOne(){
     var input = document.getElementById('current');
     var options = {
        //types: ['(regions)'],
-       componentRestrictions: {country: "PK"}
+       componentRestrictions: {country: "AE"}
     };
     //var options = {}
 
@@ -1761,8 +1850,15 @@ $(".hidden-md").hover(function(){
   $("#ruby-active").removeClass("ruby-active-menu-item");
   });
 		
+
+
 </script>
-    
+
+
+
+
+
+<script src="pilotpublic/js/map2.js"></script>
 @endsection
 
 

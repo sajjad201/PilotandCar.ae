@@ -9,61 +9,61 @@
                             <div class="col-lg-3 col-md-3 col-sm-3">
                                 <div style="padding-top:15px; font-weight:600; padding-right:7px; font-size: 16px; color:#034f84">LUXURY SERVICES </div>
                                 <a href="rent-a-car-with-driver">
-                                    <div class="footer-menue-top">Rent A car<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-top">Rent A car<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                                 <a href="chauffeur-service">
-                                    <div class="footer-menue-other">Chauffer Service<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other">Chauffer Service<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                                 <a href="limousine-service">
-                                    <div class="footer-menue-other">Limousine Service<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other">Limousine Service<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a> 
                                 <a href="our-services">
-                                    <div class="footer-menue-other ft-li-last"> ALL SERVICES<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other ft-li-last"> ALL SERVICES<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3">
                                 <div style="padding-top:15px; font-weight:600; padding-right:7px; font-size: 16px; color:#034f84" >LAVISH SERVICES </div>
-                                <a href="luxury-buses-and-coaches">
-                                    <div class="footer-menue-top">Bus Rental<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="bus-rental-dubai">
+                                    <div class="footer-menue-top">Bus Rental<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
-                                <a href="dubai-city-tours-and-sightseeing">
-                                    <div class="footer-menue-other">Dubai City Tour<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="dubai-city-tour">
+                                    <div class="footer-menue-other">Dubai City Tour<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                                 <a href="abu-dhabi-city-tour">
-                                    <div class="footer-menue-other">Abu Dhabi City Tour<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other">Abu Dhabi City Tour<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a> 
                                 <a href="our-fleet">
-                                    <div class="footer-menue-other ft-li-last"> OUR FLEET<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other ft-li-last"> OUR FLEET<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3">
                                 <div style="padding-top:15px; font-weight:600; padding-right:7px; font-size: 16px; color:#034f84">DE-LUXE SERVICES </div>
                                 <a href="airport-transfer">
-                                    <div class="footer-menue-top">Airport<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-top">Airport<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
-                                <a href="luxury-vans">
-                                    <div class="footer-menue-other">Luxury Vans<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="vans">
+                                    <div class="footer-menue-other">Luxury Vans<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
-                                <a href="hire-a-drivers-or-Chauffeur">
-                                    <div class="footer-menue-other">Hire a Driver or Chauffeur<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="driver-or-chauffeur">
+                                    <div class="footer-menue-other">Hire a Driver or Chauffeur<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>  
                                 <a href="about-us">
-                                    <div class="footer-menue-other ft-li-last">ABOUT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other ft-li-last">ABOUT US<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3">
                                 <div style="padding-top:15px; font-weight:600; padding-right:7px; font-size: 16px; color:#034f84">DICOVER PILOT AND CAR </div>
                                 <a href="about-us">
-                                    <div class="footer-menue-top">About Us<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-top">About Us<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                                 <a href="faqs">
-                                    <div class="footer-menue-other">Faqs<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other">Faqs<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>        
                                 <a href="blog">
-                                    <div class="footer-menue-other">Blog<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other">Blog<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>  
                                 <a href="contact-us">
-                                    <div class="footer-menue-other ft-li-last">CONTACT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="footer-menue-other ft-li-last">CONTACT US<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>    
                             </div>
                             
@@ -78,16 +78,16 @@
                                           <i class="fas fa-sort-down about-icon-down" style="float:right; font-size:16px; display:none"></i>
                                 </div>
                                 <a href="rent-a-car-with-driver">
-                                    <div class="second-footer-menue-top hideshow-about">Rent A car<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-top hideshow-about">Rent A car<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="chauffeur-service">
-                                    <div class="second-footer-menue-other hideshow-about">Chauffer Service<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-about">Chauffer Service<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="limousine-service">
-                                    <div class="second-footer-menue-other hideshow-about">Limousine Service<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-about">Limousine Service<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="all-services">
-                                    <div class="second-footer-menue-other hideshow-about">ALL SERVICES<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-about">ALL SERVICES<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                             </div>
                             <div class="col-lg-3">
@@ -96,17 +96,17 @@
                                     <i class="fas fa-caret-right services-icon-right" style="float:right; font-size:16px"></i>
                                     <i class="fas fa-sort-down services-icon-down" style="float:right; font-size:16px; display:none"></i>
                                 </div>
-                                <a href="luxury-buses-and-coaches">
-                                    <div class="second-footer-menue-top hideshow-services">Bus Rental<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="bus-rental-dubai">
+                                    <div class="second-footer-menue-top hideshow-services">Bus Rental<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
-                                <a href="dubai-city-tours-and-sightseeing">
-                                    <div class="second-footer-menue-other hideshow-services">Dubai City Tour<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="dubai-city-tour">
+                                    <div class="second-footer-menue-other hideshow-services">Dubai City Tour<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>    
                                 <a href="abu-dhabi-city-tour">
-                                    <div class="second-footer-menue-other hideshow-services">Abu Dhabi City Tour<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-services">Abu Dhabi City Tour<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="our-fleet">
-                                    <div class="second-footer-menue-other hideshow-services">OUR FLEET<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-services">OUR FLEET<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                             </div>
                             <div class="col-lg-3">
@@ -116,16 +116,16 @@
                                     <i class="fas fa-sort-down customer-support-icon-down" style="float:right; font-size:16px; display:none"></i>
                                 </div>
                                 <a href="airport-transfer">
-                                    <div class="second-footer-menue-top hideshow-customer-support">Airport<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-top hideshow-customer-support">Airport<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>    
-                                <a href="luxury-vans">
-                                    <div class="second-footer-menue-other hideshow-customer-support">Luxury Vans<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="vans">
+                                    <div class="second-footer-menue-other hideshow-customer-support">Luxury Vans<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
-                                <a href="hire-a-drivers-or-Chauffeur">
-                                    <div class="second-footer-menue-other hideshow-customer-support">Hire a Driver or Chauffeur<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                <a href="driver-or-chauffeur">
+                                    <div class="second-footer-menue-other hideshow-customer-support">Hire a Driver or Chauffeur<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="about-us">
-                                    <div class="second-footer-menue-other hideshow-customer-support">ABOUT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-customer-support">ABOUT US<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                             </div>
                             <div class="col-lg-3">
@@ -135,16 +135,16 @@
                                     <i class="fas fa-sort-down digital-icon-down" style="float:right; font-size:16px; display:none"></i>
                                 </div>
                                 <a href="about-us">
-                                    <div class="second-footer-menue-top hideshow-digital">About Us<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-top hideshow-digital">About Us<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="faqs">
-                                    <div class="second-footer-menue-other hideshow-digital">Faqs<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-digital">Faqs<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="blog">
-                                    <div class="second-footer-menue-other hideshow-digital">Blog<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-digital">Blog<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                                 <a href="contact-us">
-                                    <div class="second-footer-menue-other hideshow-digital">CONTACT US<img src="pilotpublic/images/play.png" class="footer-menue-arrow"></div>
+                                    <div class="second-footer-menue-other hideshow-digital">CONTACT US<img src="{{asset('pilotpublic/images/play.png')}}" class="footer-menue-arrow"></div>
                                 </a>
                             </div>
                         </div>
