@@ -35,7 +35,7 @@ Route::get('/blog', 'MyController@blog');
 Route::get('/test', 'MyController@test');
 Route::get('/select', 'MyController@select');
 Route::get('/form', 'MyController@form');
-Route::get('/product-form/{type}/{price}/{link}', 'MyController@productform');
+Route::get('/product-form/{type}/{price}/{name}/{service}/{link}', 'MyController@productform');
 
 
 Route::get('/searchbyhour', 'MyController@searchbyhour');

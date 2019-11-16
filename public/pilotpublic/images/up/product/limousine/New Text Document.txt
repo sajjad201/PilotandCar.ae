@@ -1,0 +1,6 @@
+P1-Chrysler Limousine Daily 1800 , H 350
+P2 - Hummer H2 - Daily 2500 Hourly 500
+P3 Lexus ES D 700 H 100
+P3-Cadillac Escalade - Daily 1600 H 200
+P4-Rolls Royce D 3500 , H 1200
+P5 -Cheverlet Subarban D 1100 H 180

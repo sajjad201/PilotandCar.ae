@@ -225,7 +225,7 @@ box-shadow: 0px 12px 34px -8px rgba(0,0,0,0.28);
 }
 
 .flex-bg{
-		 background-image: url(images/package-05.jpg);
+		 background-image: url(images/package-05.jpeg);
 background-attachment: fixed;
 background-size: cover;
 background-position: center;

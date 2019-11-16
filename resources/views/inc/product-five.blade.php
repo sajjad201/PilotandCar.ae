@@ -57,19 +57,19 @@
 
                    @for($i=0; $i<5; $i++)
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/p1.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p1.jpeg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
                         <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|chauf|p6.jpg" ?>                       
+                            <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>                       
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>    
                         </div>
                         <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|chauf|p3.jpg" ?>                                 
+                            <?php $link="pilotpublic|images|chauf|p3.jpeg" ?>                                 
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
@@ -79,19 +79,19 @@
 
                     
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/airport/p3.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/airport/p3.jpeg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|chauf|p3.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|chauf|p3.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|chauf|p3.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|chauf|p3.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>

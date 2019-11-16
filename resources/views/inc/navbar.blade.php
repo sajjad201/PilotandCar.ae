@@ -48,9 +48,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('about-us')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">About Us</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('about-us')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">About Us</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -66,9 +66,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('faqs')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Faqs</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('faqs')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Faqs</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -84,9 +84,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('blog')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Blog</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('blog')}}" data-categoryid="14171" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Blog</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -106,7 +106,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g8.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g8.jpeg')}}">
   </a>
   </div>
   </div>
@@ -125,7 +125,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/dubai/g0.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/dubai/g0.jpeg')}}">
   </a>
   </div>
   </div>
@@ -143,7 +143,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g7.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g7.jpeg')}}">
   </a>
   </div>
   </div>
@@ -183,9 +183,9 @@
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
   
   
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('our-services')}}" data-categoryid="21500" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name hovered">CHECK ALL SERVICES</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('our-services')}}" data-categoryid="21500" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name hovered services-links-span">CHECK ALL SERVICES</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -207,9 +207,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('rent-a-car-with-driver')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Rent a car with Driver    </span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('rent-a-car-with-driver')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Rent a car with Driver    </span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -225,9 +225,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('chauffeur-service')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Chauffeur Service</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('chauffeur-service')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Chauffeur Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -243,9 +243,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('limousine-service')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Limousine Service</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('limousine-service')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Limousine Service</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -261,9 +261,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('bus-rental-dubai')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Luxury Buses and Coaches    </span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('bus-rental-dubai')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Luxury Buses and Coaches    </span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -279,9 +279,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('dubai-city-tour')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Dubai City tours and Sightseeing</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('dubai-city-tour')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Dubai City tours and Sightseeing</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -297,9 +297,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('abu-dhabi-city-tour')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Abu Dhabi City Tour</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('abu-dhabi-city-tour')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Abu Dhabi City Tour</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -315,9 +315,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('airport-transfer')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Airport Transfer</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('airport-transfer')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Airport Transfer</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -333,9 +333,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('vans')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Luxury Vans</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('vans')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Luxury Vans</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -351,9 +351,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('driver-or-chauffeur')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Hire a Drivers or Chauffeur</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('driver-or-chauffeur')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Hire a Drivers or Chauffeur</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -369,9 +369,9 @@
   </svg>
   </a>
   <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-  <li class="site-nav__list__item " role="presentation">
-  <a href="{{asset('delivery-vans')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-  <span class="site-nav__list__name">Delivery Vans and Trucks</span>
+  <li class="site-nav__list__item services-links-li" role="presentation">
+  <a href="{{asset('delivery-vans')}}" data-categoryid="22511" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+  <span class="site-nav__list__name services-links-span">Delivery Vans and Trucks</span>
   <svg class="icon">
   <use xlink:href="#chevron-right"></use>
   </svg>
@@ -387,7 +387,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/banner1.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/banner1.jpeg')}}">
   </a>
   </div>
   </div>
@@ -405,7 +405,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g0.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/cars/g0.jpeg')}}">
   </a>
   </div>
   </div>
@@ -423,7 +423,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/chauf/g1.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/chauf/g1.jpeg')}}">
   </a>
   </div>
   </div>
@@ -441,7 +441,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/limo/g12.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/limo/g12.jpeg')}}">
   </a>
   </div>
   </div>
@@ -459,7 +459,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/bus/p1.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/bus/p1.jpeg')}}">
   </a>
   </div>
   </div>
@@ -478,7 +478,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/dubai/p0.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/dubai/p0.jpeg')}}">
   </a>
   </div>
   </div>
@@ -496,7 +496,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/city/g2.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/city/g2.jpeg')}}">
   </a>
   </div>
   </div>
@@ -514,7 +514,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/airport/g6.webp')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/airport/g6.jpeg')}}">
   </a>
   </div>
   </div>
@@ -532,7 +532,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/van/p2.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/van/p2.jpeg')}}">
   </a>
   </div>
   </div>
@@ -550,7 +550,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/chaf2/p6.png')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/chaf2/p6.jpeg')}}">
   </a>
   </div>
   </div>
@@ -568,7 +568,7 @@
   <div class="kop-menuflyout__media" role="presentation">
   <div class="kop-menuflyout__image-wrapper" role="presentation">
   <a href="{{asset('#')}}">
-  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/d-vans/B1.jpg')}}">
+  <img class="kop-menuflyout__image lazyloaded kop-img-height" src="{{asset('pilotpublic/images/d-vans/b1.jpeg')}}">
   </a>
   </div>
   </div>
@@ -623,9 +623,9 @@
       </svg>
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: block;">
-      <li class="site-nav__list__item hovered" role="presentation">
-      <a href="{{asset('our-fleet')}}" data-categoryid="5010" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-      <span class="site-nav__list__name">STANDARD</span>
+      <li class="site-nav__list__item hovered services-links-li" role="presentation">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5010" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+      <span class="site-nav__list__name services-links-span">STANDARD</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
       </svg>
@@ -641,9 +641,9 @@
       </svg>
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-      <li class="site-nav__list__item " role="presentation">
-      <a href="{{asset('our-fleet')}}" data-categoryid="5011" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-      <span class="site-nav__list__name">LUXURY SEDAN</span>
+      <li class="site-nav__list__item services-links-li" role="presentation">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5011" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+      <span class="site-nav__list__name services-links-span">LUXURY SEDAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
       </svg>
@@ -661,9 +661,9 @@
       </svg>
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-      <li class="site-nav__list__item " role="presentation">
-      <a href="{{asset('our-fleet')}}" data-categoryid="5012" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-      <span class="site-nav__list__name">BUSINESS VAN</span>
+      <li class="site-nav__list__item services-links-li" role="presentation">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5012" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+      <span class="site-nav__list__name services-links-span">BUSINESS VAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
       </svg>
@@ -680,9 +680,9 @@
       </svg>
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-      <li class="site-nav__list__item " role="presentation">
-      <a href="{{asset('our-fleet')}}" data-categoryid="5013" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-      <span class="site-nav__list__name">LUXURY SUV</span>
+      <li class="site-nav__list__item services-links-li" role="presentation">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5013" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+      <span class="site-nav__list__name services-links-span">LUXURY SUV</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
       </svg>
@@ -699,9 +699,9 @@
       </svg>
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-      <li class="site-nav__list__item " role="presentation">
-      <a href="{{asset('our-fleet')}}" data-categoryid="5014" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-      <span class="site-nav__list__name">FIRST CLASS</span>
+      <li class="site-nav__list__item services-links-li" role="presentation">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5014" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+      <span class="site-nav__list__name services-links-span">FIRST CLASS</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
       </svg>
@@ -718,9 +718,9 @@
       </svg>
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-      <li class="site-nav__list__item " role="presentation">
-      <a href="{{asset('our-fleet')}}" data-categoryid="5015" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-      <span class="site-nav__list__name">BUSES/VAN</span>
+      <li class="site-nav__list__item services-links-li" role="presentation">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5015" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+      <span class="site-nav__list__name services-links-span">BUSES/VAN</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
       </svg>
@@ -735,9 +735,9 @@
       </svg>
       </a>
       <ul class="site-nav__list site-nav__list-tertiary hovered" role="menu" aria-hidden="true" style="display: none;">
-      <li class="site-nav__list__item " role="presentation">
-      <a href="{{asset('our-fleet')}}" data-categoryid="5016" role="menuitem" class="site-nav__list__link tertiary-anchor hovered">
-      <span class="site-nav__list__name">STRETCH LIMO</span>
+      <li class="site-nav__list__item services-links-li" role="presentation">
+      <a href="{{asset('our-fleet')}}" data-categoryid="5016" role="menuitem" class="site-nav__list__link tertiary-anchor hovered services-links">
+      <span class="site-nav__list__name services-links-span">STRETCH LIMO</span>
       <svg class="icon">
       <use xlink:href="#chevron-right"></use>
       </svg>
@@ -967,7 +967,7 @@
   <div class="col-4 login-locale-btn" role="button">
   <div class="country-selector">
   <a href="{{asset('#')}}" class="country-selector__link" data-script="/on/demandware.static/Sites-NA-Site/-/en_US/v1564383441693/js/locale.js" data-translated-language="null" data-forwarded-host="null">
-  <img src="{{asset('pilotpublic/images/11.jpg')}}" class="country-selector__icon kop-img-height" alt="us">
+  <img src="{{asset('pilotpublic/images/11.jpeg')}}" class="country-selector__icon kop-img-height" alt="us">
   <span class="country-selector__text">
   EN
   </span>

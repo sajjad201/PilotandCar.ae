@@ -13,7 +13,7 @@
 @section('content')
 <section>
   <div style="position: relative; color:white">
-    <img src="pilotpublic/images/19.jpg">
+    <img src="pilotpublic/images/19.jpeg">
     <div style="position: absolute; top:35%; left:35%; color:gray; font-size:60px; font-weight:900">ABOUT US</div>
   </div>
 </section>
@@ -36,7 +36,7 @@
 						<div class="about-pic-cnt">
 							<h3 class="about-inner-h3">Pilot & Car 2019</h3>
 							<div class="about-pic">
-								<img src="pilotpublic/images/h6.jpg" class="img-fluid">
+								<img src="pilotpublic/images/h6.jpeg" class="img-fluid">
 							</div>
 							<div class="about-pic-p">
 							<p>We have been operating a top quality transport service across Dubai, United Arab Emirates for more than 
@@ -63,7 +63,7 @@
 						<div class="about-pic-cnt">
 							<h3 class="about-inner-h3">Pilot & Car 2018</h3>
 							<div class="about-pic">
-								<img src="pilotpublic/images/chaf2/p3.jpg" class="img-fluid">
+								<img src="pilotpublic/images/chaf2/p3.jpeg" class="img-fluid">
 							</div>
 							<div class="about-pic-p">
 							<p>We have been operating a top quality transport service across Dubai, United Arab Emirates for more than 13 years now 

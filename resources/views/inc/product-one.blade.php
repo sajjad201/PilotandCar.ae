@@ -10,7 +10,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p1.jpg" style="height:200px; width:100%" class="object-image">
+            <img src="pilotpublic/images/limo/p1.jpeg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -18,7 +18,7 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                 <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
@@ -30,7 +30,7 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                   <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
@@ -43,7 +43,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p2.jpg" style="height:200px; width:100%" class="object-image">
+            <img src="pilotpublic/images/limo/p2.jpeg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -51,7 +51,7 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                 <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
@@ -63,7 +63,7 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                   <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
@@ -76,7 +76,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p3.jpg" style="height:200px; width:100%" class="object-image">
+            <img src="pilotpublic/images/limo/p3.jpeg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -84,7 +84,7 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                 <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
@@ -96,7 +96,7 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                   <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
@@ -109,7 +109,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p4.jpg" style="height:200px; width:100%" class="object-image">
+            <img src="pilotpublic/images/limo/p4.jpeg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -117,7 +117,7 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                 <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
@@ -129,7 +129,7 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                   <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
@@ -142,7 +142,7 @@
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/p5.jpg" style="height:200px; width:100%" class="object-image">
+            <img src="pilotpublic/images/limo/p5.jpeg" style="height:200px; width:100%" class="object-image">
             <h3 class="abs-head">Hong Kong SAR </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
@@ -150,7 +150,7 @@
             <div class="overlay1">
               <span class="overlay1-txt">
                 <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                 <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
@@ -162,7 +162,7 @@
               <div class="overlay1">
                 <span class="overlay1-txt">
                   <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
+                  <?php $link="pilotpublic|images|chauf|p6.jpeg" ?>  
                   <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>

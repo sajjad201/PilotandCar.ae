@@ -86,7 +86,7 @@
                 
                 <div class="col-md-6">
                     <div class="t3-center-img">
-                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpg" style="width:100%"> 
+                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpeg" style="width:100%"> 
                         <div class="t3-center-img-txt">
                             <div class="t3-center-img-txt1">OMAN</div>
                             <div class="t3-center-img-txt2">FLIGHTS TO MASQAT</div>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="t3-center-img">
-                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpg" style="width:100%"> 
+                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpeg" style="width:100%"> 
                         <div class="t3-center-img-txt">
                             <div class="t3-center-img-txt1">OMAN</div>
                             <div class="t3-center-img-txt2">FLIGHTS TO MASQAT</div>

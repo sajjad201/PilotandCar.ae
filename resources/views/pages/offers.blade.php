@@ -36,24 +36,24 @@
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">Barcelona</h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">Lexus ES</h1>
+              <h5 class="col-white">Shopping Tour:   3 Hours Package</h5>
             </div>
-            <img src="pilotpublic/images/shopping.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/shopping.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 67,700*</p>
+              <p>Just for 190 AED  * 3 hours</p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">London</h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">Suv  Prado</h1>
+              <h5 class="col-white">ENJOY FULL DAY  10 HOURS</h5>
             </div>
-            <img src="pilotpublic/images/20.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/landcruiser.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 91,100*</p>
+              <p>Great Value for Money *700 AED*</p>
             </div>
           </div>
         </div>
@@ -63,24 +63,24 @@
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">Tokyo</h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">For Mid size group</h1>
+              <h5 class="col-white">12 Seater</h5>
             </div>
-            <img src="pilotpublic/images/21.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/vanoffer.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 21, 999*</p>
+              <p>700 AED / day / 10  hours</p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">Abu Dhabi                </h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">GMC Yukon</h1>
+              <h5 class="col-white">Business class SUV</h5>
             </div>
-            <img src="pilotpublic/images/22.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/gmc.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 32,440*</p>
+              <p>1000 AED*</p>
             </div>
           </div>
         </div>
@@ -90,24 +90,24 @@
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">Barcelona</h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">S Class</h1>
+              <h5 class="col-white">Be a Boss</h5>
             </div>
-            <img src="pilotpublic/images/shopping.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/mercedes.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 67,700*</p>
+              <p>1400 AED*</p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">London</h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">Lexus SEDAN</h1>
+              <h5 class="col-white">Be a Boss</h5>
             </div>
-            <img src="pilotpublic/images/20.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/suvoffer2.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 91,100*</p>
+              <p>Bumper offer 70  AED  / Hour*</p>
             </div>
           </div>
         </div>
@@ -117,34 +117,38 @@
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">Tokyo</h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">Airport Transfer</h1>
+              <h5 class="col-white">Lexus/ Prado / Sedan  / Suv</h5>
             </div>
-            <img src="pilotpublic/images/21.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/airport2.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 21, 999*</p>
+              <p>125 AED ( only Deira or Bur Dubai Area ) </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="os5-wrap rel">
             <div class="city">
-              <h1 class="col-white">Abu Dhabi                </h1>
-              <h5 class="col-white">Round Trip From Sialkot</h5>
+              <h1 class="col-white">All  Range of Cars</h1>
+              <h5 class="col-white">4 Seater to 50 Seater</h5>
             </div>
-            <img src="pilotpublic/images/22.jpg" class="os5-img">
+            <img src="pilotpublic/images/up/img/airport.jpeg" class="os5-img">
             <div class="price">
-              <p>Starting from PKR 32,440*</p>
+              <p>4 Seater to 50 Seater</p>
             </div>
           </div>
         </div>
       </div>
+      
+    </div>
+  </div>
+</div>
 
     </div>
   </section>
 
   <section>
-    <img class="img-responsive" src="pilotpublic/images/25.png">
+    <img class="img-responsive" src="pilotpublic/images/up/img/banner2.jpeg" style="width:100%">
   </section>
 
 @endsection

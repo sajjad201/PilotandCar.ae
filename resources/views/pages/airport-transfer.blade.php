@@ -16,7 +16,7 @@ Airport Transfer
 
 <section>
   <div style="position: relative; color:white">
-    <img src="pilotpublic/images/airport/g6.webp" class="limo-ban-img">
+    <img src="pilotpublic/images/up/img/banner10.jpeg" class="limo-ban-img">
     <div style="position: absolute; bottom:3%; left:5%; color:white; font-size:60px; font-weight:900" class="frame-5">
     <span>AIRPORT TRANSFER SERVICES<br><span style="font-size:40px;"> Travel With Pilot And Car </span></span></div>
   </div>
@@ -49,7 +49,7 @@ Airport Transfer
             <div class="st-em-col-small-text" style="padding:0px 0px;">PILOT AND CAR</div>
             <div style="margin-bottom:50px"> Destinations for<br>Tour<br></div>
           </div>
-          <img src="pilotpublic/images/airport/b3.jpg" class="object-image" style="width:100%; margin-top: -1rem; height:325px; ">
+          <img src="pilotpublic/images/airport/b3.jpeg" class="object-image" style="width:100%; margin-top: -1rem; height:325px; ">
         </div>
       </div>
       <div class="col-md-6 st-em-col">
@@ -59,7 +59,7 @@ Airport Transfer
               <div class="st-em-col-two-text">
                 <div class="st-em-col-small-text">A Journey of Distinction</div>
               </div>
-              <img src="pilotpublic/images/airport/g1.jpg" class="object-image" style="width:100%; height:200px">
+              <img src="pilotpublic/images/airport/g1.jpeg" class="object-image" style="width:100%; height:200px">
             </div>
           </div>
           <div class="col-md-6" style="padding:0px 5px">
@@ -67,7 +67,7 @@ Airport Transfer
               <div class="st-em-col-two-text">
                 <div class="st-em-col-small-text">Check in Your Bags from Home</div>
               </div>
-              <img src="pilotpublic/images/airport/g2.jpg" class="object-image" style="width:100%; height:200px">
+              <img src="pilotpublic/images/airport/g2.jpeg" class="object-image" style="width:100%; height:200px">
           </div>
         </div>
         <div class="row">
@@ -76,7 +76,7 @@ Airport Transfer
                 <div class="st-em-col-two-text">
                   <div class="st-em-col-small-text">Causine That Takes you places</div>
                 </div>
-                <img src="pilotpublic/images/airport/g7.jpg" class="object-image" style="width:100%; height:200px">
+                <img src="pilotpublic/images/airport/g7.jpeg" class="object-image" style="width:100%; height:200px">
               </div>
             </div>
             <div class="col-md-6" style="padding:10px 5px">
@@ -84,7 +84,7 @@ Airport Transfer
                 <div class="st-em-col-two-text">
                   <div class="st-em-col-small-text">Your Window into new world</div>
                 </div>
-                <img src="pilotpublic/images/airport/g8.webp" class="object-image" style="width:100%; height:200px">
+                <img src="pilotpublic/images/airport/g8.jpeg" class="object-image" style="width:100%; height:200px">
             </div>
           </div>  
 
@@ -100,7 +100,7 @@ Airport Transfer
     <div class="st-ten-inf">
       <div class="row">
         <div class="col-md-7">
-          <img src="pilotpublic/images/airport/g3.jpg" class="object-image" style="height:500px; width:100%; border-radius:1px">
+          <img src="pilotpublic/images/up/img/airport5.jpeg" class="object-image" style="height:500px; width:100%; border-radius:1px">
         </div>
         <div class="col-md-5 st-ten-inf-col5">
             <h1><strong> Why Choose Pilot and Cars   </strong></h1>
@@ -126,99 +126,132 @@ Airport Transfer
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/airport/g4.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/airport/p1.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Lexus ES </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|airport|g4.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">Lexus ES Airport To Dxb Transfer</div> 
+                <?php $link="pilotpublic|images|up|product|airport|p1.jpeg" ?>  
+                <a href="{{url('product-form/Lexus ES Airport To Dxb Transfer/160/Lexus ES/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>Lexus ES Airport To Dxb Transfer</div>
+            <div class="os2-h3">160 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|airport|g4.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">Dxb Airport to Abu Dhabi</div> 
+                  <?php $link="pilotpublic|images|up|product|airport|p1.jpeg" ?>  
+                  <a href="{{url('product-form/Dxb Airport to Abu Dhabi/400/Lexus ES/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>Dxb Airport to Abu Dhabi</div>
+              <div class="os2-h3">400 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/airport/g3.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/airport/p2.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">S Class </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|airport|g3.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">S Class Airport to Dxb</div> 
+                <?php $link="pilotpublic|images|up|product|airport|p2.jpeg" ?>  
+                <a href="{{url('product-form/Airport to Dxb/380/S Class/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>S Class Airport to Dxb</div>
+            <div class="os2-h3">380 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|airport|g3.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">Dubai to Abu Dhabi transfer</div> 
+                  <?php $link="pilotpublic|images|up|product|airport|p2.jpeg" ?>  
+                  <a href="{{url('product-form/Dubai to Abu Dhabi transfer/900/S Class/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>Dubai to Abu Dhabi transfer</div>
+              <div class="os2-h3">900 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/airport/g7.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/airport/p3.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Gmc Yukon </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|airport|g7.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">Gmc Yukon Airport to Dubai</div> 
+                <?php $link="pilotpublic|images|up|product|airport|p3.jpeg" ?>  
+                <a href="{{url('product-form/Gmc Yukon Airport to Dubai/300/Gmc Yukon/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>Gmc Yukon Airport to Dubai</div>
+            <div class="os2-h3">300 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|airport|g7.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">Dubai Airport to Abu Dhabi</div> 
+                  <?php $link="pilotpublic|images|up|product|airport|p3.jpeg" ?>  
+                  <a href="{{url('product-form/Dubai Airport to Abu Dhabi/600/Gmc Yukon/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>Dubai Airport to Abu Dhabi</div>
+              <div class="os2-h3">600 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="margin-bottom: 30px;">
+        <div class="os-2-cont">
+          <div class="os-2-img-cont rel">
+            <img src="pilotpublic/images/up/product/airport/p4.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">V Class </h3>
+            <span class="fa fa-star abs-icon"></span>
+          </div>
+          <div class="os2-txt-cont">
+            <div class="overlay1">
+              <span class="overlay1-txt">
+                <div class="overlay1-txt-sm">V Class Airport to Dubai</div> 
+                <?php $link="pilotpublic|images|up|product|airport|p4.jpeg" ?>  
+                <a href="{{url('product-form/Airport to Dubai/300/V Class/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+              </span>
+              <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
+            </div>
+            <div>V Class Airport to Dubai</div>
+            <div class="os2-h3">300 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
+          </div>
+          <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
+              <div class="overlay1">
+                <span class="overlay1-txt">
+                  <div class="overlay1-txt-sm">Dubai City to Abu Dhabi</div> 
+                  <?php $link="pilotpublic|images|up|product|airport|p4.jpeg" ?>  
+                  <a href="{{url('product-form/Dubai City to Abu Dhabi/600/V Class/airport transfer/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                </span>
+                <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
+              </div>
+              <div>Dubai City to Abu Dhabi</div>
+              <div class="os2-h3">600 AED <span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
@@ -373,7 +406,7 @@ Airport Transfer
           <div class="col-md-6">
             <div class="os4-wrap">
               <div class="os4-img-cnt">
-                <img src="pilotpublic/images/airport/g10.jpg" style="height:300px" class="object-image">
+                <img src="pilotpublic/images/airport/g10.jpeg" style="height:300px" class="object-image">
               </div>
               <div class="os4-txt-cnt">
                 <h6 class="text-center">PILOT AND CAR</h6>
@@ -385,7 +418,7 @@ Airport Transfer
           <div class="col-md-6">
             <div class="os4-wrap">
               <div class="os4-img-cnt">
-                <img src="pilotpublic/images/airport/g9.jpg" style="height:300px" class="object-image">
+                <img src="pilotpublic/images/airport/g9.jpeg" style="height:300px" class="object-image">
               </div>
               <div class="os4-txt-cnt">
                 <h6 class="text-center">PILOT AND CAR</h6>

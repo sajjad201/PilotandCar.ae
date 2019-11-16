@@ -49,64 +49,64 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="car-img-text">
-        <img class="object-image" src="pilotpublic/images/airport/b3.jpg" style="height:500px; ">
+        <img class="object-image" src="pilotpublic/images/airport/b3.jpeg" style="height:500px; ">
         <div class="centered">Car service</div>
       </div>  
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100 object-image" src="pilotpublic/images/cars/g7.jpg" style="height:500px; ">
+        <img class="d-block w-100 object-image" src="pilotpublic/images/cars/g7.jpeg" style="height:500px; ">
         <div class="centered">Chauffeur Service</div>
       </div>  
 
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100  object-image" src="pilotpublic/images/cars/g6.jpg" style="height:500px;  ">
+        <img class="d-block w-100  object-image" src="pilotpublic/images/cars/g6.jpeg" style="height:500px;  ">
         <div class="centered">Limousine Service</div>
       </div>  
     </div>
     <div class="carousel-item">
         <div class="car-img-text">
-          <img class="object-image" src="pilotpublic/images/bus/b2.jpg" style="height:500px; ">
+          <img class="object-image" src="pilotpublic/images/bus/b2.jpeg" style="height:500px; ">
           <div class="centered">Luxury Buses</div>
         </div>  
       </div>
       <div class="carousel-item">
         <div class="car-img-text">
-          <img class="d-block w-100 object-image" src="pilotpublic/images/city/g2.jpg" style="height:500px; ">
+          <img class="d-block w-100 object-image" src="pilotpublic/images/city/g2.jpeg" style="height:500px; ">
           <div class="centered">Dubai tours</div>
         </div>  
   
       </div>
       <div class="carousel-item">
         <div class="car-img-text">
-          <img class="d-block w-100  object-image" src="pilotpublic/images/airport/g10.jpg" style="height:500px;  ">
+          <img class="d-block w-100  object-image" src="pilotpublic/images/airport/g10.jpeg" style="height:500px;  ">
           <div class="centered">Abu Dhabi Tour</div>
         </div>  
       </div>
       <div class="carousel-item">
       <div class="car-img-text">
-        <img class="object-image" src="pilotpublic/images/airport/b1.jpg" style="height:500px; ">
+        <img class="object-image" src="pilotpublic/images/airport/b1.jpeg" style="height:500px; ">
         <div class="centered">Airport Transfer</div>
       </div>  
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100 object-image" src="pilotpublic/images/van/p1.jpg" style="height:500px; ">
+        <img class="d-block w-100 object-image" src="pilotpublic/images/van/p1.jpeg" style="height:500px; ">
         <div class="centered">Luxury Vans</div>
       </div>  
 
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="d-block w-100  object-image" src="pilotpublic/images/os82.jpg" style="height:500px;  ">
+        <img class="d-block w-100  object-image" src="pilotpublic/images/os82.jpeg" style="height:500px;  ">
         <div class="centered">Hire Driver</div>
       </div>  
     </div>
     <div class="carousel-item">
       <div class="car-img-text">
-        <img class="object-image" src="pilotpublic/images/van/b2.jpg" style="height:500px; ">
+        <img class="object-image" src="pilotpublic/images/van/b2.jpeg" style="height:500px; ">
         <div class="centered">Delivery Vans</div>
       </div>  
     </div>
@@ -159,7 +159,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/cars/p1.2.jpg" class="object-image">
+                <img src="pilotpublic/images/cars/p1.2.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -192,7 +192,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/chauf/g1.jpg" class="object-image">
+                <img src="pilotpublic/images/chauf/g1.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -226,7 +226,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/limo/g12.jpg" class="object-image">
+                <img src="pilotpublic/images/limo/g12.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -260,7 +260,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/bus/g7.jpg" class="object-image">
+                <img src="pilotpublic/images/bus/g7.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -294,7 +294,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/dubai/p1.jpg" class="object-image">
+                <img src="pilotpublic/images/dubai/p1.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -328,7 +328,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/city/p2.jpg" class="object-image">
+                <img src="pilotpublic/images/city/p2.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -362,7 +362,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/airport/p6.png" class="object-image">
+                <img src="pilotpublic/images/airport/p6.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -396,7 +396,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/van/p2.jpg" class="object-image">
+                <img src="pilotpublic/images/van/p2.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -430,7 +430,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/chaf2/g2.jpg" class="object-image">
+                <img src="pilotpublic/images/chaf2/g2.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">
@@ -464,7 +464,7 @@
             <div class="row">
               <div class="col-md-5" style="padding:10px; padding-bottom:0px">
               <div class="os-img-cont">
-                <img src="pilotpublic/images/chaf2/g6.jpg" class="object-image">
+                <img src="pilotpublic/images/chaf2/g6.jpeg" class="object-image">
               </div>
               </div>
               <div class="col-md-5">

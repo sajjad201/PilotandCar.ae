@@ -51,7 +51,7 @@
                 <div class="col-lg-12" style="background-color:#408080; ">
                     <div class="col-lg-12 ">
                         <div class="col-lg-12 header-image" style=" width:100%; height:600px; position: relative; ">
-                            <img src="pilotpublic/images/cover.jpg" style="height:100%; width:100%;" class="obj-cover" class="object-image" />
+                            <img src="pilotpublic/images/cover.jpeg" style="height:100%; width:100%;" class="obj-cover" class="object-image" />
                             <div class="col-lg-8 relaxed-journey">
                                     <div class="col-lg-12" style="padding:20px; text-align:left; padding-right: 250px; padding-top:15px">
                                         <div style="font-family: 'Gentona Book'; font-size: 13px; font-weight:400; color:#ffffff !important;">
@@ -123,17 +123,18 @@
 
                                                         </div>
                                                     </div>
-                                                    
+
                                                     <div class="ipar">
                                                         <div class="cinner">
                                                             <label for="date" class="label">
                                                                 Date
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
-                                                            <input id="date" type="date" name="date" placeholder="Adress, airport, hotel,..." class="inputfocus">
-                                                            
+                                                            <input type='text' name="date" 
+                                                                class="datepicker-here inputfocus" data-language='en' id="date" value="<?php echo date("m/d/Y")?>" />
                                                         </div>
                                                     </div>
+                                                   
                                                     @if ($errors->has('dateone'))
                                                         <div class="alert alert-danger">
                                                             Error! Date is Required
@@ -146,7 +147,7 @@
                                                                 Time
                                                             </label>
                                                             <label class="licon" for="time"><i class="fa fa-clock-o" aria-hidden="true"></i></label>
-                                                            <input id="time" type="text" name="time"  placeholder="" class="inputfocus">
+                                                            <input id="time" type="text" name="time" class="inputfocus">
                                                         </div>
                                                     </div>
                                                     @if ($errors->has('timeone'))
@@ -199,7 +200,7 @@
                                                                 Date
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
-                                                            <input id="date" type="date" name="date" class="inputfocus">
+                                                            <input type='text' id="date" name="date" class="datepicker-here inputfocus" data-language='en' />
                                                         </div>
                                                     </div>
                                                     <div class="ipar">
@@ -417,7 +418,7 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/6box/1.jpg" style="height:100%; width:100%" class="obj-cover"  />
+                                        <img src="pilotpublic/images/6box/1.jpeg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
@@ -454,7 +455,7 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/6box/2.jpg" style="height:100%; width:100%" class="obj-cover"  />
+                                        <img src="pilotpublic/images/6box/2.jpeg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
@@ -492,7 +493,7 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/6box/3.jpg" style="height:100%; width:100%" class="obj-cover"  />
+                                        <img src="pilotpublic/images/6box/3.jpeg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
@@ -530,7 +531,7 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/6box/4.jpg" style="height:100%; width:100%" class="obj-cover"  />
+                                        <img src="pilotpublic/images/6box/4.jpeg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
@@ -568,7 +569,7 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/6box/5.jpg" style="height:100%; width:100%" class="obj-cover"  />
+                                        <img src="pilotpublic/images/6box/5.jpeg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
@@ -606,7 +607,7 @@
                             <div class="card2" style="cursor:pointer">
                                 <div class="parent">
                                     <div class="child">
-                                        <img src="pilotpublic/images/6box/6.jpg" style="height:100%; width:100%" class="obj-cover"  />
+                                        <img src="pilotpublic/images/6box/6.jpeg" style="height:100%; width:100%" class="obj-cover"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-12 card3" style="background-color:#FFFFFF; padding:18px; border:1px solid rgb(245, 242, 242)">
@@ -684,8 +685,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="car-back " src="pilotpublic/images/car2-01.png" style="">
+                                   <img  class="slick2-custom-navigation car-for" src="pilotpublic/images/car3-01.png" />
                                    </div>
     <p class="car-type">Mini</p>
     </div>
@@ -695,8 +696,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                    <div class="hover-cont">
                                     <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/1.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/11.png" />
+                                       <img class="car-back " src="pilotpublic/images/icons/carvechile/1.png" style="">
+                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/11.png" />
                                    </div>
     <p class="car-type">Auto</p>
     </div>
@@ -707,8 +708,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                  <div class="hover-cont">
                                                                   <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/2.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/22.png" />
+                                       <img class="car-back " src="pilotpublic/images/icons/carvechile/2.png" style="">
+                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/22.png" />
                                    </div>
     <p class="car-type">Bike</p>
     </div>
@@ -719,8 +720,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                   <div class="img-hold">
-                                                                      <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/3.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/3.png" />
+                                    <img  class="car-back "  src="pilotpublic/images/icons/carvechile/3.png" style="">
+                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/3.png" />
                                                                   </div>
                                        
                                    
@@ -732,8 +733,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/4.png" style="">
-                                   <img class="car-back" src="pilotpublic/images/icons/carvechile/4.png" />
+                                       <img class="car-back"  src="pilotpublic/images/icons/carvechile/4.png" style="">
+                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/4.png" />
                                    </div>
                                    
     <p class="car-type">Micro</p>
@@ -745,8 +746,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/5.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/55.png" />
+                                       <img  class="car-back "  src="pilotpublic/images/icons/carvechile/5.png" style="">
+                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/55.png" />
                                    </div>
                                    
     <p class="car-type">Auto</p>
@@ -757,8 +758,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/6.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/66.png" />
+                                       <img class="car-back "  src="pilotpublic/images/icons/carvechile/6.png" style="">
+                                   <img  class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/66.png" />
                                    </div>
     <p class="car-type">Auto</p>
     </div>
@@ -768,8 +769,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/7.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/77.png" />
+                                       <img class="car-back "  src="pilotpublic/images/icons/carvechile/7.png" style="">
+                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/77.png" />
                                     </div>
     <p class="car-type">Prime Play</p>
     </div>
@@ -779,8 +780,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/8.png" style="">
-                                   <img class="car-back slick2-custom-navigation" src="pilotpublic/images/icons/carvechile/88.png" />
+                                       <img  class="car-back "  src="pilotpublic/images/icons/carvechile/8.png" style="">
+                                   <img class="slick2-custom-navigation car-for" class="car-back slick2-custom-navigation" src="pilotpublic/images/icons/carvechile/88.png" />
                                     </div>
     <p class="car-type">Prime SUV</p>
     </div>
@@ -790,8 +791,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/9.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/icons/carvechile/99.png" />
+                                       <img class="car-back " src="pilotpublic/images/icons/carvechile/9.png" style="">
+                                   <img  class="slick2-custom-navigation car-for"  src="pilotpublic/images/icons/carvechile/99.png" />
                                     </div>
     <p class="car-type">Auto</p>
     </div>
@@ -802,8 +803,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back slick2-custom-navigation" src="pilotpublic/images/car3-01.png" />
+                                       <img class="car-back "   src="pilotpublic/images/car2-01.png" style="">
+                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car3-01.png" />
                                    </div>
     <p class="car-type">Kaali Peeli</p>
     </div>
@@ -813,8 +814,8 @@
                                    <div class="d-inline6 sec-4-img-cont">
                                                                   <div class="hover-cont">
                                                                    <div class="img-hold">
-                                       <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="car-back " src="pilotpublic/images/car3-01.png" />
+                                       <img class="car-back "  src="pilotpublic/images/car2-01.png" style="">
+                                   <img class="slick2-custom-navigation car-for"  src="pilotpublic/images/car3-01.png" />
                                    </div>
     <p class="car-type">Mini</p>
     </div>
@@ -1058,7 +1059,7 @@
     
     </script>
     
-    <div class="container-fluid obj-cover" style="padding:0px; background-image:url(pilotpublic/images/buildings-cars-city-169677.jpg); ">
+    <div class="container-fluid obj-cover" style="padding:0px; background-image:url(pilotpublic/images/buildings-cars-city-169677.jpeg); ">
         <div class="row">
             <div class="col-lg-12">
                 <div class="col-lg-12" style=" padding-bottom:40px">
@@ -1076,7 +1077,7 @@
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
                                     <div class="col-lg-12 box-head"  id="changeText1">ATTRACTIONS</div>
                                     <div class="col-lg-12" style="height:145px;">
-                                        <img src="pilotpublic/images/5box/1.jpg" style="height:100%; width:100%;" class="obj-cover"  />
+                                        <img src="pilotpublic/images/5box/1.jpeg" style="height:100%; width:100%;"  />
                                     </div>
                                     <div class="col-lg-12 text-cont">
                                         <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">
@@ -1103,7 +1104,7 @@
                                     <div class="col-lg-12 box-head" id="changeText2">LUXURY RIDE</div>
     
                                     <div class="col-lg-12" style="height:145px;">
-                                        <img src="pilotpublic/images/5box/2.jpg" style="height:100%; width:100%;" class="obj-cover" />
+                                        <img src="pilotpublic/images/5box/2.jpeg" style="height:100%; width:100%;"  />
                                     </div>
                                     <div class="col-lg-12 text-cont">
                                         <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Rolls Royce</div>
@@ -1127,7 +1128,7 @@
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
                                     <div class="col-lg-12  box-head" id="changeText3">DISCOVER</div>
                                     <div class="col-lg-12" style="height:145px;">
-                                        <img src="pilotpublic/images/5box/3.jpg" style="height:100%; width:100%;" class="obj-cover" />
+                                        <img src="pilotpublic/images/5box/3.jpeg" style="height:100%; width:100%;" />
                                     </div>
                                     <div class="col-lg-12 text-cont">
                                         <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Do Not Miss</div>
@@ -1150,7 +1151,7 @@
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
                                     <div class="col-lg-12  box-head" id="changeText4">CONVENIENCE</div>
                                     <div class="col-lg-12" style="height:145px;">
-                                        <img src="pilotpublic/images/5box/4.jpg" style="height:100%; width:100%;" class="obj-cover" />
+                                        <img src="pilotpublic/images/5box/4.jpeg" style="height:100%; width:100%;" />
                                     </div>
                                     <div class="col-lg-12 text-cont" >
                                         <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Experience of 20 Years</div>
@@ -1174,7 +1175,7 @@
                                 <div class="col-lg-12" style="background-color:#FFFFFF; padding:0px">
                                     <div class="col-lg-12  box-head" id="changeText5">EXPLORE</div>
                                     <div class="col-lg-12" style="height:145px;">
-                                        <img src="pilotpublic/images/5box/5.jpg" style="height:100%; width:100%;" class="obj-cover" />
+                                        <img src="pilotpublic/images/5box/5.jpeg" style="height:100%; width:100%;"  />
                                     </div>
                                     <div class="col-lg-12 text-cont" >
                                         <div style="font-size:16px; font-weight:600; margin-top:5px; color:#333333">Economical  to</div>
@@ -1281,7 +1282,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 map-cont">
-                    <img src="pilotpublic/images/map.jpg" style="height:100%; width:100%" class="obj-cover" >
+                    <img src="pilotpublic/images/map.jpeg" style="height:100%; width:100%" class="obj-cover" >
             <img class="car-move move" src="pilotpublic/images/car3-1.png">
             <img class="car-move move1" src="pilotpublic/images/car1.png">
            <!--  <img class="car-move move2" src="pilotpublic/images/car3.png"> -->

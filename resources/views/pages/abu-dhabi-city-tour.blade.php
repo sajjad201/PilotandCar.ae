@@ -14,7 +14,7 @@ Abu Dhabi city tour
 
 <section>
   <div style="position:relative">
-    <img src="pilotpublic/images/city/g2.jpg" class="img-b" style="height:500px">
+    <img src="pilotpublic/images/city/g2.jpeg" class="img-b" style="height:500px">
     <div style="position:absolute; left:2%; bottom:3%">
       <h1 class="animated slideInDown" style="text-shadow: 1px 1px 3px black; color:white; font-size:45px; text-transform: uppercase">
         <strong>Abu Dhabi city tour</strong>
@@ -52,7 +52,7 @@ Abu Dhabi city tour
       <div class="col-md-6">
         <div class="os4-wrap">
           <div class="os4-img-cnt">
-            <img src="pilotpublic/images/city/p1.jpg" style="height:300px" class="img-b">
+            <img src="pilotpublic/images/city/p1.jpeg" style="height:300px" class="img-b">
           </div>
           <div class="os4-txt-cnt">
             <h6 class="text-center">PILOT AND CAR</h6>
@@ -63,7 +63,7 @@ Abu Dhabi city tour
       <div class="col-md-6">
         <div class="os4-wrap">
           <div class="os4-img-cnt">
-            <img src="pilotpublic/images/city/g1.jpg" style="height:300px" class="img-b">
+            <img src="pilotpublic/images/city/g1.jpeg" style="height:300px" class="img-b">
           </div>
           <div class="os4-txt-cnt">
             <h6 class="text-center">PILOT AND CAR</h6>
@@ -157,7 +157,7 @@ Abu Dhabi city tour
                 
                 <div class="col-md-6">
                     <div class="t3-center-img">
-                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpg" style="width:100%"> 
+                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpeg" style="width:100%"> 
                         <div class="t3-center-img-txt">
                             <div class="t3-center-img-txt1">OMAN</div>
                             <div class="t3-center-img-txt2">FLIGHTS TO MASQAT</div>
@@ -169,7 +169,7 @@ Abu Dhabi city tour
                 </div>
                 <div class="col-md-6">
                     <div class="t3-center-img">
-                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpg" style="width:100%"> 
+                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpeg" style="width:100%"> 
                         <div class="t3-center-img-txt">
                             <div class="t3-center-img-txt1">OMAN</div>
                             <div class="t3-center-img-txt2">FLIGHTS TO MASQAT</div>
@@ -237,19 +237,19 @@ Abu Dhabi city tour
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/city/p6.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/up/product/abudhabicity/p1.jpeg" class="img-fluid cp-img">
               </div>
             </div>
-            <h1 class="pr-h1">Off to North America</h1>
+            <h1 class="pr-h1">Lexus ES</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
-                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
-                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                <?php $link="pilotpublic|images|up|product|abudhabicity|p1.jpeg" ?>      
+                <li><a href="{{url('product-form/hour/700/Lexus ES/abu dhabi city tour/' .$link)}}" class="pt-link-ok">By Day
+                  <div class="pt-price-clr">price 700 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
-                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
-                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                <?php $link="pilotpublic|images|up|product|abudhabicity|p1.jpeg" ?>      
+                <li><a href="{{url('product-form/hour/100/Lexus ES/abu dhabi city tour/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price 100 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
               </ul>
             </div>
@@ -257,19 +257,19 @@ Abu Dhabi city tour
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/city/p2.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/up/product/abudhabicity/p2.jpeg" class="img-fluid cp-img">
               </div>
             </div>
-            <h1 class="pr-h1">Off to North America</h1>
+            <h1 class="pr-h1">Toyota Prado</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <?php $link="pilotpublic|images|city|p2.jpg" ?>      
-                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
-                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                <?php $link="pilotpublic|images|up|product|abudhabicity|p2.jpeg" ?>      
+                <li><a href="{{url('product-form/hour/700/Toyota Prado/abu dhabi city tour/' .$link)}}" class="pt-link-ok">By Day
+                  <div class="pt-price-clr">price 700 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
-                <?php $link="pilotpublic|images|city|p2.jpg" ?>      
-                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
-                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                <?php $link="pilotpublic|images|up|product|abudhabicity|p2.jpeg" ?>      
+                <li><a href="{{url('product-form/hour/90/Toyota Prado/abu dhabi city tour/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price 90 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
               </ul>
             </div>
@@ -277,19 +277,19 @@ Abu Dhabi city tour
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/city/p6.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/up/product/abudhabicity/p3.jpeg" class="img-fluid cp-img">
               </div>
             </div>
-            <h1 class="pr-h1">Off to North America</h1>
+            <h1 class="pr-h1">Toyota Hi Roof</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
-                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
-                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                <?php $link="pilotpublic|images|up|product|abudhabicity|p3.jpeg" ?>      
+                <li><a href="{{url('product-form/hour/750/Toyota Hi Roof/abu dhabi city tour/' .$link)}}" class="pt-link-ok">By Day
+                  <div class="pt-price-clr">price 700</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
-                <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
-                  <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
+                <?php $link="pilotpublic|images|up|product|abudhabicity|p3.jpeg" ?>      
+                <li><a href="{{url('product-form/hour/100/Toyota Hi Roof/abu dhabi city tour/' .$link)}}" class="pt-link-ok">Per Hour
+                  <div class="pt-price-clr">price 100</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
               </ul>
             </div>

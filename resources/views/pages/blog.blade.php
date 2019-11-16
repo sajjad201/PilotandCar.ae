@@ -13,7 +13,7 @@
 @section('content')
 
 <div class="blog-body">
-    <section class="blog-hero" style="background-image: url(pilotpublic/images/os-bg.jpg);">
+    <section class="blog-hero" style="background-image: url(pilotpublic/images/os-bg.jpeg);">
         <div class="blog-hero-txt">
             <h1>Blog Text</h1>
             <h5>Blog Sub Text</h5>
@@ -25,7 +25,7 @@
                 <div class="col-md-4 animated slideInUp">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -36,7 +36,7 @@
                 <div class="col-md-4 animated slideInUp">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -47,7 +47,7 @@
                 <div class="col-md-4 animated slideInUp">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -58,7 +58,7 @@
                 <div class="col-md-4">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -69,7 +69,7 @@
                 <div class="col-md-4">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -80,7 +80,7 @@
                 <div class="col-md-4">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -91,7 +91,7 @@
                 <div class="col-md-4">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -102,7 +102,7 @@
                 <div class="col-md-4">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>
@@ -113,7 +113,7 @@
                 <div class="col-md-4">
                     <div class="blog-wrapper">
                         <div class="blog-img">
-                            <img src="pilotpublic/images/trans.jpg">
+                            <img src="pilotpublic/images/trans.jpeg">
                         </div>
                         <div class="blog-txt">
                             <h6 class="blog-h6">Customer Service</h6>

@@ -13,7 +13,7 @@ Dubai City Tour
 
 @section('content')
 
-<section class="bg-img-int bg-pic" style="background-image: url(pilotpublic/images/dubai/p0.jpg); height: 500px;">
+<section class="bg-img-int bg-pic" style="background-image: url(pilotpublic/images/dubai/p0.jpeg); height: 500px;">
 
 <div class="bg-txt-cnt">
 <div class="bg-txt-inner " style="    background-color: rgba(255, 255, 255, 0.9);  ">
@@ -54,7 +54,7 @@ Dubai City Tour
       <div class="col-md-4">
         <div class="os14-inner">
           <div class="os14-img">
-            <img src="pilotpublic/images/dubai/g6.jpg" class="os14-img-1">
+            <img src="pilotpublic/images/dubai/g6.jpeg" class="os14-img-1">
           </div>
           <div class="info">
             <div class="info-box">
@@ -73,7 +73,7 @@ Dubai City Tour
       <div class="col-md-4">
         <div class="os14-inner">
           <div class="os14-img">
-            <img src="pilotpublic/images/dubai/g2.jpg" class="os14-img-1">
+            <img src="pilotpublic/images/dubai/g2.jpeg" class="os14-img-1">
           </div>
           <div class="info">
             <div class="info-box">
@@ -91,7 +91,7 @@ Dubai City Tour
       <div class="col-md-4">
         <div class="os14-inner">
           <div class="os14-img">
-            <img src="pilotpublic/images/dubai/g3.jpg" class="os14-img-1">
+            <img src="pilotpublic/images/dubai/g3.jpeg" class="os14-img-1">
           </div>
           <div class="info">
             <div class="info-box">
@@ -120,102 +120,103 @@ Dubai City Tour
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/dubai/b1.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/dubaicity/p1.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Lexus ES </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|dubai|b1.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|dubaicity|p1.jpeg" ?>  
+                <a href="{{url('product-form/per day/700/Lexus ES/dubai city tour/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>PER DAY</div>
+            <div class="os2-h3">700 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|dubai|b1.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|dubaicity|p1.jpeg" ?>  
+                  <a href="{{url('product-form/per hour/100/Lexus ES/dubai city tour/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">100 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/dubai/p1.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/dubaicity/p2.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Toyota Prado </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|dubai|p1.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|dubaicity|p2.jpeg" ?>  
+                <a href="{{url('product-form/per day/700/Toyota Prado/dubai city tour/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>PER DAY</div>
+            <div class="os2-h3">700 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|dubai|p1.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|dubaicity|p2.jpeg" ?>  
+                  <a href="{{url('product-form/per hour/90/Toyota Prado/dubai city tour/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">90 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/dubai/p3.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/dubaicity/p3.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Toyota Hi Roof </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|dubai|p3.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|dubaicity|p3.jpeg" ?>  
+                <a href="{{url('product-form/per day/700/Toyota Prado/dubai city tour/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>PER DAY</div>
+            <div class="os2-h3">700 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|dubai|p3.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|dubaicity|p3.jpeg" ?>  
+                  <a href="{{url('product-form/per hour/100/Toyota Prado/dubai city tour/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">100 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
+      
       
     
   </div>

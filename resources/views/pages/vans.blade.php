@@ -14,7 +14,7 @@ Luxury Van Services
 
 <section>
   <div style="position:relative">
-    <img src="pilotpublic/images/van/p2.jpg" class="img-b" style="height:500px;">
+    <img src="pilotpublic/images/chauf/g1.jpeg" class="img-b" style="height:500px;">
     <div style="position:absolute; left:18%; top:30%">
       <h1 style="text-shadow: 2px 2px 2px lightgrey; color:white; font-size:70px" class="three animate">
         <strong>
@@ -52,13 +52,13 @@ Luxury Van Services
         </div>
         <div class="row">
           <div class="col-lg-8 st-ten-cards-one" style="padding:0px 5px;">
-            <img src="pilotpublic/images/van/g6.jpg" style="height:100%; width:100%;object-fit: cover; border:1px solid lightgray">
+            <img src="pilotpublic/images/van/g6.jpeg" style="height:100%; width:100%;object-fit: cover; border:1px solid lightgray">
             <div class="st-ten-cards-one-text1">
                 Book 7, 25 and 12 seater van
             </div>
           </div>
           <div class="col-md-4 st-ten-cards-two" style="padding:0px 5px;">
-            <img src="pilotpublic/images/van/p3.jpg" style="height:70%; width:100%;object-fit: cover;">
+            <img src="pilotpublic/images/van/p3.jpeg" style="height:70%; width:100%;object-fit: cover;">
             <div class="st-ten-cards-one-text2" style="padding-left:40px;">
                 best luxury for you to ride 
             </div>
@@ -67,13 +67,13 @@ Luxury Van Services
         
         <div class="row" style="margin-top:10px">
           <div class="col-md-4 st-ten-cards-two" style="padding:0px 5px;">
-            <img src="pilotpublic/images/van/g4.jpg" style="height:70%; width:100%;object-fit: cover;">
+            <img src="pilotpublic/images/van/g4.jpeg" style="height:70%; width:100%;object-fit: cover;">
             <div class="st-ten-cards-one-text2">
                 distinct sizes Vehicles available   
             </div>
           </div>
           <div class="col-lg-8 st-ten-cards-one" style="padding:0px 5px;">
-            <img src="pilotpublic/images/van/p2.jpg" style="height:100%; width:100%;object-fit: cover; border:1px solid lightgray">
+            <img src="pilotpublic/images/van/p2.jpeg" style="height:100%; width:100%;object-fit: cover; border:1px solid lightgray">
             <div class="st-ten-cards-one-text1">
                 Minivan rental Dubai 
             </div>
@@ -114,7 +114,7 @@ Luxury Van Services
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/van/g7.jpg" class="img-fluid obj-cover">
+                <img src="pilotpublic/images/van/g7.jpeg" class="img-fluid obj-cover">
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ Luxury Van Services
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/van/g5.jpg" class="img-fluid obj-cover">
+                <img src="pilotpublic/images/van/g5.jpeg" class="img-fluid obj-cover">
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ Luxury Van Services
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/van/g3.jpg" class="img-fluid obj-cover">
+                <img src="pilotpublic/images/van/g3.jpeg" class="img-fluid obj-cover">
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ Luxury Van Services
             </div>
             <div class="col-md-6 pl-0 pr-0">
               <div class="os10-img-cnt">
-                <img src="pilotpublic/images/van/g4.jpg" class="img-fluid  obj-cover">
+                <img src="pilotpublic/images/van/g4.jpeg" class="img-fluid  obj-cover">
               </div>
             </div>
           </div>
@@ -238,112 +238,108 @@ Luxury Van Services
             <div class="row">
                 <div class="col-md-12 flex-container">
 
-
-					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/p3.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|van|p3.jpg" ?>                       
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>    
-                        </div>
-                        <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|van|p3.jpg" ?>                                 
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>    
-                        </div>
+                  <div class="pr-5-flex-div">
+                    <img src="pilotpublic/images/up/product/luxuryvan/p1.jpeg" style="width:100%; height:125px" class="img-b">
+                    <div class="pr-5-flex-div-txt">V Class<br>
+                        <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
                     </div>
-                    <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/p2.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p2.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p2.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
-					</div>
-					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/p1.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p1.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p1.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
-					</div>
-					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/g1.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g1.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g1.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
-					</div>
-					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/g2.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g2.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g2.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p1.jpeg" ?>                       
+                        <a href="{{url('product-form/per day/1200/V Class/luxury van/' .$link)}}" class="a-link-ok">
+                            PER DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 1200 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
                     </div>
-
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p1.jpeg" ?>                                 
+                        <a href="{{url('product-form/per hour/150/V Class/luxury van/' .$link)}}" class="a-link-ok">
+                            PER HOUR <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 150 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                </div>
+                <div class="pr-5-flex-div">
+                    <img src="pilotpublic/images/up/product/luxuryvan/p2.jpeg" style="width:100%; height:125px" class="img-b">
+                    <div class="pr-5-flex-div-txt">Toyota Previa<br>
+                        <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p2.jpeg" ?>                       
+                        <a href="{{url('product-form/per day/700/Toyota Previa/luxury van/' .$link)}}" class="a-link-ok">
+                            PER DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 700 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p2.jpeg" ?>                                 
+                        <a href="{{url('product-form/per hour/100/Toyota Previa/luxury van/' .$link)}}" class="a-link-ok">
+                            PER HOUR <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 100 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                </div>
+                <div class="pr-5-flex-div">
+                    <img src="pilotpublic/images/up/product/luxuryvan/p3.jpeg" style="width:100%; height:125px" class="img-b">
+                    <div class="pr-5-flex-div-txt">Benz Sprinter<br>
+                        <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p3.jpeg" ?>                       
+                        <a href="{{url('product-form/per day/1700/Benz Sprinter/luxury van/' .$link)}}" class="a-link-ok">
+                            PER DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 1700 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p3.jpeg" ?>                                 
+                        <a href="{{url('product-form/per hour/250/Benz Sprinter/luxury van/' .$link)}}" class="a-link-ok">
+                            PER HOUR <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 250 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                </div>
+                <div class="pr-5-flex-div">
+                    <img src="pilotpublic/images/up/product/luxuryvan/p4.jpeg" style="width:100%; height:125px" class="img-b">
+                    <div class="pr-5-flex-div-txt">Toyota Hi Roof<br>
+                        <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p4.jpeg" ?>                       
+                        <a href="{{url('product-form/per day/700/Toyota Hi Roof/luxury van/' .$link)}}" class="a-link-ok">
+                            PER DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 700 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p4.jpeg" ?>                                 
+                        <a href="{{url('product-form/per hour/100/Toyota Hi Roof/luxury van/' .$link)}}" class="a-link-ok">
+                            PER HOUR <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 100 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                </div>
+                <div class="pr-5-flex-div">
+                    <img src="pilotpublic/images/up/product/luxuryvan/p5.jpeg" style="width:100%; height:125px" class="img-b">
+                    <div class="pr-5-flex-div-txt">Hyundai H1<br>
+                        <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p5.jpeg" ?>                       
+                        <a href="{{url('product-form/per day/700/Hyundai H1/luxury van/' .$link)}}" class="a-link-ok">
+                            PER DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 700 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                    <div class="pr-5-flex-div-links">   
+                        <?php $link="pilotpublic|images|up|product|luxuryvan|p5.jpeg" ?>                                 
+                        <a href="{{url('product-form/per hour/100/Hyundai H1/luxury van/' .$link)}}" class="a-link-ok">
+                            PER HOUR <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 100 AED</span></div>
+                            <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                        </a>    
+                    </div>
+                </div>
+                
+                    
                     
                 </div>
             </div>
@@ -437,7 +433,7 @@ Luxury Van Services
                 
                 <div class="col-md-6">
                     <div class="t3-center-img">
-                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpg" style="width:100%"> 
+                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpeg" style="width:100%"> 
                         <div class="t3-center-img-txt">
                             <div class="t3-center-img-txt1">OMAN</div>
                             <div class="t3-center-img-txt2">FLIGHTS TO MASQAT</div>
@@ -449,7 +445,7 @@ Luxury Van Services
                 </div>
                 <div class="col-md-6">
                     <div class="t3-center-img">
-                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpg" style="width:100%"> 
+                        <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/MCT/810x270.jpeg" style="width:100%"> 
                         <div class="t3-center-img-txt">
                             <div class="t3-center-img-txt1">OMAN</div>
                             <div class="t3-center-img-txt2">FLIGHTS TO MASQAT</div>
@@ -592,7 +588,7 @@ Luxury Van Services
           </div>
         </div>
         <div class="col-md-6" style="padding:0px">
-          <img src="pilotpublic/images/van/b1.jpg" style="height:500px" class="cover-image">
+          <img src="pilotpublic/images/van/b1.jpeg" style="height:500px" class="cover-image">
         </div>
         <div class="col-md-6 st-icons-class">
           <ul class="st-icons-ul">

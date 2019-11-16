@@ -23,7 +23,7 @@ Delivery Vans And Trucks In Dubai
 
 <section class="os7-body">
   <div class="slider-for-os7">
-    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),  url(pilotpublic/images/dubai/g9.jpg);">
+    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),  url(pilotpublic/images/dubai/g9.jpeg);">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -35,7 +35,7 @@ Delivery Vans And Trucks In Dubai
         </div>
     </div>
   </div>
-    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),  url(pilotpublic/images/city/g1.jpg);">
+    <div class="slick-wrap bg-pic" style="background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),  url(pilotpublic/images/city/g1.jpeg);">
     <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -47,7 +47,7 @@ Delivery Vans And Trucks In Dubai
     </div>
   </div>
   </div>
-    <div class="slick-wrap bg-pic img-cover" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url(pilotpublic/images/airport/door.jpg);">
+    <div class="slick-wrap bg-pic img-cover" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url(pilotpublic/images/airport/door.jpeg);">
     <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -59,7 +59,7 @@ Delivery Vans And Trucks In Dubai
     </div>
   </div>
   </div>
-    <div class="slick-wrap bg-pic" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url(pilotpublic/images/dubai/b1.jpg);">
+    <div class="slick-wrap bg-pic" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url(pilotpublic/images/dubai/b1.jpeg);">
     <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -81,7 +81,7 @@ Delivery Vans And Trucks In Dubai
       <div class="row">
         <div class="col-md-12">
           <div class="slider-nav-os7">
-              <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/dubai/g9.jpg);">
+              <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/dubai/g9.jpeg);">
     <div class="row">
       <div class="col-md-12">
         <h1>Delivery Vans and trucks</h1>
@@ -90,7 +90,7 @@ Delivery Vans And Trucks In Dubai
       </div>
     </div>
   </div>
-    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/city/g1.jpg);">
+    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/city/g1.jpeg);">
     <div class="row">
       <div class="col-md-12">
         <h1>Truck Solutions</h1>
@@ -99,7 +99,7 @@ Delivery Vans And Trucks In Dubai
       </div>
     </div>
   </div>
-    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/airport/door.jpg);">
+    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/airport/door.jpeg);">
   
     <div class="row">
       <div class="col-md-12">
@@ -110,7 +110,7 @@ Delivery Vans And Trucks In Dubai
     </div>
   </div>
   
-    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/dubai/b1.jpg);">
+    <div class="slick-wrap bg-pic bg-pic-img-shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(pilotpublic/images/dubai/b1.jpeg);">
   
     <div class="row">
       <div class="col-md-12">
@@ -166,26 +166,26 @@ Delivery Vans And Trucks In Dubai
       <div class="row">
        
         <div class="col-md-6">
-          <div class="os7-box" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/dubai/g9.jpg);">
+          <div class="os7-box" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/dubai/g9.jpeg);">
             <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
             <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/van/G2.jpg);">
+          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/van/g2.jpeg);">
             <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
             <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
           </div>
         </div>
 
         <div class="col-md-6">
-          <div class="os7-box" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/city/p6.jpg);">
+          <div class="os7-box" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/city/p6.jpeg);">
             <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
             <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/van/g5.jpg);">
+          <div class="os7-box bg-pic" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(pilotpublic/images/van/g5.jpeg);">
             <h4 class="os7-h1">Park Plaza Nuremberg | Book in Advance</h4>
             <p class="os7-p">Get 20% off the best-connected hotel in Nuremberg</p>
           </div>
@@ -277,19 +277,19 @@ Delivery Vans And Trucks In Dubai
 
 
 					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/p3.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/van/p3.jpeg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
                         <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|van|p3.jpg" ?>                       
+                            <?php $link="pilotpublic|images|van|p3.jpeg" ?>                       
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>    
                         </div>
                         <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|van|p3.jpg" ?>                                 
+                            <?php $link="pilotpublic|images|van|p3.jpeg" ?>                                 
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
@@ -297,19 +297,19 @@ Delivery Vans And Trucks In Dubai
                         </div>
                     </div>
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/p2.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/van/p2.jpeg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p2.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|p2.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p2.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|p2.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
@@ -318,19 +318,19 @@ Delivery Vans And Trucks In Dubai
                         </div>
 					</div>
 					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/p1.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/van/p1.jpeg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p1.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|p1.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|p1.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|p1.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
@@ -339,19 +339,19 @@ Delivery Vans And Trucks In Dubai
                         </div>
 					</div>
 					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/g1.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/van/g1.jpeg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g1.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|g1.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g1.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|g1.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
@@ -360,19 +360,19 @@ Delivery Vans And Trucks In Dubai
                         </div>
 					</div>
 					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/van/g2.jpg" style="width:100%; height:125px" class="img-b">
+                       <img src="pilotpublic/images/van/g2.jpeg" style="width:100%; height:125px" class="img-b">
                         <div class="pr-5-flex-div-txt">Shanghai<br>
                             <span style="font-weight:100; font-size:10px"> China (mainland)</span>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g2.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|g2.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>
                         </div>
                         <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|van|g2.jpg" ?>                                   
+                            <?php $link="pilotpublic|images|van|g2.jpeg" ?>                                   
                             <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
                                 BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>

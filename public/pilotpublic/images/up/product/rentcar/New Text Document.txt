@@ -1,0 +1,6 @@
+P1-Cadilac Escalde - Daily 1500 AED- H 200 AED,Airport Transfer 350
+P2-Chevrolet Suburban-D -1100 H 170 A 250
+P3-Gmc Yukon -D 1100 ,H 170 , A 250
+P4-Toyota Prado D 700 ,Hour 90 , A 150
+P5 -lexus-ES D 700 , H 90 , A 150
+P6-S class D 1600, H 200, A 450

@@ -16,7 +16,7 @@ Hire a Drivers or Chauffeur
 
 <section>
   <div style="position: relative; color:white">
-    <img src="pilotpublic/images/chaf2/p6.png" class="object-image">
+    <img src="pilotpublic/images/chaf2/p6.jpeg" class="object-image">
     <div style="position: absolute; top:35%; left:25%; color:white; font-size:60px; font-weight:900; overflow:hidden;" class="line anim-typewriter">
         Hire a Driver or Chauffeur in Dubai 
     </div>
@@ -53,17 +53,17 @@ Hire a Drivers or Chauffeur
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/city/p6.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/city/p6.jpeg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
+                <?php $link="pilotpublic|images|city|p6.jpeg" ?>      
                 <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
                   <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
+                <?php $link="pilotpublic|images|city|p6.jpeg" ?>      
                 <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
                   <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
@@ -73,17 +73,17 @@ Hire a Drivers or Chauffeur
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/city/p2.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/city/p2.jpeg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <?php $link="pilotpublic|images|city|p2.jpg" ?>      
+                <?php $link="pilotpublic|images|city|p2.jpeg" ?>      
                 <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
                   <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
-                <?php $link="pilotpublic|images|city|p2.jpg" ?>      
+                <?php $link="pilotpublic|images|city|p2.jpeg" ?>      
                 <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
                   <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
@@ -93,17 +93,17 @@ Hire a Drivers or Chauffeur
           <div class="col-md-4">
             <div class="product">
               <div class="pr-img">
-              <img src="pilotpublic/images/city/p6.jpg" class="img-fluid cp-img">
+              <img src="pilotpublic/images/city/p6.jpeg" class="img-fluid cp-img">
               </div>
             </div>
             <h1 class="pr-h1">Off to North America</h1>
             <div class="pr-txt">
               <ul class="pr-ul">
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
+                <?php $link="pilotpublic|images|city|p6.jpeg" ?>      
                 <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">By Way
                   <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
-                <?php $link="pilotpublic|images|city|p6.jpg" ?>      
+                <?php $link="pilotpublic|images|city|p6.jpeg" ?>      
                 <li><a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">Per Hour
                   <div class="pt-price-clr">price $340</div><i class="fa fa-caret-right pull-right"></i></span></a>
                 </li>
@@ -416,7 +416,7 @@ Hire a Drivers or Chauffeur
           <div class="col-md-6">
             <div class="os4-wrap">
               <div class="os4-img-cnt">
-                <img src="pilotpublic/images/dubai/g0.jpg" style="height:300px" class="object-image">
+                <img src="pilotpublic/images/dubai/g0.jpeg" style="height:300px" class="object-image">
               </div>
               <div class="os4-txt-cnt">
                 <h6 class="text-center">PILOT AND CAR</h6>
@@ -427,7 +427,7 @@ Hire a Drivers or Chauffeur
           <div class="col-md-6">
             <div class="os4-wrap">
               <div class="os4-img-cnt">
-                <img src="pilotpublic/images/chaf2/b1.jpg" style="height:300px" class="object-image">
+                <img src="pilotpublic/images/chaf2/b1.jpeg" style="height:300px" class="object-image">
               </div>
               <div class="os4-txt-cnt">
                 <h6 class="text-center">PILOT AND CAR</h6>

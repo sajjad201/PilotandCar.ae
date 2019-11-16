@@ -13,7 +13,7 @@ Chauffer Service in Dubai
 @section('content')
 
 
-<section class="hyatt-hero bg-pic" style="background-image: url(pilotpublic/images/chauf/g1.jpg); min-height: 775px;">
+<section class="hyatt-hero bg-pic" style="background-image: url(pilotpublic/images/up/img/banner6.jpeg); min-height: 775px;">
   <div class="hh-txt-cnt animated fadeInDown">
     <!-- <h1>Welcome to <span style="color:#FF7C17">Beautiful</span> Place</h1> -->
     <div id="container1">
@@ -55,7 +55,7 @@ Chauffer Service in Dubai
     <div class="row">
       <div class="col-md-7">
         <div class="hyatt-img-cnt">
-          <img src="pilotpublic/images/chauf/g11.jpg" class="object-image" >
+          <img src="pilotpublic/images/chauf/g11.jpeg" class="object-image" >
         </div>
       </div>
       <div class="col-md-5">
@@ -81,7 +81,7 @@ Chauffer Service in Dubai
     <div class="row">
       <div class="col-md-6">
         <div class="hyatt-img">
-          <img src="pilotpublic/images/chauf/p6.jpg" class="object-image">
+          <img src="pilotpublic/images/chauf/p6.jpeg" class="object-image">
         </div>
       </div>
       <div class="col-md-6 rel">
@@ -92,7 +92,7 @@ Chauffer Service in Dubai
           </p>
         </div>
         <div class="hyatt-img-abs">
-            <img src="pilotpublic/images/chauf/g2.jpg" class="object-image" style="height:370px">
+            <img src="pilotpublic/images/chauf/g2.jpeg" class="object-image" style="height:370px">
           </div>
       </div>
     </div>
@@ -102,14 +102,14 @@ Chauffer Service in Dubai
 <section >
   <div class="container rel">
     <div class="row">
-    <img src="pilotpublic/images/hyatt-bg.jpg" class="object-image mb-35">
+    <img src="pilotpublic/images/up/img/banner4.jpeg" class="object-image mb-35">
       <div class="abs-head2 bg-pic" style="background-image: url(pilotpublic/images/TapeCenter.svg);">
         <h4>Traveling</h4>
       </div>
       <div class="mb-18" style="min-height: 385px;">
                 <div class="col-md-6">
         <div class="hyatt-img-cnt">
-          <img src="pilotpublic/images/chauf/g13.jpg" class="object-image" style="height:360px">
+          <img src="pilotpublic/images/chauf/g13.jpeg" class="object-image" style="height:360px">
         </div>
       </div>
 
@@ -132,7 +132,7 @@ Chauffer Service in Dubai
               <div class="mb-18" style="min-height: 385px">
                 <div class="col-md-6">
         <div class="hyatt-img-cnt">
-          <img src="pilotpublic/images/chauf/p5.jpg" class="object-image">
+          <img src="pilotpublic/images/chauf/p5.jpeg" class="object-image">
         </div>
       </div>
 
@@ -253,89 +253,162 @@ Chauffer Service in Dubai
             <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
                 <div class="col-xs-12 pr-4-img-div">
                     <div>
-                        <img src="pilotpublic/images/chauf/g13.jpg" style="height:250px; width:100%">
+                        <img src="pilotpublic/images/up/product/chauffeur/p1.jpeg" style="height:250px; width:100%">
                     </div>
                     <div class="col-xs-12 pr-4-img-div-txt">
-                        BOOK YOUR RIDE:
+                        S class
                         <div class="row" style="margin-top:10px">
                             <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <?php $link="pilotpublic|images|chauf|g13.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices">499 AED</div>
+                                <div class="pr-4-img-div-txt-row-txt"> PER DAY</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p1.jpeg" ?>  
+                                <a href="{{url('product-form/per day/1600/S class/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">1600 AED</div>
                                 </a>
                             </div>
                             <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <?php $link="pilotpublic|images|chauf|g13.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
+                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER HOUR</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p1.jpeg" ?>  
+                                <a href="{{url('product-form/per hour/200/S class/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">200 AED</div>
                                 </a>
                             </div>
-                        </div>
-                        
-                    
+                        </div>                    
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
                 <div class="col-xs-12 pr-4-img-div">
                     <div>
-                        <img src="pilotpublic/images/chauf/p6.jpg" style="height:250px; width:100%">
+                        <img src="pilotpublic/images/up/product/chauffeur/p2.jpeg" style="height:250px; width:100%">
                     </div>
                     <div class="col-xs-12 pr-4-img-div-txt">
-                        BOOK YOUR RIDE:
+                        GMC Yukon
                         <div class="row" style="margin-top:10px">
                             <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices">499 AED</div>
-                                </a>    
+                                <div class="pr-4-img-div-txt-row-txt"> PER DAY</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p2.jpeg" ?>  
+                                <a href="{{url('product-form/per day/1100/GMC Yukon/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">1100 AED</div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <?php $link="pilotpublic|images|chauf|p6.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
-                                </a>    
+                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER HOUR</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p2.jpeg" ?>  
+                                <a href="{{url('product-form/per hour/150/GMC Yukon/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">150 AED</div>
+                                </a>
                             </div>
-                        </div>
-                        
-                    
+                        </div>                    
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
                 <div class="col-xs-12 pr-4-img-div">
                     <div>
-                        <img src="pilotpublic/images/chauf/p5.jpg" style="height:250px; width:100%">
+                        <img src="pilotpublic/images/up/product/chauffeur/p3.jpeg" style="height:250px; width:100%">
                     </div>
                     <div class="col-xs-12 pr-4-img-div-txt">
-                        BOOK YOUR RIDE:
+                        Lexus ES
                         <div class="row" style="margin-top:10px">
                             <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <?php $link="pilotpublic|images|chauf|p5.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices">499 AED</div>
-                                </a>    
+                                <div class="pr-4-img-div-txt-row-txt"> PER DAY</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p3.jpeg" ?>  
+                                <a href="{{url('product-form/per day/700/Lexus ES/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">700 AED</div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <?php $link="pilotpublic|images|chauf|p5.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
-                                </a>    
+                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER HOUR</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p3.jpeg" ?>  
+                                <a href="{{url('product-form/per hour/100/Lexus ES/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">100 AED</div>
+                                </a>
                             </div>
-                        </div>
-                        
-                    
+                        </div>                    
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
+                <div class="col-xs-12 pr-4-img-div">
+                    <div>
+                        <img src="pilotpublic/images/up/product/chauffeur/p3rolls.jpeg" style="height:250px; width:100%">
+                    </div>
+                    <div class="col-xs-12 pr-4-img-div-txt">
+                        Rolls Royce
+                        <div class="row" style="margin-top:10px">
+                            <div class="col-md-6 col-xs-6" style="padding:0px">
+                                <div class="pr-4-img-div-txt-row-txt"> PER DAY</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p3rolls.jpeg" ?>  
+                                <a href="{{url('product-form/per day/3500/Rolls Royce/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">3500 AED</div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-xs-6" style="padding:0px">
+                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER HOUR</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p3rolls.jpeg" ?>  
+                                <a href="{{url('product-form/per hour/800/Rolls Royce/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">800 AED</div>
+                                </a>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
+                <div class="col-xs-12 pr-4-img-div">
+                    <div>
+                        <img src="pilotpublic/images/up/product/chauffeur/p4.jpeg" style="height:250px; width:100%">
+                    </div>
+                    <div class="col-xs-12 pr-4-img-div-txt">
+                        V Class
+                        <div class="row" style="margin-top:10px">
+                            <div class="col-md-6 col-xs-6" style="padding:0px">
+                                <div class="pr-4-img-div-txt-row-txt"> PER DAY</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p4.jpeg" ?>  
+                                <a href="{{url('product-form/per day/1200/V Class/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">1200 AED</div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-xs-6" style="padding:0px">
+                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER HOUR</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p4.jpeg" ?>  
+                                <a href="{{url('product-form/per hour/200/V Class/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">200 AED</div>
+                                </a>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
+                <div class="col-xs-12 pr-4-img-div">
+                    <div>
+                        <img src="pilotpublic/images/up/product/chauffeur/p5.jpeg" style="height:250px; width:100%">
+                    </div>
+                    <div class="col-xs-12 pr-4-img-div-txt">
+                        Cadilac Escalde
+                        <div class="row" style="margin-top:10px">
+                            <div class="col-md-6 col-xs-6" style="padding:0px">
+                                <div class="pr-4-img-div-txt-row-txt"> PER DAY</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p5.jpeg" ?>  
+                                <a href="{{url('product-form/per day/1600/Cadilac Escalde/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices">1600 AED</div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-xs-6" style="padding:0px">
+                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER HOUR</div>
+                                <?php $link="pilotpublic|images|up|product|chauffeur|p5.jpeg" ?>  
+                                <a href="{{url('product-form/per hour/200/Cadilac Escalde/chauffer service/' .$link)}}" class="pt-link-ok">
+                                    <div class="pr-4-prices" style="border-left:1px solid white; ">200 AED</div>
+                                </a>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+            
+
+            
            
         </div>
     </div>

@@ -106,6 +106,7 @@ class MyController extends Controller
         $time=$request->time;
         $ridetype=$request->ridetype;
         $price=$request->price;
+        $name=$request->name;
 
         //return data to view "FORM"
         return view('pages.form')->with([
@@ -114,11 +115,12 @@ class MyController extends Controller
             'date' => $date, 
             'time' => $time,
             'ridetype' => $ridetype,
-            'price' => $price
+            'price' => $price,
+            'name' => $name
             
         ]);
     }
-    function productform($type, $price, $link){
+    function productform($type, $price, $name, $service, $link){
         // //get data in variables
         // $from=$request->from;
         // $to=$request->to;
@@ -139,6 +141,6 @@ class MyController extends Controller
         // ]);
 
         //$name=$request->name;
-        return view('pages.product-form', compact('type', 'price', 'link'));
+        return view('pages.product-form', compact('type', 'price', 'name', 'service', 'link'));
     }
 }

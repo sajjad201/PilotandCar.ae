@@ -13,7 +13,7 @@ Limousine services Dubai
 @section('content')
 
 
-<section class="bg-img-int bg-pic" style="background-image: url(pilotpublic/images/limo/g12.jpg); height: 700px;">
+<section class="bg-img-int bg-pic" style="background-image: url(pilotpublic/images/limo/g12.jpeg); height: 700px;">
 
 <div class="bg-txt-cnt">
 <div class="bg-txt-inner animated zoomIn" style="    background-color: rgba(255, 255, 255, 0.9);  ">
@@ -60,102 +60,202 @@ Limousine services Dubai
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/g10.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/limousine/p1.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Chrysler Limousine </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|limo|g10.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|limousine|p1.jpeg" ?>  
+                <a href="{{url('product-form/day/1800/Chrysler Limousine/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>PER DAY</div>
+            <div class="os2-h3">1800 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|limo|g10.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|limousine|p1.jpeg" ?>  
+                  <a href="{{url('product-form/hour/350/Chrysler Limousine/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">350 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/g14.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/limousine/p2.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Hummer H2 </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|limo|g14.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|limousine|p2.jpeg" ?>  
+                <a href="{{url('product-form/hour/2500/Hummer H2/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>PER DAY</div>
+            <div class="os2-h3">2500 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|limo|g14.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|limousine|p2.jpeg" ?>  
+                  <a href="{{url('product-form/hour/500/Hummer H2/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">500 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
       <div class="col-md-4" style="margin-bottom: 30px;">
         <div class="os-2-cont">
           <div class="os-2-img-cont rel">
-            <img src="pilotpublic/images/limo/g7.jpg" style="height:200px; width:100%" class="object-image">
-            <h3 class="abs-head">Hong Kong SAR </h3>
+            <img src="pilotpublic/images/up/product/limousine/p3.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Cadillac Escalade </h3>
             <span class="fa fa-star abs-icon"></span>
           </div>
           <div class="os2-txt-cont">
             <div class="overlay1">
               <span class="overlay1-txt">
-                <div class="overlay1-txt-sm">Hourly Ride</div> 
-                <?php $link="pilotpublic|images|limo|g14.jpg" ?>  
-                <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|limousine|p3.jpeg" ?>  
+                <a href="{{url('product-form/hour/1600/Cadillac Escalade/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
               </span>
               <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
             </div>
-            <div>HOURLY RIDE</div>
-            <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+            <div>PER DAY</div>
+            <div class="os2-h3">1600 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
           </div>
           <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
               <div class="overlay1">
                 <span class="overlay1-txt">
-                  <div class="overlay1-txt-sm">Per Day</div> 
-                  <?php $link="pilotpublic|images|limo|g14.jpg" ?>  
-                  <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|limousine|p3.jpeg" ?>  
+                  <a href="{{url('product-form/hour/200/Cadillac Escalade/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
                 </span>
                 <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
               </div>
-              <div>PER DAY</div>
-              <div class="os2-h3">AED 950 <span class="fa fa-angle-right fl-right fs-20"></span></div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">200 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
             </div>
         </div>
       </div>
+      <div class="col-md-4" style="margin-bottom: 30px;">
+        <div class="os-2-cont">
+          <div class="os-2-img-cont rel">
+            <img src="pilotpublic/images/up/product/limousine/p3lexus.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Lexus ES </h3>
+            <span class="fa fa-star abs-icon"></span>
+          </div>
+          <div class="os2-txt-cont">
+            <div class="overlay1">
+              <span class="overlay1-txt">
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|limousine|p3lexus.jpeg" ?>  
+                <a href="{{url('product-form/hour/700/Lexus ES/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+              </span>
+              <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
+            </div>
+            <div>PER DAY</div>
+            <div class="os2-h3">700 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
+          </div>
+          <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
+              <div class="overlay1">
+                <span class="overlay1-txt">
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|limousine|p3lexus.jpeg" ?>  
+                  <a href="{{url('product-form/hour/100/Lexus ES/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                </span>
+                <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
+              </div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">100 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="margin-bottom: 30px;">
+        <div class="os-2-cont">
+          <div class="os-2-img-cont rel">
+            <img src="pilotpublic/images/up/product/limousine/p4.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Rolls Royce </h3>
+            <span class="fa fa-star abs-icon"></span>
+          </div>
+          <div class="os2-txt-cont">
+            <div class="overlay1">
+              <span class="overlay1-txt">
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|limousine|p4.jpeg" ?>  
+                <a href="{{url('product-form/hour/3500/Rolls Royce/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+              </span>
+              <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
+            </div>
+            <div>PER DAY</div>
+            <div class="os2-h3">3500 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
+          </div>
+          <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
+              <div class="overlay1">
+                <span class="overlay1-txt">
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|limousine|p4.jpeg" ?>  
+                  <a href="{{url('product-form/hour/1200/Rolls Royce/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                </span>
+                <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
+              </div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">1200 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="margin-bottom: 30px;">
+        <div class="os-2-cont">
+          <div class="os-2-img-cont rel">
+            <img src="pilotpublic/images/up/product/limousine/p5.jpeg" style="height:200px; width:100%" class="object-image">
+            <h3 class="abs-head">Cheverlet Subarban </h3>
+            <span class="fa fa-star abs-icon"></span>
+          </div>
+          <div class="os2-txt-cont">
+            <div class="overlay1">
+              <span class="overlay1-txt">
+                <div class="overlay1-txt-sm">PER DAY</div> 
+                <?php $link="pilotpublic|images|up|product|limousine|p5.jpeg" ?>  
+                <a href="{{url('product-form/hour/1100/Cheverlet Subarban/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+              </span>
+              <i class="fas fa-car overlay1-txt-icon" style="margin-left:25px"></i>
+            </div>
+            <div>PER DAY</div>
+            <div class="os2-h3">1100 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
+          </div>
+          <div class="os2-txt-cont" style="border-top:5px solid #f9f9f9">
+              <div class="overlay1">
+                <span class="overlay1-txt">
+                  <div class="overlay1-txt-sm">PER HOUR</div> 
+                  <?php $link="pilotpublic|images|up|product|limousine|p5.jpeg" ?>  
+                  <a href="{{url('product-form/hour/180/Cheverlet Subarban/limousine/' .$link)}}" class="a-link-ok"><span class="overlay1-txt-lg">BOOK RIDE</span></a>
+                </span>
+                <i class="fas fa-shuttle-van overlay1-txt-icon" style="margin-left:25px"></i>
+              </div>
+              <div>PER HOUR</div>
+              <div class="os2-h3">180 AED<span class="fa fa-angle-right fl-right fs-20"></span></div>
+            </div>
+        </div>
+      </div>
+      
       
     
   </div>
@@ -169,7 +269,7 @@ Limousine services Dubai
   <div class="row">
     <div class="col-md-12">
       <h1 class="os6-h1" style="font-size:36px; font-weight:700">Royal First Class</h1>
-      <img src="pilotpublic/images/limo/g16.jpg" class="img-fluid object-image" style="height:450px; width:100%"><br><br><br>
+      <img src="pilotpublic/images/limo/g16.jpeg" class="img-fluid object-image" style="height:450px; width:100%"><br><br><br>
       <h1 class="os6-h1" style="font-size:36px; font-weight:700">The Experience</h1>
       <p class="os6-p" style="font-family: calibri;">
           In our Fleet we have Hummer limo, Chrysler Limo  ,  Cadillac Escalade Limo  
@@ -188,18 +288,18 @@ Limousine services Dubai
       
       <div class="row gal-cnt">
         <div class="col-md-8" style="padding: 5px;">
-          <img src="pilotpublic/images/gal1.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/gal1.jpeg" class="gal-img object-image">
         </div>
         <div class="col-md-4" style="padding: 5px;">
-          <img src="pilotpublic/images/limo/p3.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/limo/p.jpeg" class="gal-img object-image">
         </div>
       </div>
       <div class="row gal-cnt">
         <div class="col-md-7" style="padding: 5px;">
-          <img src="pilotpublic/images/gal3.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/gal3.jpeg" class="gal-img object-image">
         </div>
         <div class="col-md-5" style="padding: 5px;">
-          <img src="pilotpublic/images/limo/p2.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/limo/p2.jpeg" class="gal-img object-image">
         </div>
       </div>
       
@@ -215,22 +315,22 @@ Limousine services Dubai
 
       <br><br><br>
       <h1 class="os6-h1" style="font-size:36px; font-weight:700">FIXED & GUARANTED RATES UNTIL YOUR DESTINATION</h1>
-      <img src="pilotpublic/images/limo/p1.jpg" class="object-image" style="height:550px">
+      <img src="pilotpublic/images/up/img/banner5.jpeg" class="object-image" style="height:550px">
       
       <div class="row">
         <div class="col-md-8" style="padding: 5px;">
-          <img src="pilotpublic/images/limo/g5.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/limo/g5.jpeg" class="gal-img object-image">
         </div>
         <div class="col-md-4" style="padding: 5px;">
-          <img src="pilotpublic/images/gal3.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/gal3.jpeg" class="gal-img object-image">
         </div>
       </div>
       <div class="row">
         <div class="col-md-4" style="padding: 5px;">
-          <img src="pilotpublic/images/limo/g6.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/limo/g6.jpeg" class="gal-img object-image">
         </div>
         <div class="col-md-8" style="padding: 5px;">
-          <img src="pilotpublic/images/limo/g12.jpg" class="gal-img object-image">
+          <img src="pilotpublic/images/limo/g12.jpeg" class="gal-img object-image">
         </div>
       </div>
       
@@ -249,7 +349,7 @@ Limousine services Dubai
         <div class="os14-inner-cnt">
           <div class="col-md-4">
             <div class="os14-sec2-inner">
-              <img src="pilotpublic/images/limo/g2.jpg" class="img-fluid" style="height:120px; width:100%">
+              <img src="pilotpublic/images/limo/g2.jpeg" class="img-fluid" style="height:120px; width:100%">
             </div>
           </div>
           <div class="col-md-8">
@@ -266,7 +366,7 @@ Limousine services Dubai
         <div class="os14-inner-cnt">
           <div class="col-md-4">
             <div class="os14-sec2-inner">
-              <img src="pilotpublic/images/limo/g1.jpg" class="img-fluid" style="height:120px">
+              <img src="pilotpublic/images/limo/g1.jpeg" class="img-fluid" style="height:120px">
             </div>
           </div>
           <div class="col-md-8">
@@ -283,7 +383,7 @@ Limousine services Dubai
         <div class="os14-inner-cnt">
           <div class="col-md-4">
             <div class="os14-sec2-inner">
-              <img src="pilotpublic/images/limo/g7.jpg" class="img-fluid" style="height:120px">
+              <img src="pilotpublic/images/limo/g7.jpeg" class="img-fluid" style="height:120px">
             </div>
           </div>
           <div class="col-md-8">

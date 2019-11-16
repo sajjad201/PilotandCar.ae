@@ -1,0 +1,6 @@
+Rent a Car top : Banner 3
+Chauffeur Service Top :   Banner 6 .  Middle : Banner 4 
+Limousine Service top is ok : 3rd full width Banner    : Banner 5 
+Bus rental Top : banner 7    mid full width : Banner 8 
+Airport transfer top banner : banner 10 ; middle half banner : Airport 5 
+Luxury Van  : Replace the top banner with chauffeur service

@@ -15,7 +15,7 @@ Rent a car with driver in Dubai
 
 <section>
   <div style="position: relative; color:white">
-    <img src="pilotpublic/images/cars/p11.jpeg" class="img-b" style="height:600px">
+    <img src="pilotpublic/images/up/img/banner3.jpeg" class="img-b" style="height:600px">
     <div style="position: absolute; top:23%; left:22%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">
         Rent a car with driver in Dubai
     </div>
@@ -66,7 +66,7 @@ Rent a car with driver in Dubai
         <div class="special_block">
           <div class="main_slide">
             <div class="slide_pro slide w60"><div>
-              <img alt="" src="pilotpublic/images/cars/g6.jpg" class="sh_pic img-responsive img-b"></div>
+              <img alt="" src="pilotpublic/images/cars/g6.jpeg" class="sh_pic img-responsive img-b"></div>
             </div>
             <div class="slide_fix"><div>
             <div class="bl_pro">
@@ -90,7 +90,7 @@ Rent a car with driver in Dubai
       <div class="special_block">
         <div class="main_slide">
           <div class="slide_pro slide w60"><div>
-            <img alt="" src="pilotpublic/images/cars/g7.jpg" class="sh_pic img-responsive img-b"></div>
+            <img alt="" src="pilotpublic/images/cars/g7.jpeg" class="sh_pic img-responsive img-b"></div>
           </div>
           <div class="slide_fix"><div>
           <div class="bl_pro">
@@ -113,7 +113,7 @@ Rent a car with driver in Dubai
       <div class="special_block">
         <div class="main_slide">
           <div class="slide_pro slide w60"><div>
-            <img alt="" src="pilotpublic/images/cars/p4.jpg" class="sh_pic img-responsive img-b"></div>
+            <img alt="" src="pilotpublic/images/cars/p4.jpeg" class="sh_pic img-responsive img-b"></div>
           </div>
         <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">
@@ -159,7 +159,7 @@ Rent a car with driver in Dubai
       <div class="special_block">
         <div class="main_slide">
           <div class="slide_pro slide w60"><div>
-            <img alt="" src="pilotpublic/images/cars/g5.jpg" class="sh_pic img-responsive img-b"></div>
+            <img alt="" src="pilotpublic/images/cars/g5.jpeg" class="sh_pic img-responsive img-b"></div>
           </div>
           <div class="slide_fix gray_travelextra"><div>
           <div class="bl_pro">
@@ -183,105 +183,164 @@ Rent a car with driver in Dubai
   </section>
 
 <br><br><br>
-<section class="pr-4-sec">
-    <div class="container">
-        <div class="col-md-12 col-xs-12 pr-4-sec-head-txt">
-            DESTINATION INFORMATION
-            <div class="pr-4-sec-head-txt-2">
-                Getting familiar with your destinations information to make your dream trip complete.
-            </div>    
+<section class="mt-20" style="padding:30px 0px 100px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" style="padding:0px 5px;">
+        <div class="st10-split-text">
+          CHECK OUR PRODUCTS
         </div>
-        <div class="row">
-           
-            <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
-                <div class="col-xs-12 pr-4-img-div">
-                    <div>
-                        <img src="pilotpublic/images/cars/g2.jpg" style="height:250px; width:100%">
-                    </div>
-                    <div class="col-xs-12 pr-4-img-div-txt">
-                        BOOK YOUR RIDE:
-                        <div class="row" style="margin-top:10px">
-                            <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <?php $link="pilotpublic|images|cars|g2.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices">499 AED</div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <?php $link="pilotpublic|images|cars|g2.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
-                                </a>
-                            </div>
-                        </div>
-                        
-                    
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="product-cnt">
 
-            <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
-                <div class="col-xs-12 pr-4-img-div">
-                    <div>
-                        <img src="pilotpublic/images/cars/g3.jpg" style="height:250px; width:100%">
-                    </div>
-                    <div class="col-xs-12 pr-4-img-div-txt">
-                        BOOK YOUR RIDE:
-                        <div class="row" style="margin-top:10px">
-                            <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <?php $link="pilotpublic|images|cars|g3.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices">499 AED</div>
-                                </a>    
-                            </div>
-                            <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <?php $link="pilotpublic|images|cars|g3.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
-                                </a>    
-                            </div>
-                        </div>
-                        
-                    
-                    </div>
-                </div>
+        <div class="col-md-4">
+          <div class="product">
+            <div class="pr-img">
+            <img src="pilotpublic/images/up/product/rentcar/p1.jpeg" class="img-fluid cp-img">
             </div>
-
-            <div class="col-md-4 col-xs-12 pr-4-img-div-col" style="padding:15px">
-                <div class="col-xs-12 pr-4-img-div">
-                    <div>
-                        <img src="pilotpublic/images/cars/g0.jpg" style="height:250px; width:100%">
-                    </div>
-                    <div class="col-xs-12 pr-4-img-div-txt">
-                        BOOK YOUR RIDE:
-                        <div class="row" style="margin-top:10px">
-                            <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt"> PER HOUR</div>
-                                <?php $link="pilotpublic|images|cars|g0.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices">499 AED</div>
-                                </a>    
-                            </div>
-                            <div class="col-md-6 col-xs-6" style="padding:0px">
-                                <div class="pr-4-img-div-txt-row-txt" style="border-left:1px solid white; ">PER DAY</div>
-                                <?php $link="pilotpublic|images|cars|g0.jpg" ?>  
-                                <a href="{{url('product-form/hourly/340/' .$link)}}" class="pt-link-ok">
-                                    <div class="pr-4-prices" style="border-left:1px solid white; ">$599</div>
-                                </a>    
-                            </div>
-                        </div>
-                        
-                    
-                    </div>
-                </div>
-            </div>
-           
+          </div>
+          <h1 class="pr-h1">Cadilac Escalde </h1>
+          <div class="pr-txt">
+            <ul class="pr-ul">
+              <?php $link="pilotpublic|images|up|product|rentcar|p1.jpeg" ?>      
+              <li><a href="{{url('product-form/by day/1500/Cadilac Escalde/rent a car/' .$link)}}" class="pt-link-ok">By Day
+                <div class="pt-price-clr">price 1500 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p1.jpeg" ?>      
+              <li><a href="{{url('product-form/per hour/200/Cadilac Escalde/rent a car/' .$link)}}" class="pt-link-ok">Per Hour
+                <div class="pt-price-clr">price 200 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p1.jpeg" ?>      
+              <li><a href="{{url('product-form/airport transfer/350/Cadilac Escalde/rent a car/' .$link)}}" class="pt-link-ok">Airport Transfer
+                <div class="pt-price-clr">price 350</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="col-md-4">
+          <div class="product">
+            <div class="pr-img">
+            <img src="pilotpublic/images/up/product/rentcar/p2.jpeg" class="img-fluid cp-img">
+            </div>
+          </div>
+          <h1 class="pr-h1">Chevrolet Suburban</h1>
+          <div class="pr-txt">
+            <ul class="pr-ul">
+              <?php $link="pilotpublic|images|up|product|rentcar|p2.jpeg" ?>      
+              <li><a href="{{url('product-form/by day/1100/Chevrolet Suburban/rent a car/' .$link)}}" class="pt-link-ok">By Day
+                <div class="pt-price-clr">price 1100 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p2.jpeg" ?>      
+              <li><a href="{{url('product-form/per hour/170/Chevrolet Suburban/rent a car/' .$link)}}" class="pt-link-ok">Per Hour
+                <div class="pt-price-clr">price 170 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p2.jpeg" ?>      
+              <li><a href="{{url('product-form/airport transfer/250/Chevrolet Suburban/rent a car/' .$link)}}" class="pt-link-ok">Airport Transfer
+                <div class="pt-price-clr">price 250 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product">
+            <div class="pr-img">
+            <img src="pilotpublic/images/up/product/rentcar/p3.jpeg" class="img-fluid cp-img">
+            </div>
+          </div>
+          <h1 class="pr-h1">Gmc Yukon </h1>
+          <div class="pr-txt">
+            <ul class="pr-ul">
+              <?php $link="pilotpublic|images|up|product|rentcar|p3.jpeg" ?>      
+              <li><a href="{{url('product-form/by day/1100/Gmc Yukon/rent a car/' .$link)}}" class="pt-link-ok">By Day
+                <div class="pt-price-clr">price 1100 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p3.jpeg" ?>      
+              <li><a href="{{url('product-form/per hour/1700/Gmc Yukon/rent a car/' .$link)}}" class="pt-link-ok">Per Hour
+                <div class="pt-price-clr">price 170 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p3.jpeg" ?>      
+              <li><a href="{{url('product-form/airport transfer/250/Gmc Yukon/rent a car/' .$link)}}" class="pt-link-ok">Ariport Transfer
+                <div class="pt-price-clr">price 250 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product">
+            <div class="pr-img">
+            <img src="pilotpublic/images/up/product/rentcar/p4.jpeg" class="img-fluid cp-img">
+            </div>
+          </div>
+          <h1 class="pr-h1">Toyota Prado </h1>
+          <div class="pr-txt">
+            <ul class="pr-ul">
+              <?php $link="pilotpublic|images|up|product|rentcar|p4.jpeg" ?>      
+              <li><a href="{{url('product-form/by day/700/Toyota Prado/rent a car/' .$link)}}" class="pt-link-ok">By Day
+                <div class="pt-price-clr">price 700 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p4.jpeg" ?>      
+              <li><a href="{{url('product-form/per hour/90/Toyota Prado/rent a car/' .$link)}}" class="pt-link-ok">Per Hour
+                <div class="pt-price-clr">price 90 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p4.jpeg" ?>      
+              <li><a href="{{url('product-form/airport transfer/150/Toyota Prado/rent a car/' .$link)}}" class="pt-link-ok">Ariport Transfer
+                <div class="pt-price-clr">price 150 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product">
+            <div class="pr-img">
+            <img src="pilotpublic/images/up/product/rentcar/p5.jpeg" class="img-fluid cp-img">
+            </div>
+          </div>
+          <h1 class="pr-h1">Lexus ES </h1>
+          <div class="pr-txt">
+            <ul class="pr-ul">
+              <?php $link="pilotpublic|images|up|product|rentcar|p5.jpeg" ?>      
+              <li><a href="{{url('product-form/by day/700/Lexus ES/rent a car/' .$link)}}" class="pt-link-ok">By Day
+                <div class="pt-price-clr">price 700 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p5.jpeg" ?>      
+              <li><a href="{{url('product-form/per hour/90/Lexus ES/rent a car/' .$link)}}" class="pt-link-ok">Per Hour
+                <div class="pt-price-clr">price 90 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p5.jpeg" ?>      
+              <li><a href="{{url('product-form/airport transfer/150/Lexus ES/rent a car/' .$link)}}" class="pt-link-ok">Ariport Transfer
+                <div class="pt-price-clr">price 150 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product">
+            <div class="pr-img">
+            <img src="pilotpublic/images/up/product/rentcar/p6.jpeg" class="img-fluid cp-img">
+            </div>
+          </div>
+          <h1 class="pr-h1">S Class </h1>
+          <div class="pr-txt">
+            <ul class="pr-ul">
+              <?php $link="pilotpublic|images|up|product|rentcar|p6.jpeg" ?>      
+              <li><a href="{{url('product-form/by day/1600/S Class/rent a car/' .$link)}}" class="pt-link-ok">By Day
+                <div class="pt-price-clr">price 1600 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p6.jpeg" ?>      
+              <li><a href="{{url('product-form/per hour/200/S Class/rent a car/' .$link)}}" class="pt-link-ok">Per Hour
+                <div class="pt-price-clr">price 200 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+              <?php $link="pilotpublic|images|up|product|rentcar|p6.jpeg" ?>      
+              <li><a href="{{url('product-form/airport transfer/450/S Class/rent a car/' .$link)}}" class="pt-link-ok">Ariport Transfer
+                <div class="pt-price-clr">price 450 AED</div><i class="fa fa-caret-right pull-right"></i></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+             
+      </div>
     </div>
+  </div>
 </section>
 <br><br><br>
 
@@ -294,7 +353,7 @@ Rent a car with driver in Dubai
       <a href="rent-a-car-with-driver" target="_blank">
         <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
           <div class="col-md-12 ser-one-rel">
-              <i class="fab fa-500px"></i><br>
+              <img src="" alt="">
               <div style="margin-top:15px;">Rent A Car</div>
             </div>
         </div>

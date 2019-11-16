@@ -166,7 +166,7 @@
 </style>
 
 <div style="color:#2e2e2e">
-<section style="background-image: url(pilotpublic/images/os82.jpg);">
+<section style="background-image: url(pilotpublic/images/os82.jpeg);">
 	<div class="faq-inner">
 		<h1 class="faq-h1">FAQs</h1>
 		<p class="faq-p">Find answers to your frequently asked questions</p>

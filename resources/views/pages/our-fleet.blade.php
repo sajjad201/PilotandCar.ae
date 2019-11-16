@@ -46,7 +46,7 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Mercedes-S Class</h2>
+                  <h2>Toyota Prado</h2>
                   <h4>Category:Luxury</h4>
                   <p>AED 1400</p>
                 </div>
@@ -76,8 +76,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Cadillac</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>LUXURY SEDAN</h2>
+                  <h4>Category:Lexus ES350</h4>
                   <p>AED 1400</p>
                 </div>
               </div>
@@ -106,8 +106,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>BMW-7 Series</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>BUSINESS VAN</h2>
+                  <h4>Category:V Class</h4>
                   <p>AED 1400</p>
                 </div>
               </div>
@@ -136,8 +136,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Toyota Coaster</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>LUXURY SUV</h2>
+                  <h4>Category: GMC Yukon</h4>
                   <p>AED 1400</p>
                 </div>
               </div>
@@ -166,8 +166,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Mercedez-Benz Viano</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>FIRST CLASS</h2>
+                  <h4>Category:S class , BMW 7 series</h4>
                   <p>AED 1400</p>
                 </div>
               </div>
@@ -196,8 +196,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Toyota - Camry</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>Top Luxury</h2>
+                  <h4>Category: Rolls</h4>
                   <p>AED 1400</p>
                 </div>
               </div>
@@ -226,8 +226,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Toyota Landcruiser</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>STRETCH LIMO</h2>
+                  <h4>Category:Hummer</h4>
                   <p>AED 1400</p>
                 </div>
               </div>
@@ -262,8 +262,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Cadillac</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>Luxury Buses</h2>
+                  <h4>Category: Kinglong</h4>
                   <p>AED 1400</p>
                 </div>
               </div>
@@ -296,8 +296,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="fl-txt-cont">
-                  <h2>Mercedes-S Class</h2>
-                  <h4>Category:Luxury</h4>
+                  <h2>FAMILY VAN</h2>
+                  <h4>Category: HIACE</h4>
                   <p>AED 1400</p>
                 </div>
               </div>

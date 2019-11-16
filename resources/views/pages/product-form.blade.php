@@ -24,7 +24,8 @@ form input{
             <div class="row mt-5 mb-6">
                 <div class="col-md-7 pf-div7">
                     <div class="pf-div7-hd">
-                        About Product
+                        <h1>Service: {{$service}}</h1>
+                        Vehicle Name: {{$name}}
                     </div>
                     <div class="pf-div7-pr-det text-capitalize">
                         <div class="pf-div7-pr-det-img">

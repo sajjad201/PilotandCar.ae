@@ -50,7 +50,7 @@ bus rental Dubai
 		<div class="row class">
 			<div class="col-md-7 pr-lg-0">
 				<div class="pr-img-height">
-				<a href="#" class="class-img bg-pic block" style="background-image: url(pilotpublic/images/bus/b2.jpg);"></a>
+				<a href="#" class="class-img bg-pic block" style="background-image: url(pilotpublic/images/bus/b2.jpeg);"></a>
 					
 				</div>
 			</div>
@@ -80,7 +80,7 @@ bus rental Dubai
 			</div>
 			<div class="col-md-7  pl-lg-0">
 				<div class="pr-img-height">
-				<a href="#" class="class-img bg-pic block" style="background-image: url(pilotpublic/images/os84.jpg);"></a>
+				<a href="#" class="class-img bg-pic block" style="background-image: url(pilotpublic/images/os84.jpeg);"></a>
 					
 				</div>
 			</div>
@@ -90,7 +90,7 @@ bus rental Dubai
 		<div class="row class">
 			<div class="col-md-7 pr-lg-0">
 				<div class="pr-img-height">
-				<a href="#" class="class-img bg-pic block" style="background-image: url(pilotpublic/images/os83.jpg);"></a>
+				<a href="#" class="class-img bg-pic block" style="background-image: url(pilotpublic/images/os83.jpeg);"></a>
 					
 				</div>
 			</div>
@@ -119,7 +119,7 @@ bus rental Dubai
 			</div>
 			<div class="col-md-7  pl-lg-0">
 				<div class="pr-img-height">
-				<a href="#" class="class-img bg-pic block object-image" style="background-image: url(pilotpublic/images/bus/p3.jpg);"></a>
+				<a href="#" class="class-img bg-pic block object-image" style="background-image: url(pilotpublic/images/bus/p3.jpeg);"></a>
 					
 				</div>
 			</div>
@@ -130,7 +130,7 @@ bus rental Dubai
 </section>
 <br><br> 
 <section class="0s8-bottom">
-	<div class="container bg-pic" style="background-image: url(pilotpublic/images/cabin.jpg); border-radius: 4px;">
+	<div class="container bg-pic" style="background-image: url(pilotpublic/images/up/img/banner8.jpeg); border-radius: 4px;">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="bottom-inner">
@@ -205,109 +205,106 @@ bus rental Dubai
 
 
 					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/bus/g3.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
+                       <img src="pilotpublic/images/up/product/bus/p1.jpeg" style="width:100%; height:125px" class="img-b">
+                        <div class="pr-5-flex-div-txt">King Long 50 Seater<br>
+                            <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
                         </div>
                         <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|bus|g3.jpg" ?>                       
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
+                            <?php $link="pilotpublic|images|up|product|bus|p1.jpeg" ?>                       
+                            <a href="{{url('product-form/FULL DAY/1400/King Long 50 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                FULL DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 1400 AED</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>    
                         </div>
                         <div class="pr-5-flex-div-links">   
-                            <?php $link="pilotpublic|images|bus|g3.jpg" ?>                                 
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
+                            <?php $link="pilotpublic|images|up|product|bus|p1.jpeg" ?>                                 
+                            <a href="{{url('product-form/HALF DAY/800/King Long 50 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                HALF DAY <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 800 AED</span></div>
                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
                             </a>    
                         </div>
                     </div>
                     <div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/bus/g8.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g8.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g8.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
-					</div>
-					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/bus/g5.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g5.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g5.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
-					</div>
-					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/bus/g5.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g5.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g5.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
-					</div>
-					<div class="pr-5-flex-div">
-                       <img src="pilotpublic/images/bus/g5.jpg" style="width:100%; height:125px" class="img-b">
-                        <div class="pr-5-flex-div-txt">Shanghai<br>
-                            <span style="font-weight:100; font-size:10px"> China (mainland)</span>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g5.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per hour</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                        </div>
-                        <div class="pr-5-flex-div-links">  
-                            <?php $link="pilotpublic|images|bus|g5.jpg" ?>                                   
-                            <a href="{{url('product-form/hourly/340/' .$link)}}" class="a-link-ok">
-                                BOOK RIDE <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> per day</span></div>
-                                <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
-                            </a>
-                            </a>
-                        </div>
-                    </div>
+                        <img src="pilotpublic/images/up/product/bus/p2.jpeg" style="width:100%; height:125px" class="img-b">
+                         <div class="pr-5-flex-div-txt">King Long 35 Seater<br>
+                             <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p2.jpeg" ?>                       
+                             <a href="{{url('product-form/FULL DAY/1000/King Long 35 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 FULL DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 1000 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p2.jpeg" ?>                                 
+                             <a href="{{url('product-form/HALF DAY/600/King Long 35 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 HALF DAY <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 600 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                     </div>
+                     <div class="pr-5-flex-div">
+                        <img src="pilotpublic/images/up/product/bus/p3.jpeg" style="width:100%; height:125px" class="img-b">
+                         <div class="pr-5-flex-div-txt">Toyota Coaster 22 Seater<br>
+                             <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p3.jpeg" ?>                       
+                             <a href="{{url('product-form/FULL DAY/800/Toyota Coaster 22 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 FULL DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 800 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p3.jpeg" ?>                                 
+                             <a href="{{url('product-form/HALF DAY/500/Toyota Coaster 22 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 HALF DAY <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 500 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                     </div>
+                     <div class="pr-5-flex-div">
+                        <img src="pilotpublic/images/up/product/bus/p4.jpeg" style="width:100%; height:125px" class="img-b">
+                         <div class="pr-5-flex-div-txt">Yutong 50 Seater<br>
+                             <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p4.jpeg" ?>                       
+                             <a href="{{url('product-form/FULL DAY/1400/Yutong 50 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 FULL DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 1400 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p4.jpeg" ?>                                 
+                             <a href="{{url('product-form/HALF DAY/750/Yutong 50 Seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 HALF DAY <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 750 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                     </div>
+                     <div class="pr-5-flex-div">
+                        <img src="pilotpublic/images/up/product/bus/p1.jpeg" style="width:100%; height:125px" class="img-b">
+                         <div class="pr-5-flex-div-txt">KING LONG 49 seater<br>
+                             <span style="font-weight:100; font-size:10px"> Pilot and Car</span>
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p5.jpeg" ?>                       
+                             <a href="{{url('product-form/FULL DAY/1400/KING LONG 49 seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 FULL DAY<div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 1400 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                         <div class="pr-5-flex-div-links">   
+                             <?php $link="pilotpublic|images|up|product|bus|p5.jpeg" ?>                                 
+                             <a href="{{url('product-form/HALF DAY/700/KING LONG 49 seater/bus rental dubai/' .$link)}}" class="a-link-ok">
+                                 HALF DAY <div class="pr-5-flex-div-links-span"><span style="background-color:blanchedalmond"> 700 AED</span></div>
+                                 <i class="fas fa-caret-right pr-5-flex-div-links-icons"></i>
+                             </a>    
+                         </div>
+                     </div>
+                    
 
                     
                 </div>
@@ -326,7 +323,7 @@ bus rental Dubai
 			<div class="os8-rel-cnt bs-8">
         <a href="rent-a-car-with-driver" target="_blank">
           <div class="os8-rel-img-cnt">
-            <img src="pilotpublic/images/os81.jpg" class="object-image">
+            <img src="pilotpublic/images/os81.jpeg" class="object-image">
           </div>
           <div class="os8-rel-txt-cnt">
           RENT A CAR
@@ -339,7 +336,7 @@ bus rental Dubai
 			<div class="os8-rel-cnt bs-8">
         <a href="chauffeur-service" target="_blank">
           <div class="os8-rel-img-cnt">
-            <img src="pilotpublic/images/os84.jpg" class="object-image">
+            <img src="pilotpublic/images/os84.jpeg" class="object-image">
           </div>
           <div class="os8-rel-txt-cnt">
               CHAUFFER SERVICE
