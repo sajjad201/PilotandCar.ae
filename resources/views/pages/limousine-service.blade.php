@@ -17,13 +17,14 @@ Limousine services Dubai
 
 <div class="bg-txt-cnt">
 <div class="bg-txt-inner animated zoomIn" style="    background-color: rgba(255, 255, 255, 0.9);  ">
-    <h1 class="text-center animated fadeInDown" style="font-weight:700; animation-delay: .5s;">Limousine services Dubai </h1>
+    <h1 class="text-center animated fadeInDown" style="font-weight:700; animation-delay: .5s;">
+      <span style="font-size:14px">
+        Pilot & Car<br>
+      </span>
+      Limousine services Dubai 
+    </h1>
   <p class="text-center animated fadeInUp" style="animation-delay: 1s;">
-      Limos are designed to accommodate large and tiny events Starting from 9 seater to 18 seater . 
-      Thus choosing the limousine that fits your vogue and event may be a sleek challenge. Most businesses 
-      impartation limousine service have the satisfactory models of vehicles to supply you associate exceptional 
-      road joy. Automobile services have become one in all the foremost in-demand transportation services in
-      the city and throughout the UAE.
+    Check our Hummer limo, Chrysler Limo  ,  Cadillac Escalade Limo
   </p>
 </div>
 </div>
@@ -272,6 +273,11 @@ Limousine services Dubai
       <img src="pilotpublic/images/limo/g16.jpeg" class="img-fluid object-image" style="height:450px; width:100%"><br><br><br>
       <h1 class="os6-h1" style="font-size:36px; font-weight:700">The Experience</h1>
       <p class="os6-p" style="font-family: calibri;">
+          Limos are designed to accommodate large and tiny events Starting from 9 seater to 18 seater . 
+          Thus choosing the limousine that fits your vogue and event may be a sleek challenge. Most businesses 
+          impartation limousine service have the satisfactory models of vehicles to supply you associate exceptional 
+          road joy. Automobile services have become one in all the foremost in-demand transportation services in
+          the city and throughout the UAE.
           In our Fleet we have Hummer limo, Chrysler Limo  ,  Cadillac Escalade Limo  
           we can be part of your Event like Birthday Party , wedding event , take your guest 
           for Dinner , impressive Air port transfers which could be remember able moment in your life 

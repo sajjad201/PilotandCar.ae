@@ -67,15 +67,15 @@
                             <div class="col-lg-4 centered-form-div">
                                 <section class="loginWrapper">
                                     <ul class="tabs">
-                                        <li class="active" style="font-size: 16px; border-top-left-radius:3px;">ONE WAY</li>
-                                        <li style="font-size: 16px; border-top-right-radius:3px;">BY THE HOUR</li>
+                                        <li class="active" style="font-size: 16px; border-top-left-radius:3px;">By Hour</li>
+                                        <li style="font-size: 16px; border-top-right-radius:3px;">One Way</li>
                                     </ul>
                                     <ul class="tab__content">
                                         <li class="active">
                                             <div class="content__wrapper">
                                                 
                                                 <form method="GET" action="searchbyhour" class="form ind-form">
-                                                    <input type="hidden" name="ridetype" value="One Way">
+                                                    <input type="hidden" name="ridetype" value="By Hour">
                                                     @if (Session('ridebooked'))
                                                     <button type="button" class="btn btn-primary hidebtn" data-toggle="modal" data-target="#myModal" id="mybtn">
                                                         Open modal
@@ -103,7 +103,7 @@
                                                                 From
                                                             </label>
                                                             <label class="licon" for="addr"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input type="text" class="inputfocus" placeholder="Current Location" name="from" id="current" onfocus="initializeAutocompleteLocOne()" aria-required="true" required>
+                                                            <input type="text" class="inputfocus" placeholder="Current Location" name="from" id="current" onfocus="initializeAutocompleteLocOne()" aria-required="true">
                                                             <input type="hidden" name="cityone" id="cityone" placeholder="City" value="">
                                                             <input type="hidden" name="latitudeone" id="latitudeone" placeholder="Latitude" value="">
                                                             <input type="hidden" name="longitudeone" id="longitudeone" placeholder="Longitude" value="">
@@ -116,7 +116,7 @@
                                                                 To
                                                             </label>
                                                             <label class="licon" for="to"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                                            <input type="text" class="inputfocus" placeholder="Enter Ride" name="to" id="locality" onfocus="initializeAutocomplete()" aria-required="true" value="" required>
+                                                            <input type="text" class="inputfocus" placeholder="Enter Ride" name="to" id="locality" onfocus="initializeAutocomplete()" aria-required="true" value="">
                                                             <input type="hidden" name="city" id="city" placeholder="City" value="">
                                                             <input type="hidden" name="latitude" id="latitude" placeholder="Latitude" value="" >
                                                             <input type="hidden" name="longitude" id="longitude" placeholder="Longitude" value="">
@@ -131,7 +131,7 @@
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
                                                             <input type='text' name="date" 
-                                                                class="datepicker-here inputfocus" data-language='en' id="date" value="<?php echo date("m/d/Y")?>" />
+                                                                class="datepicker-here inputfocus" data-language='en' id="date" value="<?php echo date("m/d/Y")?>" required />
                                                         </div>
                                                     </div>
                                                    
@@ -147,7 +147,7 @@
                                                                 Time
                                                             </label>
                                                             <label class="licon" for="time"><i class="fa fa-clock-o" aria-hidden="true"></i></label>
-                                                            <input id="time" type="text" name="time" class="inputfocus">
+                                                            <input id="time" type="text" name="time" class="inputfocus" required>
                                                         </div>
                                                     </div>
                                                     @if ($errors->has('timeone'))
@@ -160,14 +160,14 @@
                                                        
                                                     </div>
                                                     
-                                                    <button type="submit" class="search btn">Search One</button>
+                                                    <button type="submit" class="search btn">Search</button>
                                                 </form>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="content__wrapper">
-                                                <form method="get" action="searchbyhour"  class="form">
-                                                    <input type="hidden" name="ridetype" value="By Hour">
+                                                <form method="get" action="searchbyway"  class="form">
+                                                    <input type="hidden" name="ridetype" value="One Way">
                                                     {{ csrf_field() }}                                                    
                                                     <div class="ipar">
                                                         <div class="cinner">
@@ -200,7 +200,7 @@
                                                                 Date
                                                             </label>
                                                             <label class="licon" for="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></label>
-                                                            <input type='text' id="date" name="date" class="datepicker-here inputfocus" data-language='en' />
+                                                            <input type='text' id="date" name="date" class="datepicker-here inputfocus" data-language='en' value="<?php echo date("m/d/Y")?>"/>
                                                         </div>
                                                     </div>
                                                     <div class="ipar">
@@ -212,10 +212,8 @@
                                                             <input id="time2" type="text" name="time"  placeholder="" class="inputfocus">
                                                         </div>
                                                     </div>
-                                                    <div id="output2" class="output">
-                                                       
-                                                    </div>
-                                                    <button type="submit" class="search btn">Search Two</button>
+                                                    <div id="output2" class="output"></div>
+                                                    <button type="submit" class="search btn">Search</button>
                                                 </form>
                                             </div>
                                         </li>
@@ -358,7 +356,7 @@
                                 <div class="bottom-icons1-div-text2">
                                     Get to and from the airport<br>Quickly and easily
                                 </div>
-                                
+                                <a href="airport-transfer" class="ind-vd-link">View Details</a>
                             </div>
                             <div class="col-md-3 bottom-icons1-div">
                                 <div class="bottom-icons1-div-icon">
@@ -368,7 +366,7 @@
                                 <div class="bottom-icons1-div-text2">
                                     We will Drive you anywhere<br>Safely and confidently
                                 </div>
-                                
+                                <a href="chauffeur-service" class="ind-vd-link">View Details</a>
                             </div>
                             <div class="col-md-3 bottom-icons1-div">
                                 <div class="bottom-icons1-div-icon">
@@ -378,7 +376,7 @@
                                 <div class="bottom-icons1-div-text2">
                                     Minimum rates guaranteed<br>book at great Prices
                                 </div>
-                                
+                                <a href="rent-a-car-with-driver" class="ind-vd-link">View Details</a>
                             </div>
                             <div class="col-md-3 bottom-icons1-div">
                                 <div class="bottom-icons1-div-icon">
@@ -388,7 +386,7 @@
                                 <div class="bottom-icons1-div-text2">
                                     All fleet of ground transport<br>under one roof
                                 </div>
-                                
+                                <a href="vans" class="ind-vd-link">View Details</a>
                             </div>
                             </div>
                             </div>
@@ -682,238 +680,222 @@
                         <div class="row">
                             <div class="main" >
                                 <div class="slider slider-nav h-260 new-slick-class" style="padding:60px 60px 0 60px;">
+
                                    <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img class="car-back " src="pilotpublic/images/car2-01.png" style="">
-                                   <img  class="slick2-custom-navigation car-for" src="pilotpublic/images/car3-01.png" />
-                                   </div>
-    <p class="car-type">Mini</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                   <div class="hover-cont">
-                                    <div class="img-hold">
-                                       <img class="car-back " src="pilotpublic/images/icons/carvechile/1.png" style="">
-                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/11.png" />
-                                   </div>
-    <p class="car-type">Auto</p>
-    </div>
-    <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div>
-                     </div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                 <div class="hover-cont">
-                                                                  <div class="img-hold">
-                                       <img class="car-back " src="pilotpublic/images/icons/carvechile/2.png" style="">
-                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/22.png" />
-                                   </div>
-    <p class="car-type">Bike</p>
-    </div>
-    <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div>
-                     </div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                  <div class="img-hold">
-                                    <img  class="car-back "  src="pilotpublic/images/icons/carvechile/3.png" style="">
-                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/3.png" />
-                                                                  </div>
-                                       
-                                   
-    <p class="car-type">Bus</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img class="car-back"  src="pilotpublic/images/icons/carvechile/4.png" style="">
-                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/4.png" />
-                                   </div>
-                                   
-    <p class="car-type">Micro</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div>
-    </div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img  class="car-back "  src="pilotpublic/images/icons/carvechile/5.png" style="">
-                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/55.png" />
-                                   </div>
-                                   
-    <p class="car-type">Auto</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img class="car-back "  src="pilotpublic/images/icons/carvechile/6.png" style="">
-                                   <img  class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/66.png" />
-                                   </div>
-    <p class="car-type">Auto</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img class="car-back "  src="pilotpublic/images/icons/carvechile/7.png" style="">
-                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/77.png" />
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/11.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/1.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
                                     </div>
-    <p class="car-type">Prime Play</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img  class="car-back "  src="pilotpublic/images/icons/carvechile/8.png" style="">
-                                   <img class="slick2-custom-navigation car-for" class="car-back slick2-custom-navigation" src="pilotpublic/images/icons/carvechile/88.png" />
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/22.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/2.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
                                     </div>
-    <p class="car-type">Prime SUV</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img class="car-back " src="pilotpublic/images/icons/carvechile/9.png" style="">
-                                   <img  class="slick2-custom-navigation car-for"  src="pilotpublic/images/icons/carvechile/99.png" />
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/33.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/3.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
                                     </div>
-    <p class="car-type">Auto</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div>
-                     </div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img class="car-back "   src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="slick2-custom-navigation car-for" src="pilotpublic/images/car3-01.png" />
-                                   </div>
-    <p class="car-type">Kaali Peeli</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   <div class="d-inline6 sec-4-img-cont">
-                                                                  <div class="hover-cont">
-                                                                   <div class="img-hold">
-                                       <img class="car-back "  src="pilotpublic/images/car2-01.png" style="">
-                                   <img class="slick2-custom-navigation car-for"  src="pilotpublic/images/car3-01.png" />
-                                   </div>
-    <p class="car-type">Mini</p>
-    </div>
-                     <div class="angle">
-      <img src="pilotpublic/images/tri.svg">
-    </div></div>
-                                   
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/44.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/4.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/55.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/5.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/66.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/6.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/77.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/7.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/88.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/8.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline6 sec-4-img-cont">
+                                        <div class="angle">
+                                            <img src="pilotpublic/images/tri.svg">
+                                        </div>
+                                        <div class="hover-cont">
+                                            <div class="img-hold">
+                                                <img class="slick2-custom-navigation car-for" src="pilotpublic/images/icons/carvechile/11.png" />
+                                                <img class="car-back " src="pilotpublic/images/icons/carvechile/1.png">
+                                            </div>
+                                            <p class="car-type">Luxury Sedan</p>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
-                                
                                 
                                 <div class="col-lg-12 new-slick-class2">
                                     <div class="col-lg-12 slider slider-for h-300 bg-light for-prev" style="padding-top:100px; padding-bottom:100px; 
                                         background: linear-gradient(to bottom, #e0e7eb 0%, #ffffff 100%);">
                                         
-                                        <div class="main_nav"><img src="pilotpublic/images/s1.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/1.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 1</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Our Lexus ES</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    Our years of Experience in Luxury Transport can inspire you, it's more than journey from A to B point 
+                                                    Lower fares and affordable  hourly packages                                                         
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/slick12.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/2.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 2</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Standard Class Cars</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    For Every Day Transportation need 
+                                                    Our Standard cars Fleet starts from Suv Toyota Prado Or Fotuner 
+                                                    With 4 luggage space                                                     
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/s1.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/3.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 3</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Business VAN</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    Executive 7 seater Vans with More Space 
+                                                    With Face to face Seating , now you do not waste your time , to discuss about your upcoming 
+                                                    Projects with your business partners or with your colleagues                                                     
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/slick12.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/4.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 4</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">FIRST CLASS</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    Symbol of status 
+                                                    We can combine you luxury and safety with our Suited Chauffeurs Service   . book our 
+                                                    Airport transfers or Full day Service for executive meeting .
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/s1.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/5.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 5</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Top Luxury</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Ultra Luxurious Rides 
+                                                    Hire world finest hand made car with Chauffeur , with elegant interior . 
+                                                    Sit in car and feel unrivalled comfort .
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/slick12.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/6.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 6</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Stretch Limo</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    Convert Your Journey in moments 
+                                                    For your Birthday parties or stylish airport Transfer 
+                                                    From 9  to 20  pass. hourly or daily  Offers
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/s1.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/7.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 7</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Luxury Buses</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    For Big event transport Solution
+                                                    Hire  25 to 50 pass. Luxury coaches for Airport Transfer, wedding events , 
+                                                    or executive staff transportation Extra luggage room                                                      
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/slick12.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/8.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 8</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Family Van</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    Luxury Van with beautiful interior . 
+                                                    Executive Vans  for  multipurpose , for Exhibition and meeting  
+                                                    Luxurious interior and comfortable seats .
+                                                    Right choice for any Journey                                                     
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/s1.png" width="300"></div>
+                                        <div class="main_nav"><img src="pilotpublic/images/up/fleet/9.jpeg" width="300"></div>
                                         <div class="main_nav">
                                             <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 9</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
+                                                <span style="font-size:34px; font-weight:600; ">Family Van</span><br>
+                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">
+                                                    Luxury Van with beautiful interior . 
+                                                    Executive Vans  for  multipurpose , for Exhibition and meeting  
+                                                    Luxurious interior and comfortable seats .
+                                                    Right choice for any Journey                                                     
+                                                </span><br><br>
                                             </p> 
                                         </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/slick12.png" width="300"></div>
-                                        <div class="main_nav">
-                                            <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 10</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
-                                            </p> 
-                                        </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/s1.png" width="300"></div>
-                                        <div class="main_nav">
-                                            <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 11</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
-                                            </p> 
-                                        </div>
-                                        <div class="main_nav"><img src="pilotpublic/images/slick12.png" width="300"></div>
-                                        <div class="main_nav">
-                                            <p class="slicktext1 mb-3">
-                                                <span style="font-size:34px; font-weight:600; ">Mini 12</span><br>
-                                                <span style="margin-bottom:20px; font-size:18px; font-weight:400; ">Everyday Dependable Ride</span><br><br>
-                                            </p> 
-                                        </div>
+                                        
                                         
                                     </div>
                                 </div>

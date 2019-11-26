@@ -29,6 +29,11 @@
 <script src="pilotpublic/bootstrap/jq/jquery-3.1.1.js"></script>
 <script src="pilotpublic/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+
+{{-- datepicker --}}
+<link href="{{asset('pilotpublic/datepicker/dist/css/datepicker.min.css')}}" rel="stylesheet" type="text/css">
+<script src="{{asset('pilotpublic/datepicker/dist/js/datepicker.min.js')}}"></script>
+<script src="{{asset('pilotpublic/datepicker/dist/js/i18n/datepicker.en.js')}}"></script>
 <style>
 .container-fluid{
 	padding:0px;

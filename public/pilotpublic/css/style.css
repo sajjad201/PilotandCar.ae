@@ -251,6 +251,9 @@ form [type="submit"] {
 	width: 100%;
 	cursor: pointer;
 }
+.sel-btn-pa{
+    padding-top: 13px !important;
+}
 
 ::-webkit-input-placeholder {color: #DDD;}
 :-moz-placeholder           {color: #DDD;}
@@ -3218,6 +3221,27 @@ font-size: 1.4rem;}
     max-height: 430px; 
     border-radius: 5px;
 }
+.ind-vd-link{
+    font-size: 15px;
+}
+
+.hero-text-top,
+.hero-text-middle,
+.hero-text-bottom{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.hero-text-top{
+    font-size: 15px;
+    font-weight: 100;
+}
+.hero-text-middle{
+    font-size: 70px;
+}
+.hero-text-bottom{
+    font-size: 18px;
+}
 
 /*OS8 */
 .os8-body{background-color: #F6F6F6;}
@@ -5509,11 +5533,12 @@ transition: all ease 0.3s linear 1.5s;}
 }
 .hyatt-hero-bg-pic-txt{
     position: absolute;
-    bottom: 5%;
-    left: 18%;
+    top: 50%;
+    left: 29%;
     font-size: 60px;
     color: white;
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-align: center;
 }
 .ss-top-text{
     font-size: 40px;
@@ -5624,6 +5649,7 @@ transition: all ease 0.3s linear 1.5s;}
     padding: 15px 10px;
     margin: 0px 0px 5px;
     background-color: rgba(211, 211, 211, 0.2);
+    border-top: 7px solid;
 }
 .se-pr-title{
     font-size: 40px;
@@ -5666,10 +5692,10 @@ transition: all ease 0.3s linear 1.5s;}
     height: 200px;
 }
 
-.se-pr-div-bott-img-inn{
-    width: 100%;
+.se-pr-div-bott-img-inn {
+    width: 400px;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .se-pr-div-bott-txt{
     position: relative;
@@ -5696,9 +5722,10 @@ transition: all ease 0.3s linear 1.5s;}
 .se-pr-div-bott-botton-txt{
     font-size: 30px; 
     color: #000;
+    text-align: center;
 }
 .se-pr{
-    padding-bottom: 40px !important;
+    padding-bottom: 25px !important;
     border: 1px solid #eeeded;
 }
 .se-ti-txt{
@@ -5746,33 +5773,47 @@ transition: all ease 0.3s linear 1.5s;}
     font-size: 20px !important;
     border: 0px solid #45b8ac !important;
     background: linear-gradient(to top right, #45b8ac 0%, #ccff99 100%);
+    border-radius: 3px;
 }
 .mybtn-lg:hover{
-    color: #2a6f68;
-    border: 1px solid #38948b !important;
+    color: #ffffff;
+    border: 0px solid #fdfdfd !important;
     background: linear-gradient(to top right, #45b8ac 0%, #ccffcc 100%);
 }
-.fr-div-form{
+.fr-div-form {
     color: #000;
     font-size: 14px;
     padding: 0px 20px 20px;
-   
+    border-radius: 3px;
 }
-.fr-div-form-inn{
-    border:2px solid #f0f0f0;
+.fr-div-form-inn {
+    border: 2px solid #f0f0f0;
     border-radius: 4px;
+    padding: 30px 0px 10px;
 }
 .fr-det{
-    background-color: #ececec;
-    padding: 10px 15px;
-    border-radius: 10px;
+    background-color: #fbfbfb;
+    padding: 10px 15px 50px;
+    border-radius: 5px;
     color: #333333;
     font-size: 18px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    font-weight: 100 !important;
+    font-size: 15px;
+}
+.fr-div-form-fr{
+    border: 1px solid lightgrey;
+    padding: 15px;
 }
 .fr-det div{
-    padding: 10px;
+    padding: 5px;
+}
+.fr-det-tit{
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .ridebooked{
     font-size: 22px;
@@ -5919,8 +5960,14 @@ transition: all ease 0.3s linear 1.5s;}
     color: white !important;
     text-decoration: underline !important;
 }
-
-
+.sel-no-sel{
+    color: #ED4956;
+    font-size: 12px;
+}
+.bot-icon-size{
+    height: 30px;
+    width: 30px;
+}
 
 
 

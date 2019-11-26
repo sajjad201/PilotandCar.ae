@@ -17,12 +17,13 @@ Dubai City Tour
 
 <div class="bg-txt-cnt">
 <div class="bg-txt-inner " style="    background-color: rgba(255, 255, 255, 0.9);  ">
-    <h1 class="text-center animated fadeInRight" style="font-weight:700">Dubai City Tour    </h1>
+    <h1 class="text-center animated fadeInRight" style="font-weight:700">
+      <span style="font-size:14px">
+        Pilot & Car<br>
+      </span>
+      Dubai City Tour    </h1>
   <p class="text-center animated fadeInLeft">
-    If you believe money can’t buy happiness, my dear, you haven’t visited Dubai yet! 
-    Well, that’s an absolute truth you will only realize after exploring the city tour
-    Dubai with us.  Whether you want to go for the Old Dubai tour or just want to enjoy the 
-    glamorous Dubai sightseeing, Pilot and Cars has got you covered. 
+    Check Glamorous Dubai sightseeing with Pilot & Car
     
   </p>
 </div>

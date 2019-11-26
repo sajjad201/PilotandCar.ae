@@ -16,8 +16,10 @@ Rent a car with driver in Dubai
 <section>
   <div style="position: relative; color:white">
     <img src="pilotpublic/images/up/img/banner3.jpeg" class="img-b" style="height:600px">
-    <div style="position: absolute; top:23%; left:22%; color:white; font-size:60px; font-weight:900" class="animated fadeIn">
-        Rent a car with driver in Dubai
+    <div style="position: absolute; top:48%; left:36%; color:white; font-size:60px; font-weight:900; text-align: center;" class="animated fadeIn">
+        <span class="hero-text-top">Pilot and Car</span><br>
+        <span class="hero-text-middle">Rent a car</span><br>
+        <span class="hero-text-bottom">check our Rent a Car With Driver in Dubai</span>
     </div>
     {{-- <h1 style="position: absolute; left:45%; top:37%">
         <p class="animated fadeIn ch-t-img-txt" style="animation-delay: 1s;">
@@ -353,7 +355,7 @@ Rent a car with driver in Dubai
       <a href="rent-a-car-with-driver" target="_blank">
         <div class="col-md-2" style="padding:0px 1px 0px 0px; ">
           <div class="col-md-12 ser-one-rel">
-              <img src="" alt="">
+              <i class="fas fa-air-freshener"></i><br>
               <div style="margin-top:15px;">Rent A Car</div>
             </div>
         </div>

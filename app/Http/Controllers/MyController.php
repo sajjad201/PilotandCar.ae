@@ -73,6 +73,32 @@ class MyController extends Controller
 
         //validate
         $this->validate($request, [
+            'date' => 'required',
+            'time' => 'required',
+            'ridetype' => 'required'
+        ]);
+        
+        //get data in variables
+        $from=$request->from;
+        $to=$request->to;
+        $date=$request->date;
+        $time=$request->time;
+        $ridetype=$request->ridetype;
+
+        //return data to view "select"
+        return view('pages.select')->with([
+            'from' => $from, 
+            'to' => $to, 
+            'date' => $date, 
+            'time' => $time,
+            'ridetype' => $ridetype
+            
+        ]);
+    }
+    function searchbyway(Request $request){
+
+        //validate
+        $this->validate($request, [
             'from' => 'required',
             'to' => 'required',
             'date' => 'required',

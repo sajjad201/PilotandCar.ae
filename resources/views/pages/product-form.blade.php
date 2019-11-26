@@ -41,9 +41,31 @@ form input{
                         {!! Form::open(['action' => 'PostController@store', 'method' => 'POST']) !!}
                             {{ csrf_field() }}         
                             
+                            <input type="hidden" name="vehicle" value="{{$name}}">
                             <input type="hidden" name="type" value="{{$type}}">
                             <input type="hidden" name="price" value="{{$price}}">
                                 <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="name">Select Booking Duration (in hours or by Days)</label>
+                                            <select name="duration" style="width:100%; padding:10px" required>
+                                                <option value="2 hours">Book for 2 Hours</option>
+                                                <option value="3 hours">Book for 3 Hours</option>
+                                                <option value="4 hours">Book for 4 Hours</option>
+                                                <option value="5 hours">Book for 5 Hours</option>
+                                                <option value="6 hours">Book for 6 Hours</option>
+                                                <option value="7 hours">Book for 7 Hours</option>
+                                                <option value="8 hours">Book for 8 Hours</option>
+                                                <option value="9 hours">Book for 9 Hours</option>
+                                                <option value="10 hours">Book for 10 Hours</option>
+                                                <option value="11 hours">Book for 11 Hours</option>
+                                                <option value="12 hours">Book for 12 Hours</option>
+                                                <option value="ONE DAY">BOOK FOR ONE DAY</option>
+                                                <option value="TWO DAYS">BOOK FOR TWO DAYS</option>
+                                                <option value="THREE DAYS">BOOK FOR THREE DAYS</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">
                                         <div id="output2" class="output"></div>
                                     </div><br>
@@ -69,13 +91,14 @@ form input{
                                     </div>
                                 </div>
                                 <div class="row">
+                                    
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="date">
                                                 Date
                                             </label>
                                             <label class="licon" for="date"></label>
-                                            <input id="date" type="date" name="date" required>
+                                            <input type='text' id="date" name="date" class="datepicker-here" data-language='en' value="<?php echo date("m/d/Y")?>"/>
                                         </div>
                                     </div>
                                     <div class="col-md-6">

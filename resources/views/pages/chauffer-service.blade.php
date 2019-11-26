@@ -25,7 +25,9 @@ Chauffer Service in Dubai
 </div>
   </div>
   <div class="hyatt-hero-bg-pic-txt">
-      Chauffer Service in Dubai 
+      <span class="hero-text-top">Pilot and Car</span><br>
+      <span class="hero-text-middle">Chauffer Service</span><br>
+      <span class="hero-text-bottom">check our Chauffer Service in Dubai</span>
   </div>
 </section>
 <section class="page-nav-links">
@@ -424,7 +426,7 @@ Chauffer Service in Dubai
 			<div class="os8-rel-cnt bs-8">
         <a href="rent-a-car-with-driver" target="_blank">
           <div class="os8-rel-img-cnt">
-            <img src="pilotpublic/images/os81.jpg" class="object-image">
+            <img src="pilotpublic/images/os84.jpeg" class="object-image">
           </div>
           <div class="os8-rel-txt-cnt">
           RENT A CAR
@@ -437,7 +439,7 @@ Chauffer Service in Dubai
 			<div class="os8-rel-cnt bs-8">
         <a href="chauffeur-service" target="_blank">
           <div class="os8-rel-img-cnt">
-            <img src="pilotpublic/images/os84.jpg" class="object-image">
+            <img src="pilotpublic/images/os84.jpeg" class="object-image">
           </div>
           <div class="os8-rel-txt-cnt">
               CHAUFFER SERVICE

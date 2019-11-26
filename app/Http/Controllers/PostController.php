@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\booking;
+use App\registration;
 use DB;
 
 class PostController extends Controller
@@ -36,16 +37,18 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        $tbl_obj=new booking;
+        $tbl_obj=new registration;
         $tbl_obj->from=$request->input('from');
         $tbl_obj->to=$request->input('to');
         $tbl_obj->date=$request->input('date');
         $tbl_obj->time=$request->input('time');
+        $tbl_obj->vehicle=$request->input('vehicle');
         $tbl_obj->type=$request->input('type');
         $tbl_obj->price=$request->input('price');
         $tbl_obj->uname=$request->input('uname');
         $tbl_obj->address=$request->input('address');
         $tbl_obj->contact=$request->input('contact');
+        $tbl_obj->duration=$request->input('duration');
         $tbl_obj->des=$request->input('des');
         $tbl_obj->save();
 

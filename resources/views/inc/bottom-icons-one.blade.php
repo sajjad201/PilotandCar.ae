@@ -13,7 +13,7 @@
         <div class="bottom-icons1-div-text2">
             Get to and from the airport<br>Quickly and easily
         </div>
-        
+        <a href="airport-transfer" class="ind-vd-link">View Details</a>
     </div>
     <div class="col-md-3 bottom-icons1-div">
         <div class="bottom-icons1-div-icon">
@@ -23,7 +23,7 @@
         <div class="bottom-icons1-div-text2">
             We will Drive you anywhere<br>Safely and confidently
         </div>
-        
+        <a href="chauffeur-service" class="ind-vd-link">View Details</a>
     </div>
     <div class="col-md-3 bottom-icons1-div">
         <div class="bottom-icons1-div-icon">
@@ -33,7 +33,7 @@
         <div class="bottom-icons1-div-text2">
             Minimum rates guaranteed<br>book at great Prices
         </div>
-        
+        <a href="rent-a-car-with-driver" class="ind-vd-link">View Details</a>
     </div>
     <div class="col-md-3 bottom-icons1-div">
         <div class="bottom-icons1-div-icon">
@@ -43,7 +43,7 @@
         <div class="bottom-icons1-div-text2">
             All fleet of ground transport<br>under one roof
         </div>
-        
+        <a href="vans" class="ind-vd-link">View Details</a>
     </div>
     </div>
 </div>
